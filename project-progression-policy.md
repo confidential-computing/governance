@@ -1,5 +1,12 @@
 ## I. Overview
-This governance policy describes how an open source project can formally join the Confidential Computing Consortium (hereafter the “Consortium”) via the [Project Proposal Process](). Projects that have joined the Consortium are “Technical Projects”. It describes the [Stages]() a project may be admitted under and what the criteria and expectations are for a given stage, as well as the acceptance criteria for a project to move from one stage to another. It also describes the [Annual Review Process]() through which those changes will be evaluated and made. 
+This governance policy describes how an open source project can formally join the
+Confidential Computing Consortium (hereafter the "Consortium") via the
+[Project Proposal Process](). Projects that have joined the Consortium are
+"Technical Projects". It describes the [Stages](#iii-stages---definitions--expectations)
+a project may be admitted under and what the criteria and expectations are for a given
+stage, as well as the acceptance criteria for a project to move from one stage to
+another. It also describes the [Annual Review Process](#iv-annual-review-process)
+through which those changes will be evaluated and made. 
 
 Project progression - movement from one stage to another - allows projects to participate at the level that is most appropriate for them given where they are in their lifecycle. Regardless of stage, all Consortium projects benefit from a deepened alignment with existing projects, and access to mentorship, support, and Consortium resources.
 
@@ -35,7 +42,9 @@ Projects must be formally proposed via GitHub. Project proposals submitted to th
 * infrastructure needs or requests 
 
 ### Project Acceptance Process
-* Projects are required to present their proposal at a TAC meeting. Technical Projects will specify an OSI-approved license for code contributions and/or specification license structure as appropriate (e.g., Joint Development Foundation projects).
+* Projects are required to present their proposal at a TAC meeting. Technical Projects
+  will specify an [OSI-approved license](https://opensource.org/licenses) for code contributions
+  and/or specification license structure as appropriate (e.g., Joint Development Foundation projects).
 * The TAC may ask for changes to bring the project into better alignment with the Confidential Computing Consortium (adding a governance document to a repository or adopting a Code of Conduct, for example).
 * The project will need to make these changes in order to progress further.
 * Projects are accepted or progress from level to level via a majority vote of TAC representatives present if quorum is reached or a majority of all TAC representatives if voting by email, unless a project is being accepted at or moved to either the Graduation or Emeritus stage, in which a vote of two-thirds of all TAC representatives is required.
@@ -45,17 +54,17 @@ Projects must be formally proposed via GitHub. Project proposals submitted to th
 ## III. Stages - Definitions & Expectations 
 Every Consortium project has an associated maturity level. Proposed projects should state their preferred maturity level.  There are four maturity levels under this Project Progression Policy:
 
-•	Sandbox – projects looking for a foundation with minimal initial resource requirements;
-•	Incubation – growing projects that targeting particular growth metrics and looking for resources from the Consortium; 
-•	Graduation – projects that have reached their growth goals and are now on a sustaining cycle of development, maintenance, and long-term support; and
-•	Emertius – projects that are approaching end-of-life.
+* Sandbox - projects looking for a foundation with minimal initial resource requirements;
+* Incubation - growing projects that targeting particular growth metrics and looking for resources from the Consortium; 
+* Graduation - projects that have reached their growth goals and are now on a sustaining cycle of development, maintenance, and long-term support; and
+* Emertius - projects that are approaching end-of-life.
 
 Representatives of Technical Projects may attend TAC meetings and contribute work regardless of their stage. 
 
-### Sandbox Projects
+### Sandbox Stage
 **Definition** 
 
-Sandbox projects are projects which the TAC believes are, or have the potential to be, important to the ecosystem of Technical Projects or the ecosystem of the Consortium as a whole. They may be early-stage projects just getting started, or they may be long-established projects with minimal resource needs. The Sandbox stage provides a beneficial, neutral home for these projects in order to foster collaborative development and provide a path to deeper alignment with other Consortium projects via the graduation process.
+The Sandbox stage is for projects that the TAC believes are, or have the potential to be, important to the ecosystem of Technical Projects or the ecosystem of the Consortium as a whole. They may be early-stage projects just getting started, or they may be long-established projects with minimal resource needs. The Sandbox stage provides a beneficial, neutral home for these projects in order to foster collaborative development and provide a path to deeper alignment with other Consortium projects via the graduation process.
 
 **Examples**
 
@@ -75,7 +84,7 @@ To be considered for the Sandbox Stage, the project must meet the following requ
 
 * Upon acceptance, Sandbox projects must list their status prominently on their website/README
 
-### Incubation Stage. 
+### Incubation Stage
 **Definition** 
 
 The Incubation stage is for projects that are interested in reaching the Graduation stage, and have identified a growth plan for doing so. Incubation stage projects will receive mentorship from the TAC and are expected to actively develop their community of contributors, governance, project documentation, and other variables identified in the growth plan that factor into broad success and adoption.
@@ -98,8 +107,8 @@ Projects in the Incubation stage are generally expected to move out of the Incub
 To be considered for Incubation stage, the project must meet the Sandbox requirements as well as the following:
 
  * Development of a growth plan, to be done in conjunction with their project mentor(s) at the TAC.
- * Document that it is being used successfully in production by at least two independent end-user organizations which, in the TAC’s judgement, are of adequate quality and scope.
- * Demonstrate a substantial, in the opion of the TAC, ongoing flow of commits and merged contributions.
+ * Document that it is being used successfully in production by at least two independent end-user organizations which, in the TAC's judgement, are of adequate quality and scope.
+ * Demonstrate a substantial, in the opinion of the TAC, ongoing flow of commits and merged contributions.
  * Demonstrate that the current level of community participation is sufficient to meet the goals outlined in the growth plan.
  * Since these metrics can vary significantly depending on the type, scope and size of a project, the TAC has final judgement over the level of activity that is adequate to meet these criteria.
  * Receive a two-thirds supermajority vote of the TAC to move to Incubation stage. 
@@ -118,7 +127,7 @@ The Graduation stage is for projects that have reached their growth goals and ar
 
 **Expectations**
 
-Graduation stage projects are “TAC Projects” under the Funding Charter of the Consortium, and as such have a voting representative on the TAC. They eligible to receive ongoing support from the Consortium as determined by the Governing Board, and are expected to cross promote the Consortium along with their activities.
+Graduation stage projects are "TAC Projects" under the Funding Charter of the Consortium, and as such have a voting representative on the TAC. They are eligible to receive ongoing support from the Consortium as determined by the Governing Board, and are expected to cross promote the Consortium along with their activities.
 
 **Acceptance Criteria**
 
@@ -126,7 +135,7 @@ To graduate from Sandbox or Incubation status, or for a new project to join as a
 
  * Have a defined governing body of at least 5 or more members (owners and core maintainers, or similar technical role), of which no more than 1/3 is affiliated with the same employer. In the case there are 5 governing members, 2 may be from the same employer. 
 * Have a healthy number of committers from at least two organizations. A committer is defined as someone with the commit bit; i.e., someone who can accept contributions to some or all of the project.
-* Adopt the a Code of Conduct.
+* Adopt a Code of Conduct.
 * Explicitly define a project governance and committer process. This is preferably laid out in a GOVERNANCE.md file and references a CONTRIBUTING.md and OWNERS.md file showing the current and emeritus committers.
 * Have a public list of project adopters or users for at least the primary repo (e.g., ADOPTERS.md or logos on the project website).
 * Other metrics as defined by the applying Project during the application process in cooperation with the TAC.
@@ -138,7 +147,7 @@ Projects can move directly from Sandbox to Graduation if they can demonstrate su
 ### Emeritus Stage
 **Definition**
 
-Emeritus projects are projects which the TAC or a project’s maintainers feel have reached or are nearing end-of-life. Emeritus projects may have contributed to the ecosystem, but are not necessarily recommended for modern development as there may be more actively maintained choices. The Consortium appreciates the contributions of these projects and their communities, and the role they have played in moving the ecosystem forward. 
+Emeritus projects are projects which the TAC or a project's maintainers feel have reached or are nearing end-of-life. Emeritus projects may have contributed to the ecosystem, but are not necessarily recommended for modern development as there may be more actively maintained choices. The Consortium appreciates the contributions of these projects and their communities, and the role they have played in moving the ecosystem forward. 
 
 **Examples**
 
@@ -151,7 +160,7 @@ Projects in this stage are not in active development. Their maintainers may infr
 
 **Acceptance Criteria**
 
-Projects may be granted Emeritus status via a vote of two-thirds of the representatives of the  TAC.
+Projects may be granted Emeritus status via a vote of two-thirds of the representatives of the TAC.
 
 
 ## IV. Annual Review Process
