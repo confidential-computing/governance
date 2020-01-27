@@ -59,7 +59,7 @@ End users should evaluate Sandbox projects with care, as this stage does not set
 **Acceptance Criteria**
 
 To be considered for the Sandbox Stage, the project must meet the following requirements:
-* 2 TAC representatives that will serve as sponsors to champion the project & provide mentorship as needed
+* 1 TAC representative that will serve as a sponsor to champion the project & provide mentorship as needed
 * A presentation to at the meeting of the TAC
 
 * Upon acceptance, Sandbox projects must list their status prominently on their website/README
