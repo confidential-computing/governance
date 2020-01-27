@@ -19,27 +19,7 @@ For more information about how your project can benefit from Consortium membersh
 This governance policy sets forth the proposal process for projects to be accepted into the Consortium. The process is the same for both existing projects which seek to move into the Consortium and new projects to be formed within the Consortium.
 
 ### Project Proposal Requirements
-Projects must be formally proposed via GitHub. Project proposals submitted to the Consortium should provide the following information to the best of their ability:
-
-* name of project
-* project description (what it does, why it is valuable, origin and history)
-* statement on alignment with Consortium charter's mission
-* link to *current* Code of Conduct (if one is adopted already)
-* sponsor from TAC, if identified (a sponsor helps mentor projects)
-* project license 
-* source control (GitHub by default)
-* issue tracker (GitHub by default)
-* external dependencies (including licenses)
-* release methodology and mechanics
-* names of initial committers, if different from those submitting proposal
-* briefly describe the project's leadership team and decision-making process
-* link to any documented governance practices
-* preferred maturity level (see stages below)
-* list of project's official communication channels (slack, irc, mailing lists)
-* link to project's website 
-* links to social media accounts
-* existing financial sponsorship
-* infrastructure needs or requests 
+Plese see the [Project Progression Template](https://github.com/confidential-computing/governance/blob/master/project-progression-template.md)
 
 ### Project Acceptance Process
 * Projects are required to present their proposal at a TAC meeting. Technical Projects
