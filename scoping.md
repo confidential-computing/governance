@@ -222,7 +222,7 @@ The following wording obtained rough consensus on the phrase:
 
 This proposal puts the focus on only hardware-based TEEs, while providing
 some leeway with the use of "promote" to allow for non-hardware based
-projects that demonstrably promote hardware-based TEEs.
+projects that demonstrably promote the use of hardware-based TEEs.
 
 ## Appendix A. Related Terminology
 
