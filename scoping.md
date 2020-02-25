@@ -148,7 +148,9 @@ The TAC observed the following issues with the above definition:
 
 2. The term "encryption" is problematic since some TEEs of interest
    may have other forms of protecting data in use, encryption is just
-   one example mechanism.
+   one example mechanism.  That is, encryption is a specific mechanism
+   rather than a property we are seeking.  You can provide confidentiality
+   by access control (for example) and not actually require encryption.
 
 * **[CCC press release](https://www.linuxfoundation.org/uncategorized/2019/10/confidential-computing-consortium-establishes-formation-with-founding-members-and-open-governance-structure/)**: Established in 2019, the Confidential
   Computing Consortium brings together hardware vendors, cloud providers,
