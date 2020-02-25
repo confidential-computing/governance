@@ -6,9 +6,10 @@
   "promote the widespread use of hardware-based trusted execution
   environments".
 
-* The TAC still needs to settle on actual proposed wording for a definition
-  of the term "confidential computing", but should be done by RSA,
-  and we expect it will have a similar focus as the scope recommendation.
+* The TAC recommends that the definition of the term Confidential
+  Computing be: "Confidential Computing is the protection of data
+  in use by performing computation in a hardware-based Trusted
+  Execution Environment."
 
 * For both the scope of the CCC, and the definition of confidential
   computing, the TAC recommends avoiding using the following terms
@@ -218,13 +219,38 @@ protecting data in use, which also may be problematic.
 
 The TAC iterated on several proposals for wording around the scope of
 what projects the TAC would recommend as being in scope of the CCC.
-The following wording obtained rough consensus on the phrase:
+The following wording obtained rough consensus:
 
 * "promote the widespread use of hardware-based trusted execution environments".
 
 This proposal puts the focus on only hardware-based TEEs, while providing
 some leeway with the use of "promote" to allow for non-hardware based
 projects that demonstrably promote the use of hardware-based TEEs.
+
+Similarly, the TAC iterated on several proposals for wording around
+the definition of the term "confidential computing".  The following
+wording obtained rough consensus:
+
+* "Confidential Computing is the protection of data in use by performing
+  computation in a hardware-based Trusted Execution Environment."
+
+As noted earlier, the term "privacy-preserving computation" is similar
+to "confidential computing", and so in addition to updating the FAQ for
+"What is Confidential Computing?", it is recommended to also add the
+following to the FAQ:
+
+Q: What is the relationship between Confidential Computing and
+   "Privacy-Preserving Computation"?
+
+A: Both are means to protecting data in use, but do so in different ways.  
+   Confidential Computing protects data in use by doing computation inside
+   a hardware-based Trusted Execution Environment that keeps data confidential
+   from outside parties.
+   Privacy-Preserving Computation, on the other hand, protects data in use
+   by doing computation on encrypted data such that the unencrypted data
+   is kept private even from the processor doing the computation.
+   Thus it "preserves" the privacy already inherent in not having the data,
+   whereas Confidential Computing has the data, but keeps it confidential.
 
 ## Appendix A. Related Terminology
 
