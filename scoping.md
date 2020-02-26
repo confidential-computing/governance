@@ -234,24 +234,6 @@ wording obtained rough consensus:
 * "Confidential Computing is the protection of data in use by performing
   computation in a hardware-based Trusted Execution Environment."
 
-As noted earlier, the term "privacy-preserving computation" is similar
-to "confidential computing", and so in addition to updating the FAQ for
-"What is Confidential Computing?", it is recommended to also add the
-following to the FAQ:
-
-Q: What is the relationship between Confidential Computing and
-   "Privacy-Preserving Computation"?
-
-A: Both are means to protecting data in use, but do so in different ways.  
-   Confidential Computing protects data in use by doing computation inside
-   a hardware-based Trusted Execution Environment that keeps data confidential
-   from outside parties.
-   Privacy-Preserving Computation, on the other hand, protects data in use
-   by doing computation on encrypted data such that the unencrypted data
-   is kept private even from the processor doing the computation.
-   Thus it "preserves" the privacy already inherent in not having the data,
-   whereas Confidential Computing has the data, but keeps it confidential.
-
 ## Appendix A. Related Terminology
 
 ### A.1. Trusted Execution Environment (TEE)
