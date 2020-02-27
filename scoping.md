@@ -272,7 +272,7 @@ definition, which the TAC finds problematic.
   root user or hypervisor can't see what's going on
 
 The above definition is narrowly scoped to only hardware-based TEEs,
-and thus excludes the items in [Section A.1.1](#markdown-header-a-1-1-software-tee) which may or may not be desirable.
+and thus excludes the items in [Section A.1.1](#markdown-header-a-1-1-software-tee).
 
 One relatively minor issue as worded is that it implies that the TEE has
 a kernel, root user, or hypervisor, which may or may not be the case.
