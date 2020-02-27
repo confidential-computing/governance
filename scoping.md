@@ -1,5 +1,25 @@
 # TAC Scoping Discussion
 
+## Executive Summary
+
+* The TAC recommends that the scope of the consortium be to
+  "promote the widespread use of hardware-based trusted execution
+  environments".
+
+* The TAC recommends that the definition of the term Confidential
+  Computing be: "Confidential Computing is the protection of data
+  in use by performing computation in a hardware-based Trusted
+  Execution Environment."
+
+* For both the scope of the CCC, and the definition of confidential
+  computing, the TAC recommends avoiding using the following terms
+  in ways that imply constraints, as being technically problematic:
+  "cloud", "main processor", and "encrypted"/"encryption".
+
+* Similarly, the TAC recommends against any language implying that
+  "protecting data in use" is synonymous with "confidential computing",
+  as the latter is only a subset of technologies for the former.
+
 ## 1. Introduction
 
 This document discusses two related, but different, questions:
@@ -15,15 +35,18 @@ This document discusses two related, but different, questions:
 The board needs to answer each of the above questions, keeping in mind that:
 
 * If a narrow answer is chosen, the focus stays on TEEs, and messaging 
-  on terminology might compete with other bodies in the industry.
+  on terminology might compete with other bodies in the industry that
+  also deal with protecting data in use.
 
 * If a broad answer is chosen, more discussion happens inside the CCC and the
-  CCC has the opportunity to have more unified messaging across the industry.
+  CCC has the opportunity to have more unified messaging across the industry
+  regarding protecting data in use.
 
 ## 2. Related Terminology
 
-The TAC conducted a survey of various related terms in the industry and
-composed the following Venn diagram:
+The TAC conducted a survey of various terms in the industry related to
+protecting data in use, and
+composed the following Venn diagram of technologies:
 
 ![Figure 1: Related Terminology](related-terminology.png)
 
@@ -31,7 +54,8 @@ Definitions of the various terms in the diagrams can be found in
 [Appendix A](#markdown-header-appendix-a-related-terminology).
 
 The solid blue lines indicate that the area is clearly already in scope
-for CCC discussion and projects. The dotted blue lines indicate uncertainty
+for CCC discussion and projects. The dotted blue lines indicate initial
+uncertainty
 as to whether they would (or should) fall into any intended definition
 of "confidential computing" and/or scope of the CCC.
 
@@ -47,6 +71,15 @@ as depicted in the following diagram:
 
 ![Figure 2: Related Organizations](related-organizations.png)
 
+In addition to those shown in the diagram, ISO/IEC JTC1/SC27 is now
+doing work ([N 20273](https://standardsdevelopment.bsigroup.com/projects/9020-03692)) 
+on multiparty computation and may expand to other areas, and the ITU has 
+published the
+[UN Handbook on Privacy-Preserving Computation Techniques](http://publications.officialstatistics.org/handbooks/privacy-preserving-techniques-handbook/UN%20Handbook%20for%20Privacy-Preserving%20Techniques.pdf)
+that covers the entire space of the diagram, even though it has
+"privacy-preserving computation" in the title.  While the ISO
+work is based on member states, the ITU work has a multistakeholder model.
+
 Based on the CCC scoping, various relationships (e.g., liaisons) might
 be appropriate.  (None of the others are legal entities hosting open
 source projects, but all of them publish specifications.)
@@ -57,13 +90,18 @@ The TAC concluded that each scoping question can be broken down further
 into five roughly orthogonal axes, each with a spectrum of narrow-to-broad
 options:
 
-1. Hardware/software only or also algorithmic (mathematical)? The TAC so 
-   far has no consensus view on this question, as opinions were split.
+1. Hardware/software only or also algorithmic (mathematical)? The TAC
+   has rough consensus to focus on promoting the hardware/software end,
+   which would exclude purely algorithmic technologies
+   such as homomorphic encryption and multiparty computation.
 
 2. Hardware-based (+firmware?) required or also software-only? The TAC 
-   certainly agrees that hardware-backed solutions are already in scope,
-   but does not yet have consensus on whether software-only should be
-   included or not.
+   has consensus that only hardware-rooted technologies can provide
+   the desired level of security, in particular for attestation.
+   Software only projects can be considered if they demonstrably
+   "promote" the use of hardware-backed solutions.  (For example,
+   a development-time-only emulation technology meant to speed development
+   of hardware-backed solutions.)
 
 3. Generalized (fully programmable) only, or also configurable
    (semi-programmable) and even specialized (fixed-purpose, non-programmable)
@@ -111,10 +149,9 @@ The TAC observed the following issues with the above definition:
 
 2. The term "encryption" is problematic since some TEEs of interest
    may have other forms of protecting data in use, encryption is just
-   one example mechanism.
-
-Furthermore, the text about TEEs implies a narrow answer to axis 1,
-which may or may not be desirable.
+   one example mechanism.  That is, encryption is a specific mechanism
+   rather than a property we are seeking.  You can provide confidentiality
+   by access control (for example) and not actually require encryption.
 
 * **[CCC press release](https://www.linuxfoundation.org/uncategorized/2019/10/confidential-computing-consortium-establishes-formation-with-founding-members-and-open-governance-structure/)**: Established in 2019, the Confidential
   Computing Consortium brings together hardware vendors, cloud providers,
@@ -127,11 +164,14 @@ which may or may not be desirable.
   without exposing it to the rest of the system**, reducing exposure
   to sensitive data and providing greater control and transparency for users.
 
-The use of "encrypted" is again seen as problematic.  In addition,
-the text is at best ambiguous about the scope, as the text about
-tools is constrained to "TEE" development, but the aims are broader,
-applying to protecting "data in use", where all of Figure 1 would
-claim to be about protecting data in use.
+The TAC observed the following issues with the above text:
+
+1. The use of "encrypted" is again seen as problematic.
+
+2. The text is ambiguous about the scope, as the text about
+   tools is constrained to "TEE" development, but the aims are broader,
+   applying to protecting "data in use", where all of Figure 1 would
+   claim to be about protecting data in use.
 
 * **[Mark Russinovich blog](https://azure.microsoft.com/en-us/blog/introducing-azure-confidential-computing/)**: Put simply, confidential computing 
   offers a protection that to date has been missing from public clouds, 
@@ -160,18 +200,39 @@ to be limited to TEEs.)
   data**. This concept is especially suitable for public clouds. 
 
 The use of "encrypted" is again seen as problematic.  However, the rest of
-the definition is clearly broadly scoped to protecting data in use (which
-may or may not be desired), and the article goes on to discuss the CCC
+the definition is clearly broadly scoped to protecting data in use (not
+phrased to be limited to TEEs), and the article goes on to discuss the CCC
 after the above definition.
 
-* **John Haxby**: Software solutions to enable the widespread use of hardware
-  trusted execution environments.
+* **[CCC FAQ definition](https://confidentialcomputing.io/)**:
+  Confidential computing focuses on **securing data in use**. Current approaches
+  to securing data often address data at rest (storage) and in transit
+  (network) but **encrypting** data in use is possibly the most challenging step
+  to providing a fully **encrypted** lifecycle for sensitive data. Confidential
+  computing will enable **encrypted** data to be processed in memory without
+  exposing it to the rest of the system and reduce exposure for sensitive
+  data and provide greater control and transparency for users.
 
-* **Brandon Baker**: Standards-based solutions to enable the widespread use 
-  of trusted execution environments rooted in hardware.
+The use of "encrypted" is problematic.  The paragraph can also be read as
+implying that confidential computing is the only technology in the space of
+protecting data in use, which also may be problematic.
 
-The above two definitions are narrowly scoped to only hardware-based TEEs,
-which may or may not be desired.
+The TAC iterated on several proposals for wording around the scope of
+what projects the TAC would recommend as being in scope of the CCC.
+The following wording obtained rough consensus:
+
+* "promote the widespread use of hardware-based trusted execution environments".
+
+This proposal puts the focus on only hardware-based TEEs, while providing
+some leeway with the use of "promote" to allow for non-hardware based
+projects that demonstrably promote the use of hardware-based TEEs.
+
+Similarly, the TAC iterated on several proposals for wording around
+the definition of the term "confidential computing".  The following
+wording obtained rough consensus:
+
+* "Confidential Computing is the protection of data in use by performing
+  computation in a hardware-based Trusted Execution Environment."
 
 ## Appendix A. Related Terminology
 
