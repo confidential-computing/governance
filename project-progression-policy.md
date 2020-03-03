@@ -37,7 +37,7 @@ Every Consortium project has an associated maturity level. Proposed projects sho
 * Sandbox - projects looking for a foundation with minimal initial resource requirements;
 * Incubation - growing projects that targeting particular growth metrics and looking for resources from the Consortium; 
 * Graduation - projects that have reached their growth goals and are now on a sustaining cycle of development, maintenance, and long-term support; and
-* Emertius - projects that are approaching end-of-life.
+* Emeritus - projects that are approaching end-of-life.
 
 Representatives of Technical Projects may attend TAC meetings and contribute work regardless of their stage. 
 
