@@ -6,7 +6,7 @@
 ## Project Proposal Template
 1.  Name of Project
 2.  Project Description (what it does, why it is valuable, origin and history)
-3.  How does this project align with the Consortium's Mission Statement
+3.  How does this project align with the Consortium's [Mission Statement](README.md)
 4.  High level assessment of project synergy with existing projects under the CCC, including how the project compliments/overlaps with existing projects, and potential ways to harmonize over time. Responses may be included both inline and/or in accompanying documentation.
 5. Describe the [Trusted Computing Base (TCB)](https://en.wikipedia.org/wiki/Trusted_computing_base) of the project. if the project supports multiple environments please describe each TCB. Also identify if dependencies of other project (both CCC or non-CCC) TCBs are taken.
 6.  Project website URL
