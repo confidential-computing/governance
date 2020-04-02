@@ -13,7 +13,7 @@
 7.  Project Code of Conduct URL
 8.  Source control URL
 9.  Issue tracker URL
-10.  Project Logo URL or attachment (Vector Graphic: SVG, EPS)
+10. Project Logo URL or attachment (Vector Graphic: SVG, EPS)
 11. Project license
 12. External dependencies (including licenses)
 13. Release methodology and mechanics
@@ -22,4 +22,5 @@
 16. Social media accounts
 17. Existing financial sponsorship
 18. Trademark status
-19. Any additional information the TAC and Board should take into consideration when reviewing your proposal.
+19. Project Security Policy
+20. Any additional information the TAC and Board should take into consideration when reviewing your proposal.
