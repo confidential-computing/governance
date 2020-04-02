@@ -22,4 +22,5 @@
 16. Social media accounts
 17. Existing financial sponsorship
 18. Trademark status
-19. Any additional information the TAC and Board should take into consideration when reviewing your proposal.
+19. Preferred maturity level (Sandbox, Incubation, Graduation, or Emeritus)
+20. Any additional information the TAC and Board should take into consideration when reviewing your proposal.
