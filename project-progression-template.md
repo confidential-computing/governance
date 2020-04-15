@@ -13,7 +13,7 @@
 7.  Project Code of Conduct URL
 8.  Source control URL
 9.  Issue tracker URL
-10.  Project Logo URL or attachment (Vector Graphic: SVG, EPS)
+10. Project Logo URL or attachment (Vector Graphic: SVG, EPS)
 11. Project license
 12. External dependencies (including licenses)
 13. Standards implemented by the project, if any. Include links to any such standards.
@@ -23,5 +23,6 @@
 17. Social media accounts
 18. Existing financial sponsorship
 19. Trademark status
-20. Preferred maturity level (Sandbox, Incubation, Graduation, or Emeritus)
-21. Any additional information the TAC and Board should take into consideration when reviewing your proposal.
+20. Project Security Policy
+21. Preferred maturity level (Sandbox, Incubation, Graduation, or Emeritus)
+22. Any additional information the TAC and Board should take into consideration when reviewing your proposal.
