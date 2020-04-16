@@ -278,8 +278,8 @@ One relatively minor issue as worded is that it implies that the TEE has
 a kernel, root user, or hypervisor, which may or may not be the case.
 
 * **[IETF TEEP WG](https://tools.ietf.org/html/draft-ietf-teep-architecture)**:
-  An environment that enforces that only authorized code can execute with
-  that environment, and that any data used by such code cannot be read
+  An environment that enforces that any code within that environment cannot
+  be tampered with, and that any data used by such code cannot be read 
   or tampered with by any code outside that environment.
 
 Thie above definition is broader, includes language similar to the broader
