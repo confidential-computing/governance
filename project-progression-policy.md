@@ -19,7 +19,7 @@ For more information about how your project can benefit from Consortium membersh
 This governance policy sets forth the proposal process for projects to be accepted into the Consortium. The process is the same for both existing projects which seek to move into the Consortium and new projects to be formed within the Consortium.
 
 ### Project Proposal Requirements
-Plese see the [Project Progression Template](https://github.com/confidential-computing/governance/blob/master/project-progression-template.md)
+Plese see the [Project Submission Template](https://github.com/confidential-computing/governance/blob/master/project-submission-template.md)
 
 ### Project Acceptance Process
 * Projects are required to present their proposal at a TAC meeting. Technical Projects
