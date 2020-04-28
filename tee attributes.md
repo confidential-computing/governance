@@ -6,7 +6,7 @@ Required properties to be called a “TEE”:
 * ___Code integrity___ - software codes executed inside the bounds of the TEE cannot be modified by an actor operating outside the TCB.
 
 TEE's may have other properties:
-* _Code confidentiality_ - software codes executed inside the bounds of the TEE cannot be modified by an actor operating outside the TCB.
+* _Code confidentiality_ - software codes executed inside the bounds of the TEE cannot be determined by an actor operating outside the TCB.
 * _Programmability_ - the extent to which the software codes operated upon inside the bounds of the TEE can be provided by an identified actor.
 * _Attestability_ - the mechanism for demonstrating the contents of a TEE is infact secured by a TEE.
 * _Unspoofability (un-clonable) / non-repudiability)_ - when using cryptographic authentication mechanisms in such a manner as it difficult to deny the origin of an assertion (often in referring to identity tied to a transaction).
