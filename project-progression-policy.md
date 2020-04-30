@@ -25,20 +25,26 @@ Here are ways your project can benefit by becoming a CCC recognized project?
 ### Introduction
 This governance policy sets forth the proposal process for projects to be accepted into the Consortium. The process is the same for both existing projects which seek to move into the Consortium and new projects to be formed within the Consortium.
 
-### Project Proposal Requirements
-Plese see the [Project Progression Template](https://github.com/confidential-computing/governance/blob/master/project-progression-template.md)
-
 ### Project Acceptance Process
-* Projects are required to present their proposal at a TAC meeting. Technical Projects
-  will specify an [OSI-approved license](https://opensource.org/licenses) for code contributions
-  and/or specification license structure as appropriate (e.g., Joint Development Foundation projects).
+The acceptance process is a three-stage process first a technical review with the Technical Advisory Committee (TAC) followed by a legal review and finally a vote at the Governing Board.
+
+**Technical Review**
+
+Projects are required to present their proposal at a TAC meeting. This proposal should cover all the items in the [Project Progression Template](https://github.com/confidential-computing/governance/blob/master/project-progression-template.md).
 * The TAC may ask for changes to bring the project into better alignment with the Confidential Computing Consortium (adding a governance document to a repository or adopting a Code of Conduct, for example).
 * The project will need to make these changes in order to progress further.
 * Projects are accepted or progress from level to level via a majority vote of TAC representatives present if quorum is reached or a majority of all TAC representatives if voting by email, unless a project is being accepted at or moved to either the Graduation or Emeritus stage, in which a vote of two-thirds of all TAC representatives is required.
-* The proposal document will be finalized and a project charter prepared. This charter document must be included in the project's main repository.
 * The TAC will determine the appropriate initial stage for the project. The project can apply for a different stage via the review process.
 
-## III. Stages - Definitions & Expectations
+**Legal Review**
+
+Once the technical review is completed to the satisfaction of the TAC the CCC will instruct its legal counsel to engage with the project proposer.
+
+**Governing Board Vote**
+
+Once both technical and legal reviews are completed satisfactorily the Governing Board will vote at its next available meeting. Upon acceptance by the board a project charter prepared. This charter document must be included in the project's main repository.
+
+## III. Project Stages - Definitions & Expectations
 Every Consortium project has an associated maturity level. Proposed projects should state their preferred maturity level.  There are four maturity levels under this Project Progression Policy:
 
 * Sandbox - projects looking for a foundation with minimal initial resource requirements;
