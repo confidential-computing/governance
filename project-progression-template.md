@@ -19,7 +19,8 @@ All fields required. Throughout this document, the short answers (280 characters
 10.  What does this project do?
 - 280 char summary:
 - Extended answer:
-11. What proprietary dependencies does this project have, if any? For example, it is an open source library that is used on a proprietary platform.
+11. Describe the [Trusted Computing Base (TCB)](https://en.wikipedia.org/wiki/Trusted_computing_base) of the project. If the project supports multiple environments please describe each TCB. Also identify if dependencies of other project (both CCC or non-CCC) TCBs are taken.
+12. What proprietary dependencies does this project have, if any? For example, it is an open source library that is used on a proprietary platform.
 ### Project Fit
 12. What problem is this project solving, and how does that advance the CCC’s mission? For reference, the mission statement is: Confidential Computing is the protection of data in use by performing computation in a hardware-based Trusted Execution Environment. [Mission Statement](README.md)
 - 280 char summary:
