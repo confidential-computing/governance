@@ -72,9 +72,8 @@ End users should evaluate Sandbox projects with care, as this stage does not set
 **Acceptance Criteria**
 
 To be considered for the Sandbox Stage, the project must meet the following requirements:
-* 1 TAC representative that will serve as a sponsor to champion the project & provide mentorship as needed
+* One (1) TAC representative that will serve as a sponsor to champion the project & provide mentorship as needed
 * A presentation to at the meeting of the TAC
-
 * Upon acceptance, Sandbox projects must list their status prominently on their website/README
 
 ### Incubation Stage
@@ -126,7 +125,7 @@ Graduation stage projects are "TAC Projects" under the Funding Charter of the Co
 
 To graduate from Sandbox or Incubation status, or for a new project to join as an Graduation project, a project must meet the Incubation stage criteria plus:
 
- * Have a defined governing body of at least 5 or more members (owners and core maintainers, or similar technical role), of which no more than 1/3 is affiliated with the same employer. In the case there are 5 governing members, 2 may be from the same employer.
+* Have a defined governing body of at least five (5) or more members (owners and core maintainers, or similar technical role), of which no more than 1/3 is affiliated with the same employer. In the case there are 5 governing members, 2 may be from the same employer.
 * Have a healthy number of committers from at least two organizations. A committer is defined as someone with the commit bit; i.e., someone who can accept contributions to some or all of the project.
 * Adopt a Code of Conduct.
 * Explicitly define a project governance and committer process. This is preferably laid out in a GOVERNANCE.md file and references a CONTRIBUTING.md and OWNERS.md file showing the current and emeritus committers.
