@@ -10,11 +10,9 @@ through which those changes will be evaluated and made.
 
 Project progression - movement from one stage to another - allows projects to participate at the level that is most appropriate for them given where they are in their lifecycle. Regardless of stage, all Consortium projects benefit from a deepened alignment with existing projects, and access to mentorship, support, and Consortium resources.
 
-For more information about how your project can benefit from Consortium membership and services, please see [TBD Document]().
-
 ### Benefits of being a recognized CCC project
 
-Here are ways your project can benefit by becoming a CCC recognized project? 
+Here are ways your project can benefit by becoming a CCC recognized project?
 
 1. Recognition - a CCC project is recognized as meeting the goals of the CCC, namely protecting data-in-use.
 2. Community - the CCC is fostering a community of like minded members
