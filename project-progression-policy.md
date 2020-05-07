@@ -12,7 +12,7 @@ Project progression - movement from one stage to another - allows projects to pa
 
 ### Benefits of being a recognized CCC project
 
-Here are ways your project can benefit by becoming a CCC recognized project?
+Some ways a project can benefit by becoming a CCC-recognized project include:
 
 1. Recognition - a CCC project is recognized as meeting the goals of the CCC, namely protecting data-in-use.
 2. Community - the CCC is fostering a community of like minded members
