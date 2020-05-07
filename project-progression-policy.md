@@ -42,7 +42,7 @@ Once the technical review is completed to the satisfaction of the TAC the CCC wi
 
 **Governing Board Vote**
 
-Once both technical and legal reviews are completed satisfactorily the Governing Board will vote at its next available meeting. Upon acceptance by the board a project charter prepared. This charter document must be included in the project's main repository.
+Once both technical and legal reviews are completed satisfactorily the Governing Board will vote at its next available meeting. Upon acceptance by the board a project charter is prepared. This charter document must be included in the project's main repository.
 
 ## III. Project Stages - Definitions & Expectations
 Every Consortium project has an associated maturity level. Proposed projects should state their preferred maturity level.  There are four maturity levels under this Project Progression Policy:
