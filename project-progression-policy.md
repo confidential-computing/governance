@@ -35,9 +35,9 @@ Plese see the [Project Submission Template](https://github.com/confidential-comp
 
 Projects can create multiple subordinate projects that are governed under the structure agreed and accepted by the TAC.
 
-<reasons a project might want to no longer wish to operate in this manner>
+A project may want to spin-out a new project becuase the original scope, governance or participants are distinctly different to the original agreed project charter, and not merely an organization of code or minor expansion of scope.
 
-Should a sub-project wish to run independent of its main coordinating project it should submit a project acceptance proposal, as defined above, to the TAC.
+In this case a new project acceptance proposal, as defined above, should be submitted to the TAC.
 
 ## III. Stages - Definitions & Expectations
 Every Consortium project has an associated maturity level. Proposed projects should state their preferred maturity level.  There are four maturity levels under this Project Progression Policy:
