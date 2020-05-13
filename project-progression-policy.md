@@ -35,7 +35,7 @@ Plese see the [Project Submission Template](https://github.com/confidential-comp
 
 Projects can create multiple subordinate projects that are governed under the structure agreed and accepted by the TAC.
 
-A project may want to spin-out a new project becuase the original scope, governance or participants are distinctly different to the original agreed project charter, and not merely an organization of code or minor expansion of scope.
+A project may want to spin out a new project because the original scope, governance or participants are distinctly different from the original agreed project charter, and not merely an organization of code or minor expansion of scope.
 
 In this case a new project acceptance proposal, as defined above, should be submitted to the TAC.
 
