@@ -33,7 +33,7 @@ Plese see the [Project Submission Template](https://github.com/confidential-comp
 
 ### Spin-off Projects ###
 
-Projects can create multiple subordinate projects that are governed under the structure agreed and accepted by the TAC.
+Projects can create multiple subordinate projects that are governed under the structure agreed on and accepted by the TAC.
 
 A project may want to spin out a new project because the original scope, governance or participants are distinctly different from the original agreed project charter, and not merely an organization of code or minor expansion of scope.
 
