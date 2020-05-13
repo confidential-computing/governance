@@ -43,7 +43,7 @@ In this case a new project acceptance proposal, as defined above, should be subm
 Every Consortium project has an associated maturity level. Proposed projects should state their preferred maturity level.  There are four maturity levels under this Project Progression Policy:
 
 * Sandbox - projects looking for a foundation with minimal initial resource requirements;
-* Incubation - growing projects that targeting particular growth metrics and looking for resources from the Consortium;
+* Incubation - growing projects that are targeting particular growth metrics and looking for resources from the Consortium;
 * Graduation - projects that have reached their growth goals and are now on a sustaining cycle of development, maintenance, and long-term support; and
 * Emeritus - projects that are approaching end-of-life.
 
