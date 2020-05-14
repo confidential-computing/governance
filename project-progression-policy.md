@@ -26,7 +26,7 @@ Some ways a project can benefit by becoming a CCC-recognized project include:
 This governance policy sets forth the proposal process for projects to be accepted into the Consortium. The process is the same for both existing projects which seek to move into the Consortium and new projects to be formed within the Consortium.
 
 ### Project Acceptance Process
-The acceptance process is a three-stage process first a technical review with the Technical Advisory Committee (TAC) followed by a legal review and finally a vote at the Governing Board.
+The acceptance process is a three-stage process: a technical review with the Technical Advisory Committee (TAC), a legal review, and a vote at the Governing Board.
 
 **Technical Review**
 
@@ -38,7 +38,7 @@ Projects are required to present their proposal at a TAC meeting. This proposal 
 
 **Legal Review**
 
-Once the technical review is completed to the satisfaction of the TAC the CCC will instruct its legal counsel to engage with the project proposer.
+As a submission is made to the TAC the CCC will instruct its legal counsel to engage with the project proposer.
 
 **Governing Board Vote**
 
