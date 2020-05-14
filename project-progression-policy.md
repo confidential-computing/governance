@@ -88,7 +88,7 @@ In order to support their active development, projects in the Incubation stage h
 
 **Expectations**
 
-Projects in the Incubation stage are generally expected to move out of the Incubation stage within two years. Depending on their growth plans, projects may cycle through Sandbox, Incubation, or Graduation stage as needed.  
+Projects in the Incubation stage are generally expected to move out of the Incubation stage within two years. Depending on their growth plans, projects may cycle through Sandbox, Incubation, or Graduation stage as needed.
 
 **Acceptance Criteria**
 
@@ -104,7 +104,7 @@ To be considered for Incubation stage, the project must meet the Sandbox require
 ### Graduation Stage
 **Definition**
 
-The Graduation stage is for projects that have reached their growth goals and are now on a sustaining cycle of development, maintenance, and long-term support. Graduation stage projects are used commonly in enterprise production environments and have large, well-established project communities.     
+The Graduation stage is for projects that have reached their growth goals and are now on a sustaining cycle of development, maintenance, and long-term support. Graduation stage projects are used commonly in enterprise production environments and have large, well-established project communities.
 
 **Examples**
 
@@ -153,4 +153,29 @@ Projects may be granted Emeritus status via a vote of two-thirds of the represen
 
 ## IV. Annual Review Process
 
-The TAC shall develop an annual review process to determine whether projects are in the stage that accurately reflects their needs and goals.
+The TAC will conduct a review of each accepted project on an annual basis.
+
+The review includes the following:
+
+1. Review whether any answers to the project's submission template have
+   changed, and if so, review the new answers. A representative from the
+   project is responsible for presenting any deltas to the template answers
+   since the last review, if any. If there are no changes, there is nothing
+   to review here.
+
+2. Review the project's progression status to determine whether the project
+   is in the stage that accurately reflects its needs and goals. For example,
+   is it already ready to move to another progression level? Is it on track
+   at the current level? Is any action needed from the TAC (e.g., change in
+   or addition to any project mentor(s))?  If nothing has changed
+   significantly, there may be nothing to review here.
+
+3. Review any budget allocations relevant to the project, and whether any
+   adjustments are needed.
+
+Projects are encouraged to proactively inform the TAC when something
+changes that affects their submission template (changing a License, security
+reporting process, CoC, etc.), rather than waiting for the next annual review.
+
+It is the responsibility of the project's mentor to help the project determine
+what needs to be reviewed by the TAC, and keep the TAC informed.
