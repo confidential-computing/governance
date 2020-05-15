@@ -10,15 +10,15 @@ through which those changes will be evaluated and made.
 
 Project progression - movement from one stage to another - allows projects to participate at the level that is most appropriate for them given where they are in their lifecycle. Regardless of stage, all Consortium projects benefit from a deepened alignment with existing projects, and access to mentorship, support, and Consortium resources.
 
-### Benefits of being a recognized CCC project
+### Benefits of being a recognized Consortium project
 
-Some ways a project can benefit by becoming a CCC-recognized project include:
+Some ways a project can benefit by becoming a Consortium-recognized project include:
 
-1. Recognition - a CCC project is recognized as meeting the goals of the CCC, namely protecting data-in-use.
-2. Community - the CCC is fostering a community of like minded members
-3. Participation - participate and lead in the ongoing development of the confidential computing paradigm. All projects are assigned a Mentor to assist in the integration of your project to the CCC and growth beyond that.
-4. Project Support - the CCC can provide limited funds to support project communication and infrastructure costs for CI/CD.
-5. Outreach - Part of the CCC's mission is to promote the use of confidential computing with various communities and hence its recognized projects to deliver that outcome.
+1. Recognition - a Consortium project is recognized as meeting the goals of the Consortium, namely protecting data-in-use.
+2. Community - the Consortium is fostering a community of like minded members
+3. Participation - participate and lead in the ongoing development of the confidential computing paradigm. All projects are assigned a Mentor to assist in the integration of your project to the Consortium and growth beyond that.
+4. Project Support - the Consortium can provide limited funds to support project communication and infrastructure costs for CI/CD.
+5. Outreach - Part of the Consortium's mission is to promote the use of confidential computing with various communities and hence its recognized projects to deliver that outcome.
 
 ## II. Project Proposal Process
 
@@ -38,7 +38,7 @@ Projects are required to present their proposal at a TAC meeting. This proposal 
 
 **Legal Review**
 
-As a submission is made to the TAC the CCC will instruct its legal counsel to engage with the project proposer.
+As a submission is made to the TAC the Consortium will instruct its legal counsel to engage with the project proposer.
 
 **Governing Board Vote**
 
