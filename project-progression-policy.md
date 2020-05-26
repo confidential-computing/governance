@@ -67,7 +67,7 @@ End users should evaluate Sandbox projects with care, as this stage does not set
 **Acceptance Criteria**
 
 To be considered for the Sandbox Stage, the project must meet the following requirements:
-* 1 TAC representative that will serve as a sponsor to champion the project & provide mentorship as needed
+* 1 [TAC representative](project-mentors.md) that will serve as a sponsor to champion the project & provide mentorship as needed
 * A presentation to at the meeting of the TAC
 
 * Upon acceptance, Sandbox projects must list their status prominently on their website/README
@@ -94,7 +94,7 @@ Projects in the Incubation stage are generally expected to move out of the Incub
 
 To be considered for Incubation stage, the project must meet the Sandbox requirements as well as the following:
 
- * Development of a growth plan, to be done in conjunction with their project mentor(s) at the TAC.
+ * Development of a growth plan, to be done in conjunction with their [project mentor(s)](project-mentors.md) at the TAC.
  * Document that it is being used successfully in production by at least two independent end-user organizations which, in the TAC's judgement, are of adequate quality and scope.
  * Demonstrate a substantial, in the opinion of the TAC, ongoing flow of commits and merged contributions.
  * Demonstrate that the current level of community participation is sufficient to meet the goals outlined in the growth plan.
@@ -177,5 +177,5 @@ Projects are encouraged to proactively inform the TAC when something
 changes that affects their submission template (changing a License, security
 reporting process, CoC, etc.), rather than waiting for the next annual review.
 
-It is the responsibility of the project's mentor to help the project determine
+It is the responsibility of the project's [mentor](project-mentors.md) to help the project determine
 what needs to be reviewed by the TAC, and keep the TAC informed.
