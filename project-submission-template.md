@@ -23,6 +23,6 @@
 17. Social media accounts
 18. Existing financial sponsorship
 19. Trademark status
-20. Project Security Policy
+20. Project [Security Response Policy](security-response-policies.md)
 21. Preferred maturity level (Sandbox, Incubation, Graduation, or Emeritus)
 22. Any additional information the TAC and Board should take into consideration when reviewing your proposal.
