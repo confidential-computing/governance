@@ -14,11 +14,11 @@ Project progression - movement from one stage to another - allows projects to pa
 
 Some ways a project can benefit by becoming a Consortium-recognized project include:
 
-1. Recognition - a Consortium project is recognized as meeting the goals of the Consortium, namely protecting data-in-use.
-2. Community - the Consortium is fostering a community of like minded members
-3. Participation - participate and lead in the ongoing development of the confidential computing paradigm. All projects are assigned a Mentor to assist in the integration of your project to the Consortium and growth beyond that.
-4. Project Support - the Consortium can provide limited funds to support project communication and infrastructure costs for CI/CD.
-5. Outreach - Part of the Consortium's mission is to promote the use of confidential computing with various communities and hence its recognized projects to deliver that outcome.
+1. Recognition: A Consortium project is recognized as meeting the goals of the Consortium, namely protecting data-in-use.
+2. Community: The Consortium is fostering a community of like-minded members.
+3. Participation: Participate and lead in the ongoing development of the confidential computing paradigm. All projects are assigned a [Mentor](project-mentors.md) to assist in the integration of your project to the Consortium and growth beyond that.
+4. Project Support: The Consortium can provide limited funds to support project communication and infrastructure costs for CI/CD.
+5. Outreach: Part of the Consortium's mission is to promote the use of confidential computing with various communities and hence its recognized projects, to deliver that outcome.
 
 ## II. Project Proposal Process
 
