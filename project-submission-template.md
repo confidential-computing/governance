@@ -15,7 +15,7 @@
 9.  Issue tracker URL
 10. Project Logo URL or attachment (Vector Graphic: SVG, EPS)
 11. Project license.  We recommend an [OSI-approved license](https://opensource.org/licenses), so if the license is not one on the list, explain why.
-12. External dependencies (including licenses)
+12. External dependencies (including licenses, and indicate whether each is a build time or runtime dependency)
 13. Standards implemented by the project, if any. Include links to any such standards.
 14. Release methodology and mechanics
 15. Names of initial committers, if different from those submitting proposal
