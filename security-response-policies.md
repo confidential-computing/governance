@@ -1,10 +1,10 @@
 # Security Response Policy Guidelines
 
-The [Project Proposal Template][project-submission-template.md] specifies that
+The [Project Proposal Template](project-submission-template.md) specifies that
 a project should state what its security response policy is, if any, when
 being submitted to the Confidential Computing Consortium.
 
-Each CCC projects should have a written security response policy, but the
+Each CCC project should have a written security response policy, but the
 details may vary by project.  A written policy is not a prerequisite for
 submitting a project to the CCC, but once accepted, projects are expected
 to have some documented disclosure process.  A security response policy
