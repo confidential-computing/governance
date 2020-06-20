@@ -17,4 +17,4 @@ The TAC has its own email list which is free to join. You can do so by by creati
 
 [Minutes of Technical Advisory Meetings](https://lists.confidentialcomputing.io/g/main/files/TAC/Meetings) are available to all those with an account on the CCC list server.
 
-Meeting agendas are generally published to the TAC email list before the call, by the TAC chair. Details on how to join the [zoom call](https://lists.confidentialcomputing.io/g/tac/files/tac-zoom-info.txt) are also available. You may need to subscribe to the TAC list to view TAC specific files.
+Meeting agendas are generally published to the TAC email list before the call, by the TAC chair. Details on how to join the [zoom call](https://lists.confidentialcomputing.io/g/tac/files/tac-zoom-info.txt) are also available. You may need to subscribe to the TAC list to view TAC-specific files.
