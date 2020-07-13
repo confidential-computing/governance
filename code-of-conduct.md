@@ -39,7 +39,23 @@ This Code of Conduct applies within all community spaces, and also applies when 
 
 ## Enforcement
 
-Instances of abusive, harassing, or otherwise unacceptable behavior may be reported by contacting the CCC Governing Board at conduct@confidentialcomputing.io.
+Instances of abusive, harassing, or otherwise unacceptable behavior may be reported to the community leaders responsible for enforcement at conduct@confidentialcomputing.io. All complaints will be reviewed and investigated promptly and fairly.
+
+Members of the Governing Board on the reflector are:  
+Company | Representative | Email Address
+| --- | --- | --- |
+Alibaba | Xiaoning Li | xiaoning.li@alibaba-inc.com
+ARM | Philippe Robin | philippe.robin@arm.com
+Facebook | Michael Cheng | mfc@fb.com
+Google | Nelly Porter | nellyporter@google.com
+Huawei | Peixin Hou | peixin.hou@huawei.com
+Intel | Ron Perez | ronald.perez@intel.com
+Microsoft | Stephen Walli | stephen.walli@microsoft.com
+Oracle | Sergio Leunissen | sergio.leunissen@oracle.com
+Red Hat | Mike Bursell | mbursell@redhat.com
+TAC Chair | Dave Thaler | dthaler@microsoft.com
+General Member Rep | Richard Searle  | richard.searle@fortanix.com
+Accenture | Michael Klein | michael.w.klein@accenture.com
 
 All reports will be reviewed and investigated promptly and fairly. Community leaders are obligated to respect the privacy and security of the reporter of any incident.
 
