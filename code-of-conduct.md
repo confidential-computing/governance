@@ -57,7 +57,7 @@ TAC Chair | Dave Thaler | dthaler@microsoft.com
 General Member Rep | Richard Searle  | richard.searle@fortanix.com
 Accenture | Michael Klein | michael.w.klein@accenture.com
 
-All community leaders are obligated to respect the privacy and security of the reporter of any incident.
+All reports will be reviewed and investigated promptly and fairly. Community leaders are obligated to respect the privacy and security of the reporter of any incident.
 
 ## Enforcement Guidelines
 
