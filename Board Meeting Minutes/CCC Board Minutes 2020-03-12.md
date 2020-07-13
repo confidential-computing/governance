@@ -6,7 +6,7 @@
 
     1.  **Premier Members of the CCC**
 
-        1.  Philippe Robin (Arm)\*
+        1.  Philippe Robin (Arm) (Acting Chair)\*
 
         2.  Sergio Leunissen (Oracle)\*
 

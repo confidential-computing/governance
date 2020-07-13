@@ -16,9 +16,10 @@
 
         v.  Ron Perez (Intel)*
 
-> **Guests / Observers**
+        vi. Dave Thaler (Microsoft) (TAC Chair)
 
-vi. Dave Thaler (Microsoft) (TAC Chair)
+
+> **Guests / Observers**
 
 vii. Richard Searle (Fortanix, General Member Rep)\*
 

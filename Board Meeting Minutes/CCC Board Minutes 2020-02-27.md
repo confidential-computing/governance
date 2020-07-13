@@ -2,6 +2,44 @@
 
 **Wednesday 27 February 2020** 
 
+**Roll Call**  
+-	Stephen Walli, Governing Board Chair, Microsoft  
+-	Seth Knox, Chair of the Outreach Committee, Fortanix  
+-	Mike Bursell, Treasurer, Red Hat   
+-	Dave Thaler, TAC Chair, Microsoft  
+-	Mary Lee, Microsoft  
+-	Aeva van der Veen, Microsoft  
+-	Vikas Bhatia, Microsoft  
+-	Wim Coekaerts, Oracle  
+-	Nelly Porter, Google  
+-	Wenjing Chu, Futurewei  
+-	Raphael Auphan, Cosmian  
+-	Xiaoning Li, Alibaba  
+-	Philippe Robin, Arm  
+-	Anne Bertucio, Google  
+-	Howard Huang, Huawei  
+-	Ben Fischer, Red Hat  
+-	Jesse Schrater, Intel  
+-	Ron Perez, Intel  
+-	Naveen Cherukuri, Nvidia  
+-	Richard Searle, Fortanix  
+-	Omkhar Arasaratnam, JPMC  
+-	Morgan Akers, JPMC  
+-	Ariel Kit, Mellanox  
+-	Yu Ding, ByteDance  
+-	Zhengqin Luo, ByteDance  
+-	Jazz Kang, Swisscom  
+-	Brent Hollingsworth, AMD  
+-	Michael Lu, ARM  
+-	Simon Johnson, Intel  
+-	Maor Cohen, Kindite  
+-	David Dunn, VMware  
+-	Vikas Bhatia, Microsoft  
+-	Brandon Baker, Google  
+-	Stefan Deml, Descentriq  
+-	Stephano Cetola, Linux Foundation  
+
+
 **Move to approve minutes**
 
 1.  The committee approves the minutes for the February 13, 2019
