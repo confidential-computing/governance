@@ -43,7 +43,7 @@
 **Move to approve minutes**
 
 1.  The committee approves the minutes for the February 13, 2019
-    meetings (no abstentions, the TAC chair abstains).
+    meetings (no abstentions other than the TAC chair).
 
 **Action Item Review**
 
