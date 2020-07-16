@@ -45,7 +45,7 @@
 
     2.  The board approves the Outreach expense for Linux Foundation
         Creative Design Support Services at a 'PLUS' level for an annual
-        cost of \$15,000. No abstentions or objections. It should be
+        cost of \$15,000. No objections, no abstentions other than the TAC chair. It should be
         noted that the budget subcommittee chair and budget committee
         member brought this to the board with the Outreach chair
         present.
