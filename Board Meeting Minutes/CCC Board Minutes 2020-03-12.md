@@ -41,7 +41,7 @@
 2.  **Agenda Items & Motions**
 
     1.  The board approves the minutes of the February 27, 2020 meeting
-        with no abstentions or objections.
+        with no objections, and no abstentions other than the TAC chair.
 
     2.  The board approves the Outreach expense for Linux Foundation
         Creative Design Support Services at a 'PLUS' level for an annual
