@@ -134,7 +134,7 @@ projects might be accepted or rejected as a result:
 There are various competing definitions of "confidential computing"
 including (possibly among others):
 
-* **Gartner report**: Confidential computing is the combination of 
+* **Gartner report 2019 definition**: Confidential computing is the combination of 
   CPU-based hardware technology and infrastructure as a service (IaaS)
   **cloud** provider virtual machine (VM) images and software tools that 
   enable cloud-using organizations to create completely isolated
@@ -231,8 +231,17 @@ Similarly, the TAC iterated on several proposals for wording around
 the definition of the term "confidential computing".  The following
 wording obtained rough consensus:
 
-* "Confidential Computing is the protection of data in use by performing
+* **CCC Definition**: "Confidential Computing is the protection of data in use by performing
   computation in a hardware-based Trusted Execution Environment."
+
+Subsequent to the adoption of the above definition by the Confidential
+Computing Consortium, Gartner's [Hype Cycle for Compute Infrastructure, 2020]
+(https://www.gartner.com/en/documents/3987268/hype-cycle-for-compute-infrastructure-2020)
+now includes the revised definition, which is consistent with the CCC's:
+* **Gartner 2020 Definition**: "Confidential computing is a security mechanism that executes code in a
+hardware-based trusted execution environment (TEE), also called an enclave. Enclaves
+isolate and protect code and data from the host system (plus the host system’s owners)
+and may also provide code integrity and attestation."
 
 ## Appendix A. Related Terminology
 
