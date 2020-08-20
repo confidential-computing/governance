@@ -41,7 +41,7 @@ Confidential Computing.  For example, a library that performed
 encryption/decryption inside a hardware-based TEE, for use with
 Homomorphic Encryption, would be relevant to the CCC.
 
-Unfortunately, unlike the term Confidential Computing, several of
+Unfortunately, several of
 the terms used in the diagram have multiple competing definitions.
 For example, "privacy-preserving computation" is variously defined as
 being (a) synonymous with multi-party computation, or (b) covering
