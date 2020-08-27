@@ -1,7 +1,8 @@
 ## I. Overview
 This governance policy describes how an open source project can formally join the
 Confidential Computing Consortium (hereafter the "Consortium") via the
-[Project Proposal Process](). Projects that have joined the Consortium are
+[Project Proposal Process](https://github.com/confidential-computing/governance/blob/master/project-submission-template.md#instructions). 
+Projects that have joined the Consortium are
 "Technical Projects". It describes the [Stages](#iii-stages---definitions--expectations)
 a project may be admitted under and what the criteria and expectations are for a given
 stage, as well as the acceptance criteria for a project to move from one stage to
