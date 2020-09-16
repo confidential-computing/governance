@@ -25,18 +25,66 @@ Some ways a project can benefit by becoming a Consortium-recognized project incl
 ### Introduction
 This governance policy sets forth the proposal process for projects to be accepted into the Consortium. The process is the same for both existing projects which seek to move into the Consortium and new projects to be formed within the Consortium.
 
-### Project Proposal Requirements
-Plese see the [Project Submission Template](https://github.com/confidential-computing/governance/blob/master/project-submission-template.md)
-
 ### Project Acceptance Process
-* Projects are required to present their proposal at a TAC meeting. Technical Projects
-  will specify an [OSI-approved license](https://opensource.org/licenses) for code contributions
-  and/or specification license structure as appropriate (e.g., Joint Development Foundation projects).
-* The TAC may ask for changes to bring the project into better alignment with the Confidential Computing Consortium (adding a governance document to a repository or adopting a Code of Conduct, for example).
-* The project will need to make these changes in order to progress further.
-* Projects are accepted or progress from level to level via a majority vote of TAC representatives present if quorum is reached or a majority of all TAC representatives if voting by email, unless a project is being accepted at or moved to either the Graduation or Emeritus stage, in which a vote of two-thirds of all TAC representatives is required.
-* The proposal document will be finalized and a project charter prepared. This charter document must be included in the project's main repository.
-* The TAC will determine the appropriate initial stage for the project. The project can apply for a different stage via the review process.
+
+The acceptance process is a three-stage process: a technical review with the
+Technical Advisory Committee (TAC), legal submission to LF Projects, LLC,
+and a vote by the Governing Board.
+
+#### Technical Review
+
+Projects are required to present their proposal at a TAC meeting.
+This proposal should cover all the items in the [Project Progression Template](https://github.com/confidential-computing/governance/blob/master/project-progression-template.md)
+and the [Technical Charter template](https://lists.confidentialcomputing.io/g/main/files/TAC/Project%20Submissions/Technical%20Charter%20%28custom+data%29%20--%20LF%20Projects,%20LLC%204-10-2019%20FINAL%20%2811%29.docx)).
+
+The TAC may ask for changes to bring the project into better alignment with
+the Confidential Computing Consortium (adding a governance document to a
+repository or adopting a Code of Conduct, for example). The project will
+need to make these changes in order to progress further.
+
+Projects are accepted or progress from level to level via a majority vote
+of TAC representatives present if quorum is reached or a majority of all
+TAC representatives if voting by email, unless a project is being accepted
+at or moved to either the Graduation or Emeritus stage, in which a vote of
+two-thirds of all TAC representatives is required.
+
+The TAC will determine the appropriate initial stage for the project.
+The project can apply for a different stage via the review process.
+
+Once a project passes Technical Review, the TAC will inform the Governing
+Board that the submission proposal and Technical Charter are ready for the
+next step.
+
+#### Legal Submission
+
+As noted in clause 11 of the [Confidential Computing Consortium (CCC) Charter](https://confidentialcomputing.io/wp-content/uploads/sites/85/2019/12/CCC_Charter.pdf),
+the CCC requires that any trademarks be transferred to, or be available for
+use by, LF Projects, LLC.  Even if no trademarks exist, the current CCC
+policy is that projects be submitted to LF Projects, LLC.
+
+This submission entails sending the proposed Technical Charter (as reviewed
+by the TAC), and a signed [Project Contribution Agreement](https://lists.confidentialcomputing.io/g/main/files/TAC/Project%20Submissions/LF%20Projects%20--%20Form%20of%20Trademark%20and%20Account%20Assignment.docx).
+
+This submission might in some cases be done in parallel with, or even
+before, Technical Review.  It is recommended though that this be
+done after the Technical Review where practical.
+
+#### Governing Board Vote
+
+Once the Technical Review and Legal Submission steps are complete,
+the Governing Board will review
+the project proposal and the proposed Technical Charter.  If there are
+legal questions raised, the Governing Board may refer the matter to
+the Legal Committee for review.  This review may occur in parallel with
+Technical Review in some cases.
+
+Once any such legal questions have been addressed, the Governing Board will
+vote at its next available meeting.
+
+Upon acceptance by the board, the project's approved Technical Charter
+must be included in the project's main repository.  This document can
+be in whatever format is most appropriate for the project, as long as
+the content is the same.
 
 ### Spin-off Projects ###
 
@@ -122,7 +170,9 @@ The Graduation stage is for projects that have reached their growth goals and ar
 
 **Expectations**
 
-Graduation stage projects are "TAC Projects" under the Funding Charter of the Consortium, and as such have a voting representative on the TAC. They are eligible to receive ongoing support from the Consortium as determined by the Governing Board, and are expected to cross promote the Consortium along with their activities.
+Graduation stage projects are "TAC Projects" under the
+[Confidential Computing Consoritium Charter](https://confidentialcomputing.io/wp-content/uploads/sites/85/2019/12/CCC_Charter.pdf),
+and as such have a voting representative on the TAC. They are eligible to receive ongoing support from the Consortium as determined by the Governing Board, and are expected to cross promote the Consortium along with their activities.
 
 **Acceptance Criteria**
 
