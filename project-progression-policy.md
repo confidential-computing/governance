@@ -214,7 +214,7 @@ The TAC will conduct a review of each accepted project on an annual basis.
 
 The review includes the following:
 
-1. Review whether any answers to the project's submission template have
+1. Review whether any answers to the project's submission template or Technical Charter have
    changed, and if so, review the new answers. A representative from the
    project is responsible for presenting any deltas to the template answers
    since the last review, if any. If there are no changes, there is nothing
@@ -231,7 +231,7 @@ The review includes the following:
    adjustments are needed.
 
 Projects are encouraged to proactively inform the TAC when something
-changes that affects their submission template (changing a License, security
+changes that affects their submission template or Technical Charter (changing a License, security
 reporting process, CoC, etc.), rather than waiting for the next annual review.
 
 It is the responsibility of the project's [mentor](project-mentors.md) to help the project determine
