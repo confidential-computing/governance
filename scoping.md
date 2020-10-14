@@ -1,4 +1,4 @@
-# Confidential Computing Consortium Scoping
+# Confidential Computing Consortium Scope
 
 ## Executive Summary
 
