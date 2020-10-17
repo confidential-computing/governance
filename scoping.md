@@ -80,45 +80,40 @@ be appropriate in the future.
 (Most of the organizations listed are not legal entities hosting open
 source projects, but do publish relevant specifications.)
 
-## 2. Fine-Grained Questions
+## 2. Fine-Grained Axes
 
 In discussing Trusted Execution Environments,
-The TAC started by creating a rough taxonomy
+the TAC started by creating a rough taxonomy
 of five roughly orthogonal axes, each with a spectrum of narrow-to-broad
 options:
 
-1. Hardware/software only or also algorithmic (mathematical)? The TAC
-   has rough consensus to focus on promoting the hardware/software end,
-   which would exclude purely algorithmic technologies
+1. Hardware/software only or also algorithmic (mathematical)? The CCC
+   focus is on promoting the hardware/software end,
+   which excludes purely algorithmic technologies
    such as homomorphic encryption and multiparty computation.
 
-2. Hardware-based (+firmware?) required or also software-only? The TAC 
-   has consensus that only hardware-rooted technologies can provide
+2. Hardware-based (+firmware?) required or also software-only? The CCC
+   position is that only hardware-rooted technologies can provide
    the desired level of security, in particular for attestation.
-   Software only projects can be considered if they demonstrably
+   Software only projects can be considered by the CCC if they demonstrably
    "promote" the use of hardware-backed solutions.  (For example,
    a development-time-only emulation technology meant to speed development
    of hardware-backed solutions.)
 
 3. Generalized (fully programmable) only, or also configurable
    (semi-programmable) and even specialized (fixed-purpose, non-programmable)
-   also?  So far, no one on the TAC has argued for non-programmable, but
-   the TAC did not ask the question of whether it would want to reject a
-   submission in that category.
+   also?  The CCC focus is on programmability, but it has not explicitly
+   ruled out future submissions on other solutions.
 
-4. On-main CPU only, or also separate processors also?  The TAC has consensus
-   to recommend that the board include the entire spectrum here.
+4. On-main CPU only, or also separate processors also?  The CCC
+   encompasses the entire spectrum here.
 
-5. Cloud only, or also on-premises (including IoT) also?  The TAC has consensus
-   to recommend that the board include the entire spectrum here.
-
-All five of these are strategy questions for the board to answer, not
-technical questions for the TAC per se, although based on the answers
-chosen, the TAC will have technical feedback on any resulting wording.
+5. Cloud only, or also on-premises (including IoT) also?  The CCC
+   encompasses the entire spectrum here.
 
 The TAC also discussed that other attributes (e.g., TCB size) are also
 important security evaluation criteria for any given solution or project,
-but by themselves weren't seen as part of a scoping question per se.
+but by themselves weren't considered to be part of the scoping definition per se.
 
 The following table shows how various example technologies fall into the 
 above axes, to help illustrate how answers would affect what sorts of 
