@@ -171,8 +171,8 @@ The Graduation stage is for projects that have reached their growth goals and ar
 **Expectations**
 
 Graduation stage projects are "TAC Projects" under the
-[Confidential Computing Consoritium Charter](https://confidentialcomputing.io/wp-content/uploads/sites/85/2019/12/CCC_Charter.pdf),
-and as such have a voting representative on the TAC. They are eligible to receive ongoing support from the Consortium as determined by the Governing Board, and are expected to cross promote the Consortium along with their activities.
+[Confidential Computing Consoritium Charter](https://confidentialcomputing.io/wp-content/uploads/sites/85/2019/12/CCC_Charter.pdf).
+They are eligible to receive ongoing support from the Consortium as determined by the Governing Board, and are expected to cross promote the Consortium along with their activities.
 
 **Acceptance Criteria**
 
