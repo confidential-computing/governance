@@ -47,23 +47,28 @@
 2.  **Agenda Items & Motions**
 
     a.  The board approves the minutes of the Oct 31, 2019 minutes.
+    
+    b.  The board tables the motion to approve the three projects
+        (Enarx, OE SDK, & SGX SDK) pending review of the trademark
+        assignment paperwork submitted by Enarx and still pending
+        trademark assignment for SGX SDK.
 
-    b.  Mike Bursell (Red Hat) volunteers to be the treasurer. Nelly
+    c.  Mike Bursell (Red Hat) volunteers to be the treasurer. Nelly
         volunteers as a Budget Committee member. The group thanks them
         both for their time and work on this.
 
-    c.  The board resolves to allow general members to attend the board
+    d.  The board resolves to allow general members to attend the board
         meetings. (see: Resolution I from agenda)
 
-    d.  The board resolves to reserve the right to executive sessions
+    e.  The board resolves to reserve the right to executive sessions
         where only board members will be in attendance. (see: Resolution
         II from agenda)
 
-    e.  The board resolves to publish (publicly) the minutes and
+    f.  The board resolves to publish (publicly) the minutes and
         recordings of the board meetings. (see: Resolution III from
         agenda)
 
-    f.  The board amends the Resolution III to not include the
+    g.  The board amends the Resolution III to not include the
         recordings for security concerns.
 
 3.  **Action Items**
