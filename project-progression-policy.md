@@ -130,7 +130,7 @@ To be considered for the Sandbox Stage, the project must meet the following requ
 ### Incubation Stage
 **Definition**
 
-The Incubation stage is for projects that are interested in reaching the Graduation stage, and have identified a growth plan for doing so. Incubation stage projects will receive mentorship from the TAC and are expected to actively develop their community of contributors, governance, project documentation, and other variables identified in the growth plan that factor into broad success and adoption.
+The Incubation stage is for projects that are interested in reaching the Graduation stage, and have identified a [growth plan](growth-plans.md) for doing so. Incubation stage projects will receive mentorship from the TAC and are expected to actively develop their community of contributors, governance, project documentation, and other variables identified in the growth plan that factor into broad success and adoption.
 
 In order to support their active development, projects in the Incubation stage have a higher level of access to Consortium resources as provided by the Governing Board of the Consortium. A project's progress toward its growth plan goals will be reviewed on a yearly basis, and the TAC may move a project to the Sandbox stage if progress on the plan drops off or stalls.
 
@@ -159,7 +159,7 @@ To be considered for Incubation stage, the project must meet the Sandbox require
 ### Graduation Stage
 **Definition**
 
-The Graduation stage is for projects that have reached their growth goals and are now on a sustaining cycle of development, maintenance, and long-term support. Graduation stage projects are used commonly in enterprise production environments and have large, well-established project communities.
+The Graduation stage is for projects that have reached their [growth goals](growth-plans.md) and are now on a sustaining cycle of development, maintenance, and long-term support. Graduation stage projects are used commonly in enterprise production environments and have large, well-established project communities.
 
 **Examples**
 
