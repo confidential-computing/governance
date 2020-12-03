@@ -10,7 +10,7 @@ written set of actions intended to make forward progress towards those goals.
 The growth plan does not need to have a fixed timeline.
 
 The growth plan is reviewed when a project enters the Incubation or
-Graduation Stake, and also as part of the project's
+Graduation Stage, and also as part of the project's
 [Annual Review Process](project-progression-policy.md#iv-annual-review-process).
 
 ## Growth Goals
@@ -24,5 +24,5 @@ by OpenStack and have since been followed by
 [CNCF](https://github.com/cncf/toc/blob/master/process/graduation_criteria.adoc)
 and other organizations, but the exact criteria vary by organization.
 
-Objective criteria for graduation are preferred rather than subjective criteria.
+Objective criteria for graduation are preferred rather than subjective criteria (TODO: update the CCC Graduation Stage criteria to be objective).
 Similarly, any additional growth goals should be objectively measurable.
