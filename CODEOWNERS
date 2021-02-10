@@ -7,4 +7,4 @@
 # These owners will be the default owners for everything in the repo.
 # Unless a later match takes precedence, they will be requested for
 # review when someone opens a pull request.
-* @dthaler @jethrogb @MikeCamel @hannibalhuang @jchax @glikely @GiuseppeGiordano @spjohnso @brandonb-work @jinsongyu-fb @bassbeat
+* @dthaler @jethrogb @MikeCamel @hannibalhuang @thomas-fossati @GiuseppeGiordano @spjohnso @brandonb-work @jinsongyu-fb @bassbeat
