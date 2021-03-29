@@ -229,6 +229,10 @@ The review includes the following:
 
 3. Review any budget allocations relevant to the project, and whether any
    adjustments are needed.
+   
+4. Review license scans provided by the Linux Foundation. Provide feedback
+   on any outstanding issues and evaluate the scanning service from the
+   project's perspective.
 
 Projects are encouraged to proactively inform the TAC when something
 changes that affects their submission template or Technical Charter (changing a License, security
