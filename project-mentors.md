@@ -18,6 +18,10 @@ Responsibilities of the mentor include:
 3. Proactively inform the TAC when something changes that affects the
    project's submission template (changing a License, security reporting
    process, CoC, etc.), rather than waiting for the next annual review.
+   
+4. Work with the Outreach Committee to develop the spreadsheet which includes
+   any upcoming events where CCC projects are giving presentations. Report
+   that information back to the TAC at their meetings.
 
 ## Current Mentors
 
