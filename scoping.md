@@ -286,21 +286,13 @@ There are multiple products and solutions today that are software-based and
 use the term "TEE", ranging from ones meant for production use, to ones
 meant just for development of code to be later used on hardware TEEs.
 
-Some examples include:
-
-* **[Virtual Secure Mode (VSM)](https://azure.microsoft.com/en-us/blog/introducing-azure-confidential-computing/)**: a software-based TEE that's
-  implemented by Hyper-V in Windows 10 and Windows Server 2016. Hyper-V 
-  prevents administrator code running on the computer or server, as well
-  as local administrators and cloud service administrators from viewing
-  the contents of the VSM enclave or modifying its execution.
+As one example:
 
 * **[QEMU](https://www.linaro.org/blog/arm-trustzone-qemu/) ("quick emulator")**: very widely used open source machine emulator. ... Developers can use 
   the QEMU Arm Security Extensions to develop and work with Trusted
   Execution Environments (TEEs) that are likely to be the primary consumers
   of the added functionality. Secure applications can then be developed
   on the added TEEs without the need for dedicated hardware.
-
-Other examples exist from other organizations not affiliated with the CCC.
 
 ### A.2. Privacy-Preserving Computation
 
