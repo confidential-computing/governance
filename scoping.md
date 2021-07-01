@@ -288,7 +288,7 @@ meant just for development of code to be later used on hardware TEEs.
 
 As one example:
 
-* **[QEMU](https://www.linaro.org/blog/arm-trustzone-qemu/) ("quick emulator")**: very widely used open source machine emulator. ... Developers can use 
+* **[QEMU](https://www.linaro.org/blog/arm-trustzone-qemu/")**: very widely used open source machine emulator. ... Developers can use 
   the QEMU Security Extensions to develop and work with Trusted
   Execution Environments (TEEs) that are likely to be the primary consumers
   of the added functionality. Secure applications can then be developed
