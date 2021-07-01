@@ -291,8 +291,7 @@ As one example:
 * **[QEMU](https://github.com/qemu/QEMU)**: very widely used open source machine emulator. ... Developers can use 
   the QEMU security extensions that emulate a given TEE to develop and work with Trusted
   Execution Environments (TEEs) that are likely to be the primary consumers
-  of the added functionality. Secure applications can then be developed
-  on the added TEEs without the need for dedicated hardware.
+  of the added functionality.
 
 ### A.2. Privacy-Preserving Computation
 
