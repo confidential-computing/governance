@@ -23,6 +23,11 @@ Responsibilities of the mentor include:
    any upcoming events where CCC projects are giving presentations. Report
    that information back to the TAC at their meetings.
 
+5. In order to be a coach to the project maintainers, be familiar with open
+   source best practices for diversity and inclusion.  In particular be
+   familiar with 
+   [diversity and inclusion policies](diversity-and-inclusion-policies.md).
+
 ## Current Mentors
 
 Currently accepted CCC projects have been assigned the following mentors:
