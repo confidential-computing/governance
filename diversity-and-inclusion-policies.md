@@ -18,7 +18,7 @@ a project must have a Code of Conduct to be submitted to the Confidential
 Computing Consortium.
 
 The [Project Progression Policy](project-submission-template.md) specifies
-additional community characteristics that a project must demonstrate for each
+additional community characteristics for a project to demonstrate for each
 stage.
 
 Each project is expected to develop an inclusive and diverse community.
