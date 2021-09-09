@@ -26,7 +26,8 @@ Responsibilities of the mentor include:
 5. In order to be a coach to the project maintainers, be familiar with open
    source best practices for diversity and inclusion.  In particular be
    familiar with 
-   [diversity and inclusion policies](diversity-and-inclusion-policies.md).
+   [diversity and inclusion policies](diversity-and-inclusion-policies.md)
+   and make sure maintainers are aware of its recommendations.
 
 ## Current Mentors
 
