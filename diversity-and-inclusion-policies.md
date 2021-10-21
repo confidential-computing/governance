@@ -48,3 +48,5 @@ https://github.com/torvalds/linux/blob/a5f526ecb075a08c4a082355020166c7fe13ae27/
 https://docs.microsoft.com/en-us/style-guide/bias-free-communication
 https://developers.google.com/style/inclusive-documentation
 
+### Internships
+The CCC TAC and Outreach committee have [committed to support interns](./project-mentors.md) for CCC projects that meet the mentor requirements.
