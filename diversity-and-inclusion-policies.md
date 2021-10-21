@@ -49,4 +49,4 @@ https://docs.microsoft.com/en-us/style-guide/bias-free-communication
 https://developers.google.com/style/inclusive-documentation
 
 ### Internships
-The CCC TAC and Outreach committee have [committed to support interns](./project-mentors.md) for CCC projects that meet the mentor requirements.
+The CCC TAC and Outreach committee have [committed to support interns](./project-progression-policy.md#benefits-of-being-a-recognized-consortium-project) for CCC projects that meet the mentor requirements.

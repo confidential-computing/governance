@@ -44,6 +44,4 @@ The following projects are in the middle of the contribution process and have te
 * **[Occlum](https://occlum.io)**: [Zongmin Gu](https://github.com/guzongmin)
 * **[SGX SDK for Linux](https://github.com/intel/linux-sgx)**: [Simon Johnson](https://github.com/spjohnso)
 
-## Internships
-The [TAC and Outreach committe have committed](https://lists.confidentialcomputing.io/g/main/files/TAC/Meetings/2021/09-Sept/TAC%20Minutes%202021-09-09.pdf) to fund one intern per CCC project that meets the mentorship guidelines.
 
