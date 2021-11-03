@@ -43,5 +43,3 @@ The following projects are in the middle of the contribution process and have te
 
 * **[Occlum](https://occlum.io)**: [Zongmin Gu](https://github.com/guzongmin)
 * **[SGX SDK for Linux](https://github.com/intel/linux-sgx)**: [Simon Johnson](https://github.com/spjohnso)
-
-
