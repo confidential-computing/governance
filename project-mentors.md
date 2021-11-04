@@ -36,10 +36,10 @@ Currently accepted CCC projects have been assigned the following mentors:
 * **[CCC-Attestation](https://github.com/CCC-Attestation)**: [Dan Middleton](https://github.com/dcmiddle) and [Aeva Black](https://github.com/AevaOnline)
 * **[Enarx](https://github.com/enarx)**: [Mike Bursell](https://github.com/MikeCamel)
 * **[Keystone](https://keystone-enclave.org)**: [Stephen Walli](https://github.com/stephenrwalli)
+* **[Occlum](https://occlum.io)**: [Zongmin Gu](https://github.com/guzongmin)
 * **[Open Enclave SDK](https://github.com/openenclave/openenclave)**: [Dave Thaler](https://github.com/dthaler)
 * **[Veracruz](https://github.com/veracruz-project)**: [Grant Likely](https://github.com/glikely) and [Mike Bursell](https://github.com/MikeCamel)
 
-The following projects are in the middle of the contribution process and have tenative mentors assigned:
+The following projects are in the middle of the contribution process and have tentative mentors assigned:
 
-* **[Occlum](https://occlum.io)**: [Zongmin Gu](https://github.com/guzongmin)
 * **[SGX SDK for Linux](https://github.com/intel/linux-sgx)**: [Simon Johnson](https://github.com/spjohnso)
