@@ -5,7 +5,7 @@ The process that is currently in use by the TAC is as follows:
 1. The chair checks the issues and pull requests (PRs) to decide which, if any,
    should be on the next meeting agenda.
 2. All TAC members (not just the voting members) should have sent their
-   github ids to the chair and the Acting Secretary (Stephano) so any
+   github ids to the chair and the Acting Secretary so any
    TAC PRs can have all TAC members as reviewers.
 3. Once PRs are approved by two TAC members (potentially including the author,
    if the author is a TAC member and doesn't indicate lack of explicit
