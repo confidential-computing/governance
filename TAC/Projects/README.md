@@ -18,9 +18,6 @@ The [Confidential Computing Consortium](https://confidentialcomputing.io) hosts 
 
 ### Proposed
 
-* [SGX SDK for Linux](#sgx-sdk-for-linux)
-* [Trusted Compute Framework](#trusted-compute-framework)
-
 ---
 
 ## Enarx
@@ -52,14 +49,6 @@ Enarx provides a run-time TEE based on WebAssembly, allowing developers to deplo
 ## Open Enclave SDK
 
 ## Veracruz
-
----
-
-## Proposed projects
-
-### SGX SDK for Linux
-
-### Trusted Compute Framework
 
 ---
 
