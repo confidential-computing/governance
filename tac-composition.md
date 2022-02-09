@@ -14,4 +14,4 @@
    * Iulia Ion (@iuliaion), Google
    * Zhipeng Huang (@hannibalhuang), Huawei
    * Dan Middleton (@dcmiddle), Intel
-   * Lily Sturmann (@lkatalin), RedHat
+   * Lily Sturmann (@lkatalin), Red Hat
