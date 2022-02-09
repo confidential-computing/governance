@@ -12,11 +12,11 @@ The [Confidential Computing Consortium](https://confidentialcomputing.io) hosts 
 * [Open Enclave SDK](#open-enclave-sdk)
 * [Veracruz](#veracruz)
 
-### Incubating
+<!--### Incubating-->
 
-### Sandbox
+<!--### Sandbox-->
 
-### Proposed
+<!--### Proposed-->
 
 ---
 
@@ -50,8 +50,10 @@ Enarx provides a run-time TEE based on WebAssembly, allowing developers to deplo
 
 ## Veracruz
 
+<!--
 ---
 
 ## Emeritus Projects
 
 There are currently no Emeritus projects in the CCC.
+-->
