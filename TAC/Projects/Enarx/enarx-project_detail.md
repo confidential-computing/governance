@@ -27,10 +27,10 @@
    1. GitHub
 
 1. external software dependencies (including licenses)
-   1. TBD
+   1. https://docs.google.com/spreadsheets/d/1UKnbbGWXYLjnPZsox3zmYo59nv3XSXjePfas5E2fER0/edit
 
 1. release methodology and mechanics
-   1. TBD
+   1. https://enarx.dev/docs/Contributing/Code
 
 1. names of initial committers, if different from those submitting proposal
    1. Nathaniel McCallum, Mike Bursell
