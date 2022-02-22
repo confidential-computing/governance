@@ -58,6 +58,10 @@ Accenture | Michael Klein | michael.w.klein@accenture.com
 
 All reports will be reviewed and investigated promptly and fairly. Community leaders are obligated to respect the privacy and security of the reporter of any incident.
 
+In matters that require an outside mediator, CCC has retained Mishi Choudhary (mishi@linux.com).
+Use of an outside mediator can be requested when reporting or used at the CCC Board's discretion.
+In general, contacting conduct@confidentialcomputing.io directly is preferred.
+
 ## Enforcement Guidelines
 
 Community leaders will follow these Community Impact Guidelines in determining the consequences for any action they deem in violation of this Code of Conduct:
