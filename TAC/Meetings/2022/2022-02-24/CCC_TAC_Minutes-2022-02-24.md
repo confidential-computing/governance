@@ -160,7 +160,7 @@ Ravi Sahita (RS) asked if it makes sense to also discuss the layers above CCC's 
 
 DT summarized the discussion noting there would also be value discussing the other aspects of data protection, as well as cloud and networking. He noted that the whitepaper could ultimately discuss how to tie various aspects together.
 
-Thomas Fossati (TF) asked if anyone is leading activity to create an initial diagram including layers above CCC. DF requested volunteers. SVL noted that expanding the discussion into networking would be helpful. RS volunteered to help, as did SVL.
+Thomas Fossati (TF) asked if anyone is leading activity to create an initial diagram including layers above confidential computing. DF requested volunteers. SVL noted that expanding the discussion into networking would be helpful. RS volunteered to help, as did SVL.
 
 DT requested the TAC members review the current whitepaper.
 
