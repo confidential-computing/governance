@@ -17,7 +17,7 @@
 *Per the [charter](https://charter.confidentialcomputing.io), all [CCC Premier members](https://confidentialcomputing.io/members/) receive one vote on the TAC. Quorum for votes is at least 50% of voting members present.*
 
 * **Accenture** - Giuseppe Giordano
-* **Ant Group** - Zongmin Gu
+* **Ant Group** - Zongmin Gu / Tate, Hongliang Tian
 * **Arm** - Thomas Fossati / Michael Lu
 * **Google** - Iulia Ion
 * **Huawei** - Zhipeng (Howard) Huang
