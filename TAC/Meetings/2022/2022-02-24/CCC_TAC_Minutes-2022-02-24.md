@@ -130,7 +130,7 @@ RJ next reviewed the license scan results. Discussion ensued.
 
 BW reviewed discussions on the Outreach committee. He noted that Outreach discussed OC3, and provided an update on staffing. He noted the Confidential Computing in Healthcare webinar will be delayed.
 
-DT asked if there are any events with speaking and participation opportunities that would be relevant to projects over the next six months. Nick Vidal (NV) noted that Outreach is working ona spreadsheet with this info and doing specific outreach to projects on this topic. He noted he hopes this will be ready for the next call.
+DT asked if there are any events with speaking and participation opportunities that would be relevant to projects over the next six months. Nick Vidal (NV) noted that Outreach is working on a spreadsheet with this info and doing specific outreach to projects on this topic. He noted he hopes this will be ready for the next call.
 
 NV requested clarification on the date for the Enarx project review. DT reviewed available times. NV requested March 10, 2022 for the Enarx review.
 
