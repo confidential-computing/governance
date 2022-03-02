@@ -120,7 +120,7 @@ RJ next reviewed budget requests. She noted that OE SDK is using Zoom and had a 
 
 DT requested RJ's opinion whether the project could be ready for Graduation status within the next year. She noted that it could be longer. DT noted that the Graduated lifecycle text has never been finalized. Dan Middleton (DM) asked if this should be a focus for an upcoming meeting.
 
-**Action:** Brian Warner to investigate prior efforts to finalize Graduated lifecycle language, and if needed file an issue to finalize Graduated lifecycle language.
+**Action:** Brian Warner to investigate prior efforts to finalize Graduation lifecycle language, and if needed file an issue to finalize Graduation lifecycle language.
 
 RJ next reviewed the license scan results. Discussion ensued.
 
