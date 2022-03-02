@@ -150,7 +150,7 @@ DT noted that it's helpful to have specific examples from projects, in light of 
 
 Steve Van Lare (SVL) agreed that it would be good to include other projects, as there are different TEE solutions based upon architectures, and that there are differences between encryption and isolation in the tech stacks. 
 
-DT continued discussion on the Anjuna glossary definition of confidential computing. He noted that the Anjuna definition of Confidential Cloud covers protection of data-in-use, data-in-flight, and data-at-rest. He noted that the definition was broader than the CCC scope, which explicitly refers to data-in-use. He noted that he would like the document to cover these other layers as well, in keeping with SVL's original suggestions.
+DT continued discussion on the Anjuna glossary definitions related to confidential computing. He noted that the Anjuna definition of Confidential Cloud covers protection of data-in-use, data-in-flight, and data-at-rest. He noted that the definition was broader than the CCC scope, which explicitly refers to data-in-use. He noted that, speaking as the Microsoft rep, he would like to see the document define one or more terms that cover all three areas, in keeping with SVL's original suggestions.
 
 SVL reviewed Anjuna's perspective on Confidential Cloud. Discussion ensued over the boundaries of Confidential Cloud. DT asked from whom the data is confidential. SVL noted that cloud providers have different opinions on the size of the circle of trust. Discussion ensued over what data-in-use means.
 
