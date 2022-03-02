@@ -108,7 +108,7 @@ Rep. Thaler opened the call at 7:04a PT. He welcomed the members of the TAC and 
 
 Radhika Jandhyala (RJ) reviewed the [Open Enclave SDK annual project review document](https://github.com/confidential-computing/governance/tree/main/TAC/Meetings/2022/2022-02-24). She noted that the communication channels have changed, noting that the Matrix server has been deprecated. She also noted that some dependencies have changed.
 
-DT asked for clarification which SGX SDK this represents, as there are different versions for Windows and Linux. RJ noted that this dependency is specific to the SGX SDK for Linux.
+DT asked for clarification which SGX SDK is represented in the dependencies, as there are different versions for Windows and Linux. RJ noted that this dependency is specific to the SGX SDK for Linux.
 
 RJ noted that Linux packages have been uploaded to various package repositories and GitHub.
 
