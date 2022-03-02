@@ -112,7 +112,7 @@ DT asked for clarification which SGX SDK is represented in the dependencies, as 
 
 RJ noted that Linux packages have been uploaded to various package repositories and GitHub.
 
-She noted that Open Enclave SDK has a quarterly release cadence. Releases are also made when CVEs are fixed. She noted that the project averages six commits weekly. The committers are making progress towards Inclusive Open Source Communities orientation, and noted that this is being tracked in an issue.
+She noted that Open Enclave SDK has a quarterly release cadence. Releases are also made when CVEs are fixed. She noted that the project averages six commits weekly. The committers are making progress towards Inclusive Open Source Communities orientation, and noted that this is being tracked in a github issue.
 
 RJ reviewed intentional work by the project to help diversify the organizations involved. She noted that that OE SDK has not yet published a list of adopters and is not yet ready to request Graduation stage.
 
