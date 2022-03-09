@@ -17,8 +17,8 @@
 *Per the [charter](https://charter.confidentialcomputing.io), all [CCC Premier members](https://confidentialcomputing.io/members/) receive one vote on the TAC. Quorum for votes is at least 50% of voting members present.*
 
 * **Accenture** - Giuseppe Giordano
-* **ANT Group** - Zongmin Gu
-* **ARM** - Thomas Fossati / Michael Lu
+* **Ant Group** - Zongmin Gu / Tate, Hongliang Tian
+* **Arm** - Thomas Fossati / Michael Lu
 * **Google** - Iulia Ion
 * **Huawei** - Zhipeng (Howard) Huang
 * **Intel** - Dan Middleton / Simon Johnson
@@ -52,7 +52,7 @@ Rep. Thaler opened the call at 7:[..]a PT. He welcomed the members of the TAC an
 * Lily Sturman (Red Hat)
 * Giuseppe Giordano (Accenture)
 * Tate, Hongliang Tian (Ant Group)
-* Thomas Fossati (ARM)
+* Thomas Fossati (Arm)
 
 #### Attendees
 
