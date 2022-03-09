@@ -4,19 +4,11 @@ The [Confidential Computing Consortium](https://confidentialcomputing.io) hosts 
 
 ## Index of Projects
 
-### Graduated
-
 * [Enarx](#enarx)
 * [Keystone](#keystone)
 * [Occlum](#occlum)
 * [Open Enclave SDK](#open-enclave-sdk)
 * [Veracruz](#veracruz)
-
-<!--### Incubating-->
-
-<!--### Sandbox-->
-
-<!--### Proposed-->
 
 ---
 
@@ -26,9 +18,14 @@ The [Confidential Computing Consortium](https://confidentialcomputing.io) hosts 
 
 Enarx provides a run-time TEE based on WebAssembly, allowing developers to deploy applications without any rewrites from languages like Rust, C/C++, C#, Go, Java, Python, Haskell and many more.
 
+**Status:** Sandbox
+
+#### Links
+
+* [Project detail](enarx-project_detail.md)
 * [Website](https://enarx.dev)
 * [GitHub](https://github.com/enarx)
-* [Proposal](./Enarx/enarx-proposal.md) (Accepted 2019-10-31)
+* [Proposal](./Enarx/enarx-accepted_proposal.md) (Accepted 2019-10-31)
 * [Charter](./Enarx/Enarx_Technical_Charter-2020-02-14.docx)
 * [Artwork](https://github.com/confidential-computing/artwork#enarx)
 
