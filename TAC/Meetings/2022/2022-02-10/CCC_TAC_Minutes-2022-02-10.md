@@ -109,8 +109,6 @@ Rep. Thaler opened the call at 7:06a PT. He welcomed the members of the TAC and 
 
 1. **[Dave]** Schedule Open Enclave annual review.
 
-1. **[Thomas Fossati, Mike Bursell]** Attestation SIG co-chairs to discuss / clarify goals.
-  * Moved to main agenda.
 
 ### Project overviews
 
