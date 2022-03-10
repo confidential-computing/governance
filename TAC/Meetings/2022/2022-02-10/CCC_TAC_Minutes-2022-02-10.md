@@ -148,7 +148,7 @@ BW reviewed the process of escalation at the Linux Foundation when a report is e
 
 BW reviewed a number of process improvement suggestions. Dave noted that process improvements shouldn't require a TAC vote. Consensus was reached that if there are improvements that will enhance the efficiency of the TAC, that they should be made transparency. 
 
-Jethro Beekman (JB) noted these are public meetings and everyone is welcome to attend, but there is still some distance between open meetings and recordings being broadly available to the whole internet. He noted this could create hesitance that would prevent people from participating in meetings. SW provided historical context, noting meeting recordings are the backup to the minutes. He reviewed historical concerns about posting recordings. DT noted there are two questions. Are they stored on YouTube? And are they private, unlisted, or public?
+Jethro Beekman (JB) noted these are public meetings and everyone is welcome to attend, but there is still some distance between open meetings and recordings being broadly available to the whole Internet. He noted this could create hesitance that would prevent people from participating in meetings. SW provided historical context, noting meeting recordings are the backup to the minutes. He reviewed historical concerns about posting recordings. DT noted there are two questions. Are they stored on YouTube? And are they private, unlisted, or public?
 
 Discussion ensued. DT noted that the consensus is that YouTube is a reasonable storage location, and that the videos should be unlisted.
 
