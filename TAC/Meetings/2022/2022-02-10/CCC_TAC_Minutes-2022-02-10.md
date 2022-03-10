@@ -96,6 +96,7 @@ Rep. Thaler opened the call at 7:06a PT. He welcomed the members of the TAC and 
 
 1. **[Thomas F., Mike B.]** Attestation SIG co-chairs to discuss / clarify goals.
   * Attestation SIG will be ready for an annual review within a month.
+  * Moved to main agenda.
 
 1. **[ALL]** Review, comment and/or correct text in [Common Terminology Document](https://docs.google.com/document/d/1xZ6IX0w0jaWDbLMFNAybTF3FpLnQ5TJ98nzIWbsbFnY/edit).
 
