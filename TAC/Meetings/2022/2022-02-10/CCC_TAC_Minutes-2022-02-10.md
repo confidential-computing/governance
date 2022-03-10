@@ -58,7 +58,7 @@ Rep. Thaler opened the call at 7:06a PT. He welcomed the members of the TAC and 
 * Aeva Black (Microsoft)
 * Brian Warner (Linux Foundation)
 * Chaitan Shet (Linux Foundation)
-* Christopher Haster (ARM)
+* Christopher Haster (Arm)
 * Eric Voit (Cisco)
 * Henk Birkholz (Fraunhofer)
 * Jethro Beekman (Fortanix)
