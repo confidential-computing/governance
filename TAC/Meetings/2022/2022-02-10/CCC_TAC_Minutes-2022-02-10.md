@@ -125,7 +125,7 @@ Nick Vidal (NV), Shubhra Kar, and Chaitan Shet gave an update on the LFX mentors
 
 Dan Middleton (DM) and Aeva Black (AB) provided an update on Code of Conduct escalation paths. AB noted that the natural path of escalation is within a project using the project's own CoC process. They noted that if an issue requires escalation it should go to the CCC. If there are conflicts of interest or non-resolution, it would be escalated above the CCC. DM noted that there needs to be a defined escalation path. AB noted that it is a best practice to have such reports go to small group of defined recipients or to a single named individual, as opposed to a broad team such as the TAC.
 
-DT noted it is important to also measure the use of escalation paths, because they may either be not needed or unusable and the end result can appear the same. The absence of a metric is not the same as the absence of the problem.
+DM noted it is important to also measure the use of escalation paths, because they may either be not needed or unusable and the end result can appear the same. The absence of a metric is not the same as the absence of the problem.
 
 DT asked if the proposed path is to include the LF as a defined escalation path. DM confirmed. Mike Bursell (MB) noted he has questions about the familiarity of the LF with the intricacies of the CCC. He noted it may be a better cultural approach to remove individuals with a conflict vs. pushing directly to the LF.
 
