@@ -51,7 +51,7 @@ Rep. Thaler opened the call at 7:04a PT. He welcomed the members of the TAC and 
 * Dave Thaler (Microsoft)
 * Lily Sturman (Red Hat)
 * Giuseppe Giordano (Accenture)
-* Tate, Hongliang Tian (Ant Group)
+* Tate, Hongliang Tian (Ant Group, alternate)
 * Thomas Fossati (Arm)
 
 #### Attendees
