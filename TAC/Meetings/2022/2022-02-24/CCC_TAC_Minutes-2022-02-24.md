@@ -54,7 +54,7 @@ Rep. Thaler opened the call at 7:04a PT. He welcomed the members of the TAC and 
 * Tate, Hongliang Tian (Ant Group, alternate)
 * Thomas Fossati (Arm)
 
-#### Attendees
+#### Other Attendees
 
 * Eric Voit (Cisco)
 * Nick Vidal (Profian)
