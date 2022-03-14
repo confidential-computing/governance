@@ -177,7 +177,7 @@ BW next noted discussions on mentorship led by NV. He also noted a discussion on
 
 ### Future topics
 
-DT noted that the March 24th meeting will be skipped. He noted that CCC-Attestation will be providing a review on April 5, and a tech talk on confidential computing from the perspective of the network. 
+DT noted that the March 24th meeting will be skipped. He noted that CCC-Attestation will be providing a review on April 5, and on the same date Eric Voit will do a tech talk on confidential computing from the perspective of the network. 
 
 #### Pull request review
 
