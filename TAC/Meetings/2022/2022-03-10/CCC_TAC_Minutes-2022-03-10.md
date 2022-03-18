@@ -177,7 +177,7 @@ BW next noted discussions on mentorship led by NV. He also noted a discussion on
 
 ### Future topics
 
-DT noted that the March 24th meeting will be skipped. He noted that CCC-Attestation will be providing a review on April 5, and on the same date Eric Voit will do a tech talk on confidential computing from the perspective of the network. 
+DT noted that the March 24th meeting will be skipped to not interfere with [IETF meeting](https://www.ietf.org/how/meetings/113/) attendance and encouraged TAC attendees to attend the IETF RATS and/or TEEP meetings as appropriate. He noted that CCC-Attestation will be providing a review on April 5, and on the same date Eric Voit will do a tech talk on confidential computing from the perspective of the network. 
 
 #### Pull request review
 
