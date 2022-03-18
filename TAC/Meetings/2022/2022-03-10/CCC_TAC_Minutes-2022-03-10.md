@@ -171,7 +171,7 @@ The second question was about representation of VMs vs. containers. Discussion e
 
 ### Outreach update
 
-BW reviewed recent topics handled by the Outreach committee. He noted that a webinar will be held on March 15 at 8a called [The Hard Facts About Confidential Computing: Understanding Hardware’s Role in Delivering a New Level of Data Security](https://confidentialcomputing.io/webinar-the-hard-facts-about-confidential-computing/). He requested that TAC members amplify the social media posts and invite their colleagues.
+BW reviewed recent topics handled by the Outreach committee. He noted that a webinar will be held on March 15 at 8am Pacific called [The Hard Facts About Confidential Computing: Understanding Hardware’s Role in Delivering a New Level of Data Security](https://confidentialcomputing.io/webinar-the-hard-facts-about-confidential-computing/). He requested that TAC members amplify the social media posts and invite their colleagues.
 
 BW next noted discussions on mentorship led by NV. He also noted a discussion on event prioritization, and preparations to re-engage with analysts. Finally, he noted the website planning sub-team plans to begin meeting starting next week.
 
