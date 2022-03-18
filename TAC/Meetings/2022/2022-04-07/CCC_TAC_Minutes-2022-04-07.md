@@ -93,7 +93,7 @@ Dave Thaler (DT) opened the call at 7:[..] PT. He welcomed the members of the TA
 
 1. **[Stephen Walli, Dan Middleton, Aeva Black]** Develop a CoC escalation process, to be presented to TAC and governing board.
 
-1. **[Brian Warner]** Investigate prior efforts to finalize Graduated lifecycle language, and if needed file an issue to finalize Graduated lifecycle language.
+1. **[Brian Warner]** Investigate prior efforts to finalize Graduation lifecycle language, and if needed file an issue to finalize Graduation lifecycle language.
 
 1. **[Dave Thaler]** Open an issue requesting someone sync project benefits slides to the repo.
 
