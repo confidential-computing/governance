@@ -99,7 +99,7 @@ Rep. Thaler opened the call at 7:05a PT. He welcomed the members of the TAC and 
     * Veracruz lead has taken the course (Thomas Fossati).
     * Please report back that project maintainers have been made aware of the training, and have been asked to take it.
 
-1. **[Stephen Walli, Dan Middleton, Aeva Black]** Develop a CoC escalation process, to be presented to TAC and governing board.
+1. **[Stephen Walli, Dan Middleton, Aeva Black]** Develop a CoC escalation process, to be presented to the TAC and governing board.
 
 1. **[Brian Warner]** Investigate prior efforts to finalize Graduated lifecycle language, and if needed file an issue to finalize Graduated lifecycle language.
 
