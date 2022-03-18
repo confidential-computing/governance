@@ -147,7 +147,7 @@ NV noted Enarx has begun to make formal releases and reviewed the release proces
 
 NV noted that the [project is using LFX Insights](https://insights.lfx.linuxfoundation.org/projects/ccc%2Fccc-enarx/dashboard;quicktime=time_filter_3Y) to measure progress and growth within the community. He reviewed community growth in the core team and outside contributors.
 
-He noted that Enarx is not ready to request a move to Incubation stage, but that the project is showing a lot of continued growth. He noted the project does not yet feel it has met the requirements to have widespread adoption in at least two end-users.
+He noted that Enarx is not ready to request a move to Incubation stage, but that the project is showing a lot of continued growth. He noted the project does not yet feel it has met the requirements to have widespread adoption in at least two end-user organizations.
 
 NV reviewed the budget, noting that the project had requested a server from CCC. He noted that work is ongoing to stabilize infrastructure. MB discussed the use of the servers. NV noted that many community members have been granted access.
 
