@@ -129,7 +129,7 @@ Rep. Thaler opened the call at 7:05a PT. He welcomed the members of the TAC and 
 
 ### TAC Tech Talk - Overview of TCG Confidential Computing
 
-Henk Birkholtz (HB) introduced himself and the topic of Transparent Confidentiality, and provided a discussion on TCG. Discussion ensued over the definition of confidential computing and the role of a hardware-based TEE.
+Henk Birkholtz (HB) introduced himself and the topic of Transparent Confidentiality, and provided a discussion on work in the [Trusted Computing Group (TCG)](https://trustedcomputinggroup.org/). Discussion ensued over the definition of confidential computing and the role of a hardware-based TEE.
 
 ### Enarx - annual project review 
 
