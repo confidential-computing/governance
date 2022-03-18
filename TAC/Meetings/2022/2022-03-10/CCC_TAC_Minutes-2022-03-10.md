@@ -60,7 +60,7 @@ Rep. Thaler opened the call at 7:05a PT. He welcomed the members of the TAC and 
 * Brian Warner (Linux Foundation)
 * Eric Voit (Cisco)
 * Helen Lau (Linux Foundation)
-* Henk Birkholz ()
+* Henk Birkholz (Fraunhofer)
 * Kurt Taylor (Linux Foundation)
 * Naveen Cherukuri (Nvidia)
 * Mike Bursell (Profian)
