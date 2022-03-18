@@ -86,9 +86,6 @@ Dave Thaler (DT) opened the call at 7:[..] PT. He welcomed the members of the TA
 
 1. **[Stephen, Zongmin]** Recommend diversity and inclusion training to their projects and report back to the TAC on whether the maintainers or the contributors will be taking it and when the expected completion date is.
 
-1. **[Stephen Walli, Dan Middleton, Aeva Black]** Develop a CoC escalation process, to be presented to TAC and governing board.
-    * Dan Middleton has [opened a PR for review](https://github.com/confidential-computing/governance/pull/92)
-
 1. **[Mike, Eric V, Stephen, Zongmin]** Recommend diversity and inclusion training to their projects and report back to the TAC on whether the maintainers or the contributors will be taking it and when the expected completion date is.
 
 1. **[Stephen Walli, Dan Middleton, Aeva Black]** Develop a CoC escalation process, to be presented to TAC and governing board.

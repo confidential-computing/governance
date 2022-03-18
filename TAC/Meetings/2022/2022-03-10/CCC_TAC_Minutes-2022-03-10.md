@@ -91,9 +91,6 @@ Rep. Thaler opened the call at 7:05a PT. He welcomed the members of the TAC and 
     * Gramine reports they have taken it.
     * Enarx reports they have taken it.
 
-1. **[Stephen Walli, Dan Middleton, Aeva Black]** Develop a CoC escalation process, to be presented to TAC and governing board.
-    * Dan Middleton has [opened a PR for review](https://github.com/confidential-computing/governance/pull/92)
-
 1. **[Mike, Eric V, Stephen, Zongmin]** Recommend diversity and inclusion training to their projects and report back to the TAC on whether the maintainers or the contributors will be taking it and when the expected completion date is.
     * Open Enclave maintainers are close to 100% trained (Dave Thaler)
     * Veracruz lead has taken the course (Thomas Fossati).
@@ -112,6 +109,10 @@ Rep. Thaler opened the call at 7:05a PT. He welcomed the members of the TAC and 
 1. **[Brian Warner]** Add Enarx annual review to the agenda for March 10th TAC meeting.
 
 1. **[Brian Warner]** Add slide to this deck reminding the TAC to review PRs and issues, time permitting.
+
+1. **[Stephen Walli, Dan Middleton, Aeva Black]** Develop a CoC escalation process, to be presented to TAC and governing board.
+    * Dan Middleton has [opened a PR for review](https://github.com/confidential-computing/governance/pull/92)
+    * To be tracked in the PR.
 
 1. **[Brian Warner]** Schedule a deep-dive into LFX code scanning for April 19, 2022.
     * Confirmed, Shubhra Kar and David Deal from LF to present.
