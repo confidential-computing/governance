@@ -46,7 +46,7 @@ Company | Representative | Email Address
 | --- | --- | --- |
 Accenture | Michael Klein | michael.w.klein@accenture.com
 Ant Group | Zongmin Gu | zongmin.gzm@antgroup.com
-ARM | Marc Meunier | marc.meunier@arm.com
+Arm | Marc Meunier | marc.meunier@arm.com
 Facebook | Shankaran G | shankaran@fb.com
 Google | Nelly Porter | nellyporter@google.com
 Huawei | Peixin Hou | peixin.hou@huawei.com
