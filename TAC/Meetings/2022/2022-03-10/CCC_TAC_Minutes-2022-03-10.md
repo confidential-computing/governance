@@ -79,7 +79,7 @@ Rep. Thaler opened the call at 7:05a PT. He welcomed the members of the TAC and 
 
 **RESOLVED:** That the minutes of the [February 10, 2022](https://github.com/confidential-computing/governance/pull/93/files) meeting of the Technical Advisory Council meeting of the Confidential Computing Consortium as distributed to the members of the TAC during this meeting are hereby adopted and approved.
 
-**RESOLVED:** That the minutes of the * [December 16, 2021](../../2021/2021-12-16/TAC_Minutes-2021-12-16.pdf) meeting of the Technical Advisory Council meeting of the Confidential Computing Consortium as distributed to the members of the TAC in advance of this meeting are hereby adopted and approved.
+**RESOLVED:** That the minutes of the [December 16, 2021](../../2021/2021-12-16/TAC_Minutes-2021-12-16.pdf) meeting of the Technical Advisory Council meeting of the Confidential Computing Consortium as distributed to the members of the TAC in advance of this meeting are hereby adopted and approved.
 
 #### Pending approval
 
