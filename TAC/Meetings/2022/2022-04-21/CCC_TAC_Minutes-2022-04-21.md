@@ -1,5 +1,5 @@
 # Confidential Computing Consortium 
-##Minutes of the Technical Advisory Council 
+## Minutes of the Technical Advisory Council 
 
 *The TAC meets for two hours on alternating Thursdays. All members of the community are welcome to attend and participate.*
 
