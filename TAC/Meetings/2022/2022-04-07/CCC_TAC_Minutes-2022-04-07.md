@@ -51,7 +51,7 @@ Rep. Thaler opened the call at 7:04am PT. He welcomed the members of the TAC and
 * Simon Johnson (Intel)
 * Dave Thaler (Microsoft)
 * Lily Sturman (Red Hat)
-* Thomas Fossati (ARM)
+* Thomas Fossati (Arm)
 * Eric Northup (Meta)
 
 #### Attendees
