@@ -105,7 +105,7 @@ Rep. Thaler opened the call at 7:04am PT. He welcomed the members of the TAC and
     * Veracruz lead has taken the course (Thomas Fossati).
     * Please report back that project maintainers have been made aware of the training, and have been asked to take it.
 
-1. **[Kurt Taylor]** Investigate prior efforts to finalize Graduated lifecycle language, and if needed file an issue to finalize Graduated lifecycle language. (DT) summarized options for resolution: 1) Adopt new stages 2) talk about proposal and fix it 3) delete the proposed new terms and just use the the two currently adopted stages, sandbox and incubation
+1. **[Kurt Taylor]** Investigate prior efforts to finalize Graduated lifecycle language, and if needed file an issue to finalize Graduated lifecycle language. (DT) summarized options for resolution: 1) Adopt new stages 2) talk about proposal and fix it 3) delete the proposed new terms and just use the two currently adopted stages, sandbox and incubation
 
 
 ### Completed Action Items
