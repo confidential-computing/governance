@@ -98,7 +98,7 @@ Rep. Thaler opened the call at 7:04am PT. He welcomed the members of the TAC and
 1. **[Mike, Eric, Stephen, Zongmin]** Recommend diversity and inclusion training to their projects and report back to the TAC on whether the maintainers or the contributors will be taking it and when the expected completion date is.
 
 1. **[Stephen Walli, Dan Middleton, Aeva Black]** Develop a CoC escalation process, to be presented to TAC and governing board.
-    * Dan Middleton has opened a PR for review
+    * Dan Middleton has opened a PR for review https://github.com/confidential-computing/governance/pull/92
 
 1. **[Mike, Eric V, Stephen, Zongmin]** Recommend diversity and inclusion training to their projects and report back to the TAC on whether the maintainers or the contributors will be taking it and when the expected completion date is.
     * Open Enclave maintainers are close to 100% trained (Dave Thaler)
