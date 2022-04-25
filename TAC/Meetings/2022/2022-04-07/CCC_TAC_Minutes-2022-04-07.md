@@ -111,7 +111,7 @@ Rep. Thaler opened the call at 7:04am PT. He welcomed the members of the TAC and
 ### Completed Action Items
 1. **[Dan Middleton]** Work with CCC Attestation to schedule annual review, tentatively for April 21, 2022.
 
-1. **[Dave Thaler]** Open an issue requesting someone sync project benefits slides to the repo.
+1. **[Dave Thaler]** Open an issue requesting someone sync project benefits slides to the repo.  (Done: https://github.com/confidential-computing/governance/issues/94)
 
 1. **[Brian Warner]** Update the Google Sheet containing the [list of CCC dependencies](https://docs.google.com/spreadsheets/d/1UKnbbGWXYLjnPZsox3zmYo59nv3XSXjePfas5E2fER0/edit#gid=0) with the changed dependencies noted in the project review document.
 
