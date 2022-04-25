@@ -1,5 +1,5 @@
 # Confidential Computing Consortium 
-##Minutes of the Technical Advisory Council 
+## Minutes of the Technical Advisory Council 
 
 *The TAC meets for two hours on alternating Thursdays. All members of the community are welcome to attend and participate.*
 
@@ -18,8 +18,8 @@
 *Per the [charter](https://charter.confidentialcomputing.io), all [CCC Premier members](https://confidentialcomputing.io/members/) receive one vote on the TAC. Quorum for votes is at least 50% of voting members present.*
 
 * **Accenture** - Giuseppe Giordano
-* **ANT Group** - Zongmin Gu
-* **ARM** - Thomas Fossati / Michael Lu
+* **Ant Group** - Zongmin Gu
+* **Arm** - Thomas Fossati / Michael Lu
 * **Google** - Iulia Ion
 * **Huawei** - Zhipeng (Howard) Huang
 * **Intel** - Dan Middleton / Simon Johnson
@@ -95,8 +95,6 @@ Rep. Thaler opened the call at 7:04am PT. He welcomed the members of the TAC and
 
 ### Open Action Items
 
-1. **[Mike, Eric, Stephen, Zongmin]** Recommend diversity and inclusion training to their projects and report back to the TAC on whether the maintainers or the contributors will be taking it and when the expected completion date is.
-
 1. **[Stephen Walli, Dan Middleton, Aeva Black]** Develop a CoC escalation process, to be presented to TAC and governing board.
     * Dan Middleton has opened a PR for review https://github.com/confidential-computing/governance/pull/92
 
@@ -114,8 +112,6 @@ Rep. Thaler opened the call at 7:04am PT. He welcomed the members of the TAC and
 1. **[Dave Thaler]** Open an issue requesting someone sync project benefits slides to the repo.  (Done: https://github.com/confidential-computing/governance/issues/94)
 
 1. **[Brian Warner]** Update the Google Sheet containing the [list of CCC dependencies](https://docs.google.com/spreadsheets/d/1UKnbbGWXYLjnPZsox3zmYo59nv3XSXjePfas5E2fER0/edit#gid=0) with the changed dependencies noted in the project review document.
-
-1. **[Brian Warner]** Add Enarx annual review to the agenda for March 10th TAC meeting.
 
 1. **[Brian Warner]** Add slide to this deck reminding the TAC to review PRs and issues, time permitting.
 
