@@ -127,7 +127,7 @@ Rep. Thaler opened the call at 7:04am PT. He welcomed the members of the TAC and
 
 ### Interns
 * Nick Vidal (NV) update on Interns, slack #general discussion, help and guidance 
-* Deferr to next meeting when Dan Middleton will be participating 
+* Defer to next meeting when Dan Middleton will be participating 
 
 ### Outreach update
 
