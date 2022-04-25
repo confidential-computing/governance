@@ -143,7 +143,7 @@ Rep. Thaler opened the call at 7:04am PT. He welcomed the members of the TAC and
  * (DT) discussed Google Doc for terminology
  * Eric Voit (EV) raised multi node question as previously discussed with regard to confidential cloud, multi node is a hard problem to define, will defer to a future version
  * Steve Van Lare (SVL) will respond to comments in document
- * (DT) proposed and (SVL) discussed confidential workload/application - protects all legs of CC, (at rest, in motion, and in use) 
+ * (DT) proposed and (SVL) discussed confidential workload/application - protects all legs of data protection (at rest, in motion, and in use) 
  * (EV) github process closure (DT) proposed PDF to whitepaper, Draft then to LF creative team for editing process, goal to be firmed up by next meeting, draft by second meeting will be signed off, I'll find out creative services timeline
 
 ### Any other business
