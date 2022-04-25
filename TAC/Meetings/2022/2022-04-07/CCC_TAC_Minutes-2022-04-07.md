@@ -119,7 +119,7 @@ Rep. Thaler opened the call at 7:04am PT. He welcomed the members of the TAC and
 
 1. **[Brian Warner]** Add slide to this deck reminding the TAC to review PRs and issues, time permitting.
 
-1. **[Brian Warner]** Schedule a deep-dive into LFX code scanning for April 19, 2022.
+1. **[Brian Warner]** Schedule a deep-dive into LFX code scanning for April 21, 2022.
     * Confirmed, Shubhra Kar and David Deal from LF to present.
 
 ### Project overviews
