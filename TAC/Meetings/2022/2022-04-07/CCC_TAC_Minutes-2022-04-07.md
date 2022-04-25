@@ -109,7 +109,7 @@ Rep. Thaler opened the call at 7:04am PT. He welcomed the members of the TAC and
 
 
 ### Completed Action Items
-1. **[Dan Middleton]** Work with CCC Attestation to schedule annual review, tentatively for March 24, 2022.
+1. **[Dan Middleton]** Work with CCC Attestation to schedule annual review, tentatively for April 21, 2022.
 
 1. **[Dave Thaler]** Open an issue requesting someone sync project benefits slides to the repo.
 
