@@ -161,7 +161,7 @@ Rep. Thaler opened the call at 7:05am PT. He welcomed the members of the TAC and
 
 ### Common terminology
 
- * DT shared the termonology document
+ * DT shared the terminology document
  * EV reviewed the plan to take the current document and checkin to Github 
  * EV Trusted Codebase, is a official definition needed Trusted Computing Base (TCB)
  * DM noted that there may already be a definition for Trusted Computing Base
