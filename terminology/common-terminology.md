@@ -40,7 +40,7 @@ Data confidentiality is delivered in runtime by isolating a specific TEE context
 Of course the CPU is not the only place where TEE data might be visible. Such data is commonly stored in RAM as well.  And when in RAM, side channel attacks might be attempted on the TEE data. Protecting the RAM from such attacks can be accomplished in ways such as the encryption of the TEE data within the RAM.  
 CPU vendors will typically bundle multiple isolation methodologies to protect their implementations. It is upon these bundles that software providing Confidential Computing capabilities is then layered.  
 
-{::include Technology-Types.jpg}
+![Alt text](Technology-Types.jpg "Technology Types")
 
 But what layers of software are actually being integrated and delivered upon these isolation methodologies?  The packaging of software layers depends on whether the code is prepared for consumption by software developers, systems integrators, or systems administrators.  It is quite possible that many nested layers of application of packaging will occur before the code is actually installed by a systems administrator.
 With this in mind, below in columns are nine examples of how software layers may actually be packaged for consumption by downstream participants of the software supply chain.  In these examples, only the software elements of the Trusted Computing Base (TCB) as defined by NIST 800-12 Rev.1 are highlighted.  Other elements of the TCB such as the Firmware and Hardware are not shown.
