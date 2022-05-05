@@ -92,7 +92,7 @@ Steve to propose something short here.
 
 ## References
 
-[^1] Confidential Computing Consortium, "A Technical Analysis of Confidential Computing", January 2021, <https://confidentialcomputing.io/whitepaper-02-latest/>.
+[^1]: Confidential Computing Consortium, "A Technical Analysis of Confidential Computing", January 2021, <https://confidentialcomputing.io/whitepaper-02-latest/>.
 
 [^2] Open Container Initiative, <https://opencontainers.org/>.
 
