@@ -94,7 +94,7 @@ Steve to propose something short here.
 
 [^1]: Confidential Computing Consortium, "A Technical Analysis of Confidential Computing", January 2021, <https://confidentialcomputing.io/whitepaper-02-latest/>.
 
-[^2] Open Container Initiative, <https://opencontainers.org/>.
+[^2]: Open Container Initiative, <https://opencontainers.org/>.
 
 [^3] Nieles, M., Dempsey, K., and V. Pilliteri, "An Introduction to Information Security", NIST 800-12 Rev.1, June 2017, <https://csrc.nist.rip/publications/detail/sp/800-12/rev-1/final>.
 
