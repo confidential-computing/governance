@@ -83,4 +83,5 @@ Certificate Hygiene  – External signatures when evaluated must ensure the full
 CC Resource Management  – Interfaces so that management center administrators can create, halt, delete and migrate TEE instances.
 
 # Conclusion/Summary
-<Steve to propose something short here>
+
+Steve to propose something short here
