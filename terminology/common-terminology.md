@@ -88,6 +88,6 @@ CC Resource Management  – Interfaces so that management center administrators 
 
 ## Conclusion/Summary
 
-Steve to propose something short here.
+Confidential Computing is a paradigm that is enabled by a fundamental architectural additions to modern CPUs that has the potential to  be as transformational to the way computers operate as the addition of virtualization when it was added to commercially available chips.  By creating the ability to protect data in use, it provides an important component to how trust, privacy, and security can be managed in modern systems.  To increase the adoption of this technology, it is important to have a common vocabulary to describe how the technology is being used and what benefits it can contribute.
 
 <end of file>
