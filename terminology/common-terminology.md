@@ -1,15 +1,19 @@
-Common Terminology for Confidential Computing
+# Common Terminology for Confidential Computing
 
-# Introduction
+## Introduction
 
 As more companies and open source projects begin to use similar terms to describe similar paradigms 	that build upon hardware-based Trusted Execution Environments (TEEs), it will be increasingly important that vendors use consistent terminology that describes the ways in which these new capabilities are applied within different functional domains. 
+
 The Confidential Computing Consortium has defined confidential computing as “the protection of data in use by performing computation in a hardware-based Trusted Execution Environment”, and identified three primary attributes for what constitutes a Trusted Execution Environment: data integrity, data confidentiality, and code integrity. As described in Confidential Computing: Hardware-Based Trusted Execution for Applications and Data, four additional attributes may be present (code confidentiality, programmability, recoverability, and attestability) but are not strictly necessary for a computational environment to be classified as confidential computing. 
+
 This paper defines  additional applications of the term confidential as a descriptive prefix, such as “confidential container”, “confidential virtual machine”, etc. Such terms have already begun to appear in marketing materials and commercial products, and in related open source projects. 
+
 This paper focuses on confidential computing and the associated “confidential xxx” terms to provide a common vocabulary when describing the impact of adding confidential compute to a computer's architecture.   The goal is to sufficiently describe the different potential architectural changes introduced by isolating compute workloads so that the implications of securing complete applications and their data can be properly evaluated.   Memory isolation is one of the new elements introduced by confidential computing.  And being able to protect a running application changes significantly how to approach computer security.   Cyber-attacks often start with a compromise of memory contents (extracting data or modifying memory state to enable execution). Therefore the ability to have effective memory isolation has long been recognized as the best potential mitigation.   But protection of data in use is only one part of an application's security.  An aggregate solution of leveraging confidential computing with the at-rest and in-motion protection is required to fully protect sensitive workloads and their data wherever it goes.
+
 In cloud computing, for example, protecting data in use becomes a fundamental requirement to enable clients to control protecting applications and their data while running on the infrastructure provided by the cloud vendor.   All clouds support a shared responsibility model built on a degree of trust.  Confidential computing permits the separation of responsibilities in a stronger way.  
 
 
-# Packaging Model Terminology
+## Packaging Model Terminology
 
 This document defines the following terms:
 
@@ -22,7 +26,7 @@ This document defines the following terms:
 4. confidential VM: a virtual machine that is executed inside a hardware-based TEE, whereby code and data within the entire VM image is protected from the hypervisor and the host operating system.
 
 
-# Isolation Methodologies
+## Isolation Methodologies
 
 The aforementioned packaging terms will be delivered by software running in concert with a TEE's hardware and firmware.  This combination will deliver a blend of data confidentiality, data integrity, and/or code integrity protections. 
 Data confidentiality is delivered in runtime by isolating a specific TEE context within the CPU, and potentially within the RAM.  There are multiple methodologies for delivering data-in-use protection. Three examples of technologies which limit the CPU’s addressability/reachability of TEE data include:
@@ -68,7 +72,7 @@ Various CCC projects will deliver code aimed at one or more of the packaging mod
 
 * Gramine could be utilized in the role of the “TEE Shim” across any package on SGX.
  
-# Package Deployability Prerequisites
+## Package Deployability Prerequisites
 
 While the aforementioned terms help describe how a TEE may be packaged, this does not imply that a specific packaging will meet a meaningful set deployment requirements.  As a result, it is important to define a minimal set of functional prerequisites which a deployable instance of the package must incorporate.  Where these functional prerequisites are not met in deployment, the aforementioned terms themselves should not be used.
 
@@ -82,6 +86,8 @@ Certificate Hygiene  – External signatures when evaluated must ensure the full
 
 CC Resource Management  – Interfaces so that management center administrators can create, halt, delete and migrate TEE instances.
 
-# Conclusion/Summary
+## Conclusion/Summary
 
-Steve to propose something short here
+Steve to propose something short here.
+
+<end of file>
