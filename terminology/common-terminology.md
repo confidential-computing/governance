@@ -45,7 +45,7 @@ CPU vendors will typically bundle multiple isolation methodologies to protect th
 But what layers of software are actually being integrated and delivered upon these isolation methodologies?  The packaging of software layers depends on whether the code is prepared for consumption by software developers, systems integrators, or systems administrators.  It is quite possible that many nested layers of application of packaging will occur before the code is actually installed by a systems administrator.
 With this in mind, below in columns are nine examples of how software layers may actually be packaged for consumption by downstream participants of the software supply chain.  In these examples, only the software elements of the Trusted Computing Base (TCB) as defined by NIST 800-12 Rev.1 are highlighted.  Other elements of the TCB such as the Firmware and Hardware are not shown.
 
-{::include Full-Table.jpg}
+![Alt text](Full-Table.jpg "Full Table")
 
 As can be seen in the diagram, each of these nine embodiments can be mapped to one of the four aforementioned packaging terms.  Additionally, each of the nine columns is supportable by some subset of Data-in-Use isolation methodologies. 
 Such a categorization of packaging can prove useful to end users of Confidential Computing in that it becomes possible to:
