@@ -4,7 +4,7 @@
 
 As more companies and open source projects begin to use similar terms to describe similar paradigms 	that build upon hardware-based Trusted Execution Environments (TEEs), it will be increasingly important that vendors use consistent terminology that describes the ways in which these new capabilities are applied within different functional domains. 
 
-The Confidential Computing Consortium has defined confidential computing as “the protection of data in use by performing computation in a hardware-based Trusted Execution Environment”, and identified three primary attributes for what constitutes a Trusted Execution Environment: data integrity, data confidentiality, and code integrity. As described in Confidential Computing: Hardware-Based Trusted Execution for Applications and Data, four additional attributes may be present (code confidentiality, programmability, recoverability, and attestability) but are not strictly necessary for a computational environment to be classified as confidential computing. 
+The Confidential Computing Consortium has defined [^1] confidential computing as “the protection of data in use by performing computation in a hardware-based Trusted Execution Environment”, and identified three primary attributes for what constitutes a Trusted Execution Environment: data integrity, data confidentiality, and code integrity. As described in Confidential Computing: Hardware-Based Trusted Execution for Applications and Data, four additional attributes may be present (code confidentiality, programmability, recoverability, and attestability) but are not strictly necessary for a computational environment to be classified as confidential computing. 
 
 This paper defines  additional applications of the term confidential as a descriptive prefix, such as “confidential container”, “confidential virtual machine”, etc. Such terms have already begun to appear in marketing materials and commercial products, and in related open source projects. 
 
@@ -21,7 +21,7 @@ This document defines the following terms:
 
 2. confidential process: a process (e.g., a “Trusted Application”) that is executed inside a hardware-based TEE. 
 
-3. confidential container: an Open Container Initiative (OCI)-compliant container that is executed inside a hardware-based TEE. 
+3. confidential container: an Open Container Initiative (OCI)-compliant [^2] container that is executed inside a hardware-based TEE. 
 
 4. confidential VM: a virtual machine that is executed inside a hardware-based TEE, whereby code and data within the entire VM image is protected from the hypervisor and the host operating system.
 
@@ -43,7 +43,7 @@ CPU vendors will typically bundle multiple isolation methodologies to protect th
 ![Alt text](Technology-Types.jpg "Technology Types")
 
 But what layers of software are actually being integrated and delivered upon these isolation methodologies?  The packaging of software layers depends on whether the code is prepared for consumption by software developers, systems integrators, or systems administrators.  It is quite possible that many nested layers of application of packaging will occur before the code is actually installed by a systems administrator.
-With this in mind, below in columns are nine examples of how software layers may actually be packaged for consumption by downstream participants of the software supply chain.  In these examples, only the software elements of the Trusted Computing Base (TCB) as defined by NIST 800-12 Rev.1 are highlighted.  Other elements of the TCB such as the Firmware and Hardware are not shown.
+With this in mind, below in columns are nine examples of how software layers may actually be packaged for consumption by downstream participants of the software supply chain.  In these examples, only the software elements of the Trusted Computing Base (TCB) as defined by NIST 800-12 Rev.1 [^3] are highlighted.  Other elements of the TCB such as the Firmware and Hardware are not shown.
 
 ![Alt text](Full-Table.jpg "Full Table")
 
@@ -76,7 +76,7 @@ Various CCC projects will deliver code aimed at one or more of the packaging mod
 
 While the aforementioned terms help describe how a TEE may be packaged, this does not imply that a specific packaging will meet a meaningful set deployment requirements.  As a result, it is important to define a minimal set of functional prerequisites which a deployable instance of the package must incorporate.  Where these functional prerequisites are not met in deployment, the aforementioned terms themselves should not be used.
 
-Mutually Assured Secure Channel – Confidential information will go to and/or from a TEE.  To accomplish this in a way which inhibits man-in-the-middle attacks / hijacking, a technology which allows a Mutually Assured Secure Channel must be used in both provision time and runtime.  One viable technology for this function includes TLS with Negotiated Finite Field Diffie-Hellman (RFC-7919) Key exchange.  
+Mutually Assured Secure Channel – Confidential information will go to and/or from a TEE.  To accomplish this in a way which inhibits man-in-the-middle attacks / hijacking, a technology which allows a Mutually Assured Secure Channel must be used in both provision time and runtime.  One viable technology for this function includes TLS with Negotiated Finite Field Diffie-Hellman (RFC 7919) [^4] key exchange.  
 
 Firmware Definitive Evidence Generation – Loading of a TEE is typically not straight from disk binary. For example, an Operating System may lay elements of code and data into memory.  This gives the operating system a chance to make changes.  As a result, any Evidence regarding the files loaded directly into a TEE must either be fingerprinted by the firmware in a way the OS cannot manipulate or decrypted by the TEE's application using keys not available to the OS.
 
@@ -90,4 +90,12 @@ CC Resource Management  – Interfaces so that management center administrators 
 
 Steve to propose something short here.
 
-<end of file>
+## References
+
+[^1] Confidential Computing Consortium, "A Technical Analysis of Confidential Computing", January 2021, <https://confidentialcomputing.io/whitepaper-02-latest/>.
+
+[^2] Open Container Initiative, <https://opencontainers.org/>.
+
+[^3] Nieles, M., Dempsey, K., and V. Pilliteri, "An Introduction to Information Security", NIST 800-12 Rev.1, June 2017, <https://csrc.nist.rip/publications/detail/sp/800-12/rev-1/final>.
+
+[^4] Gillmor, D., "Negotiated Finite Field Diffie-Hellman Ephemeral Parameters for Transport Layer Security (TLS)", RFC 7919, DOI 10.17487/RFC7919, August 2016, <https://www.rfc-editor.org/info/rfc7919>.
