@@ -96,6 +96,6 @@ Steve to propose something short here.
 
 [^2]: Open Container Initiative, <https://opencontainers.org/>.
 
-[^3] Nieles, M., Dempsey, K., and V. Pilliteri, "An Introduction to Information Security", NIST 800-12 Rev.1, June 2017, <https://csrc.nist.rip/publications/detail/sp/800-12/rev-1/final>.
+[^3]: Nieles, M., Dempsey, K., and V. Pilliteri, "An Introduction to Information Security", NIST 800-12 Rev.1, June 2017, <https://csrc.nist.rip/publications/detail/sp/800-12/rev-1/final>.
 
 [^4] Gillmor, D., "Negotiated Finite Field Diffie-Hellman Ephemeral Parameters for Transport Layer Security (TLS)", RFC 7919, DOI 10.17487/RFC7919, August 2016, <https://www.rfc-editor.org/info/rfc7919>.
