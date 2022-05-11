@@ -88,9 +88,9 @@ Rep. Thaler opened the call at 7:04am PT. He welcomed the members of the TAC and
  * None
 
 ### TAC Tech Talks
- *  Mark Novak - CC Governance Framework
+ *  Mark Novak - [Confidential Computing Governance](Confidential%20Computing%20Governance.pdf)
  	*  Mark N, Thomas F, Naveen C, Steve VL, and Eric N expressed interest in collaborating on the governance topic, SIG formation possible
- *  Eric Voit, Penglin Yang - Networking Confidential Computing
+ *  Eric Voit, Penglin Yang - [Networking Confidential Computing](CCC-Networking-Tech-Talk-7Apr2022.pdf)
 
 
 ### Open Action Items
