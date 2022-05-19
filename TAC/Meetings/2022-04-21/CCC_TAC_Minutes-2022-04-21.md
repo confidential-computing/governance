@@ -77,7 +77,7 @@ Rep. Thaler opened the call at 7:05am PT. He welcomed the members of the TAC and
 
 #### Approved by voting members
 
-**Resolved:** That the minutes of the [April 07, 2022](../2022-04-07/TAC_Minutes-2022-04-07.pdf) meeting of the Technical Advisory Council meeting of the Confidential Computing Consortium as distributed to the members of the TAC in advance of this meeting are hereby adopted and approved.
+**Proposed:** That the minutes of the [April 07, 2022](../2022-04-07/TAC_Minutes-2022-04-07.pdf) meeting of the Technical Advisory Council meeting of the Confidential Computing Consortium as distributed to the members of the TAC in advance of this meeting are hereby adopted and approved.
 
  * Quorum was reached, however the minutes of April 7th meeting were not approved due to changes being needed.
 
