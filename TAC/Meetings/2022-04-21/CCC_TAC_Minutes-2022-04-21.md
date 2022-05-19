@@ -165,7 +165,7 @@ Rep. Thaler opened the call at 7:05am PT. He welcomed the members of the TAC and
  * EV reviewed the plan to take the current document and checkin to Github 
  * EV Trusted Codebase, is a official definition needed Trusted Computing Base (TCB)
  * DM noted that there may already be a definition for Trusted Computing Base
- * EV commented on clairification on TCB definition questions in the document
+ * EV commented on clarification on TCB definition questions in the document
  * EV marketing communications - comment on confidential VM
  * EV where does TDX fit, where should it appear, need clarification from Intel, clarified by DM, please add TDX
  * DT remindeed that TAC doesn't take a position on vendor products, maybe change the word "known" to "claimed", Ravi Sahita (RS) commented he could add RISC-V directions, EV to make changes
