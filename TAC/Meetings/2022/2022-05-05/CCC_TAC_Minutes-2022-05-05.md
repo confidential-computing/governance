@@ -74,7 +74,7 @@ Rep. Thaler opened the call at 7:05am PT. He welcomed the members of the TAC and
  * None
 
 ### TAC Tech Talks
- *  [IETF Trusted Execution Environment Provisioning (TEEP)] (TeepOverview%20v5.pptx)
+ *  [IETF Trusted Execution Environment Provisioning (TEEP)](TeepOverview%20v5.pptx)
  *  Presented by - Mingliang Pei (MP), Hannes Tschofenig (HT), Dave Thaler (DT)
 
 
