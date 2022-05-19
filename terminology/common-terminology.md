@@ -76,7 +76,8 @@ Various CCC projects will deliver code aimed at one or more of the packaging mod
 
 While the aforementioned terms help describe how a TEE may be packaged, this does not imply that a specific packaging will meet a meaningful set deployment requirements.  As a result, it is important to define a minimal set of functional prerequisites which a deployable instance of the package must incorporate.  Where these functional prerequisites are not met in deployment, the aforementioned terms themselves should not be used.
 
-Mutually Assured Secure Channel – Confidential information will go to and/or from a TEE.  To accomplish this in a way which inhibits man-in-the-middle attacks / hijacking, a technology which allows a Mutually Assured Secure Channel must be used in both provision time and runtime.  One viable technology for this function includes TLS with Negotiated Finite Field Diffie-Hellman (RFC 7919) [^4] key exchange.  
+Mutually Authenticated and Encrypted Channel – Confidential information will go to and/or from a TEE.  To accomplish this in a way which inhibits man-in-the-middle attacks / hijacking, a technology which allows a mutually authenticated and encrypted channel must be used in both provision time and runtime, such as Transport Layer Security (TLS) Protocol Version 1.3 (RFC 8446) [^4].
+
 
 Firmware Definitive Evidence Generation – Loading of a TEE is typically not straight from disk binary. For example, an Operating System may lay elements of code and data into memory.  This gives the operating system a chance to make changes.  As a result, any Evidence regarding the files loaded directly into a TEE must either be fingerprinted by the firmware in a way the OS cannot manipulate or decrypted by the TEE's application using keys not available to the OS.
 
