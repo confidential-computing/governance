@@ -88,7 +88,7 @@ Rep. Thaler opened the call at 7:05am PT. He welcomed the members of the TAC and
  *  [Code Scanning via LFX Security](LFX%20Security.pdf) - Shubhra Kar (Linux Foundation)
  *  Dan - would like to hear feedback from Enarx
  *  DT - project mentors to work with projects to get code scan running on github
- *  KT to add all projects to LFX Security 
+ *  Action item: KT to add all projects to LFX Security 
     *  https://security.lfx.linuxfoundation.org/
 
 
