@@ -112,7 +112,7 @@ Rep. Thaler opened the call at 7:05am PT. He welcomed the members of the TAC and
  
  ***ACTION*** mentors to reach out to the project for getting the maintainers involved
  
- * NV - Enarx has benefited form hiring a person, looking at hiring an intern, supports a LF person managing GitHub CI/CD
+ * NV - Enarx has benefited from hiring a person, looking at hiring an intern, supports an LF person managing GitHub CI/CD
 
 ### Outreach update
 
