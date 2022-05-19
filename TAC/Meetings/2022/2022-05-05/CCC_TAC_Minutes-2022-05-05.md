@@ -62,8 +62,6 @@ Rep. Thaler opened the call at 7:05am PT. He welcomed the members of the TAC and
 * Nick Vidal (Profian)
 * Simon Johnson (Intel)
 
-#### Also Participating  
- * None
 
 ### Meeting minute approvals
 #### Approved by voting members
