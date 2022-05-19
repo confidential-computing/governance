@@ -146,7 +146,7 @@ Rep. Thaler opened the call at 7:05am PT. He welcomed the members of the TAC and
 
 ### CCC Attestation SIG annual review
 
-*  Thomas Fossati (TF) presenting
+*  Thomas Fossati (TF) presenting [slides](ccc-attestation-sig-review-2021-2022.pdf)
 *  DT and TF proposed vote for approval for Greg Kostal to take over Chair of Attestation from Larry, leads Microsoft Azure Attestation service - Vote ran by JB
 
 	**Approved** Greg Kostal attestation chair without objections, DT abstains
