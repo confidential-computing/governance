@@ -168,7 +168,7 @@ Rep. Thaler opened the call at 7:05am PT. He welcomed the members of the TAC and
  * EV commented on clarification on TCB definition questions in the document
  * EV marketing communications - comment on confidential VM
  * EV where does TDX fit, where should it appear, need clarification from Intel, clarified by DM, please add TDX
- * DT remindeed that TAC doesn't take a position on vendor products, maybe change the word "known" to "claimed", Ravi Sahita (RS) commented he could add RISC-V directions, EV to make changes
+ * DT reminded that TAC doesn't take a position on vendor products, maybe change the word "known" to "claimed", Ravi Sahita (RS) commented he could add RISC-V directions, EV to make changes
  * DT noted that the definitions will never be complete, agreed on RISC-V additions as long as it is an easy add, else we can add it in a future revision
  * DT agreed on expanding the definition for TCB
  * DT asked KT about timeline for LF creative services to produce the whitepaper, preferred initial format for conversion
