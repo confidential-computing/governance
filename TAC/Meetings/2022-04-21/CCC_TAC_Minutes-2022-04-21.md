@@ -52,7 +52,8 @@ Rep. Thaler opened the call at 7:05am PT. He welcomed the members of the TAC and
 * Lily Sturman (Red Hat) P
 * Simon Johnson (Intel) P
 * Zhipeng (Howard) Huang (Huawei) P
-* Thomas Fossati (Arm) P
+* Thomas Fossati (Arm)
+* Dan Middleton (Intel)
 
 
 #### Attendees
