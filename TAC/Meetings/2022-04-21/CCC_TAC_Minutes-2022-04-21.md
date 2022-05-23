@@ -64,7 +64,7 @@ Rep. Thaler opened the call at 7:05am PT. He welcomed the members of the TAC and
 * Jethro Beekman (Fortanix)
 * Henk Birkholz (Fraunhofer-Gesellschaft)
 * Vijay Nayani (Huawei)
-* Xinxin Fan (IoTeX) P
+* Xinxin Fan (IoTeX)
 * Sampo Sovio (Huawei) P
 * Ravi Sahita (Rivos) P
 
