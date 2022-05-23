@@ -66,7 +66,7 @@ Rep. Thaler opened the call at 7:05am PT. He welcomed the members of the TAC and
 * Vijay Nayani (Huawei)
 * Xinxin Fan (IoTeX)
 * Sampo Sovio (Huawei)
-* Ravi Sahita (Rivos) P
+* Ravi Sahita (Rivos)
 
 
 #### Also Participating
