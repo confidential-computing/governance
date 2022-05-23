@@ -135,7 +135,7 @@ Rep. Thaler opened the call at 7:05am PT. He welcomed the members of the TAC and
  * DT proposed up to $1800 year, $1000 standard policy for each project to use, vote on each project actual cost on a case-per-case basis as long as it falls into this budget
  * Simon Johnson (SJ) asked for a more specific policy with guidelines for what the TAC would be looking for and what would be approved and what would not
  * DT said that he agreed with SJ and that consistency across the projects is a good thing, SJ said that some clarification on overall professional website design would be good
- * DT called for a vote - slide 11 Proposal
+ * DT called for a vote - slide 11 Proposal: The TAC is willing to fund web hosting to approved projects on request, up to $1800/yr on an ongoing basis, after a one-time up front cost of up to $1000.
 
  **Approved** - Policy for new budget approved for website
  
