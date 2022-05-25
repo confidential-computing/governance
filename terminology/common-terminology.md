@@ -100,3 +100,5 @@ Confidential Computing is a paradigm that is enabled by a fundamental architectu
 [^3]: Nieles, M., Dempsey, K., and V. Pilliteri, "An Introduction to Information Security", NIST 800-12 Rev.1, June 2017, <https://csrc.nist.rip/publications/detail/sp/800-12/rev-1/final>.
 
 [^4]: Rescorla, E., "The Transport Layer Security (TLS) Protocol Version 1.3", RFC 8446, DOI 10.17487/RFC8446, August 2018, <https://www.rfc-editor.org/info/rfc8446>.
+
+Copyright (c) contributors to the Confidential Computing Consortium. Licensed under CC-BY-4.0.
