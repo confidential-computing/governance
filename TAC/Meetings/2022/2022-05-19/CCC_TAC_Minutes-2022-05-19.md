@@ -81,7 +81,7 @@ Dave Thaler (DT) opened the call at 7:04am PT. He welcomed the members of the TA
  *  Logging, debugging and error management in Confidential Computing [slides](Logging%20and%20Confidential%20Computing%20.pdf)
  *  Presented by - Mike Bursell (MB)
  *  Lively discussion on architecture and definitions
- *  DT asked if the TAC should do a white paper or WG, MB - based on blog post, asked for initial blog improvement, Best Practices for next step was propose
+ *  DT asked if the TAC should do a white paper or WG, MB - based on blog post, asked for initial blog improvement, Best Practices for next step was proposed
 
 ### Open Action Items
 1. **[Stephen Walli, Dan Middleton, Aeva Black]** Develop a CoC escalation process, to be presented to TAC and governing board.
