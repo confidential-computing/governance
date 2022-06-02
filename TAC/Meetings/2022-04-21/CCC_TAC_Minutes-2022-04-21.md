@@ -67,9 +67,6 @@ Rep. Thaler opened the call at 7:05am PT. He welcomed the members of the TAC and
 * Xinxin Fan (IoTeX)
 * Sampo Sovio (Huawei)
 * Ravi Sahita (Rivos)
-
-
-#### Also Participating
 * Kurt Taylor (Linux Foundation)
 * Shubhra Kar (Linux Foundation)
 
