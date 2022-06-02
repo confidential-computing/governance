@@ -56,7 +56,7 @@ Rep. Thaler opened the call at 7:05am PT. He welcomed the members of the TAC and
 * Dan Middleton (Intel)
 
 
-#### Attendees
+#### Other Attendees
 
 * Eric Voit (Cisco)
 * Penglin Yang (China Mobile)
