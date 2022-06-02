@@ -171,7 +171,7 @@ Rep. Thaler opened the call at 7:05am PT. He welcomed the members of the TAC and
  * DT asked KT about timeline for LF creative services to produce the whitepaper, preferred initial format for conversion
  * EV, DT discussed where to push initial document for comments, agreed to push to CCC governance repo, maybe in a whitepaper or terminology directory
  * Steve Van Lare (SVL) comments on confidential shared responsibility relating to cloud infrastructure, making sure we have a common definition
- * DT suggested a change terminology as it is not specific to cloud computing
+ * DT suggested a change in terminology as it is not specific to cloud computing
  * SVL goal is to say this is an important topic, just not one to cover in this paper
  * DT proposed to stop using confidential compute and instead only use confidential computing
  * DT changed memory encryption definition instead using memory isolation, EV discussed RAM vs memory vs dynamic memory, change diagram to reflect the change to use memory isolation, Penglin Yang (PY) agreed
