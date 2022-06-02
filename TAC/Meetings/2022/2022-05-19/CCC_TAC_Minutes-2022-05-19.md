@@ -78,7 +78,7 @@ Dave Thaler (DT) opened the call at 7:04am PT. He welcomed the members of the TA
  * [April 21, 2022](../2022-04-21/TAC_Minutes-2022-04-21.pdf)
 
 ### TAC Tech Talks
- *  Logging, debugging and error management in Confidential Computing
+ *  Logging, debugging and error management in Confidential Computing [slides](Logging%20and%20Confidential%20Computing%20.pdf)
  *  Presented by - Mike Bursell (MB)
  *  Lively discussion on architecture and definitions
  *  DT asked if the TAC should do a white paper or WG, MB - based on blog post, asked for initial blog improvement, Best Practices for next step was propose
