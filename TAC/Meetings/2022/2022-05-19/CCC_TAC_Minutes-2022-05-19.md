@@ -53,7 +53,7 @@ Dave Thaler (DT) opened the call at 7:04am PT. He welcomed the members of the TA
 * Lily Sturmann (Red Hat)
 * Tate Tian (Ant Group)
 
-#### Attendees
+#### Other Attendees
 * Eric Voit (Cisco)
 * Mike Bursell (Profian)
 * Steve Van Lare (Anjuna)
