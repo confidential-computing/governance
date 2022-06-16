@@ -79,7 +79,7 @@ Dave Thaler (DT) opened the call at 7:04am PT. He welcomed the members of the TA
  * [May 19, 2022](../2022-05-19/TAC_Minutes-2022-05-19.pdf)
 
 ### TAC Tech Talks
- *  Multi-TEE Systems: PCI-SIG WG Update
+ *  Multi-TEE Systems: [PCI-SIG WG Update](https://github.com/confidential-computing/governance/blob/main/TAC/Meetings/2022/2022-06-02/Towards%20Attesting%20Multi-TEE%20Devices.pptx)
  *  Presented by - Mark Novak (MN)
  *  DT added references
   *  [RATS definition for composite devices](https://datatracker.ietf.org/doc/html/draft-ietf-rats-architecture#section-3.3)
