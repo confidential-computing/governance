@@ -97,7 +97,7 @@ Dave Thaler (DT) opened the call at 7:04am PT. He welcomed the members of the TA
 5. [Kurt] to help Dave find discussion on governance subgroup of people in order to get an update on what they have completed (Done)
 6. [Mark N, Thomas F, Naveen C, Steve VL, Eric N] governance subgroup - collaborating on the governance topic, SIG formation and status update requested
 7. [Kurt] to have LFCS proceed with draft conversion and formatting of white paper PDF (Done)
-8. [Mentors] Code scanning via LFX Security - add projects to security for scanning with GitHub bot (Set up the bot by following these [instructions](https://community.lfx.dev/t/how-to-install-and-configure-bots-to-secure-your-projects/181)
+8. [Mentors] Code scanning via LFX Security - add projects to security for scanning with GitHub bot (Set up the bot by following these [instructions](https://community.lfx.dev/t/how-to-install-and-configure-bots-to-secure-your-projects/181))
 
 ***ACTION*** KT to email TAC for projects to determine if they would like to enable scanning
 
