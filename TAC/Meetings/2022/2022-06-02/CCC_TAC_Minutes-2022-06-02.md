@@ -155,6 +155,6 @@ Dave Thaler (DT) opened the call at 7:04am PT. He welcomed the members of the TA
 
 * KT asked about any upcoming face to face meeting, NV said next was Blackhat 
 * DT asked if others were attending IETF in Philadelphia 23 - 24, July 2022 (Saturday - Sunday)
-  * DT noted there may be an opportunity to meetup at [IETF Hackathon](https://www.ietf.org/how/runningcode/hackathons/114-hackathon/)
+  * DT noted there may be an opportunity to meet up at [IETF Hackathon](https://www.ietf.org/how/runningcode/hackathons/114-hackathon/)
 
 (DT) closed the call at 9:01am PT.
