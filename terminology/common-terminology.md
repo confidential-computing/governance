@@ -29,7 +29,7 @@ This document defines the following terms:
 ## Isolation Methodologies
 
 The aforementioned packaging terms will be delivered by software running in concert with a TEE's hardware and firmware.  This combination will deliver a blend of data confidentiality, data integrity, and/or code integrity protections. 
-Data confidentiality is delivered in runtime by isolating a specific TEE context within the CPU, and potentially within the RAM.  There are multiple methodologies for delivering data-in-use protection. Three examples of technologies which limit the CPU’s addressability/reachability of TEE data include:
+Data confidentiality is delivered in runtime by isolating a specific TEE context within the processor (whether a CPU or other processing unit such as a GPU), and potentially within the RAM.  There are multiple methodologies for delivering data-in-use protection. Three examples of technologies which limit the CPU’s addressability/reachability of TEE data include:
 
 * Access Control Validation: access to areas of memory is limited to certain processes/contexts.
 
@@ -38,7 +38,7 @@ Data confidentiality is delivered in runtime by isolating a specific TEE context
 * Paging control: non-TEE processes are not active within the CPU concurrently with TEE data.
 
 Of course the CPU is not the only place where TEE data might be visible. Such data is commonly stored in RAM as well.  And when in RAM, side channel attacks might be attempted on the TEE data. Protecting the RAM from such attacks can be accomplished in ways such as the encryption of the TEE data within the RAM.  
-CPU vendors will typically bundle multiple isolation methodologies to protect their implementations. It is upon these bundles that software providing Confidential Computing capabilities is then layered.  
+Processor vendors will typically bundle multiple isolation methodologies to protect their implementations. It is upon these bundles that software providing Confidential Computing capabilities is then layered.  
 
 ![Alt text](Technology-Types.jpg "Technology Types")
 
@@ -61,6 +61,8 @@ Such a categorization of packaging can prove useful to end users of Confidential
 * Understand how packaged APIs exposed from a TEE may be interfaced to other software.  This includes the ability for a TEE to load additional code/data over a secure channel once confidentiality has been established.
 
 * Allow comparisons of packaged software alternatives, each of which may be based on different isolation methodologies.
+
+* Enable extensibility so that emerging processor technologies can assert packaging models they support (e.g., RISC-V based). 
 
 Various CCC projects will deliver code aimed at one or more of the packaging models described here. Examples of this may include:
 
