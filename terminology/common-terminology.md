@@ -81,7 +81,7 @@ Mutually Authenticated and Encrypted Channel – Confidential information will g
 
 Firmware Definitive Evidence Generation – Loading of a TEE is typically not straight from disk binary. For example, an Operating System may lay elements of code and data into memory.  This gives the operating system a chance to make changes.  As a result, any Evidence regarding the files loaded directly into a TEE must either be fingerprinted by the firmware in a way the OS cannot manipulate or decrypted by the TEE's application using keys not available to the OS.
 
-Fresh, Attested Evidence – Evidence delivered to a Relying Party must be cryptographically provable to be no older than some known event.  This is to protect against Replay Attacks. 
+Attestation – Attestation messages must also be cryptographically provable to be no older than some known event, so they can be believed to still reflect measured state over some time period or set of operations.
 
 Certificate Hygiene  – External signatures when evaluated must ensure the full certificate chain validates cleanly within a described timeframe.
 
