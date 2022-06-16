@@ -62,7 +62,7 @@ Such a categorization of packaging can prove useful to end users of Confidential
 
 * Allow comparisons of packaged software alternatives, each of which may be based on different isolation methodologies.
 
-* Enable extensibility so that emerging chip technologies can assert packaging models they support (e.g., RISC-V based). 
+* Enable extensibility so that emerging processor technologies can assert packaging models they support (e.g., RISC-V based). 
 
 Various CCC projects will deliver code aimed at one or more of the packaging models described here. Examples of this may include:
 
