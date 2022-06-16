@@ -38,7 +38,7 @@ Data confidentiality is delivered in runtime by isolating a specific TEE context
 * Paging control: non-TEE processes are not active within the CPU concurrently with TEE data.
 
 Of course the CPU is not the only place where TEE data might be visible. Such data is commonly stored in RAM as well.  And when in RAM, side channel attacks might be attempted on the TEE data. Protecting the RAM from such attacks can be accomplished in ways such as the encryption of the TEE data within the RAM.  
-Chip vendors will typically bundle multiple isolation methodologies to protect their implementations. It is upon these bundles that software providing Confidential Computing capabilities is then layered.  
+Processor vendors will typically bundle multiple isolation methodologies to protect their implementations. It is upon these bundles that software providing Confidential Computing capabilities is then layered.  
 
 ![Alt text](Technology-Types.jpg "Technology Types")
 
