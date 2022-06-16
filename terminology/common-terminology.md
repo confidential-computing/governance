@@ -29,7 +29,7 @@ This document defines the following terms:
 ## Isolation Methodologies
 
 The aforementioned packaging terms will be delivered by software running in concert with a TEE's hardware and firmware.  This combination will deliver a blend of data confidentiality, data integrity, and/or code integrity protections. 
-Data confidentiality is delivered in runtime by isolating a specific TEE context within the CPU (or other processing unit such as a GPU), and potentially within the RAM.  There are multiple methodologies for delivering data-in-use protection. Three examples of technologies which limit the CPU’s addressability/reachability of TEE data include:
+Data confidentiality is delivered in runtime by isolating a specific TEE context within the processor (whether a CPU or other processing unit such as a GPU), and potentially within the RAM.  There are multiple methodologies for delivering data-in-use protection. Three examples of technologies which limit the CPU’s addressability/reachability of TEE data include:
 
 * Access Control Validation: access to areas of memory is limited to certain processes/contexts.
 
