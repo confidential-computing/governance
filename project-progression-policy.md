@@ -20,6 +20,16 @@ Some ways a project can benefit by becoming a Consortium-recognized project incl
 4. Project Support: The Consortium can provide limited funds to support project communication and infrastructure costs for CI/CD.
 5. Outreach: Part of the Consortium's mission is to promote the use of confidential computing with various communities and hence its recognized projects, to deliver that outcome.
 6. Internships: The [TAC has committed](https://lists.confidentialcomputing.io/g/main/files/TAC/Meetings/2021/09-Sept/TAC%20Minutes%202021-09-09.pdf) to fund one intern per CCC project that commits to the list of "Mentor Responsibilities" on the [Outreachy mentor page](https://www.outreachy.org/mentor/).
+7. Stipend: Upto $7500 in budget for hardware and software per year.
+8. Funding: Provided with a funding for one Outreachy Intern.
+9. Mentorship: TAC(Technical Advisory Committee) mentor will be assigned to the project to guide through the edgecases.
+10. Collaboration: Interns are provided with [Collaboration tools](mailto:operations@confidentialcomputing.io).
+Meetings will also take place through "Zoom" for further discussion within mentees and mentors.
+11. Domain: Registration and renewals are granted.
+12. Mailing lists: For further networking.
+13. YouTube Playlist: For reference and learning.
+14. Security Scanning: Optional.
+15. LFX tools: The most important thing are the [tools](https://lfx.linuxfoundation.org/).
 
 ## II. Project Proposal Process
 
