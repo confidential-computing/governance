@@ -25,7 +25,7 @@ Some ways a project can benefit by becoming a Consortium-recognized project incl
 9. Mentorship: The Technical Advisory Council will assign a [mentor](project-mentors.md) to the project.
 10. Collaboration: Interns are provided with [Collaboration tools](mailto:operations@confidentialcomputing.io).
 Meetings will also take place through "Zoom" for further discussion within mentees and mentors.
-11. Domain: Registration and renewals are granted.
+11. Domain name: A domain name registration and renewals can be granted.
 12. Mailing lists: For further networking.
 13. YouTube Playlist: For reference and learning.
 14. Security Scanning: Optional.
