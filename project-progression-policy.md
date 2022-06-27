@@ -24,7 +24,7 @@ Some ways a project can benefit by becoming a Consortium-recognized project incl
 8. Video conferencing support: A zoom account for community meetings.
 9. Domain name: A domain name registration and renewals can be granted.
 10. Mailing lists: For asynchronous community discussions.
-11. YouTube Playlist: For reference and learning.
+11. YouTube Playlist: For publishing community meetings, demos, and other project content.
 12. Security Scanning: Optional.
 13. LFX tools: Access to Linux Foundation tools to improve many aspects of a project from security to community health [tools](https://lfx.linuxfoundation.org/).
 
