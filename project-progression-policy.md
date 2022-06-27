@@ -29,6 +29,8 @@ Meetings will also take place through "Zoom" for further discussion within mente
 12. Security Scanning: Optional.
 13. LFX tools: Access to Linux Foundation tools to improve many aspects of a project from security to community health [tools](https://lfx.linuxfoundation.org/).
 
+Approved projects can [contact operations](mailto:operations@confidentialcomputing.io) for access to these benefits.
+
 ## II. Project Proposal Process
 
 ### Introduction
