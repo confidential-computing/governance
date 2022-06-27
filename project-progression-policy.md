@@ -29,7 +29,7 @@ Meetings will also take place through "Zoom" for further discussion within mente
 12. Mailing lists: For further networking.
 13. YouTube Playlist: For reference and learning.
 14. Security Scanning: Optional.
-15. LFX tools: The most important thing are the [tools](https://lfx.linuxfoundation.org/).
+15. LFX tools: Access to Linux Foundation tools to improve many aspects of a project from security to community health [tools](https://lfx.linuxfoundation.org/).
 
 ## II. Project Proposal Process
 
