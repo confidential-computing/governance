@@ -22,7 +22,6 @@ Some ways a project can benefit by becoming a Consortium-recognized project incl
 6. Internships: The [TAC has committed](https://lists.confidentialcomputing.io/g/main/files/TAC/Meetings/2021/09-Sept/TAC%20Minutes%202021-09-09.pdf) to fund one intern per CCC project that commits to the list of "Mentor Responsibilities" on the [Outreachy mentor page](https://www.outreachy.org/mentor/).
 7. Test infrastructure: Up to $7500 in budget for hardware and software per year.
 8. Video conferencing support: A zoom account for community meetings.
-Meetings will also take place through "Zoom" for further discussion within mentees and mentors.
 9. Domain name: A domain name registration and renewals can be granted.
 10. Mailing lists: For further networking.
 11. YouTube Playlist: For reference and learning.
