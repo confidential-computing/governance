@@ -21,15 +21,13 @@ Some ways a project can benefit by becoming a Consortium-recognized project incl
 5. Outreach: Part of the Consortium's mission is to promote the use of confidential computing with various communities and hence its recognized projects, to deliver that outcome.
 6. Internships: The [TAC has committed](https://lists.confidentialcomputing.io/g/main/files/TAC/Meetings/2021/09-Sept/TAC%20Minutes%202021-09-09.pdf) to fund one intern per CCC project that commits to the list of "Mentor Responsibilities" on the [Outreachy mentor page](https://www.outreachy.org/mentor/).
 7. Test infrastructure: Up to $7500 in budget for hardware and software per year.
-8. Intern: Up to one [Outreachy](https://www.outreachy.org) Intern per year.
-9. Mentorship: The Technical Advisory Council will assign a [mentor](project-mentors.md) to the project.
-10. Collaboration: Interns are provided with [Collaboration tools](mailto:operations@confidentialcomputing.io).
+8. Collaboration: Interns are provided with [Collaboration tools](mailto:operations@confidentialcomputing.io).
 Meetings will also take place through "Zoom" for further discussion within mentees and mentors.
-11. Domain name: A domain name registration and renewals can be granted.
-12. Mailing lists: For further networking.
-13. YouTube Playlist: For reference and learning.
-14. Security Scanning: Optional.
-15. LFX tools: Access to Linux Foundation tools to improve many aspects of a project from security to community health [tools](https://lfx.linuxfoundation.org/).
+9. Domain name: A domain name registration and renewals can be granted.
+10. Mailing lists: For further networking.
+11. YouTube Playlist: For reference and learning.
+12. Security Scanning: Optional.
+13. LFX tools: Access to Linux Foundation tools to improve many aspects of a project from security to community health [tools](https://lfx.linuxfoundation.org/).
 
 ## II. Project Proposal Process
 
