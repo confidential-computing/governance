@@ -71,14 +71,6 @@ Eric Voit (EV) brought up that Gramine had asked LF Creative Services to redo th
 * Ionut Mihalcea (Arm)
 * Kurt Taylor (Linux Foundation)
 
-#### Not attending 
-* Nagaraju (Intel)
-* Megan Collier (Investment Group)
-* Nick Vidal (Profian)
-* Shalom Shefa (Cisco)
-* Thomas Hardjono (MIT)
-* Hannes Tschofenig (Arm)
-* Helen Lau (Linux Foundation)
 
 ### Meeting minute approvals
 #### Approved by voting members
