@@ -103,7 +103,7 @@ DT reviewed the agenda and asked for any additions, the order was rearranged.
 	**ACTION**: HL initiate Governing Board vote on OSTP doc after MV comes back with edits (Done)
 
 ### TAC Tech Talks - The Enclave Device Blueprint: The confidential computing infrastructure for the edge
-* Paul Howard and Eustace Asanghanwa presenting
+* Paul Howard and Eustace Asanghanwa presenting [slides](ccc_tac_blueprint_presentation_june2022.pdf)
 * DT had to leave early, transferred to Dan Middleton (DM)
 
 ### TEEP Use case for Confidential Computing in Network
