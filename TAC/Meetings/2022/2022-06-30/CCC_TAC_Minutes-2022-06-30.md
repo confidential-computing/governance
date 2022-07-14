@@ -71,7 +71,6 @@ DT reviewed the agenda and asked for any additions, the order was rearranged.
 * Sander Speek (Scalys)
 * Simon Frost (Microsoft)
 * Steve Van Lare (Anjuna)
-* Thomas Fossati (Arm)
 * Xinxin Fan (Iotex)
 * Helen Lau (Linux Foundation)
 
