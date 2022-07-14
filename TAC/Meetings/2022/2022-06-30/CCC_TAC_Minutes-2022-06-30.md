@@ -51,7 +51,6 @@ DT reviewed the agenda and asked for any additions, the order was rearranged.
 
 #### Other Attendees
 * Alec Fernandez (Microsoft)
-* Dan Middleton (Intel)
 * Dmitry Lavnikevich (Scalys)
 * Evert Pap (Scalys)
 * Eustace Asanghanwa (Microsoft)
