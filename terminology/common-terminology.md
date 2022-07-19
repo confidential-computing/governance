@@ -1,4 +1,4 @@
-# Common Terminology for Confidential Computing
+# DRAFT Common Terminology for Confidential Computing
 
 ## Introduction
 
