@@ -64,7 +64,7 @@
 * Mona Vij (Intel)
 * Penglin Yang (China Mobile)
 * Shalom Shefa (Cisco)
-* Simon Frost (Microsoft)
+* Simon Frost (Arm)
 * Xinxin Fan (Iotex)
 * Helen Lau (Linux Foundation)
 
