@@ -68,6 +68,7 @@
 * Xinxin Fan (Iotex)
 * Helen Lau (Linux Foundation)
 
+The TAC would like to announce 2 new representatives from Google, welcome Cfir Cohen and Catalin Sandu!
 
 ### Meeting minute approvals
 **Proposed:** That the minutes of the [July 14, 2022](../2022-07-14/TAC_Minutes-2022-07-14.md) meeting of the Technical Advisory Council of the Confidential Computing Consortium as distributed to the members of the TAC in advance of this meeting are hereby adopted and approved.
