@@ -140,7 +140,7 @@
 * DT reviewed history
 
 ###Testing Hardware 
-* Enarx seeking to increase the project test budget to 10K for hardware, vote over email - quorum was not reached, didn’t vote
+* Enarx seeking to increase the project test budget to $10K for hardware, vote over email - quorum was not reached, didn’t vote
 * Each project can use $7500 as approved in the budget
 
 ### Common Test Infrastructure
