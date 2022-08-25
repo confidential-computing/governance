@@ -96,7 +96,7 @@ freshness, certificate hygiene, and complete TCB measurement. A full description
 practices is outside the scope of this document. Interested readers are encouraged to read the [IETF
 RATS Working Group]( https://datatracker.ietf.org/group/rats/about/) body of work, especially the
 [RATS Architecture](https://datatracker.ietf.org/doc/draft-ietf-rats-architecture/). The
-Confidential Compute Consortium also runs an [Attestation Special Interest
+Confidential Computing Consortium also runs an [Attestation Special Interest
 Group](https://github.com/CCC-Attestation) which is open to public participation and provides a
 wealth of [recorded and written content](https://github.com/CCC-Attestation/meetings).
 
