@@ -74,20 +74,32 @@ Various CCC projects will deliver code aimed at one or more of the packaging mod
 
 * Gramine could be utilized in the role of the “TEE Shim” across any package on SGX.
  
-## Package Deployability Prerequisites
+## Attestation
 
-While the aforementioned terms help describe how a TEE may be packaged, this does not imply that a specific packaging will meet a meaningful set deployment requirements.  As a result, it is important to define a minimal set of functional prerequisites which a deployable instance of the package must incorporate.  Where these functional prerequisites are not met in deployment, the aforementioned terms themselves should not be used.
+However a workload is packaged, the resulting deployment should support interaction in a way that
+proves it is running in a TEE.
 
-Mutually Authenticated and Encrypted Channel – Confidential information will go to and/or from a TEE.  To accomplish this in a way which inhibits man-in-the-middle attacks / hijacking, a technology which allows a mutually authenticated and encrypted channel must be used in both provision time and runtime, such as Transport Layer Security (TLS) Protocol Version 1.3 (RFC 8446) [^4].
+While in traditional computing, there’s often a desire to authenticate a server, in Confidential
+Computing the goal is to authenticate the TEE, and attestation is the means to do that.
+In Confidential Computing an attestation is a hardware signed report of the measurements of the TCB.
+The measurements provided in the attestation relate to the TCB boundaries
+depicted in the diagram above. An attestation for process isolation then authenticates an
+application whereas an attestation for VM isolation conceptually authenticates a VM or the virtual
+firmware used to launch the VM.
 
+Attestation may be used to support stateless communication, e.g., this datagram or computational
+result was produced by a specific TEE; or stateful communication, e.g., this TLS channel is
+terminated within a specific TEE. The packaging provider may include an attested protocol like
+[RA-TLS](https://arxiv.org/pdf/1801.05863.pdf), or provide API access to granular attestation APIs
+in the TEE stack. The protocol or API methods must support best practices for attestation including
+freshness, certificate hygiene, and complete TCB measurement. A full description of attestation best
+practices is outside the scope of this document. Interested readers are encouraged to read the [IETF
+RATS Working Group]( https://datatracker.ietf.org/group/rats/about/) body of work, especially the
+[RATS Architecture](https://datatracker.ietf.org/doc/draft-ietf-rats-architecture/). The
+Confidential Computing Consortium also runs an [Attestation Special Interest
+Group](https://github.com/CCC-Attestation) which is open to public participation and provides a
+wealth of [recorded and written content](https://github.com/CCC-Attestation/meetings).
 
-Firmware Definitive Evidence Generation – Loading of a TEE is typically not straight from disk binary. For example, an Operating System may lay elements of code and data into memory.  This gives the operating system a chance to make changes.  As a result, any Evidence regarding the files loaded directly into a TEE must either be fingerprinted by the firmware in a way the OS cannot manipulate or decrypted by the TEE's application using keys not available to the OS.
-
-Attestation – Attestation messages must also be cryptographically provable to be no older than some known event, so they can be believed to still reflect measured state over some time period or set of operations.
-
-Certificate Hygiene  – External signatures when evaluated must ensure the full certificate chain validates cleanly within a described timeframe.
-
-CC Resource Management  – Interfaces so that management center administrators can create, halt, delete and migrate TEE instances.
 
 ## Conclusion/Summary
 
