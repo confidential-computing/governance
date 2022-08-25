@@ -128,7 +128,7 @@
 * The table doesn’t match the definitions Open question: what would marketing people use other than Confidential VM?
 * Alec Fernandez and Ananya Garg are collaborating and will provide suggestions soon
 * A question was raised about whether or not a consensus will be reached with the terminology
-* DT said Microsoft is close to reaching a term definition, but would like to hear from more organizations
+* DT said Microsoft Azure is close to reaching a marketing term definition, but would like to hear from more organizations
 * Mona Vij (MV) doesn’t agree with the definition of confidential container in the packaging model, This is still up for discussion
 * DT reviewed why the document needs to stay focused on maintaining the CCC brand, Discussion ensued
 * DT reviewed open issues, asked for volunteers
