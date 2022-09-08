@@ -28,7 +28,7 @@
 
 ### Welcome
 * Dave Thaler (DT) opened the call at 7:04am PT
-* DT Welcomed the members of the TAC and reviewed the values of the CCC and the antitrust policy of the Linux Foundation 
+* DT welcomed the members of the TAC and reviewed the values of the CCC and the antitrust policy of the Linux Foundation 
 * Kurt Taylor (KT) captured the meeting minutes
 * DT reviewed the agenda and asked for any additions
 
