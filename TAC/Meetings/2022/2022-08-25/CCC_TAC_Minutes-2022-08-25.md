@@ -88,7 +88,7 @@
 * Eric Northrup (EN) shared latest version of the document
 * Alec Fernandez (AF) noted that the workgroup had signed off on the latest document being reviewed
 * There were questions on the definition of evidence, review of meeting notes, discussion ensued
-* DT asked for a vote, DT conducted a role call vote 
+* DT asked for a vote, DT conducted a roll call vote 
 * ***APPROVED***: Governance SIG approved, Mark Novak appointed as Chair
 
 ### Common Terminology whitepaper for LF CS
