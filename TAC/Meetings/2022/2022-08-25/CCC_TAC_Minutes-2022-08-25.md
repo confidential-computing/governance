@@ -69,7 +69,7 @@
 ### Open Action Items
 1. [Stephen] Recommend diversity and inclusion training to their projects and report back to the TAC on whether the maintainers or the contributors will be taking it and when the expected completion date is.
 (Please report back that Keystone has been made aware of the training, and have been asked to take it.) 
-	* LS appointed to be Co-mentor for Keystone
+	* LS appointed to be co-mentor for Keystone
 	* ***ACTION*** - KT to get the maintainer's email address for LS
 2. [Mentors] Mentors to reach out to the project for getting the maintainers interest for involvement in Common Test Infrastructure
 1. [KT] to set up a meeting to define scope and technical requirements with LF IT, Dave T, Dan M, Alec F, Nick V (LF IT ready, just need a time per email)
