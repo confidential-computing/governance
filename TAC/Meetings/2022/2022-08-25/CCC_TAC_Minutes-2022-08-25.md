@@ -80,7 +80,7 @@
 2. [Dan] Resolve scheduling for next Tac Tech Talk, maybe shift to Sept 8th
 
 ### Completed Action Items
-1. [Helen] initiate email to board to vote on OSTP doc after MV comes back with edits (Done)
+1. [Helen] Initiate email to board to vote on OSTP doc after MV comes back with edits (Done)
 
 ### Governance SIG Proposal
 * Mark Novak (MN) was not available, DT reviewed the proposal for a vote, allowing everyone attending to read and comment
