@@ -108,7 +108,7 @@
 * New Website - Ben Fischer (not attending)
 * Nick Vidal (NV) discussed a new webinar, new blog post on Black Hat conference
 * Mike Bursell (MB) discussed the Wikipedia CCC page, volunteered to participate in the effort
-   * NV will ask the Outreach committee vor a volunteer
+   * NV will ask the Outreach committee for a volunteer
 * NV discussed the new website mockup
    * Dan Middleton (DM) asked for help with the copy needed for the website, noted in the website review notes document
    * DT reviewed project descriptions and asked for SIGs to be added
