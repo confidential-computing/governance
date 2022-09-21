@@ -118,7 +118,7 @@
 ### Common Terminology whitepaper working session
 * DT and Alec Fernandez discussed work on the terminology table
 * Discussion ensued
-* MB and Steve Van Lore volunteered to work on terminology
+* MB and Steve Van Lare volunteered to work on terminology
 
 ### Any Other Business
 * DT mentioned that there will be 2 Tech Talks at the next meeting, September 22nd
