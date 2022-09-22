@@ -17,13 +17,13 @@ In cloud computing, for example, protecting data in use becomes a fundamental re
 
 This document defines the following terms:
 
-1. confidential library: a library (e.g., an “enclave”) that is executed inside a hardware-based TEE and may be used by an application outside the TEE.
+1. confidential library: a library (e.g., an “enclave”) that is executed inside a hardware-based TEE, such that it is protected from other such libraries and any hosting environment in the TEE, and may be used by an application outside the TEE.
 
-2. confidential process: a process (e.g., a “Trusted Application”) that is executed inside a hardware-based TEE. 
+2. confidential process: a process (e.g., a “Trusted Application”) that is executed inside a hardware-based TEE, such that it is protected from other confidential processes and any hosting environment in the TEE.
 
-3. confidential container: an Open Container Initiative (OCI)-compliant [^2] container that is executed inside a hardware-based TEE. 
+3. confidential container: an Open Container Initiative (OCI)-compliant [^2] container that is executed inside a hardware-based TEE, such that it is protected from other confidential containers and any hosting environment in the TEE.
 
-4. confidential VM: a virtual machine that is executed inside a hardware-based TEE, whereby code and data within the entire VM image is protected from the hypervisor and the host operating system.
+4. confidential VM: a virtual machine that is executed inside a hardware-based TEE, whereby code and data within the entire VM image is protected from the hypervisor and the host operating system, as well as from other confidential VMs and any hosting environment in the TEE.
 
 
 ## Isolation Methodologies
