@@ -48,7 +48,7 @@
    * Meta - Eric Northup + / Shankaran Gnanashanmugam
    * Microsoft - Dave Thaler (TAC chair) +
    * Red Hat - Lily Sturmann +  / Dimitrios Pendarakis
-" * " indicates attending
+" + " indicates attending
 
 ***Other Attendees***
 
