@@ -44,7 +44,9 @@ and a vote by the Governing Board.
 #### Technical Review
 
 Projects are required to present their proposal at a TAC meeting.
-This proposal should cover all the items in the [Project Submission Template](https://github.com/confidential-computing/governance/blob/master/project-submission-template.md). The project should also complete the [LF Project Formation Intake Form](https://docs.google.com/forms/d/e/1FAIpQLSeO1bDGHUP-ZpCo1uynm94YOxZlek6RhCH7o3FnX1lZSXXfSQ/viewform), which will create the draft Technical Charter template, as well as other documents needed for approval. The project representative will receive a link to these drafts with a checklist of items to complete.
+This proposal should cover all the items in the [Project Submission Template](https://github.com/confidential-computing/governance/blob/master/project-submission-template.md).
+The project should also complete the [LF Project Formation Intake Form](https://docs.google.com/forms/d/e/1FAIpQLSeO1bDGHUP-ZpCo1uynm94YOxZlek6RhCH7o3FnX1lZSXXfSQ/viewform), which will create the draft Technical Charter template, as well as other documents needed for approval.
+The project representative will receive a link to these drafts with a checklist of items to complete.
 
 
 The TAC may ask for changes to bring the project into better alignment with
