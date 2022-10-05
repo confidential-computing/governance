@@ -6,7 +6,7 @@ As more companies and open source projects begin to use similar terms to describ
 
 The Confidential Computing Consortium has defined [^1] confidential computing as “the protection of data in use by performing computation in a hardware-based Trusted Execution Environment”, and identified three primary attributes for what constitutes a Trusted Execution Environment: data integrity, data confidentiality, and code integrity. As described in Confidential Computing: Hardware-Based Trusted Execution for Applications and Data, four additional attributes may be present (code confidentiality, programmability, recoverability, and attestability) but are not strictly necessary for a computational environment to be classified as confidential computing. 
 
-This paper defines  additional applications of the term confidential as a descriptive prefix, such as “confidential container”, “confidential virtual machine”, etc. Such terms have already begun to appear in marketing materials and commercial products, and in related open source projects. 
+This paper defines  additional applications of the term confidential as a descriptive prefix, such as “confidential virtual machine”. Such terms have already begun to appear in marketing materials and commercial products, and in related open source projects. 
 
 This paper focuses on confidential computing and the associated “confidential xxx” terms to provide a common vocabulary when describing the impact of adding confidential compute to a computer's architecture.   The goal is to sufficiently describe the different potential architectural changes introduced by isolating compute workloads so that the implications of securing complete applications and their data can be properly evaluated.   Memory isolation is one of the new elements introduced by confidential computing.  And being able to protect a running application changes significantly how to approach computer security.   Cyber-attacks often start with a compromise of memory contents (extracting data or modifying memory state to enable execution). Therefore the ability to have effective memory isolation has long been recognized as the best potential mitigation.   But protection of data in use is only one part of an application's security.  An aggregate solution of leveraging confidential computing with the at-rest and in-motion protection is required to fully protect sensitive workloads and their data wherever it goes.
 
@@ -21,9 +21,9 @@ This document defines the following terms:
 
 2. confidential process: a process (e.g., a “Trusted Application”) that is executed inside a hardware-based TEE, such that it is protected from other confidential processes and any hosting environment in the TEE.
 
-3. confidential container: an Open Container Initiative (OCI)-compliant [^2] container that is executed inside a hardware-based TEE, such that it is protected from other confidential containers and any hosting environment in the TEE.
+3. confidential VM: a virtual machine that is executed inside a hardware-based TEE, whereby code and data within the entire VM image is protected from the hypervisor and the host operating system, as well as from other confidential VMs and any hosting environment in the TEE.
 
-4. confidential VM: a virtual machine that is executed inside a hardware-based TEE, whereby code and data within the entire VM image is protected from the hypervisor and the host operating system, as well as from other confidential VMs and any hosting environment in the TEE.
+Note that we do not use the term "confidential container" since there is at present no way in current architectures to protect an Open Container Initiative (OCI)-compliant [^2] container from its hosting environment.
 
 
 ## Isolation Methodologies
@@ -112,7 +112,5 @@ Confidential Computing is a paradigm that is enabled by a fundamental architectu
 [^2]: Open Container Initiative, <https://opencontainers.org/>.
 
 [^3]: Nieles, M., Dempsey, K., and V. Pilliteri, "An Introduction to Information Security", NIST 800-12 Rev.1, June 2017, <https://csrc.nist.rip/publications/detail/sp/800-12/rev-1/final>.
-
-[^4]: Rescorla, E., "The Transport Layer Security (TLS) Protocol Version 1.3", RFC 8446, DOI 10.17487/RFC8446, August 2018, <https://www.rfc-editor.org/info/rfc8446>.
 
 Copyright (c) contributors to the Confidential Computing Consortium. Licensed under CC-BY-4.0.
