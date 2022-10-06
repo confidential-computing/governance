@@ -205,7 +205,7 @@ The following wording obtained rough consensus:
 
 This proposal puts the focus on hardware-based, attested TEEs, while providing
 some leeway with the use of "promote" to allow for non-hardware based
-projects that demonstrably promote the use of hardware-attested TEEs.
+projects that demonstrably promote the use of hardware-based, attested TEEs.
 
 Similarly, the TAC iterated on several proposals for wording around
 the definition of the term "confidential computing".  The following
