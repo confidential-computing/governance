@@ -21,7 +21,10 @@ This document defines the following terms:
 
 2. confidential process: a process (e.g., a “Trusted Application”) that is executed inside a hardware-based, attested TEE, such that it is protected from other confidential processes and any hosting environment in the TEE.
 
-3. confidential container: an Open Container Initiative (OCI)-compliant [^2] container that is executed inside a hardware-based, attested TEE, such that it is protected from other confidential containers and any hosting environment in the TEE.
+3. confidential container: the entrypoint process of an Open Container Initiative (OCI)-compliant [^2]
+container image launched by an OCI container runtime such that the process is executed inside a
+hardware-based TEE, and it is protected from other confidential containers and any hosting
+environment in the TEE.
 
 4. confidential VM: a virtual machine that is executed inside a hardware-based, attested TEE, whereby code and data within the entire VM image is protected from the hypervisor and the host operating system, as well as from other confidential VMs and any hosting environment in the TEE.
 
