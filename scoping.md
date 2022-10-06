@@ -213,7 +213,7 @@ wording obtained consensus and was subsequently adopted by the CCC
 Governing Board:
 
 * **CCC Definition**: "Confidential Computing is the protection of data in use by performing
-  computation in a hardware-attested Trusted Execution Environment."
+  computation in a hardware-based, attested Trusted Execution Environment."
 
 Subsequent to the adoption of the above definition by the Confidential
 Computing Consortium, Gartner's [Hype Cycle for Compute Infrastructure, 2020]
