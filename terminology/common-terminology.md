@@ -8,7 +8,7 @@ The Confidential Computing Consortium has defined [^1] confidential computing as
 
 This paper defines  additional applications of the term confidential as a descriptive prefix, such as “confidential container”, “confidential virtual machine”, etc. Such terms have already begun to appear in marketing materials and commercial products, and in related open source projects. 
 
-This paper focuses on confidential computing and the associated “confidential xxx” terms to provide a common vocabulary when describing the impact of adding confidential compute to a computer's architecture.   The goal is to sufficiently describe the different potential architectural changes introduced by isolating compute workloads so that the implications of securing complete applications and their data can be properly evaluated.   Memory isolation is one of the new elements introduced by confidential computing.  And being able to protect a running application changes significantly how to approach computer security.   Cyber-attacks often start with a compromise of memory contents (extracting data or modifying memory state to enable execution). Therefore the ability to have effective memory isolation has long been recognized as the best potential mitigation.   But protection of data in use is only one part of an application's security.  An aggregate solution of leveraging confidential computing with the at-rest and in-motion protection is required to fully protect sensitive workloads and their data wherever it goes.
+This paper focuses on confidential computing and the associated “confidential xxx” terms to provide a common vocabulary when describing the impact of adding confidential computing to a computer's architecture.   The goal is to sufficiently describe the different potential architectural changes introduced by isolating computing workloads so that the implications of securing complete applications and their data can be properly evaluated.   Memory isolation is one of the new elements introduced by confidential computing.  And being able to protect a running application changes significantly how to approach computer security.   Cyber-attacks often start with a compromise of memory contents (extracting data or modifying memory state to enable execution). Therefore the ability to have effective memory isolation has long been recognized as the best potential mitigation.   But protection of data in use is only one part of an application's security.  An aggregate solution of leveraging confidential computing with the at-rest and in-motion protection is required to fully protect sensitive workloads and their data wherever it goes.
 
 In cloud computing, for example, protecting data in use becomes a fundamental requirement to enable clients to control protecting applications and their data while running on the infrastructure provided by the cloud vendor.   All clouds support a shared responsibility model built on a degree of trust.  Confidential computing permits the separation of responsibilities in a stronger way.  
 
@@ -28,6 +28,18 @@ environment in the TEE.
 
 4. confidential VM: a virtual machine that is executed inside a hardware-based, attested TEE, whereby code and data within the entire VM image is protected from the hypervisor and the host operating system, as well as from other confidential VMs and any hosting environment in the TEE.
 
+In the above definitions, a hosting environment may include a portion that runs inside a TEE but
+that is shared among multiple confidential libraries, processes, containers, or VMs.
+In such a case, use of the confidential term implies an additional layer of isolation by which the
+confidential code and data is protected even against the shared hosting environment within the overall TEE instance.
+For example, there may be nested isolation boundaries in use.
+
+When the confidential portion of code is a portion of a larger package, such as a confidential library contained
+within an overall VM image, we use the proposition "with", as in a "VM with a confidential library", as opposed
+to a "confidential VM" which requires the entire VM image to execute inside a TEE.
+
+When a confidential portion of code includes multiple packages that can be installed separately, but do
+not have security isolation between then, we use the proposition "in", as in "a process in a confidential VM".
 
 ## Isolation Methodologies
 
@@ -46,7 +58,7 @@ Processor vendors will typically bundle multiple isolation methodologies to prot
 ![Alt text](Technology-Types.jpg "Technology Types")
 
 But what layers of software are actually being integrated and delivered upon these isolation methodologies?  The packaging of software layers depends on whether the code is prepared for consumption by software developers, systems integrators, or systems administrators.  It is quite possible that many nested layers of application of packaging will occur before the code is actually installed by a systems administrator.
-With this in mind, below in columns are nine examples of how software layers may actually be packaged for consumption by downstream participants of the software supply chain.  In these examples, only the software elements of the Trusted Computing Base (TCB) as defined by NIST 800-12 Rev.1 [^3] are highlighted.  Other elements of the TCB such as the Firmware and Hardware are not shown.
+With this in mind, below in columns are nine examples of how software layers may actually be packaged for consumption by downstream participants of the software supply chain.  In these examples, only the software elements of the Trusted Computing Base (TCB) as defined by NIST 800-12 Rev.1 [^3] are highlighted.  Other elements of the TCB such as the firmware and hardware are not shown.
 
 ![Alt text](Full-Table.jpg "Full Table")
 
@@ -69,14 +81,13 @@ Such a categorization of packaging can prove useful to end users of Confidential
 
 Various CCC projects will deliver code aimed at one or more of the packaging models described here. Examples of this may include:
 
-* Occlum could help a developer insert an existing application within a "Confidential Process" package built upon Intel SGX.
+* Occlum and/or Gramine could help a developer package an existing application as a "Confidential Library" package built upon Intel SGX.
 
-* Enarx could help a developer compile a single application package that can be deployed across multiple deployment categories transparently.  The same could be run both within a “Confidential Process” such as SGX or a “Confidential VM” such as SEV-SNP, with Enarx providing an abstraction layer to ensure the same runtime environment.
+* Enarx could help a developer compile a single application package that can be deployed across multiple deployment categories transparently.  The same could be run both in a “Confidential Library�� such as SGX or a “Confidential VM” such as SEV-SNP, with Enarx providing an abstraction layer to ensure the same runtime environment.
 
-* Open Enclave could allow developers to design “Confidential Processes” capable of working on both TrustZone and SGX.
+* Open Enclave could allow developers to design a library capable of working on both SGX (packaged as a 
+  “Confidential Library��) and TrustZone (packaged as a “Confidential Process��).
 
-* Gramine could be utilized in the role of the “TEE Shim” across any package on SGX.
- 
 ## Attestation
 
 However a workload is packaged, the resulting deployment should support interaction in a way that
@@ -97,7 +108,7 @@ terminated within a specific TEE. The packaging provider may include an attested
 in the TEE stack. The protocol or API methods must support best practices for attestation including
 freshness, certificate hygiene, and complete TCB measurement. A full description of attestation best
 practices is outside the scope of this document. Interested readers are encouraged to read the [IETF
-RATS Working Group]( https://datatracker.ietf.org/group/rats/about/) body of work, especially the
+RATS Working Group](https://datatracker.ietf.org/group/rats/about/) body of work, especially the
 [RATS Architecture](https://datatracker.ietf.org/doc/draft-ietf-rats-architecture/). The
 Confidential Computing Consortium also runs an [Attestation Special Interest
 Group](https://github.com/CCC-Attestation) which is open to public participation and provides a
