@@ -62,7 +62,11 @@ With this in mind, below in columns are nine examples of how software layers may
 
 ![Alt text](Full-Table.jpg "Full Table")
 
-As can be seen in the diagram, each of these nine embodiments can be mapped to one of the four aforementioned packaging terms.  Additionally, each of the nine columns is supportable by some subset of Data-in-Use isolation methodologies. 
+As can be seen in the diagram, each of these nine embodiments can be mapped to one of the four aforementioned packaging terms.  The red boxes show the set of components running inside a TEE.  The yellow boxes show an example of
+what might be packaged together.  In another example (not shown) some of the components inside a red box
+might be packaged separately.
+
+Additionally, each of the nine columns is supportable by some subset of Data-in-Use isolation methodologies. 
 Such a categorization of packaging can prove useful to end users of Confidential Computing in that it becomes possible to:
 
 * Express the elements of software which should be expected as part of a packaged offering.
