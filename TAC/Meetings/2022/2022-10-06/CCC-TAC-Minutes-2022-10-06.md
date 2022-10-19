@@ -67,7 +67,7 @@
    * Alec Fernandez (Microsoft)
    * Andy Dellow (Huawei UK)
    * Francois-Xavier Merseille (Thales)
-   * Henk Birkholz (IETF)
+   * Henk Birkholz (Fraunhofer SIT)
    * Ionut Mihalcea (ARM)
    * Suresh Sugamar (TII)
    * Ravi Sahita (Rivos)
