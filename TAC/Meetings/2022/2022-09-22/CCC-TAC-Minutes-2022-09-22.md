@@ -113,7 +113,7 @@ Proposed: That the minutes of the September 8, 2022 meeting of the Technical Adv
 
 **Budget Review**
 
-   * DT discussed GB request to look into funding travel for speakers
+   * DT discussed Governing Board request to look into funding travel for speakers
        * **ACTION:** [Kurt] "Consortium IT Services and Collab Tools" budget item - determine if 100K is available to move to funding travel for select conference attendees
 
 **Outreach committee**
