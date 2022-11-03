@@ -35,7 +35,7 @@ confidential code and data is protected even against the shared hosting environm
 For example, there may be nested isolation boundaries in use.
 
 When the confidential portion of code is a portion of a larger package, such as a confidential library contained
-within an overall VM image, we use the proposition "with", as in a "VM with a confidential library", as opposed
+within an overall VM image, we use the preposition "with", as in a "VM with a confidential library", as opposed
 to a "confidential VM" which requires the entire VM image to execute inside a TEE.
 
 When a confidential portion of code includes multiple packages that can be installed separately, but do
