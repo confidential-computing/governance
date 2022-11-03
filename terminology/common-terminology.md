@@ -31,7 +31,7 @@ environment in the TEE.
 In the above definitions, a hosting environment may include a portion that runs inside a TEE but
 that is shared among multiple confidential libraries, processes, containers, or VMs.
 In such a case, use of the confidential term implies an additional layer of isolation by which the
-confidential code and data is protected even against the shared hosting environment within the overall TEE instance.
+confidential code and data is protected even against the shared environment within the overall TEE instance hosting the confidential code and data.
 For example, there may be nested isolation boundaries in use.
 
 When the confidential portion of code is a portion of a larger package, such as a confidential library contained
