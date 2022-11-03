@@ -55,7 +55,7 @@
 
    * Alec Fernandez (Microsoft)
    * Eric Voit (Cisco)
-   * Francois-Xavier Marseille (THALES)
+   * Francois-Xavier Marseille (Thales)
    * Jethro Beekman (Fortanix)
    * Matthieu Legre (Cysec)
    * Naveen Cherukuri (NVIDIA)
