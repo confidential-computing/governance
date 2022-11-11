@@ -55,9 +55,9 @@
 
    * Ranjit Narjala (Google)
    * Alec Fernandez (Microsoft)
-   * Steve Van Lare
-   * Richard Searle
-   * Johannes Kreisler
+   * Steve Van Lare (Anjuna)
+   * Richard Searle (Fortanix)
+   * Johannes Kreisler (not introduced)
    * Nagaraju (Intel)
    * Naveen Cherukuri (NVIDIA)
    * Marc Meunier (Arm)
