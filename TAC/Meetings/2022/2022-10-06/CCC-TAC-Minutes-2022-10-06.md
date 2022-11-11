@@ -129,6 +129,7 @@ Proposed: That the minutes of the September 22, 2022 meeting of the Technical Ad
 	  * Will merge by next meeting if no objections
 	* Proposal to include attestation in definition of Confidential Computing #135
 	  https://github.com/confidential-computing/governance/pull/135
+	  * The TAC voted by affirmation to approve the change and take it to the Governing Board for ratification
 	  * ACTION: [Kurt] add this to Governing Board agenda
 	* Narrow list of example technologies #140
 	  * https://github.com/confidential-computing/governance/pull/140
