@@ -89,7 +89,8 @@ Proposed: That the minutes of the September 8, 2022 meeting of the Technical Adv
        * Mark Novak - Possible collaboration with new Governance (GRC) SIG
    * MPC + TEE - Jordan Brandt
        * MPC Alliance Privacy Summit, Oct 5 (virtual only) [https://www.mpcalliance.org/](https://www.mpcalliance.org/)
-
+       * DT stated that CCC sponsors opensource projects and named Thomas Fossati (TF) and the Veracruz project. TF commented on the high degree of overlap of goals of the two projects.
+       
 
 **Open Action Items**
 
