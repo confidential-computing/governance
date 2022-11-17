@@ -7,7 +7,7 @@ As more companies and open source projects begin to use similar terms to describ
 The Confidential Computing Consortium has defined [^1] confidential computing as "the protection of data in use
 by performing computation in a hardware-based, attested Trusted Execution Environment", and identified three primary
 attributes for what constitutes a Trusted Execution Environment: data integrity, data confidentiality, and code
-integrity. As described in Confidential Computing: Hardware-Based Trusted Execution for Applications and Data,
+integrity. As described in "Confidential Computing: Hardware-Based Trusted Execution for Applications and Data",
 four additional attributes may be present (code confidentiality, programmability, recoverability, and attestability)
 but only attestability is strictly necessary for a computational environment to be classified as Confidential Computing.
 
