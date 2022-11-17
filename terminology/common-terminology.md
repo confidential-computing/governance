@@ -93,7 +93,7 @@ best practices for attestation including freshness, certificate hygiene, and TCB
 measurement.
 
 A full description of attestation best practices is outside the scope of this document. Interested
-readers are encouraged to read the [IETF RATS Working Group]( https://datatracker.ietf.org/group/rats/about/) 
+readers are encouraged to read the [IETF RATS Working Group](https://datatracker.ietf.org/group/rats/about/) 
 body of work, especially the [RATS Architecture](https://datatracker.ietf.org/doc/draft-ietf-rats-architecture/).
 The Confidential Computing Consortium also runs an [Attestation Special Interest
 Group](https://github.com/CCC-Attestation) which is open to public participation and provides a
