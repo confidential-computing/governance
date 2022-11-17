@@ -92,7 +92,7 @@ API access to granular attestation APIs in the TEE stack. The protocol or API me
 best practices for attestation including freshness, certificate hygiene, and TCB
 measurement.
 
-A full description of attestation bestv practices is outside the scope of this document. Interested
+A full description of attestation best practices is outside the scope of this document. Interested
 readers are encouraged to read the [IETF RATS Working Group]( https://datatracker.ietf.org/group/rats/about/) 
 body of work, especially the [RATS Architecture](https://datatracker.ietf.org/doc/draft-ietf-rats-architecture/).
 The Confidential Computing Consortium also runs an [Attestation Special Interest
