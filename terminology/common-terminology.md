@@ -76,7 +76,7 @@ Various CCC projects will deliver code aimed at one or more of the packaging mod
  
 ## Attestation
 
-However a workload is packaged, the resulting deployment should a mechanism to allow validation
+However a workload is packaged, the resulting deployment should provide a mechanism to allow validation
 of an assertion that it is running in a TEE instance. In Confidential Computing an attestation is
 the validation of a hardware signed report (an "attestation report") of the measurements of the TCB.
 The measurements provided in the attestation relate to the TCB boundaries
