@@ -85,8 +85,8 @@ The resulting deployment should provide a mechanism to allow validation
 of an assertion that it is running in a TEE instance. In Confidential Computing an attestation is
 the validation of a hardware signed report (an "attestation report") of the measurements of the TCB.
 The measurements provided in the attestation relate to the TCB boundaries
-depicted in the diagram above. An attestation for process isolation provides assurances about an 
-application, whereas an attestation for VM isolation provides assurances about a VM and/or the virtual
+depicted in the diagram above. An attestation for process isolation then authenticates an 
+application, whereas an attestation for VM isolation conceptually authenticates a VM and/or the virtual
 firmware used to launch the VM.
 
 Attestation results may be used to support stateless communication, e.g., this
