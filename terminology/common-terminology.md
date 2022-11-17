@@ -89,7 +89,7 @@ datagram or computational result was produced by a specific TEE instance; or sta
 e.g., this TLS channel is terminated within a specific TEE instance. The packaging provider may
 include an attested protocol such as [RA-TLS](https://arxiv.org/pdf/1801.05863.pdf), or provide
 API access to granular attestation APIs in the TEE stack. The protocol or API methods must support
-best practices for attestation including freshness, certificate hygiene, and partial or complete TCB
+best practices for attestation including freshness, certificate hygiene, and TCB
 measurement.
 
 A full description of attestation bestv practices is outside the scope of this document. Interested
