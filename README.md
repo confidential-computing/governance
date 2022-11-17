@@ -5,7 +5,7 @@ This repo contains governance documents for the Confidential Computing Consortiu
 These files are made available under the terms of the [Creative Commons Attribution 4.0 International license](https://creativecommons.org/licenses/by/4.0/).
 
 ## Definition
-Confidential Computing is the protection of data in use by performing computation in a hardware-based Trusted Execution Environment.
+Confidential Computing is the protection of data in use by performing computation in a hardware-based, attested Trusted Execution Environment.
 
 ## Mission Statement
 The Confidential Computing Consortium brings together hardware vendors, cloud providers, and software developers to accelerate the adoption of Trusted Execution Environment (TEE) technologies and standards.

@@ -3,12 +3,12 @@
 ## Executive Summary
 
 * The scope of the Confidential Computing Consortium (CCC) is to
-  "promote the widespread use of hardware-based trusted execution
+  "promote the widespread use of hardware-based, attested trusted execution
   environments".
 
 * The CCC uses, and recommends the rest of the industry also use, the
   definition: "Confidential Computing is the protection of data
-  in use by performing computation in a hardware-based Trusted
+  in use by performing computation in a hardware-based, attested Trusted
   Execution Environment."
 
 * For both the scope of the CCC, and the definition of confidential
@@ -201,11 +201,11 @@ The TAC iterated on several proposals for wording around the scope of
 what projects the TAC would recommend as being in scope of the CCC.
 The following wording obtained rough consensus:
 
-* "promote the widespread use of hardware-based trusted execution environments".
+* "promote the widespread use of hardware-based, attested trusted execution environments".
 
-This proposal puts the focus on hardware-based TEEs, while providing
+This proposal puts the focus on hardware-based, attested TEEs, while providing
 some leeway with the use of "promote" to allow for non-hardware based
-projects that demonstrably promote the use of hardware-based TEEs.
+projects that demonstrably promote the use of hardware-based, attested TEEs.
 
 Similarly, the TAC iterated on several proposals for wording around
 the definition of the term "confidential computing".  The following
@@ -213,7 +213,7 @@ wording obtained consensus and was subsequently adopted by the CCC
 Governing Board:
 
 * **CCC Definition**: "Confidential Computing is the protection of data in use by performing
-  computation in a hardware-based Trusted Execution Environment."
+  computation in a hardware-based, attested Trusted Execution Environment."
 
 Subsequent to the adoption of the above definition by the Confidential
 Computing Consortium, Gartner's [Hype Cycle for Compute Infrastructure, 2020]
