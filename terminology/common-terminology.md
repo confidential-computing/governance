@@ -4,7 +4,7 @@
 
 As more companies and open source projects begin to use similar terms to describe similar paradigms 	that build upon hardware-based, attested Trusted Execution Environments (TEEs), it will be increasingly important that vendors use consistent terminology that describes the ways in which these new capabilities are applied within different functional domains.
 
-The Confidential Computing Consortium has defined [^1] confidential computing as "the protection of data in use
+The Confidential Computing Consortium has defined [^1] Confidential Computing as "the protection of data in use
 by performing computation in a hardware-based, attested Trusted Execution Environment", and identified three primary
 attributes for what constitutes a Trusted Execution Environment: data integrity, data confidentiality, and code
 integrity. As described in "Confidential Computing: Hardware-Based Trusted Execution for Applications and Data",
