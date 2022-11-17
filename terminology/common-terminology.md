@@ -84,7 +84,7 @@ depicted in the diagram above. An attestation for process isolation provides ass
 application, whereas an attestation for VM isolation provides assurances about a VM and/or the virtual
 firmware used to launch the VM.
 
-Attestation may be used as additional information to support stateless communication, e.g., this
+Attestation results may be used to support stateless communication, e.g., this
 datagram or computational result was produced by a specific TEE instance; or stateful communication,
 e.g., this TLS channel is terminated within a specific TEE instance. The packaging provider may
 include an attested protocol such as [RA-TLS](https://arxiv.org/pdf/1801.05863.pdf), or provide
