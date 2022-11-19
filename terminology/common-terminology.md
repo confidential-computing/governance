@@ -4,13 +4,28 @@
 
 As more companies and open source projects begin to use similar terms to describe similar paradigms 	that build upon hardware-based, attested Trusted Execution Environments (TEEs), it will be increasingly important that vendors use consistent terminology that describes the ways in which these new capabilities are applied within different functional domains.
 
-The Confidential Computing Consortium has defined [^1] confidential computing as "the protection of data in use by performing computation in a hardware-based, attested Trusted Execution Environment", and identified three primary attributes for what constitutes a Trusted Execution Environment: data integrity, data confidentiality, and code integrity. As described in Confidential Computing: Hardware-Based Trusted Execution for Applications and Data, four additional attributes may be present (code confidentiality, programmability, recoverability, and attestability) but only attestability is strictly necessary for a computational environment to be classified as confidential computing.
+The Confidential Computing Consortium has defined [^1] Confidential Computing as "the protection of data in use
+by performing computation in a hardware-based, attested Trusted Execution Environment", and identified three primary
+attributes for what constitutes a Trusted Execution Environment: data integrity, data confidentiality, and code
+integrity. As described in "Confidential Computing: Hardware-Based Trusted Execution for Applications and Data",
+four additional attributes may be present (code confidentiality, programmability, recoverability, and attestability)
+but only attestability is strictly necessary for a computational environment to be classified as Confidential Computing.
 
 This paper defines  additional applications of the term confidential as a descriptive prefix, such as "confidential container", "confidential virtual machine", etc. Such terms have already begun to appear in marketing materials and commercial products, and in related open source projects. 
 
-This paper focuses on confidential computing and the associated "confidential xxx" terms to provide a common vocabulary when describing the impact of adding confidential computing to a computer's architecture.   The goal is to sufficiently describe the different potential architectural changes introduced by isolating computing workloads so that the implications of securing complete applications and their data can be properly evaluated.   Memory isolation is one of the new elements introduced by confidential computing.  And being able to protect a running application changes significantly how to approach computer security.   Cyber-attacks often start with a compromise of memory contents (extracting data or modifying memory state to enable execution). Therefore the ability to have effective memory isolation has long been recognized as the best potential mitigation.   But protection of data in use is only one part of an application's security.  An aggregate solution of leveraging confidential computing with the at-rest and in-motion protection is required to fully protect sensitive workloads and their data wherever it goes.
+This paper focuses on Confidential Computing and the associated "confidential xxx" terms to provide a common
+vocabulary when describing the impact of adding confidential computing to a computer's architecture.   The goal
+is to sufficiently describe the different potential architectural changes introduced by isolating computing
+workloads so that the implications of securing complete applications and their data can be properly evaluated.
+Memory isolation is one of the new elements introduced by confidential computing.  And being able to protect a
+running application changes significantly how to approach computer security.   Cyber-attacks often start with a
+compromise of memory contents (extracting data or modifying memory state to enable execution). Therefore the
+ability to have effective memory isolation has long been recognized as the best potential mitigation.   But
+protection of data in use is only one part of an application's security.  An aggregate solution of leveraging
+confidential computing with the at-rest and in-motion protection is required to fully protect sensitive
+workloads and their data wherever it goes.
 
-In cloud computing, for example, protecting data in use becomes a fundamental requirement to enable clients to control protecting applications and their data while running on the infrastructure provided by the cloud vendor.   All clouds support a shared responsibility model built on a degree of trust.  Confidential computing permits the separation of responsibilities in a stronger way.  
+In cloud computing, for example, protecting data in use becomes a fundamental requirement to enable clients to control protecting applications and their data while running on the infrastructure provided by the cloud vendor.   All clouds support a shared responsibility model built on a degree of trust.  Confidential Computing permits the separation of responsibilities and isolation of resources in a stronger way.  
 
 
 ## Packaging Model Terminology
@@ -95,26 +110,30 @@ Various CCC projects will deliver code aimed at one or more of the packaging mod
 ## Attestation
 
 However a workload is packaged, the resulting deployment should support interaction in a way that
-proves it is running in a TEE.
+proves it is running in a TEE instance.
 
-While in traditional computing, there's often a desire to authenticate a server, in Confidential
-Computing the goal is to authenticate the TEE, and attestation is the means to do that.
-In Confidential Computing an attestation is a hardware signed report of the measurements of the TCB.
+While in traditional computing, there is often a desire to authenticate a server, in Confidential
+Computing the goal is to authenticate the TEE instance, and attestation is the means to do that.
+The resulting deployment should provide a mechanism to allow validation
+of an assertion that it is running in a TEE instance. In Confidential Computing an attestation is
+the validation of a hardware signed report (an "attestation report") of the measurements of the TCB.
 The measurements provided in the attestation relate to the TCB boundaries
 depicted in the diagram above. An attestation for process isolation then authenticates an
-application whereas an attestation for VM isolation conceptually authenticates a VM or the virtual
+application, whereas an attestation for VM isolation conceptually authenticates a VM and/or the virtual
 firmware used to launch the VM.
 
-Attestation may be used to support stateless communication, e.g., this datagram or computational
-result was produced by a specific TEE; or stateful communication, e.g., this TLS channel is
-terminated within a specific TEE. The packaging provider may include an attested protocol like
-[RA-TLS](https://arxiv.org/pdf/1801.05863.pdf), or provide API access to granular attestation APIs
-in the TEE stack. The protocol or API methods must support best practices for attestation including
-freshness, certificate hygiene, and complete TCB measurement. A full description of attestation best
-practices is outside the scope of this document. Interested readers are encouraged to read the [IETF
-RATS Working Group](https://datatracker.ietf.org/group/rats/about/) body of work, especially the
-[RATS Architecture](https://datatracker.ietf.org/doc/draft-ietf-rats-architecture/). The
-Confidential Computing Consortium also runs an [Attestation Special Interest
+Attestation results may be used to support stateless communication, e.g., this
+datagram or computational result was produced by a specific TEE instance; or stateful communication,
+e.g., this TLS channel is terminated within a specific TEE instance. The packaging provider may
+include an attested protocol such as [RA-TLS](https://arxiv.org/pdf/1801.05863.pdf), or provide
+API access to granular attestation APIs in the TEE stack. The protocol or API methods must support
+best practices for attestation including freshness, certificate hygiene, and TCB
+measurement.
+
+A full description of attestation best practices is outside the scope of this document. Interested
+readers are encouraged to read the [IETF RATS Working Group](https://datatracker.ietf.org/group/rats/about/) 
+body of work, especially the [RATS Architecture](https://datatracker.ietf.org/doc/draft-ietf-rats-architecture/).
+The Confidential Computing Consortium also runs an [Attestation Special Interest
 Group](https://github.com/CCC-Attestation) which is open to public participation and provides a
 wealth of [recorded and written content](https://github.com/CCC-Attestation/meetings).
 
