@@ -124,7 +124,7 @@ Proposed: That the minutes of the November 3, 2022 meeting of the Technical Advi
 * Day and a half in duration, participated with the Veraison project
 * End-to-end demo of the attested TLS attestation spec, made great progress
 * Evangelized CCC to many participants
-* Next IETF hackathons, Japan and July in San Francisco
+* Next IETF hackathons: March in Yokohama, Japan and July in San Francisco
 
 **Occlum Annual Report**
  
