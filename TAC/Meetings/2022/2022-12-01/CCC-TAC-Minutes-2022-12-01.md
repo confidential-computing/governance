@@ -67,7 +67,7 @@
    * Jethro Beekman (Fortanix)
    * Alec Fernandez (Microsoft)
    * Nick Vidal (Profian)
-   * Penglin Yang(China Mobile)
+   * Penglin Yang (China Mobile)
    * Marc Meunier (Arm)
    * Eric Voit (Cisco)
    * Alec Fernandez (Microsoft)
