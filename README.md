@@ -11,7 +11,7 @@ Confidential Computing is the protection of data in use by performing computatio
 The Confidential Computing Consortium brings together hardware vendors, cloud providers, and software developers to accelerate the adoption of Trusted Execution Environment (TEE) technologies and standards.
 
 ## Repository Maintenance
-This repository is maintained by the Technical Advisory Committee (TAC) which meets every two weeks.
+This repository is maintained by the Technical Advisory Council (TAC) which meets every two weeks.
 
 The TAC has its own email list which is free to join. You can do so by by creating an account on the [CCC list server](https://lists.confidentialcomputing.io/g/main).
 
