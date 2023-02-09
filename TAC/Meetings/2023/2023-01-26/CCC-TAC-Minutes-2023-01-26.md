@@ -138,7 +138,7 @@ Proposed: That the minutes of the January 12, 2022 meeting of the Technical Advi
 **GRC SIG Formalization**
 
 * Mark Novak volunteered to quarterly updates to the TAC
-* MV agreed to be the mentor for the SIG
+* MN agreed to be the mentor for the SIG
 * Governing Board informed, approval not required
 * Charter complete and published
 * KT agreed to split out the project and SIG sections in the groups slide
