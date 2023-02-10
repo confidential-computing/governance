@@ -132,7 +132,7 @@ Proposed: That the minutes of the January 26, 2022 meeting of the Technical Advi
 
 **TAC Tech Talk**
 
-* DT unavailable, deferr to next meeting
+* DT unavailable, defer to next meeting
 
 
 * Next meeting February 23rd, 2023
