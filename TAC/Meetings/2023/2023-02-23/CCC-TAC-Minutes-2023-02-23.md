@@ -112,7 +112,7 @@ Proposed: That the minutes of the February 9, 2022 meeting of the Technical Advi
 **2023 Goals**
 
 * DM discussed further breaking down 2023 deliverables into measurable goals
-  * [CCC TAC 2023 Pland document](https://docs.google.com/document/d/1BLsI0hv9ybHl-FBNqHp6bJzy6ng8yKs__556bTqBswc/edit)
+  * [CCC TAC 2023 Plans document](https://docs.google.com/document/d/1BLsI0hv9ybHl-FBNqHp6bJzy6ng8yKs__556bTqBswc/edit)
   * DM to sync with Hugo on FHE, Mark Novak to report back on GRC
   * Matthieu Legre mentioned ITUT (study group 11) confidential computing on edge
   * DT wanted to clarify the maintained modules term, encourage cooperation not competition
