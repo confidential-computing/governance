@@ -76,7 +76,7 @@
 * Shalom Shefa
 * Mark Novak (JP Morgan Chase)
 * Ravi Sahita (Rivos)
-* Nicolae Paladi (CararyBit)
+* Nicolae Paladi (CanaryBit)
 * Kurt Taylor (LF)
 
 
