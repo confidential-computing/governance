@@ -133,7 +133,7 @@ Proposed: That the minutes of the February 23, 2022 meeting of the Technical Adv
 **TAC Tech Talk**
 
 * eBPF - Dave Thaler
-  * DT presented an overview of eBPF and how it relates to the CCC
+  * DT presented an overview of eBPF and how it relates to Confidential Computing
 
 
 **Outreach Update**
