@@ -147,7 +147,7 @@ Proposed: That the minutes of the February 23, 2022 meeting of the Technical Adv
 **Conformance to Terminology**
 
 * Alec Fernandez discussed the [NVIDIA blog](https://blogs.nvidia.com/blog/2023/03/01/what-is-confidential-computing/)
-  * The diagram that shows TEE and the AMD SEV-ES environment - does this meet the definition of Confidential Computing?
+  * The diagram that shows TEE and the AMD SEV-ES environment, and other technologies like Homomorphic Encryption under the heading of Confidential Computing - does this meet the definition of Confidential Computing?
   * DM noted that the diagram may have been created before CCC Terminology was published
   * Alec concerned with referring to CC in a blog post with an opinion that is not broadly agreed to as being correct
   * DM posed a GB question for conformance enforcement, DT volunteered Mike Bursell to send email to NVIDIA for possible cleanup of the blog, AF to reach out to MB
