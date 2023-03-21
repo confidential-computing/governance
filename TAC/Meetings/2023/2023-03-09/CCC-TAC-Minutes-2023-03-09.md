@@ -123,7 +123,7 @@ Proposed: That the minutes of the February 23, 2022 meeting of the Technical Adv
 * Gramine has requested to progress in state
 * Eric Voit discussed the origin (CNCF) and that it has a different focus than the CCC
   * What are the additional services do projects need or want per stage of progression
-  * Only benefit now is visibility (publicity) on the website, no per-state additional benefits
+  * Only benefit now is visibility (publicity) on the website, no per-state additional benefits at present, though there could be.
   * [Benefits list](https://github.com/confidential-computing/governance/blob/main/project-progression-policy.md#benefits-of-being-a-recognized-consortium-project)
 * Only approved stages are sandbox and incubation, the rest of the document is a proposal and has not been approved
 * DT discussed if there was a real need to have different stages
