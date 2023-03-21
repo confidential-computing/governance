@@ -158,7 +158,7 @@ Proposed: That the minutes of the February 23, 2022 meeting of the Technical Adv
 
 
 * DT discussed [conformance spreadsheet](https://docs.google.com/spreadsheets/d/1H07OqDilgSWQpf2xZ-yJUSHL249VaXroVv1eeacVOVc/edit#gid=0)
-  * Can CC be computationally detectable for implementing a test suite? Needs independent verification, certification programs
+  * Can CC be computationally detectable for implementing a test suite? Perhaps not.  Instead, propose independent verification by one or more CCC-authorized auditing firms, certification programs
   * Test plan that an independent auditor could review and certify, not necessarily code
   * MN agreed to take this forward in the GRC in April
 
