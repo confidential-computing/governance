@@ -127,8 +127,8 @@ Proposed: That the minutes of the February 23, 2022 meeting of the Technical Adv
   * [Benefits list](https://github.com/confidential-computing/governance/blob/main/project-progression-policy.md#benefits-of-being-a-recognized-consortium-project)
 * Only approved stages are sandbox and incubation, the rest of the document is a proposal and has not been approved
 * DT discussed if there was a real need to have different stages
-* Mentors to get input from their projects for discussion in the next meeting
 
+  ***ACTION*** Mentors to get input from their projects for project progression discussion in the next meeting
 
 **TAC Tech Talk**
 
@@ -150,17 +150,20 @@ Proposed: That the minutes of the February 23, 2022 meeting of the Technical Adv
   * The diagram that shows TEE and the AMD SEV-ES environment, and other technologies like Homomorphic Encryption under the heading of Confidential Computing - does this meet the definition of Confidential Computing?
   * DM noted that the diagram may have been created before CCC Terminology was published
   * Alec concerned with referring to CC in a blog post with an opinion that is not broadly agreed to as being correct
-  * DM posed a GB question for conformance enforcement, DT volunteered Mike Bursell to send email to NVIDIA for possible cleanup of the blog, AF to reach out to MB
+  * DM posed a GB question for conformance enforcement, DT volunteered Mike Bursell to send email to NVIDIA for possible cleanup of the blog
   * Nicolae Paladi suggested reusable graphics created and kept up-to-date by the CCC
 
 
-  ***ACTION*** Kurt to pose the CCC Terminology enforcement question to the Governing Board for discussion
+    ***ACTION*** Kurt to pose the CCC Terminology enforcement question to the Governing Board for discussion
+  
+    ***ACTION*** Alec to reach out to Mike for cleanup NVIDIA blog email
 
 
 * DT discussed [conformance spreadsheet](https://docs.google.com/spreadsheets/d/1H07OqDilgSWQpf2xZ-yJUSHL249VaXroVv1eeacVOVc/edit#gid=0)
   * Can CC be computationally detectable for implementing a test suite? Perhaps not.  Instead, propose independent verification by one or more CCC-authorized auditing firms, certification programs
   * Would need a CCC test "plan" (checklist), not necessarily code, that an independent auditor could review and certify
-  * MN agreed to take this forward in the GRC in April
+  
+    ***ACTION*** Mark Novak agreed to take this plan forward in the GRC in April
 
 
 * Next meeting March 23th, 2023
