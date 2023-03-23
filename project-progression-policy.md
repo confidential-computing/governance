@@ -137,6 +137,62 @@ To be considered for the Sandbox Stage, the project must meet the following requ
 
 * Upon acceptance, Sandbox projects must list their status prominently on their website/README
 
+#### Sandbox Benefits
+
+**Advantages of Sandbox vs non-Sandbox for new projects**
+
+CCC will remain fair and open to all projects no matter what their initial provenance.  Should a project apply for CCC Incubation, the TAC will use the same criteria regardless of origin. This means the TAC will not discriminate in favour of Sandbox projects vs. non-Sandbox projects.
+
+Therefore the advantages of being in the Sandbox apply prior to application for Incubation, ie.:
+
+1. That a project has a legally neutral home that is stable and known
+
+2. And that a project may attain Incubation-level success faster:
+
+    1. Due to public visibility and association with the CCC mission
+    2. Through alignment with other CCC projects (if and only if desired)
+    3. Via other CCC and Linux Foundation services etc.
+
+3. The CCC will help projects adopt good principles of governance
+
+**Neutral Home**
+
+A neutral home for your project increases the willingness of developers from other companies and independent developers to collaborate, contribute, and become committers. Neutrality requires that projects contribute their trademark to CNCF so that:
+
+* No company is favored over any other
+* CCC ensures project governance is transparent and fair for everyone.
+
+**Clarifying Marketing Expectations**
+
+All open source projects in some sense enjoy a level of promotion from community, user enthusiasm, sponsoring organisations and so on. Please note that in this section we discuss marketing as a measurable financial investment into CCC projects from the CCC outreach budget and staff.
+
+Since the Sandbox is for early stage, sandbox projects will receive minimal marketing support from the foundation.  The Sandbox group as a whole may be promoted from time to time, which includes but not limited to the following activities:
+
+* Developer community support: hangouts, meetups, events and (some) conferences
+* Digital marketing: help with online content, interactive tutorials, webinars, and social
+* Product marketing: conference promotion, landscape, certification, case studies, AR/PR
+
+There will only be limited CCC investment in Digital and Product marketing for individual Sandbox projects, and CCC-funded content should be factual and informative.
+
+Some key points:
+
+* Sandbox projects will be listed separately from other CCC projects (https://confidentialcomputing.io/projects/sandbox/)
+* They will not be prominently listed at our events or issued a press release
+* Reviewed on an annual basis; submit a report to the TAC for review
+* CCC Sandbox projects can stay in the sandbox indefinitely
+
+**Community Services**
+
+* Project Support: The Consortium can provide limited funds to support project communication and infrastructure costs for CI/CD.
+* Internships: The [TAC has committed](https://lists.confidentialcomputing.io/g/main/files/TAC/Meetings/2021/09-Sept/TAC%20Minutes%202021-09-09.pdf) to fund one intern per CCC project that commits to the list of "Mentor Responsibilities" on the [Outreachy mentor page](https://www.outreachy.org/mentor/).
+* Test infrastructure: Up to $7500 in budget for hardware and software per year.
+* Video conferencing support: A zoom account for community meetings.
+* Domain name: A domain name registration and renewals can be granted.
+* Mailing lists: For asynchronous community discussions.
+* YouTube Playlist: For publishing community meetings, demos, and other project content.
+* Security Scanning: Optional.
+* LFX tools: Access to Linux Foundation tools to improve many aspects of a project from security to community health [tools](https://lfx.linuxfoundation.org/).
+
 ### Incubation Stage
 **Definition**
 
