@@ -157,7 +157,7 @@ Therefore the advantages of being in the Sandbox apply prior to application for 
 
 **Neutral Home**
 
-A neutral home for your project increases the willingness of developers from other companies and independent developers to collaborate, contribute, and become committers. Neutrality requires that projects contribute their trademark to CNCF so that:
+A neutral home for your project increases the willingness of developers from other companies and independent developers to collaborate, contribute, and become committers. Neutrality requires that projects contribute their trademark to the CCC so that:
 
 * No company is favored over any other
 * CCC ensures project governance is transparent and fair for everyone.
