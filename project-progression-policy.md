@@ -143,7 +143,7 @@ To be considered for the Sandbox Stage, the project must meet the following requ
 
 CCC will remain fair and open to all projects no matter what their initial provenance.  Should a project apply for CCC Incubation, the TAC will use the same criteria regardless of origin. This means the TAC will not discriminate in favour of Sandbox projects vs. non-Sandbox projects.
 
-Therefore the advantages of being in the Sandbox apply prior to application for Incubation, ie.:
+Therefore the advantages of being in the Sandbox apply prior to application for Incubation, includes:
 
 1. That a project has a legally neutral home that is stable and known
 
