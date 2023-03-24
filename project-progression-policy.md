@@ -170,14 +170,13 @@ Since the Sandbox is for early stage, sandbox projects will receive minimal mark
 
 * Developer community support: hangouts, meetups, events and (some) conferences
 * Digital marketing: help with online content, interactive tutorials, webinars, and social
-* Product marketing: conference promotion, landscape, certification, case studies, AR/PR
+* Product marketing: conference promotion, landscape, certification, case studies, analyst relations, press relations
 
 There will only be limited CCC investment in Digital and Product marketing for individual Sandbox projects, and CCC-funded content should be factual and informative.
 
 Some key points:
 
 * Sandbox projects will be listed separately from other CCC projects (https://confidentialcomputing.io/projects/sandbox/)
-* They will not be prominently listed at our events or issued a press release
 * Reviewed on an annual basis; submit a report to the TAC for review
 * CCC Sandbox projects can stay in the sandbox indefinitely
 
