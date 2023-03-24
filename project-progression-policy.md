@@ -166,7 +166,7 @@ A neutral home for your project increases the willingness of developers from oth
 
 All open source projects in some sense enjoy a level of promotion from community, user enthusiasm, sponsoring organisations and so on. Please note that in this section we discuss marketing as a measurable financial investment into CCC projects from the CCC outreach budget and staff.
 
-Since the Sandbox is for early stage, sandbox projects will receive minimal marketing support from the foundation.  The Sandbox group as a whole may be promoted from time to time, which includes but not limited to the following activities:
+Since the Sandbox is for early stage, sandbox projects will receive minimal marketing support from the foundation.  The Sandbox group as a whole may be promoted from time to time, which includes but is not limited to the following activities:
 
 * Developer community support: hangouts, meetups, events and (some) conferences
 * Digital marketing: help with online content, interactive tutorials, webinars, and social
