@@ -95,7 +95,7 @@ Proposed: That the minutes of the March 9, 2022 meeting of the Technical Advisor
 * DM reviewed the action items, proposed spending less time on action
 * KT reported on the white paper conversion to md progress
 * Howard Huang asked for review on project progression state draft PR#160
-* Alec Fernandez asked for review from the TAC ??? on the blog post
+* Alec Fernandez asked for review from the TAC on the blog post
 * Need update from Lily Sturmann on Keystone questions
 * Gramine website refresh kickoff meeting scheduled
 * KT created a CCC cross-project security mailing list, asking for mentors to speak with their projects for monitors
