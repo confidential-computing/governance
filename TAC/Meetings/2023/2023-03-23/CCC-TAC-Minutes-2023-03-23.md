@@ -139,7 +139,7 @@ Proposed: That the minutes of the March 9, 2022 meeting of the Technical Advisor
   * DM discussed if there was anything that the CCC could do to help the project
   * OP-TEE support is not currently being actively maintained, looking for help
   
-    ***ACTION*** Thomas to reach out to Linaro to see if they could help with OP-TEE
+    ***ACTION*** Thomas to reach out to Linaro to see if they could help with OP-TEE support
 
 * DM asked if RJ would consider a PR to the Governance Repo to use this review as a template for annual reviews
   * [Current annual review guidelines](https://github.com/confidential-computing/governance/blob/main/project-progression-policy.md#iv-annual-review-process)
