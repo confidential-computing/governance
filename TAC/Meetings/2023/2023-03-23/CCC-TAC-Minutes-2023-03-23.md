@@ -137,7 +137,7 @@ Proposed: That the minutes of the March 9, 2022 meeting of the Technical Advisor
   * Growing, up to 164 contributors, 885 stars, 334 forks
   * DM asked about project progression, Dave Thaler commented that there is not yet an approved next stage
   * DM discussed if there was anything that the CCC could do to help the project
-  * OP-TEE is not currently being actively maintained, looking for help
+  * OP-TEE support is not currently being actively maintained, looking for help
   
     ***ACTION*** Thomas to reach out to Linaro to see if they could help with OP-TEE
 
