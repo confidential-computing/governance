@@ -126,7 +126,8 @@ Proposed: That the minutes of the March 9, 2022 meeting of the Technical Advisor
 **TAC Tech Talk**
 
 * SGX Assurance Tool - Alex Berenzon
-  * Looking for pilot partners, email alex.berenzon@intel.com
+  * Assessing community interest in open sourcing this project
+  * Looking for open source / pilot partners, email alex.berenzon@intel.com
   * Currently does not yet support OE or Windows environments
 
 
