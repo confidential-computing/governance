@@ -148,7 +148,7 @@ Proposed: That the minutes of the March 9, 2022 meeting of the Technical Advisor
 **Outreach Update**
 
 * DM reviewed the discussion at GB meeting - DEI policy
-* Graphic on the CCC website - make this diagram correct, currently confusing CC does not include HE for instance and is harmful
+* Graphic on the CCC website - make this diagram correct, currently confusing (CC does not include HE for instance) and is harmful
 
     ***ACTION*** Kurt to get the graphic removed, copy Outreach committee
 
