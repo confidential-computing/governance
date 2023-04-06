@@ -79,7 +79,7 @@
 * Marc Meunier (Arm)
 * Mark Novak (JP Morgan Chase)
 * Sonemaly Phrasavath (AMD)
-* Shalom Shefa
+* Shalom Shefa (Cisco)
 * Kurt Taylor (LF)
 
 
