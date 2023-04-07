@@ -105,7 +105,7 @@ Proposed: That the minutes of the March 23, 2023 meeting of the Technical Adviso
   * Howard Huang (HH) discussed the [PR #160](https://github.com/confidential-computing/governance/pull/160) for refining the definition of the project progression policy
     * Need to clarify and seperate the benefits for each state
     * DT proposed that the TAC remove the 2 later unapproved states originally suggested but not approved
-    * Headed home suggested that there be more benefits for the sandbox stage
+    * HH suggested that there be more benefits for the sandbox stage
 * HH mentioned a new project [Bao](https://github.com/bao-project) and asked the TSC chair to speak at a future TAC meeting
 
 
