@@ -44,17 +44,17 @@ Instances of abusive, harassing, or otherwise unacceptable behavior may be repor
 Members of the Governing Board on the reflector are:  
 Company | Representative | Email Address
 | --- | --- | --- |
-Accenture | Michael Klein | michael.w.klein@accenture.com
-Ant Group | Zongmin Gu | zongmin.gzm@antgroup.com
+Accenture | Carl Dukatz | carl.m.dukatz@accenture.com
 Arm | Marc Meunier | marc.meunier@arm.com
-Facebook | Shankaran G | shankaran@fb.com
 Google | Nelly Porter | nellyporter@google.com
 Huawei | Peixin Hou | peixin.hou@huawei.com
 Intel | Ron Perez | ronald.perez@intel.com
-Microsoft | Stephen Walli | stephen.walli@microsoft.com 
-Red Hat | Luke Hinds | lhinds@redhat.com
+Meta | Shankaran G | shankaran@fb.com
+Microsoft | Stephen Walli (Chair) | stephen.walli@microsoft.com 
+Red Hat | Kimberly Craven | kcraven@redhat.com
 General Member Rep | Richard Searle | richard.searle@fortanix.com
 General Member Rep | Eric Voit | evoit@cisco.com
+General Member Rep | Samuel Ortiz | samuel.e.ortiz@protonmail.com
 
 Community leaders are obligated to respect the privacy and security of the reporter of any incident.
 
