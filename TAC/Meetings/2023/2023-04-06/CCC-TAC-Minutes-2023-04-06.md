@@ -127,7 +127,7 @@ No directional or decision impacting items were discussed.
 * DT asked about conformance plans, MN and AF agreed to address conformance and certification in upcoming meetings in Q2
 
 **Project Website funding**
-* KT presented the website updates and funding 
+* KT presented the Gramine website updates and funding 
 * Proposals to include the funding as a part of a benefit of the next stage, Sandbox moving to Incubation stage
 
   ***ACTION*** Kurt to put latest approved budget into the slide deck
