@@ -111,7 +111,8 @@ Proposed: That the minutes of the March 23, 2023 meeting of the Technical Adviso
 
 **TAC Tech Talk**
 * Towards Trust Minimization in TEEs and Applications - Fan Zhang (CDCC)
-
+Though the recording is available, as the work is not yet published, we did not record slides or take minutes of discussion items.
+No directional or decision impacting items were discussed.
 
 **Project Review**
 * Mark Novak (MN) presented the quarterly status (Q2) of the GRC SIG
