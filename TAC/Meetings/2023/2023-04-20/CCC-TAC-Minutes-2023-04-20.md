@@ -96,7 +96,7 @@ Proposed: That the minutes of the April 6, 2023 meeting of the Technical Advisor
 * Project Progression - [PR #160](https://github.com/confidential-computing/governance/pull/160)
 * Cross Project coordination
   * Lily Sturmann (LS) presented the coordination goals
-    * Cross project integration - broadening of the description, adding or 2 upstream projects being used by more than one project
+    * Cross project integration - LS proposed broadening of the goal description to: adding module maintained by another CCC project, or 2 upstream projects being used or contributed to by more than one project
       * Needs further discussion - Dave Thaler (DT) proposed the following change to the definition "There exists at least 2 projects (CCC maintained or not) that have more than one CCC project consuming them."
     * Need to figure out how this should be tracked, maybe have projects self-report, investigate common dependencies
     * DT suggested that his proposed wording may not be sufficient
