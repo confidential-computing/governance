@@ -16,7 +16,7 @@
 [ical](https://calendar.google.com/calendar/ical/c\_c0pcihr7n2n1k3a38i32d9ag10%40group.calendar.google.com/public/basic.ics),
 [Google Calendar](https://calendar.google.com/calendar/u/0/r?cid=c\_c0pcihr7n2n1k3a38i32d9ag10@group.calendar.google.com)
 
-* **Recordings**: [YouTube TAC Playlist](https://www.youtube.com/playlist?list=PLmfkUJc39uMjaB\_I1dYW72I44kr9QzG\_B)
+* **Recordings**: [YouTube TAC Playlist](https://www.youtube.com/playlist?list=PLmfkUJc39uMjaB_I1dYW72I44kr9QzG_B)
 
 ## Links
 
@@ -104,7 +104,9 @@ Proposed: That the minutes of the April 6, 2023 meeting of the Technical Advisor
     * DT Suggested: During yearly project review ask projects about upstream contributions, i.e. have you influenced an upstream in a way that potentially benefits other CCC projects. 
     * LS asked if the CCC needs a common project slack channel to discuss these sorts of things
     * To improve communication, proposed cross project integration meetup or virtual event, possible at Confidential Computing Summit
-    * KT brought up the possibility of at CCS of setting up regular project maintainer meetings, Lily to follow up with the EUAC and Outreach chairs for event presence
+    * KT brought up the possibility of at CCS of setting up regular project maintainer meetings, 
+    
+      ***ACTION*** Lily to follow up with the EUAC and Outreach chairs for event presence
 
 
 **Project Website funding**
