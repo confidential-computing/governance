@@ -147,7 +147,7 @@ Proposed: That the minutes of the April 20, 2023 meeting of the Technical Adviso
 * Tyler Fanelli (TF) and Larry Dewey (LD) - [VirTEE project website](https://virtee.io/)
 * Discussed libraries and tools - confidential workloads and containers
 * Goal of the project - Make it easier to develop confidential virtualization, lower barriers to entry, not tied to a specific hardware architecture
-* DT asked if the [KBS protocol spec](https://github.com/confidential-containers/kbs/blob/main/docs/kbs_attestation_protocol.md), have they considered submitting to the IETF RATS Working Group for review? LD agreed that would be a good discussion
+* DT asked about the [KBS protocol spec](https://github.com/confidential-containers/kbs/blob/main/docs/kbs_attestation_protocol.md), have they considered submitting to the IETF RATS Working Group for review? LD agreed that would be a good discussion
 * MB asked about attestation 
 * Thomas Fossati asked about defining an API for interacting with verifiers, perhaps a RESTful API, TF agreed to interact with VirTEE
 * LD added that they are working toward sandbox stage as a new project for the CCC
