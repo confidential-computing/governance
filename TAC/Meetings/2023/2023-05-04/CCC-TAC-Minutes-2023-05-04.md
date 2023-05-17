@@ -114,7 +114,7 @@
 * DT added in chat - The graduation stage requirements draft text currently says: "Have a defined governing body of at least 5 or more members (owners and core maintainers, or similar technical role), of which no more than 1/3 is affiliated with the same employer."
 * DT brought up that according to the [Gramine CONTRIBUTING document](https://github.com/gramineproject/gramine/blob/master/CONTRIBUTING.rst#management-team-maintainers), Gramine does not meet the requirements for Graduation.
 * DM discussed adding the recommendation for the project maintainers to take the LF training on DEI (link above)
-* Michal Kowalczyk asked how does a company being funded by another company be documented? for example is the Invisible Things company different from Intel?
+* Michal Kowalczyk asked how is a company being funded by another company treated? for example is the Invisible Things company different from Intel?
 * DM proposed: a formal vote for Gramine to move to Incubation stage - unanimous approval from all the voting representatives attending (Thomas Fossati, Cfir Cohen, Zhipeng (Howard) Huang, Dan Middleton, Dave Thaler, Yash Mankad)
 
 
