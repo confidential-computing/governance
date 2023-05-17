@@ -151,7 +151,7 @@ Proposed: That the minutes of the April 20, 2023 meeting of the Technical Adviso
 * MB asked about attestation 
 * Thomas Fossati asked about defining an API for interacting with verifiers, perhaps a RESTful API, TF agreed to interact with VirTEE
 * LD added that they are working toward sandbox stage as a new project for the CCC
-* DT asked about SEV and SMP - supported and promoting
+* DT asked about SEV vs SEV-SNP - only the latter appears in a CCC whitepaper
 * DM asked about CCA vs Realms
 * LD mentioned that the project is active on Matrix #virtee:matrix.org
 
