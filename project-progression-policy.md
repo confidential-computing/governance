@@ -165,6 +165,7 @@ To be considered for Incubation stage, the project must meet the Sandbox require
  * Demonstrate that the current level of community participation is sufficient to meet the goals outlined in the growth plan.
  * Since these metrics can vary significantly depending on the type, scope and size of a project, the TAC has final judgement over the level of activity that is adequate to meet these criteria.
  * Demonstrate that the project is invested in growing a diverse and inclusive community. Resources and recommendations are available in [diversity and inclusion policies](diversity-and-inclusion-policies.md) and through your mentor.
+ * Meet the "passing" level criteria for [OpenSSF Best Practices](https://bestpractices.coreinfrastructure.org/).
  * Receive a two-thirds supermajority vote of the TAC to move to Incubation stage.
 
 ### Graduation Stage
@@ -182,19 +183,20 @@ The Graduation stage is for projects that have reached their [growth goals](grow
 **Expectations**
 
 Graduation stage projects are "TAC Projects" under the
-[Confidential Computing Consoritium Charter](https://confidentialcomputing.io/wp-content/uploads/sites/85/2019/12/CCC_Charter.pdf).
+[Confidential Computing Consortium Charter](https://confidentialcomputing.io/wp-content/uploads/sites/85/2019/12/CCC_Charter.pdf).
 They are eligible to receive ongoing support from the Consortium as determined by the Governing Board, and are expected to cross promote the Consortium along with their activities.
 
 **Acceptance Criteria**
 
 To graduate from Sandbox or Incubation status, or for a new project to join as an Graduation project, a project must meet the Incubation stage criteria plus:
 
- * Have a defined governing body of at least 5 or more members (owners and core maintainers, or similar technical role), of which no more than 1/3 is affiliated with the same employer. In the case there are 5 governing members, 2 may be from the same employer.
-* Have a healthy number of committers from at least two organizations. A committer is defined as someone with the commit bit; i.e., someone who can accept contributions to some or all of the project.
-* Explicitly define a project governance and committer process. This is preferably laid out in a GOVERNANCE.md file and references a CONTRIBUTING.md and OWNERS.md file showing the current and emeritus committers.
-* Have a public list of project adopters or users for at least the primary repo (e.g., ADOPTERS.md or logos on the project website).
-* Other metrics as defined by the applying Project during the application process in cooperation with the TAC.
-* Receive a supermajority vote from the TAC to move to Graduation stage.
+ * Have a defined governing body of 5 or more members, of which less than 1/2 is affiliated with any given employer (including subsidiaries and contractors).
+ * Have a healthy number of committers from at least two organizations. A committer is defined as someone with the commit bit; i.e., someone who can accept contributions to some or all of the project.  A healthy number is defined as a "bus factor" of 2 or more.  A "bus factor" (aka "truck factor") is the minimum number of project members that have to suddenly disappear from a project ("hit by a bus") before the project stalls due to lack of knowledgeable or competent personnel. The truck-factor tool can estimate this for projects on GitHub. For more information, see Assessing the Bus Factor of Git Repositories by Cosentino et al.
+ * Explicitly define a project governance and committer process. This is preferably laid out in a GOVERNANCE.md file and references a CONTRIBUTING.md and OWNERS.md file showing the current and emeritus committers.
+ * Have publicly documented release cycles and plans for Long Term Support ("LTS").
+ * Have a public list of end-user organizations that use the project in production (e.g., ADOPTERS.md or logos on the project website).
+ * Meet at least the "silver" level criteria for [OpenSSF Best Practices](https://bestpractices.coreinfrastructure.org/).
+ * Receive a supermajority vote from the TAC to move to Graduation stage.
 
 Projects can move directly from Sandbox to Graduation if they can demonstrate sufficient maturity and have met all requirements above.
 
