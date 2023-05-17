@@ -54,8 +54,8 @@ need to make these changes in order to progress further.
 
 Projects are accepted or progress from level to level via a majority vote
 of TAC representatives present if quorum is reached or a majority of all
-TAC representatives if voting by email, unless a project is being accepted
-at or moved to either the Graduation or Emeritus stage, in which a vote of
+TAC representatives if voting by email, unless a project is being
+moved to the Emeritus stage, in which a vote of
 two-thirds of all TAC representatives is required.
 
 The TAC will determine the appropriate initial stage for the project.
@@ -108,8 +108,7 @@ In this case a new project acceptance proposal, as defined above, should be subm
 Every Consortium project has an associated maturity level. Proposed projects should state their preferred maturity level.  There are four maturity levels under this Project Progression Policy:
 
 * Sandbox - projects looking for a foundation with minimal initial resource requirements;
-* Incubation - growing projects that are targeting particular growth metrics and looking for resources from the Consortium;
-* Graduation - projects that have reached their growth goals and are now on a sustaining cycle of development, maintenance, and long-term support; and
+* Incubation growing projects that are targeting particular growth metrics and looking for resources from the Consortium; and
 * Emeritus - projects that are approaching end-of-life.
 
 Representatives of Technical Projects may attend TAC meetings and contribute work regardless of their stage.
@@ -117,7 +116,7 @@ Representatives of Technical Projects may attend TAC meetings and contribute wor
 ### Sandbox Stage
 **Definition**
 
-The Sandbox stage is for projects that the TAC believes are, or have the potential to be, important to the ecosystem of Technical Projects or the ecosystem of the Consortium as a whole. They may be early-stage projects just getting started, or they may be long-established projects with minimal resource needs. The Sandbox stage provides a beneficial, neutral home for these projects in order to foster collaborative development and provide a path to deeper alignment with other Consortium projects via the graduation process.
+The Sandbox stage is for projects that the TAC believes are, or have the potential to be, important to the ecosystem of Technical Projects or the ecosystem of the Consortium as a whole. They may be early-stage projects just getting started, or they may be long-established projects with minimal resource needs. The Sandbox stage provides a beneficial, neutral home for these projects in order to foster collaborative development and provide a path to deeper alignment with other Consortium projects via the project progression process.
 
 **Examples**
 
@@ -140,20 +139,19 @@ To be considered for the Sandbox Stage, the project must meet the following requ
 ### Incubation Stage
 **Definition**
 
-The Incubation stage is for projects that are interested in reaching the Graduation stage, and have identified a [growth plan](growth-plans.md) for doing so. Incubation stage projects will receive mentorship from the TAC and are expected to actively develop their community of contributors, governance, project documentation, and other variables identified in the growth plan that factor into broad success and adoption.
+The Incubation stage is for projects that have identified a [growth plan](growth-plans.md). Incubation stage projects will receive mentorship from the TAC and are expected to actively develop their community of contributors, governance, project documentation, and other variables identified in the growth plan that factor into broad success and adoption.
 
 In order to support their active development, projects in the Incubation stage have a higher level of access to Consortium resources as provided by the Governing Board of the Consortium. A project's progress toward its growth plan goals will be reviewed on a yearly basis, and the TAC may move a project to the Sandbox stage if progress on the plan drops off or stalls.
 
 **Examples**
 
-1.	Projects that are on their way or very likely to become Graduation projects.
-2.	Projects that have developed new growth targets or other community metrics for success.
-3.	Projects that are looking to create a lifecycle plan (maintainership succession, contributor programs, version planning, etc.)
-4.	Projects that need more active support from the Consortium or TAC mentorship in order to reach their goals.
+1.	Projects that have developed new growth targets or other community metrics for success.
+2.	Projects that are looking to create a lifecycle plan (maintainership succession, contributor programs, version planning, etc.)
+3.	Projects that need more active support from the Consortium or TAC mentorship in order to reach their goals.
 
 **Expectations**
 
-Projects in the Incubation stage are generally expected to move out of the Incubation stage within two years. Depending on their growth plans, projects may cycle through Sandbox, Incubation, or Graduation stage as needed.
+Projects in the Incubation stage are generally expected to move out of the Incubation stage within two years. Depending on their growth plans, projects may cycle through Sandbox or Incubation stage as needed.
 
 **Acceptance Criteria**
 
@@ -166,38 +164,6 @@ To be considered for Incubation stage, the project must meet the Sandbox require
  * Since these metrics can vary significantly depending on the type, scope and size of a project, the TAC has final judgement over the level of activity that is adequate to meet these criteria.
  * Demonstrate that the project is invested in growing a diverse and inclusive community. Resources and recommendations are available in [diversity and inclusion policies](diversity-and-inclusion-policies.md) and through your mentor.
  * Receive a two-thirds supermajority vote of the TAC to move to Incubation stage.
-
-### Graduation Stage
-**Definition**
-
-The Graduation stage is for projects that have reached their [growth goals](growth-plans.md) and are now on a sustaining cycle of development, maintenance, and long-term support. Graduation stage projects are used commonly in enterprise production environments and have large, well-established project communities.
-
-**Examples**
-
-1.	Projects that have publicly documented release cycles and plans for Long Term Support ("LTS").
-2.	Projects that have themselves become platforms for other projects.
-3.	Projects that are able to attract a healthy number of committers on the basis of its production usefulness (not simply 'developer popularity').
-4.	Projects that have several, high-profile or well known end-user implementations.
-
-**Expectations**
-
-Graduation stage projects are "TAC Projects" under the
-[Confidential Computing Consoritium Charter](https://confidentialcomputing.io/wp-content/uploads/sites/85/2019/12/CCC_Charter.pdf).
-They are eligible to receive ongoing support from the Consortium as determined by the Governing Board, and are expected to cross promote the Consortium along with their activities.
-
-**Acceptance Criteria**
-
-To graduate from Sandbox or Incubation status, or for a new project to join as an Graduation project, a project must meet the Incubation stage criteria plus:
-
- * Have a defined governing body of at least 5 or more members (owners and core maintainers, or similar technical role), of which no more than 1/3 is affiliated with the same employer. In the case there are 5 governing members, 2 may be from the same employer.
-* Have a healthy number of committers from at least two organizations. A committer is defined as someone with the commit bit; i.e., someone who can accept contributions to some or all of the project.
-* Explicitly define a project governance and committer process. This is preferably laid out in a GOVERNANCE.md file and references a CONTRIBUTING.md and OWNERS.md file showing the current and emeritus committers.
-* Have a public list of project adopters or users for at least the primary repo (e.g., ADOPTERS.md or logos on the project website).
-* Other metrics as defined by the applying Project during the application process in cooperation with the TAC.
-* Receive a supermajority vote from the TAC to move to Graduation stage.
-
-Projects can move directly from Sandbox to Graduation if they can demonstrate sufficient maturity and have met all requirements above.
-
 
 ### Emeritus Stage
 **Definition**
