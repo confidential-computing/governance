@@ -166,7 +166,7 @@ Proposed: That the minutes of the April 20, 2023 meeting of the Technical Adviso
 * DM reviewed the current state of the action items
 * KT reviewed the TAC white paper PR and asked for review, DM asked to focus on wording not formatting
 
- ***ACTION*** Kurt to ask Outreach committee about the source for the 
+ ***ACTION*** Kurt to ask the Outreach committee if they needed a source .md file for the "Confidential Computing: Hardware-Based Trusted Execution for Applications and Data" white paper
 
 * DM talked about the project progression - asked that the document be reviewed before the next meeting 
   * Project Progression - [PR #160](https://github.com/confidential-computing/governance/pull/160)
