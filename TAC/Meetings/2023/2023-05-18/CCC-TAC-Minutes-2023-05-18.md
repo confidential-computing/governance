@@ -119,7 +119,7 @@ Proposed: That the minutes of the May 4, 2023 meeting of the Technical Advisory 
   * The other approach is to update the Graduation phase text to address points raised [PR #170](https://github.com/confidential-computing/governance/pull/170)
     * Emeritus not addressed in this discussion
     * [Growth Plan document](https://github.com/confidential-computing/governance/blob/main/growth-plans.md)
-    * Discussion on employer wording - proposed that employer would include subsidaries and contractors, what fraction affiliated with project
+    * Discussion on employer wording - proposed that employer would include subsidaries and contractors for consistency with CCC voting membership policies, what fraction affiliated with project
     * Number of committers - make more clear than only the subjective term "healthy number"
     * OpenSSF Best Practices   https://bestpractices.coreinfrastructure.org/en/criteria
         * From OpenSSF "Bus factor "- minimum number of maintainers that would have to suddenly disappear for the project to stall
