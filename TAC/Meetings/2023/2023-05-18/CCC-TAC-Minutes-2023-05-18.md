@@ -120,7 +120,7 @@ Proposed: That the minutes of the May 4, 2023 meeting of the Technical Advisory 
     * Emeritus not addressed in this discussion
     * [Growth Plan document](https://github.com/confidential-computing/governance/blob/main/growth-plans.md)
     * Discussion on employer wording - proposed that employer would include subsidaries and contractors, what fraction affiliated with project
-    * Numer of committers - make more clear than only the subjective term "healthy number"
+    * Number of committers - make more clear than only the subjective term "healthy number"
     * OpenSSF Best Practices   https://bestpractices.coreinfrastructure.org/en/criteria
         * From OpenSSF "Bus factor "- minimum number of maintainers that would have to suddenly disappear for the project to stall
         * In chat: Independent of this, I would love to see the TAC recommend OpenSSF Best Practices badge for all projects.  Can discuss next time.
