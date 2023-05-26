@@ -132,7 +132,9 @@
   * MV asked if we have engaged regulatory bodies, DM discussed where this is covered with interfacing with NIST and the work in the GRC Sig
 
 
-**Update: Attestation SIG - Shanwei Cen, Greg Kostal, Keith Moyer - deferred to next meeting
+**Update: Attestation SIG**
+
+* Shanwei Cen, Greg Kostal, Keith Moyer - deferred to next meeting
 
 
 **Meeting Minute Approval**
