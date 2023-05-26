@@ -165,7 +165,7 @@ Proposed: That the minutes of the May 4, 2023 meeting of the Technical Advisory 
 
 * Shanwei Cen (SC) presented
 * No change in the SIG mission or scope
-  * DT asked if the mission would need to changed since they may not actually be developing software
+  * DT asked if the mission statement should be updated since the SIG may not actually be developing software.  Instead it is doing documentation and coordination among other projects (whether in or out of the CCC).
   * Thomas Fossati (TF) noted that there is proof of concept work underway, Mona Vij (MV) commented that there were also efforts to commonize components
 * License scans - provide feedback on outstanding issues on license scans
 
