@@ -113,7 +113,7 @@ Proposed: That the minutes of the May 4, 2023 meeting of the Technical Advisory 
  * Project Progression proposal [PR #160](https://github.com/confidential-computing/governance/pull/160)
 * Dave Thaler (DT) presented on the Graduation stage
   * Background: [Issue #104](https://github.com/confidential-computing/governance/issues/104) from April 2022
-  * Sandbox and Incubation stages were approved soon after initial project formation, but further stages were never discussed or approved
+  * Sandbox and Incubation stages were approved soon after initial TAC formation, but further stages were never discussed or approved
   * Need is to define the differences and benefits of Graduation
   * One approach is to remove it alltogether [PR #171](https://github.com/confidential-computing/governance/pull/171)
   * The other approach is to update the Graduation phase text to address points raised [PR #170](https://github.com/confidential-computing/governance/pull/170)
