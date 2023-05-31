@@ -91,7 +91,7 @@
 
 **Outreachy internship**
 
-* Zahara Tarkhani introduced herself and discussed the hardware needed for the mentorship
+* Zahra Tarkhani introduced herself and discussed the hardware needed for the mentorship
 * All agreed to continue the discussion via email
 
 
