@@ -132,7 +132,7 @@ Proposed: That the minutes of the May 4, 2023 meeting of the Technical Advisory 
 
 * Thore Sommer (TS) presented on the Keylime (CNCF project)
   * Background on TPM - Trusted Platform Module
-    * PCR extend algotithm
+    * PCR extend algorithm
   * Questions and discussion on measurement
   * Keylime architecture and example of process at runtime
   * SEV-SNP vTPM proof-of-concept: https://github.com/svsm-vtpm/
