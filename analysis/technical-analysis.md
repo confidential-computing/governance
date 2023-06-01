@@ -137,7 +137,7 @@ For more discussion of TEE definitions used in the industry, see the discussion 
 The TAC conducted a survey of various terms in the industry related to protecting data in use, and
 composed the following Venn diagram of technologies:
 
-![Alt text](related-terminology.png "Related Terminology")
+![Alt text](related-terminology.png "Related Technologies")
 
 Figure 1 - Venn diagram of various technologies used to protect data in use
 
@@ -145,6 +145,7 @@ Unfortunately, unlike the term “confidential computing”, several of the term
 multiple competing definitions. For example, “privacy-preserving computation” is variously defined
 as being synonymous with multi-party computation, or covering both multi-party computation and
 homomorphic encryption, or even (e.g., in [2]) covering the entire space of protecting data in use.
+
 This diagram illustrates why we refer to confidential computing as protecting data in use by using a
 hardware-based TEE, to distinguish it from other techniques.
 
@@ -367,6 +368,7 @@ to gain confidence in the trustworthiness of the Attester by obtaining an authen
 report about the software and data state of the Attester.
 
 **6.1 Hardware-Based Attestation**
+
 Hardware-based attestation schemes rely on a trusted hardware component and associated firmware to execute
 attestation routines in a secure environment. As an example, an attestation protocol might work as follows:
 
@@ -392,6 +394,7 @@ properties, including:
 component’s signature provided that the trusted hardware component never signed this message.
 * **Revocation**: If a trusted hardware component is compromised, signatures from compromised keys are
 no longer accepted.
+
 Some attestation schemes also provide:
 * **Anonymity**: Adversaries cannot reveal the identity of the trusted hardware component from signatures.
 
