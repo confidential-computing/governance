@@ -144,7 +144,7 @@ Proposed: That the minutes of the May 4, 2023 meeting of the Technical Advisory 
     * DT discussed the plugin hosted in the CCC would be similar to what Veraison would need, since Keylime is in the same overall space as Veraison
     * MB asked if attestation - is there a danger in combining TEE and TPM attestation, pointing out the differences between them - discussion ensued
     * DM asked about other areas of use or examples
-    * From chat: For the CRTM (initial measurment) (definition)]https://trustedcomputinggroup.org/wp-content/uploads/TCG_PCClient_PFP_r1p05_v23_pub.pdf)
+    * From chat: For the CRTM (initial measurement) (definition): https://trustedcomputinggroup.org/wp-content/uploads/TCG_PCClient_PFP_r1p05_v23_pub.pdf
     * DT asked about the attestation architecture - relying party needing to be able to tell they are a TEE
 
 
