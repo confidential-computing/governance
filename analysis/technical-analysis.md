@@ -152,8 +152,8 @@ hardware-based TEE, to distinguish it from other techniques.
 **4.1 Security Comparisons**
 
 The following table compares a typical TEE implementation with typical implementations of two other
-emerging classes of solution that protect data in use, Homomorphic Encryption (HE) and Trusted Platform
-Modules (TPM).
+emerging classes of solution that protect data in use, [Homomorphic Encryption](https://homomorphicencryption.org/) (HE) 
+and [Trusted Platform Modules](https://trustedcomputinggroup.org/) (TPM).
 
 |                      | HW TEE                |  Homomorphic Encryption       | TPM           |
 | -------------------- | --------------------- | ----------------------------- | ------------- |
