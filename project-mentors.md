@@ -33,11 +33,10 @@ Responsibilities of the mentor include:
 
 Currently accepted CCC projects have been assigned the following mentors:
 
-* **[CCC-Attestation](https://github.com/CCC-Attestation)**: [Dan Middleton](https://github.com/dcmiddle) and [Aeva Black](https://github.com/AevaOnline)
-* **[Enarx](https://github.com/enarx)**: [Mike Bursell](https://github.com/MikeCamel)
-* **[Gramine](https://gramineproject.io/)**:[Eric Voit](https://github.com/ericvoit)
+* **[Enarx](https://github.com/enarx)**: [Nick Vidal](https://github.com/nickvidal)
+* **[Gramine](https://gramineproject.io/)**: [Eric Voit](https://github.com/ericvoit)
 * **[Keystone](https://keystone-enclave.org)**: [Lily Sturmann](https://github.com/lkatalin)
-* **[Occlum](https://occlum.io)**: [Zongmin Gu](https://github.com/guzongmin)
+* **[Occlum](https://occlum.io)**: [Tate Tian](https://github.com/tatetian)
 * **[Open Enclave SDK](https://github.com/openenclave/openenclave)**: [Dave Thaler](https://github.com/dthaler)
-* **[Veracruz](https://github.com/veracruz-project)**: [Grant Likely](https://github.com/glikely) and [Mike Bursell](https://github.com/MikeCamel)
-
+* **[Veracruz](https://github.com/veracruz-project)**: [Thomas Fossati](https://github.com/thomas-fossati)
+* **[Veraison](https://github.com/veraison)**: [Howard Huang](https://github.com/hannibalhuang)
