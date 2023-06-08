@@ -138,7 +138,7 @@ Proposed: That the minutes of the May 18, 2023 meeting of the Technical Advisory
 
 **Technical Analysis white paper**
 
-* DM asked for approval for the [PR#167](https://github.com/confidential-computing/governance/pull/167)
+* DM asked for approval for [PR #167](https://github.com/confidential-computing/governance/pull/167)
 
    ***ACTION*** Kurt to fix the location of the white paper pictures in the repo
 
