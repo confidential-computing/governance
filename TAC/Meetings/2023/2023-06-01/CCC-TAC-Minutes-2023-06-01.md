@@ -122,7 +122,7 @@ Proposed: That the minutes of the May 18, 2023 meeting of the Technical Advisory
       * Concern on the sevctl repository, including in the proposal, that it does not meet the requirements of confidential computing
       * See page 7 (from chat - table that folks can inspect. E.g. see "Integrity" rows of that table for SEV vs SEV-SNP guarantees, especially as it applies to the checklist we saw earlier) https://www.amd.com/system/files/TechDocs/SEV-SNP-strengthening-vm-isolation-with-integrity-protection-and-more.pdf
     * DM asked for clarification on reference-kbs
-    * DM asked how to move forward with the DT concerns, DT proposed to move forward without the 2 repos of concern - sevctl (and sevctl-test in the repo) be removed from the proposal
+    * DM asked how to move forward with the DT concerns, DT proposed to move forward without the 2 repos of concern - sevctl (and sevctl-test in the repo) be removed from the proposal.  That change to the proposal was done.
     * DT asked for a quick review of the proposed Technical Charter
     * DM asked for a roll call vote: Thomas Fossati - Yes, Catalin Sandu - Yes, Howard Huang - Yes, Dan Middleton - Yes, Dave Thaler - Yes, Lily Sturmann - Yes
     * VirTEE project proposal was unanimous approved to be recommended to the Governing Board by the TAC and for it to proceed to the next steps in the process, with the minor changes noted
