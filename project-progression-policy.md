@@ -244,6 +244,11 @@ The review includes the following:
    on any outstanding issues and evaluate the scanning service from the
    project's perspective.
 
+5. Review the project's [OpenSSF Best Practices Badge](https://bestpractices.coreinfrastructure.org/)
+   status.  Does the project display the badge on its github page?
+   Has its status advanced since the last TAC review?  Does it expect the
+   status to further advance during the next year?
+
 Projects are encouraged to proactively inform the TAC when something
 changes that affects their submission template or Technical Charter (changing a License, security
 reporting process, CoC, etc.), rather than waiting for the next annual review.
