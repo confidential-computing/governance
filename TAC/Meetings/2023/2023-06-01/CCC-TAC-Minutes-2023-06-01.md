@@ -124,7 +124,7 @@ Proposed: That the minutes of the May 18, 2023 meeting of the Technical Advisory
     * DM asked for clarification on reference-kbs
     * DM asked how to move forward with the DT concerns, DT proposed to move forward without the 2 repos of concern - sevctl (and sevctl-test in the repo) be removed from the proposal
     * DT asked for a quick review of the proposed Technical Charter
-    * DM asked for a role call vote: Thomas Fossati - Yes, Catalin Sandu - Yes, Howard Huang - Yes, Dan Middleton - Yes, Dave Thaler - Yes, Lily Sturmann - Yes
+    * DM asked for a roll call vote: Thomas Fossati - Yes, Catalin Sandu - Yes, Howard Huang - Yes, Dan Middleton - Yes, Dave Thaler - Yes, Lily Sturmann - Yes
     * VirTEE project proposal was unanimous approved to be recommended to the Governing Board by the TAC and for it to proceed to the next steps in the process, with the minor changes noted
     
      ***ACTION*** Kurt to work with Tyler on the next steps to take the proposal to the Governing Board for approval
