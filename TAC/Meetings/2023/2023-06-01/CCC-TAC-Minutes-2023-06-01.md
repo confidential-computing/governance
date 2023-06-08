@@ -159,7 +159,7 @@ Proposed: That the minutes of the May 18, 2023 meeting of the Technical Advisory
     * Emeritus not addressed in this discussion
     * MB commented on the removal of the graduation stage (PR#171)
        * Should a growing project have more access to funding or less access to funding
-       * Simplify the the acceptance criteria
+       * Simplify the acceptance criteria
        * MB suggested that the TAC poll the voting representatives
        * DM tabled the topic due to time, will resume discussion next meeting
 
