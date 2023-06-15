@@ -149,10 +149,6 @@ In order to support their active development, projects in the Incubation stage h
 2.	Projects that are looking to create a lifecycle plan (maintainership succession, contributor programs, version planning, etc.)
 3.	Projects that need more active support from the Consortium or TAC mentorship in order to reach their goals.
 
-**Expectations**
-
-Projects in the Incubation stage are generally expected to move out of the Incubation stage within two years. Depending on their growth plans, projects may cycle through Sandbox or Incubation stage as needed.
-
 **Acceptance Criteria**
 
 To be considered for Incubation stage, the project must meet the Sandbox requirements as well as the following:
