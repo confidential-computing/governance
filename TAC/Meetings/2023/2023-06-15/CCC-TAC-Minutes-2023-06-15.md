@@ -73,7 +73,6 @@
 * Leonardo Garcia (Linaro)
 * Victor Lu (TikTok)
 * Alec Fernandez (Microsoft)
-* Henk Birkholtz (Fraunhofer Institute)
 * Drasko Draskovic (Ultraviolet)
 * Pawan Khandavilli (Microsoft)
 * Sudish Mogli (BeeKeeperAI)
