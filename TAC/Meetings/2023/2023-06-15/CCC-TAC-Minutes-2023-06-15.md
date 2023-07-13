@@ -120,7 +120,7 @@ Proposed: That the minutes of the June 1, 2023 meeting of the Technical Advisory
 * DM led a PR review, DT asked about the PR for the Best Practices
 DM discussed PR #90 - DT noted that there would be 2 copies of the technical charters, and suggested that they be merged
 
-  ***ACTION*** Kurt to cleanup charters after DM merges #90 ("Projects" directory for the charters not the current "project-charters" directory in governance)
+  ***ACTION*** Kurt to clean up charters after DM merges #90 ("Projects" directory for the charters not the current "project-charters" directory in governance)
   
 * DM discussed PR #176 - DT added the best practices badge to the project annual review guidelines 
 * MB asked DT clarified on the policy on vote/approval
