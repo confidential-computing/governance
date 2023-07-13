@@ -13,5 +13,5 @@
    * Eric Northup, Facebook
    * Cfir Cohen (@cfircohen), Google
    * Zhipeng Huang (@hannibalhuang), Huawei
-   * Lily Sturmann (@lkatalin), Red Hat
+   * Lily Sturmann (@lkatalin) and Yash Mankad (@yashkmankad ), Red Hat
    * Dave Thaler (@dthaler), Microsoft
