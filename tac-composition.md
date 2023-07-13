@@ -2,8 +2,6 @@
 
 * Chair
    * Dan Middleton (@dcmiddle), Intel
-* Vice chair
-   * Jethro Beekman (@jethrogb), Fortanix
 * Secretary
    * Kurt Taylor (@krtaylor), Linux Foundation
 * Voting Members
