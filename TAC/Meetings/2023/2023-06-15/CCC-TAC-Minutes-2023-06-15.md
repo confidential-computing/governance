@@ -113,7 +113,7 @@ Proposed: That the minutes of the June 1, 2023 meeting of the Technical Advisory
 * DM asked about the large number of project repositories and if there was a map of the project services, TF discussed the layout of the repos, services should be the starting point, MB asked for an easier pathway for getting started in the project
 * Antonio Gomez agreed to help with better getting-started documentation
 * DM asked about collaboration - with reference to Eric and Lily inter-project collaboration group
-  * TF and Eric Voit (EV) commented that Veracruz is using Veraison
+  * TF and Eric Voit (EV) commented that Veracruz is using Veraison and the collaboration model, for the moment, has been that Veracruz team members regularly join the weekly Veraison public meeting.
 
 **PR Review**
 
