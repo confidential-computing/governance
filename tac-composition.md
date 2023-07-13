@@ -1,17 +1,17 @@
 # TAC Personnel
 
 * Chair
-   * Dave Thaler (@dthaler), Microsoft
+   * Dan Middleton (@dcmiddle), Intel
 * Vice chair
    * Jethro Beekman (@jethrogb), Fortanix
 * Secretary
-   * Brian Warner (@brianwarner), Linux Foundation
+   * Kurt Taylor (@krtaylor), Linux Foundation
 * Voting Members
    * Giuseppe Giordano (@GiuseppeGiordano), Accenture
    * Zongmin Gu (@guzongmin), Ant Group
    * Thomas Fossati (@thomas-fossati), Arm
    * Eric Northup, Facebook
-   * Iulia Ion (@iuliaion), Google
+   * Cfir Cohen (@cfircohen), Google
    * Zhipeng Huang (@hannibalhuang), Huawei
-   * Dan Middleton (@dcmiddle), Intel
    * Lily Sturmann (@lkatalin), Red Hat
+   * Dave Thaler (@dthaler), Microsoft
