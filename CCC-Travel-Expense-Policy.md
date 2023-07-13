@@ -1,7 +1,7 @@
 ## Confidential Computing Consortium Travel Expense Policy
 
 
-The Confidential Computing Consortium’s Travel Budgets are intended to enable CCC’s project developers and community members to attend events that they would otherwise be unable to attend due to lack of funding. If you work for a company that has the ability to fund your travel, we ask that you seek funding from your company first, to save funds for those who need it. The goal is to try to use the CCC funds to assist as many people as possible.
+The Confidential Computing Consortium’s Travel Budgets are intended to enable CCC Technical Project developers and community members to attend events that they would otherwise be unable to attend due to lack of funding. If an individual works for a company that has the ability to fund the travel, the TAC expects the individual to seek funding from their company first, to save funds for those who need it. The goal is to try to use the CCC funds to assist as many people as possible.
 
 In order to maximize spend, travel fund assistance may only be used for:
 
