@@ -16,7 +16,7 @@ In order to maximize spend, travel fund assistance may only be used for:
 
 1. Estimate travel expenses based on the guidelines listed above.
 2. Submit travel estimate to your committee and operations@confidentialcomputing.io with the reasons for travel (presenting, staffing a booth, etc.)
-3. Get approval for the travel from the committee and/or from the Executive Director or the Technical Community Architect
+3. Get approval for the travel from the committee and/or from the Executive Director or the Technical Community Architect.
 4. Purchase the travel and attend the event.
 5. Provide a trip report shared with your committee. Preferably, also provide pictures and video of the event for use on social media.
 5. Once you have completed the travel and paid the expenses, fill out the Linux Foundation expense report. Contact operations@confidentialcomputing.io for the expense report template and for any questions. 
