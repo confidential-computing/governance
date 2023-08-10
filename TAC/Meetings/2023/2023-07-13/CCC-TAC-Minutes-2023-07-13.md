@@ -108,7 +108,8 @@ Proposed: That the minutes of the June 15, 2023 meeting of the Technical Advisor
    * List of planned [Event participation](https://docs.google.com/spreadsheets/d/1DntsVhFh03bQA1CfpH0phR_Y9cZpWyd6M5gYAP5UFp0/edit?pli=1#gid=386640387)
    * DT offered to create an author list and letting [Google Scholar](https://scholar.google.com/citations?view_op=list_works&hl=en&user=QMoSURoAAAAJ&gmla=AMpAcmSQFtRlf-V1oLpmeqtI6mDuttPZCqaM-SZHYrBBU7KzxHTgZrLjW1-6K9pvIlJQ-3dBDTj74PlTX1v9Xvg7NLfQS__eqlZAwQDCgrWcpTnw8mhNEBvXHfuSig) help with "H" Factor for an author
 
-     ***ACTION*** Dave volunteered to create an author listing for Google Scholar
+     ***ACTION Complete*** Dave volunteered to create an author listing for Google Scholar
+     https://scholar.google.com/citations?user=QMoSURoAAAAJ&hl=en
    
    * Richard Zak asked for sponsorship for DefCon, DM asked for clarification of role at the conference, for Enarx project vs CCC representation, will discuss offline
 
