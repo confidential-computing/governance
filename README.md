@@ -1,8 +1,10 @@
 # Confidential Computing Consortium Governance Documents
 
-This repo contains governance documents for the Confidential Computing Consortium. For more information on the consortium please see our [website](https://confidentialcomputing.io/).
+This repo contains governance documents for the Confidential Computing Consortium. For more information on the consortium, our projects, and SIGS please see our [website](https://confidentialcomputing.io/).
 
 You are welcome to join our public [Technical Advisory Council meetings](https://github.com/confidential-computing/governance/tree/main/TAC/Meetings#confidential-computing-consortium-tac-meetings).
+
+We welcome all projects submissions meeting our criteria. See [Project Submission Template](./project-submission-template.md).
 
 ## Definition
 Confidential Computing is the protection of data in use by performing computation in a hardware-based, attested Trusted Execution Environment.
