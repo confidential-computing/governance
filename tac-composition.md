@@ -4,12 +4,12 @@
    * Dan Middleton (@dcmiddle), Intel
 * Secretary
    * Kurt Taylor (@krtaylor), Linux Foundation
-* Voting Members
-   * Giuseppe Giordano (@GiuseppeGiordano), Accenture
-   * Zongmin Gu (@guzongmin), Ant Group
-   * Thomas Fossati (@thomas-fossati), Arm
-   * Eric Northup, Facebook
-   * Cfir Cohen (@cfircohen), Google
-   * Zhipeng Huang (@hannibalhuang), Huawei
-   * Lily Sturmann (@lkatalin) and Yash Mankad (@yashkmankad ), Red Hat
-   * Dave Thaler (@dthaler), Microsoft
+* Voting Members (primary and backup)
+   * Accenture: Giuseppe Giordano (@GiuseppeGiordano)
+   * Arm: Thomas Fossati (@thomas-fossati) and Michael Lu
+   * Google: Cfir Cohen (@cfircohen) and Catalin Sandu
+   * Huawei: Zhipeng Huang (@hannibalhuang)
+   * Intel: Dan Middleton (@dcmiddle) and Simon Johnson (@spjohnso)
+   * Meta: Eric Northup and Shankaran Gnanashanmugam
+   * Microsoft: Dave Thaler (@dthaler) and Alec Fernandez (@alecfernandez)
+   * Red Hat: Lily Sturmann (@lkatalin) and Yash Mankad (@yashkmankad)
