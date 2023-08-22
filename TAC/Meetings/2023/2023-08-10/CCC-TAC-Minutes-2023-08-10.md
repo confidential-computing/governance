@@ -118,7 +118,7 @@ Proposed: That the minutes of the July 13, 2023 meeting of the Technical Advisor
 * [Security Protocol and Data Model (SPDM)](https://www.dmtf.org/standards/spdm)
 * Component Measurement and Authentication (CMA)
 * [Rust-SPDM project](https://github.com/intel/rust-spdm) - Rust implementation of the SPDM protocol
-* There were questions about the project being a good fit in the CCC, discussion ensued
+* There were questions about whether the project is a good fit in the CCC, since the project is not specific to confidential computing.  Discussion ensued
 
 
 **Tech Talk: CHAOSS and D&I**
