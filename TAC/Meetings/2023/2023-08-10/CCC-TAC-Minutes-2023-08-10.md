@@ -6,7 +6,7 @@
 
 ### Meeting details
 
-**Date**: Thursday, July 13, 2023
+**Date**: Thursday, August 10, 2023
 
 **Time**: 7a-9a US Pacific Time
 
