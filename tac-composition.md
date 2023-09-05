@@ -6,7 +6,7 @@
    * Kurt Taylor (@krtaylor), Linux Foundation
 * Voting Members (primary and backup)
    * Accenture: Giuseppe Giordano (@GiuseppeGiordano)
-   * Arm: Thomas Fossati (@thomas-fossati) and Michael Lu
+   * Arm: Nathaniel McCallum (@npmccallum) and Michael Lu
    * Google: Cfir Cohen (@cfircohen) and Catalin Sandu
    * Huawei: Zhipeng Huang (@hannibalhuang)
    * Intel: Dan Middleton (@dcmiddle) and Simon Johnson (@spjohnso)
