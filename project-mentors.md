@@ -9,8 +9,7 @@ project and provide mentorship as needed.
 
 Responsibilities of the mentor include:
 
-1. Assist the project in creating a [growth plan](growth-plans.md), which is required for a
-   project in the [Incubation Stage](project-progression-policy.md#incubation-stage).
+1. Assist the project in creating a [growth plan](growth-plans.md).
 
 2. Help the project determine what needs to be reviewed by the TAC as
    part of the [annual review process](project-progression-policy.md#iv-annual-review-process).

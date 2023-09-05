@@ -107,16 +107,16 @@ In this case a new project acceptance proposal, as defined above, should be subm
 ## III. Stages - Definitions & Expectations
 Every Consortium project has an associated maturity level. Proposed projects should state their preferred maturity level.  There are four maturity levels under this Project Progression Policy:
 
-* Sandbox - projects looking for a foundation with minimal initial resource requirements;
-* Incubation - projects that are used in production; and
+* Incubation - projects looking for a foundation with minimal initial resource requirements;
+* Graduation - projects that are used in production; and
 * Emeritus - projects that are approaching end-of-life.
 
 Representatives of Technical Projects may attend TAC meetings and contribute work regardless of their stage.
 
-### Sandbox Stage
+### Incubation Stage
 **Definition**
 
-The Sandbox stage is for projects that the TAC believes are, or have the potential to be, important to the ecosystem of Technical Projects or the ecosystem of the Consortium as a whole. They may be early-stage projects just getting started, or they may be long-established projects with minimal resource needs. The Sandbox stage provides a beneficial, neutral home for these projects in order to foster collaborative development and provide a path to deeper alignment with other Consortium projects via the project progression process.
+The Incubation stage is for projects that the TAC believes are, or have the potential to be, important to the ecosystem of Technical Projects or the ecosystem of the Consortium as a whole. They may be early-stage projects just getting started, or they may be long-established projects with minimal resource needs. The Incubation stage provides a beneficial, neutral home for these projects in order to foster collaborative development and provide a path to deeper alignment with other Consortium projects via the project progression process.
 
 **Examples**
 
@@ -126,22 +126,25 @@ The Sandbox stage is for projects that the TAC believes are, or have the potenti
 
 **Expectations**
 
-End users should evaluate Sandbox projects with care, as this stage does not set requirements for community size, governance, or production readiness. Sandbox projects will receive minimal support from the Consortium. Projects will be reviewed on an annual basis; they may also request a status review by submitting a report to the TAC.
+End users should evaluate Incubation projects with care, as this stage does not set requirements for community size, governance, or production readiness. Incubation projects will receive a basic level of support from the Consortium.
+
+Each project is expected to develop a [growth plan](growth-plans.md), and a project's progress toward its growth plan goals will be reviewed on a yearly basis, as discussed in the [Annual Review Process](#iv-annual-review-process).
+They may also request a status review by submitting a report to the TAC.
 
 **Acceptance Criteria**
 
-To be considered for the Sandbox Stage, the project must meet the following requirements:
+To be considered for the Incubation Stage, the project must meet the following requirements:
 * 1 [TAC representative](project-mentors.md) that will serve as a sponsor to champion the project & provide mentorship as needed
 * A presentation to at the meeting of the TAC
 
-* Upon acceptance, Sandbox projects must list their status prominently on their website/README
+* Upon acceptance, Incubation projects must list their status prominently on their website/README
 
-### Incubation Stage
+### Graduation Stage
 **Definition**
 
-The Incubation stage is for projects that have identified a [growth plan](growth-plans.md). Incubation stage projects will receive mentorship from the TAC and are expected to actively develop their community of contributors, governance, project documentation, and other variables identified in the growth plan that factor into broad success and adoption.
+Graduation stage projects will receive mentorship from the TAC and are expected to actively develop their community of contributors, governance, project documentation, and other variables identified in the growth plan that factor into broad success and adoption.
 
-In order to support their active development, projects in the Incubation stage have a higher level of access to Consortium resources as provided by the Governing Board of the Consortium. A project's progress toward its growth plan goals will be reviewed on a yearly basis, and the TAC may move a project to the Sandbox stage if progress on the plan drops off or stalls.
+In order to support their active development, projects in the Graduation stage have a higher level of access to Consortium resources as provided by the Governing Board of the Consortium. A project's progress toward its growth plan goals will be reviewed on a yearly basis, and the TAC may move a project to the Incubation stage if progress on the plan drops off or stalls.
 
 **Examples**
 
@@ -151,7 +154,7 @@ In order to support their active development, projects in the Incubation stage h
 
 **Acceptance Criteria**
 
-To be considered for Incubation stage, the project must meet the Sandbox requirements as well as the following:
+To be considered for Graduation stage, the project must meet the Incubation requirements as well as the following:
 
  * Development of a growth plan, to be done in conjunction with their [project mentor(s)](project-mentors.md) at the TAC.
  * Document that it is being used successfully in production by at least two independent end-user organizations which, in the TAC's judgement, are of adequate quality and scope.
@@ -159,7 +162,7 @@ To be considered for Incubation stage, the project must meet the Sandbox require
  * Demonstrate that the current level of community participation is sufficient to meet the goals outlined in the growth plan.
  * Since these metrics can vary significantly depending on the type, scope and size of a project, the TAC has final judgement over the level of activity that is adequate to meet these criteria.
  * Demonstrate that the project is invested in growing a diverse and inclusive community. Resources and recommendations are available in [diversity and inclusion policies](diversity-and-inclusion-policies.md) and through your mentor.
- * Receive a two-thirds supermajority vote of the TAC to move to Incubation stage.
+ * Receive a two-thirds supermajority vote of the TAC to move to Graduation stage.
 
 ### Emeritus Stage
 **Definition**
