@@ -105,7 +105,7 @@ A project may want to spin out a new project because the original scope, governa
 In this case a new project acceptance proposal, as defined above, should be submitted to the TAC.
 
 ## III. Stages - Definitions & Expectations
-Every Consortium project has an associated maturity level. Proposed projects should state their preferred maturity level.  There are four maturity levels under this Project Progression Policy:
+Every Consortium project has an associated maturity level. Proposed projects should state their preferred maturity level.  There are three maturity levels under this Project Progression Policy:
 
 * Incubation - projects looking for a foundation with minimal initial resource requirements;
 * Graduation - projects that are used in production; and
