@@ -13,12 +13,12 @@ Confidential Computing is the protection of data in use by performing computatio
 The purpose of the Confidential Computing Consortium is to raise,
 budget and spend funds in support of various open source and/or open standards projects
 relating to:
-* defining confidential computing and accelerate acceptance and adoption in the
+* defining confidential computing and accelerating acceptance and adoption in the
 market.
-*  developing open enterprise-grade building blocks (e.g. open specifications and open
-source licensed projects), including a confidential managed compute portfolio and
-development experience, to enable easy development and management of enterprisegrade confidential compute applications, and
-* defining foundational services and frameworks that are confidential-aware and
+* developing open enterprise-grade building blocks (e.g., open specifications and open
+source licensed projects), including a confidential computing portfolio and
+development experience, to enable easy development and management of enterprise-grade confidential computing applications, and
+* defining foundational services and frameworks that are confidential-computing aware and
 minimize the need for trust.
 
 ## Repository Maintenance
