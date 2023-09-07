@@ -1,7 +1,7 @@
 # Growth Plans
 
 The [CCC Project Progression Policy](project-progression-policy.md) explains
-project accepted by the CCC should have a growth plan to track its progress
+that each project accepted by the CCC should have a growth plan to track its progress
 towards the [Graduation Stage](project-progression-policy.md#graduation-stage).
 
 A "growth plan" is a written set of [growth goals](#growth-goals) and a
