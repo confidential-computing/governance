@@ -148,7 +148,7 @@ Proposed: That the minutes of the August 24, 2023 meeting of the Technical Advis
 * The response is due on October 9, 2023.
 * RFI response will be sent to the board a week prior to the due date to review.
 * Working doc: https://docs.google.com/document/d/1hEZZfsmMtBpOYkCpRTMNYFbY9_qEYK_VxMRlXhQxfEU/edit#heading=h.3pkkmtscvc8q
-
+* TAC contributors are encouraged to get bulleted concepts into the google doc immediately. MB will be creating a first draft imminently and it will be easier to incorporate concepts at the outset rather than through revisions.
 
 Next meeting September 21, 2023
 
