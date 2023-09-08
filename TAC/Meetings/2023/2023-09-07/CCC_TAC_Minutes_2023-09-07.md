@@ -133,7 +133,8 @@ Proposed: That the minutes of the August 24, 2023 meeting of the Technical Advis
 
 * Samuel Ortiz (Rivos) joins the proposal as an additional maintainer and sponsor.
 * https://github.com/intel/rust-spdm
-* Want to know how this project promotes confidential computing.
+* Discussion ensues about how this project promotes confidential computing and whether/how it fits the charter.
+* Quorum was lost and a vote will move to email or be scheduled for next session.
 
 
 **web page updates; mentors**
