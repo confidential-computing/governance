@@ -95,7 +95,7 @@ Welcome Kevin McCarthy (Inpher).
 
 **Meeting Minute Approval**
 
-Proposed: That the minutes of the August 23, 2023 meeting of the Technical Advisory Council of the Confidential Computing Consortium as distributed to the members of the TAC in advance of this meeting are hereby adopted and approved.
+Proposed: That the minutes of the August 24, 2023 meeting of the Technical Advisory Council of the Confidential Computing Consortium as distributed to the members of the TAC in advance of this meeting are hereby adopted and approved.
 
 
 **Cross-Project goal updates**
