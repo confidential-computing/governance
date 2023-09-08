@@ -36,5 +36,5 @@ the project; projects are free to use whatever governance structure they want.
 3.9. Names of initial committers, if different from those submitting proposal  
 3.10. List of project's official communication channels (slack, irc, mailing lists)  
 3.11. Project [Security Response Policy](security-response-policies.md)  
-3.12. Preferred maturity level (Sandbox, Incubation, Graduation, or Emeritus)  
+3.12. Preferred maturity level (Incubation, Graduation, or Emeritus)
 3.13. Any additional information the TAC and Board should take into consideration when reviewing your proposal.  
