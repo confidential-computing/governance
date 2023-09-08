@@ -131,7 +131,7 @@ Proposed: That the minutes of the August 24, 2023 meeting of the Technical Advis
 
 **Project Proposal: Rust SPDM**
 
-* Samuel Ortiz (Rivos) is the new maintainer.
+* Samuel Ortiz (Rivos) joins the proposal as an additional maintainer and sponsor.
 * https://github.com/intel/rust-spdm
 * Want to know how this project promotes confidential computing.
 
