@@ -16,7 +16,7 @@ relating to:
 * defining confidential computing and accelerating acceptance and adoption in the
 market.
 * developing open enterprise-grade building blocks (e.g., open specifications and open
-source licensed projects), including a confidential computing portfolio and
+source licensed projects), including a Confidential Computing portfolio and
 development experience, to enable easy development and management of enterprise-grade confidential computing applications, and
 * defining foundational services and frameworks that are confidential-computing aware and
 minimize the need for trust.
