@@ -17,7 +17,7 @@ relating to:
 market.
 * developing open enterprise-grade building blocks (e.g., open specifications and open
 source licensed projects), including a Confidential Computing portfolio and
-development experience, to enable easy development and management of enterprise-grade confidential computing applications, and
+development experience, to enable easy development and management of enterprise-grade Confidential Computing applications, and
 * defining foundational services and frameworks that are Confidential Computing aware and
 minimize the need for trust.
 
