@@ -110,7 +110,7 @@ Proposed: That the minutes of the August 24, 2023 meeting of the Technical Advis
 * Inpher specializes in the cryptographic space.
 * Organizations are asking for hybrid PET solutions.
 * Attention to GRC SIG: https://iabtechlab.com/working-groups/privacy-enhancing-technologies-working-group/
-* Question: Why is CC not enough? Technology lives with what clients already use: Azure, AWS, etc. Inpher works with their clients strategy.
+* Question: Why is CC not enough? Technology lives with what clients already use: Azure, AWS, etc. Inpher works with their clients' strategy.
 * Kevin McCarthy will put together a list of regulators to send to Mike Bursell.
 * Comment: CC should always be included with other PETs.
 * CC hasn't penetrated the market yet.
