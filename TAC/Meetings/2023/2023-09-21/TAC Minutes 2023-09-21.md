@@ -147,7 +147,8 @@ Proposed: That the minutes of the September 7, 2023 meeting of the Technical Adv
 * The goal is to drive project mentor interest on shared goals and code dependencies within their projects. There have been minimal responses to the survey from project mentors. 
 
 
-*** Action item to all Project Mentors: Take the cross project collab survey. ***
+*** Action item to all Project Mentors: Get the projects to take the cross project collab survey. ***
+
 
 
 * DM brought up that this is the time of the year where the board reviews the charter and makes changes. Please review https://github.com/confidential-computing/governance/pull/185.
