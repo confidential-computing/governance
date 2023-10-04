@@ -154,7 +154,7 @@ Proposed: That the minutes of the September 7, 2023 meeting of the Technical Adv
 * DM brought up that this is the time of the year where the board reviews the charter and makes changes. Please review https://github.com/confidential-computing/governance/pull/185.
 * DM: Need to plan 2024 scope and budget as we enter Q4. The budget will be brought up as soon as the next TAC meeting. Please connect with your board representative/CCC representative so there is one voice on the scope and budget.
 
-
+*** Action item: DM to report proposed charter change to the governing board. ***
 
 
 **CISA RFI: working session**
@@ -163,7 +163,7 @@ Proposed: That the minutes of the September 7, 2023 meeting of the Technical Adv
 * Working doc: https://docs.google.com/document/d/1hEZZfsmMtBpOYkCpRTMNYFbY9_qEYK_VxMRlXhQxfEU/edit?usp=sharing
 
 
-*** Action item: Alec Fernandez to take a look at Terminology whitepaper (https://confidentialcomputing.io/wp-content/uploads/sites/10/2023/03/Common-Terminology-for-Confidential-Computing.pdf) for repurposable text in two places in the RFI.***
+*** Action item: Alec Fernandez to take a look at Terminology whitepaper (https://confidentialcomputing.io/wp-content/uploads/sites/10/2023/03/Common-Terminology-for-Confidential-Computing.pdf) and Technical Analysis whitepaper (https://confidentialcomputing.io/wp-content/uploads/sites/10/2023/03/CCC-A-Technical-Analysis-of-Confidential-Computing-v1.3_unlocked.pdf) to reference text in two places in the RFI.***
 
 
 
