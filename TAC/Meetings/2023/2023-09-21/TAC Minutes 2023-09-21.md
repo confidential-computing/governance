@@ -124,7 +124,8 @@ Proposed: That the minutes of the September 7, 2023 meeting of the Technical Adv
 ** Congratulations to rust-spdm**
 
 
-* TAC Voting members voted to approve rust-spdm as a new project.
+* TAC Voting members voted by email to approve rust-spdm as a new project.
+  https://lists.confidentialcomputing.io/g/tac/topic/101330316#1110
 
 
 
