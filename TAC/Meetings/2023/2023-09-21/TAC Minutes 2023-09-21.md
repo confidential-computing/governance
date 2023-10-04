@@ -117,7 +117,8 @@
 
 
 Proposed: That the minutes of the September 7, 2023 meeting of the Technical Advisory Council of the Confidential Computing Consortium as distributed to the members of the TAC in advance of this meeting are hereby adopted and approved.
-
+* DM reviewed the prior meeting minutes
+* Quorum was reached and the minutes were approved by the voting members of the TAC
 
 
 
