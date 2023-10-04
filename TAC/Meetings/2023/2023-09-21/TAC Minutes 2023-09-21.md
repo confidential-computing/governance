@@ -21,19 +21,12 @@
 ## Links
 
 * **Code of Conduct**: [code-of-conduct.confidentialcomputing.io](https://code-of-conduct.confidentialcomputing.io)
-
 * **CCC Charter**: [charter.confidentialcomputing.io](https://charter.confidentialcomputing.io)
-
 * **LF Training course on DEI**: [Inclusive Open Source Community Orientation (LFC102) (free)](https://training.linuxfoundation.org/training/inclusive-open-source-community-orientation-lfc102/)
-
 * **Declared project dependencies**: [Google Sheets](https://docs.google.com/spreadsheets/d/1UKnbbGWXYLjnPZsox3zmYo59nv3XSXjePfas5E2fER0/edit#gid=0)
-
 * **CCC YouTube**: [youtube.confidentialcomputing.io](https://youtube.confidentialcomputing.io)
-
 * **LFX**: [lfx.linuxfoundation.org](https://lfx.linuxfoundation.org)
-
 * **Join the CCC**: [join.confidentialcomputing.io](https://join.confidentialcomputing.io)
-
 * **Contact the CCC**: [confidentialcomputing.io/contact-us/](https://confidentialcomputing.io/contact-us/)
 
 ## Agenda and Minutes
