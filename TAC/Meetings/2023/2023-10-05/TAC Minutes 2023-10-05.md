@@ -145,6 +145,7 @@ RESOLVED: That the minutes of the September 21, 2023 meeting of the Technical Ad
 ** CISA RFI: working session**
 
 * Striking out the third reference to data in use per today’s discussion.
+* DM will send a vote out to the TAC mailing list to review and approve to send to the governing board.
 
 
 ** IAB Statement**
