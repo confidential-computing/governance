@@ -136,7 +136,8 @@ RESOLVED: That the minutes of the October 19, 2023 meeting of the Technical Advi
 * Cross-project meeting survey
    * Lily will present on 11/16 or 11/30.
 
-* DM called for a vote on approving the doc. Google seconded and voted in favor. Huawei  voted in favor. Intel voted in favor. Microsoft voted in favor via email. Redhat abstained. Microsoft alternate voted in favor. With four votes in favor and one abstention the motion passed. 
+* DM called for a vote on approving the CCC Response to IAB statement on Attestation. Google seconded and voted in favor. Huawei  voted in favor. Intel voted in favor. Microsoft voted in favor via email. Redhat abstained. Microsoft alternate voted in favor. With four votes in favor and one abstention the motion passed. 
+
 
 
 ** Islet Project Presentation - Bokdeuk Jeong **
