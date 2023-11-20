@@ -95,12 +95,12 @@ Mr. Middleton reviewed the minutes of the last meeting.
 
 Upon motion duly made and seconded all were in favor. It was therefore:
 
-RESOLVED: That the minutes of the November 2, 2023 meeting of the Technical Advisory Council of the Confidential Computing Consortium as distributed to the members of the TAC in advance of this meeting are hereby adopted and approved.
+**RESOLVED**: That the minutes of the November 2, 2023 meeting of the Technical Advisory Council of the Confidential Computing Consortium as distributed to the members of the TAC in advance of this meeting are hereby adopted and approved.
 
 
 ### Action Item Review
 
-#### rust-spdm mentor**
+#### rust-spdm mentor
 
    * Mr. Middleton stated that he would create a Github issue to discuss the mentor process.  
 	
@@ -148,8 +148,18 @@ RESOLVED: That the minutes of the November 2, 2023 meeting of the Technical Advi
 
 * Ken Lu and Wenhui Zhang presented the [CC-API proposal](https://docs.google.com/presentation/d/13A5sjDUFgOAnu3K8xSnA96HapSnyfgTA/edit#slide=id.g2993336070d_1_5).  
 * Chris Ramming asked if there were opportunities to collaborate with the Certifier Framework project. Ken agreed. Discussion ensued. 
-
 * Repo: https://github.com/intel/confidential-cloud-native-primitives
+* Ken Lu provided the following notes via email after the meeting:
+  >* Suggestion a new name for “CC API”. I collected the following proposals, please vote. @Middleton, Dan Can we finalize the name by vote at the next TAC meeting?
+  >   * CC trusted API
+  >   * CC One Ring API
+  >   * CC TCG API
+  >   * More? (please free to suggest)
+  > * Show an example like “hello word” of these API usage:
+  >   * We developed POC version of [CCNP (Confidential Cloud Native Primitives)](https://github.com/intel/confidential-cloud-native-primitives) to produce these APIs for cloud native environment, please read SDK document [here](https://intel.github.io/confidential-cloud-native-primitives/). 
+  >   * We also developed an [cloud native AI inference solution](https://github.com/intel/cloud-native-ai-pipeline) to demonstrate how to use these API for confidential AI usage, please refer [“How to Protect AI Models in Cloud Native Environments”](https://github.com/intel/cloud-native-ai-pipeline/blob/main/docs/How_to_Protect_AI_Models_in_Cloud_Native_Environments.md)
+  >   * For the usage of IMR (integrity measurement register) and event log, please refer the TCG official specification [“TCG PC Client Platform Firmware Profile Specification”](https://trustedcomputinggroup.org/wp-content/uploads/TCG_PCClient_PFP_r1p05_v23_pub.pdf)
+  > * Again, what our proposals are following the TCG specification on definition of TCB measurement and event log.
 
 
 ### Other Business
