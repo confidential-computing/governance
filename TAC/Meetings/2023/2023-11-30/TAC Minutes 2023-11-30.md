@@ -51,7 +51,7 @@
 * Intel - Dan Middleton + (TAC chair)  / Simon Johnson +
 * Meta - Eric Northup / Shankaran Gnanashanmugam
 * Microsoft - Alec Fernandez +
-* Red Hat - Lily Sturmann  / Yash Mankad +
+* Red Hat - Lily Sturmann  + / Yash Mankad +
 
    " + " indicates attending
 
