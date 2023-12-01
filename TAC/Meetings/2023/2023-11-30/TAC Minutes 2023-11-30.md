@@ -112,7 +112,9 @@ Dan Middleton (DM) reviewed the minutes of the last meeting and stated that we w
 **Project Proposal: Islet**
 
 Bokdeuk Jeong (BJ) walked the TAC through the [Islet](https://github.com/Samsung/islet) project submission document. Discussion ensued.
-ADD LINK TO PDF
+
+[project-submission-islet.pdf](https://github.com/confidential-computing/governance/TAC/Meetings/2023/2023-11-30/project-submission-islet.pdf)
+
 Dan Middleton (DM) brought up having contributions from other companies. BJ stated that they have contributions from other companies, but these companies are not yet maintainers.
 
 MB asked if there were any objections to moving forward with a vote. There were no objections voiced. DM moved for a roll call vote:
