@@ -47,7 +47,7 @@ Enarx provides a run-time TEE based on WebAssembly, allowing developers to deplo
 
 Gramine is a library OS, similar to a unikernel. Compared to running a complete guest OS in a virtual machine (VM), Gramine is much lighter weight. A particular use case for Gramine is Intel® Software Guard Extensions (Intel® SGX), where applications do not work out-of-the-box. Gramine solves this problem, with the added security benefits. Gramine can serve as a compatibility layer on other platforms.
 
-**Status:** Incubation
+**Status:** Graduation
 
 #### Links
 
