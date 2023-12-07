@@ -19,7 +19,7 @@ The [Confidential Computing Consortium](https://confidentialcomputing.io) hosts 
 
 Enarx provides a run-time TEE based on WebAssembly, allowing developers to deploy applications without any rewrites from languages like Rust, C/C++, C#, Go, Java, Python, Haskell and many more.
 
-**Status:** Sandbox
+**Status:** Incubation
 
 #### Links
 
@@ -47,7 +47,7 @@ Enarx provides a run-time TEE based on WebAssembly, allowing developers to deplo
 
 Gramine is a library OS, similar to a unikernel. Compared to running a complete guest OS in a virtual machine (VM), Gramine is much lighter weight. A particular use case for Gramine is Intel® Software Guard Extensions (Intel® SGX), where applications do not work out-of-the-box. Gramine solves this problem, with the added security benefits. Gramine can serve as a compatibility layer on other platforms.
 
-**Status:** Sandbox
+**Status:** Incubation
 
 #### Links
 
@@ -72,7 +72,7 @@ Gramine is a library OS, similar to a unikernel. Compared to running a complete 
 
 Keystone is an open-source project for building trusted execution environments (TEE) with secure hardware enclaves, based on the RISC-V architecture. Our goal is to build a secure and trustworthy open-source secure hardware enclave, accessible to everyone in industry and academia.
 
-**Status:** Sandbox
+**Status:** Incubation
 
 #### Links
 
@@ -96,7 +96,7 @@ Keystone is an open-source project for building trusted execution environments (
 
 Occlum makes running applications inside enclaves easy. It allows one to run unmodified programs inside enclaves with just a few simple commands. And Occlum is open-source and free to use.
 
-**Status:** Sandbox
+**Status:** Incubation
 
 #### Links
 
@@ -120,7 +120,7 @@ Occlum makes running applications inside enclaves easy. It allows one to run unm
 
 Open Enclave SDK is an open source framework that allows developers to build Trusted Execution Environment (TEE) applications using a single enclaving abstraction.
 
-**Status:** Incubation
+**Status:** Graduation
 
 #### Links
 
@@ -148,7 +148,7 @@ Open Enclave SDK is an open source framework that allows developers to build Tru
 
 Veracruz is a research project exploring the design of privacy-preserving distributed systems. Veracruz uses strong isolation technology and remote attestation protocols to establish a “neutral ground” within which a collaborative, multi-party computation between a group of mistrusting principals takes place.
 
-**Status:** Sandbox
+**Status:** Incubation
 
 #### Links
 
