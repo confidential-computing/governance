@@ -64,7 +64,7 @@
 * Douglas Covell
 * Drasko Draskovic (Ultraviolet)
 * Elena Reshetova
-*Hani Benhabiles
+* Hani Benhabiles
 * Henk Birkholz (Fraunhofer Institute)
 * Jeffrey Sheldon
 * Jörg Rödel (SUSE)
