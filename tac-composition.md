@@ -2,8 +2,6 @@
 
 * Chair
    * Dan Middleton (@dcmiddle), Intel
-* Secretary
-   * Kurt Taylor (@krtaylor), Linux Foundation
 * Voting Members (primary and backup)
    * Accenture: Giuseppe Giordano (@GiuseppeGiordano)
    * Arm: Nathaniel McCallum (@npmccallum) and Michael Lu

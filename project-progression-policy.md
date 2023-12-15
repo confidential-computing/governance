@@ -44,8 +44,7 @@ and a vote by the Governing Board.
 #### Technical Review
 
 Projects are required to present their proposal at a TAC meeting.
-This proposal should cover all the items in the [Project Submission Template](https://github.com/confidential-computing/governance/blob/master/project-submission-template.md)
-and the [Technical Charter template](https://lists.confidentialcomputing.io/g/main/files/TAC/Project%20Submissions/Technical%20Charter%20%28custom+data%29%20--%20LF%20Projects,%20LLC%204-10-2019%20FINAL%20%2811%29.docx)).
+This proposal should cover all the items in the [Project Submission Template](https://github.com/confidential-computing/governance/blob/master/project-submission-template.md).
 
 The TAC may ask for changes to bring the project into better alignment with
 the Confidential Computing Consortium (adding a governance document to a
@@ -62,22 +61,17 @@ The TAC will determine the appropriate initial stage for the project.
 The project can apply for a different stage via the review process.
 
 Once a project passes Technical Review, the TAC will inform the Governing
-Board that the submission proposal and Technical Charter are ready for the
-next step.
+Board of the submission proposal.
 
 #### Legal Submission
+
+After a succesfull TAC vote, the project is ready for a legal review. The legal review is initated by the project filling out [this form](https://docs.google.com/forms/d/e/1FAIpQLSeO1bDGHUP-ZpCo1uynm94YOxZlek6RhCH7o3FnX1lZSXXfSQ/viewform?fbzx=4351560609072672295). The LF project onboarding team will create a draft Technical Charter, a draft Project Contribution Agreement (if needed), and a draft Series Agreement Draft.
 
 As noted in clause 11 of the [Confidential Computing Consortium (CCC) Charter](https://confidentialcomputing.io/wp-content/uploads/sites/85/2019/12/CCC_Charter.pdf),
 the CCC requires that any trademarks be transferred to, or be available for
 use by, LF Projects, LLC.  Even if no trademarks exist, the current CCC
 policy is that projects be submitted to LF Projects, LLC.
 
-This submission entails sending the proposed Technical Charter (as reviewed
-by the TAC), and a signed [Project Contribution Agreement](https://lists.confidentialcomputing.io/g/main/files/TAC/Project%20Submissions/LF%20Projects%20--%20Form%20of%20Trademark%20and%20Account%20Assignment.docx).
-
-This submission might in some cases be done in parallel with, or even
-before, Technical Review.  It is recommended though that this be
-done after the Technical Review where practical.
 
 #### Governing Board Vote
 
