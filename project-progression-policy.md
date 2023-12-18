@@ -65,7 +65,7 @@ Board of the submission proposal.
 
 #### Legal Submission
 
-After a succesfull TAC vote, the project is ready for a legal review. The legal review is initated by the project filling out [this form](https://docs.google.com/forms/d/e/1FAIpQLSeO1bDGHUP-ZpCo1uynm94YOxZlek6RhCH7o3FnX1lZSXXfSQ/viewform?fbzx=4351560609072672295). The LF project onboarding team will create a draft Technical Charter, a draft Project Contribution Agreement (if needed), and a draft Series Agreement Draft.
+After a succesful TAC vote, the project is ready for a legal review. The legal review is initated by the project filling out [this form](https://docs.google.com/forms/d/e/1FAIpQLSeO1bDGHUP-ZpCo1uynm94YOxZlek6RhCH7o3FnX1lZSXXfSQ/viewform?fbzx=4351560609072672295). The LF project onboarding team will create a draft Technical Charter, a draft Project Contribution Agreement (if needed), and a draft Series Agreement.
 
 As noted in clause 11 of the [Confidential Computing Consortium (CCC) Charter](https://confidentialcomputing.io/wp-content/uploads/sites/85/2019/12/CCC_Charter.pdf),
 the CCC requires that any trademarks be transferred to, or be available for
