@@ -129,7 +129,7 @@ Arm votes in favor
 Intel votes in favor
 Google vote in favor
 Microsoft votes in favor and offer to be a mentor to the project
-Readhat vote in favor
+Redhat vote in favor
 
 With a unanimous vote, Coconut SVSM was approved.
 
