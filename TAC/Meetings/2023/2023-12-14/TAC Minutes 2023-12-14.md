@@ -147,7 +147,7 @@ Voting:
 Intel votes in favor
 Google vote in favor
 Microsoft votes in favor 
-Readhat vote in favor
+Redhat vote in favor
 
 Voting members would also give their approval in the PR.
 
