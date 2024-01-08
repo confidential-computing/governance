@@ -40,7 +40,7 @@
 
 ### Roll Call / Attendance
 
-Corum was achieved with 4 voting representatives present
+Quorum was achieved with 4 voting representatives present
 
 #### Voting members of the TAC
 
