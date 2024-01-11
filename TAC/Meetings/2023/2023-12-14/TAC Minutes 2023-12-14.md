@@ -55,7 +55,7 @@ Quorum was achieved with 4 voting representatives present
 * Microsoft - Alec Fernandez* 
 * Red Hat - Lily Sturmann  / Yash Mankad* 
 
-   " + " indicates attending
+   " * " indicates attending
 
 #### Other Attendees
 
@@ -65,7 +65,7 @@ Quorum was achieved with 4 voting representatives present
 * Drasko Draskovic (Ultraviolet)
 * Eric Voit (Cisco)
 * Jiewen Yao (Intel)
-* Jorg Rodel (SUSE)
+* Jorg Roedel (SUSE)
 * Kanth Ghatraju (Oracle) 
 * Ken Lu (Intel)
 * Marc Meunier (Arm)
@@ -122,14 +122,14 @@ Riaan Kleinhans (RK) introduced the LF Voting tool available for the TAC and oth
 
 ## Project Proposal Coconut SVSM 
 
-Jorg Rodel (JR) proceeds to answer technical questions about the Coconut SVCM project.
+Jorg Roedel (JR) proceeds to answer technical questions about the Coconut SVSM project.
 
 A vote on moving forward with Coconut SVSM was called for.
 Arm votes in favor
 Intel votes in favor
 Google vote in favor
 Microsoft votes in favor and offer to be a mentor to the project
-Redhat vote in favor
+Red Hat vote in favor
 
 With a unanimous vote, Coconut SVSM was approved.
 
@@ -147,7 +147,7 @@ Voting:
 Intel votes in favor
 Google vote in favor
 Microsoft votes in favor 
-Redhat vote in favor
+Red Hat vote in favor
 
 Voting members would also give their approval in the PR.
 
