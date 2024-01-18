@@ -23,5 +23,6 @@ Project Repository {REPO}
 - [ ] Add ‘thelinuxfoundation’ as an owner of the GitHub org
 - [ ] Transfer any domains
 - [ ] Onboard to LFX
+- [ ] Update website
 - [ ] Add docs to [repo](https://github.com/confidential-computing/governance/tree/main/Projects)
 - [ ] Add to [project tracker](https://docs.google.com/spreadsheets/d/1crFOI5KRiYwZpurHuXdN7NnNVjCVddg2GKhVD72STIY/edit#gid=0)
