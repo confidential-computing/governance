@@ -107,6 +107,10 @@ Dan Middleton (DM)  introduced an OKR document and encouraged TAC Voting members
 
 ### RFI’s
 
+Discuss NIST documents per mail list thread https://lists.confidentialcomputing.io/g/tac/message/1254
+Due January 15: NIST SP 1800-28 (Data Confidentiality: Identifying and Protecting Assets Against Data Breaches)
+Due January 25: NIST SP 800-226 (Guidelines for Evaluating Differential Privacy Guarantees)
+Due February 2: Safe, Secure, and Trustworthy Development and Use of AI
 * Mark Novak (MN) gave an overview of NIST documents and the publication of the documents. 
 * Dan Middleton (DM) asked what actions are needed on the open documents.
 * Sal Kimmich and Mark Noval stated that they would collaborate on responses.
