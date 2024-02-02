@@ -146,7 +146,7 @@ Open Enclave SDK is an open source framework that allows developers to build Tru
 
 This project provides a Rust language implementation of SPDM, IDE_KM and TDISP. These protocols are used to facilitate direct device assignment for Trusted Execution Environment I/O (TEE-I/O) in Confidential Computing.
 
-**Status:** Sandbox
+**Status:** Incubation
 
 #### Links
 
