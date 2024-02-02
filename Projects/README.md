@@ -173,7 +173,7 @@ Veracruz is a research project exploring the design of privacy-preserving distri
 
 VirTEE is an open community dedicated to developing open source tools for the bring-up, attestation, and management of Trusted Execution Environments.
 
-**Status:** Sandbox
+**Status:** Incubation
 
 #### Links
 
