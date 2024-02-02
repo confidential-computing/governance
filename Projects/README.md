@@ -10,6 +10,7 @@ The [Confidential Computing Consortium](https://confidentialcomputing.io) hosts 
 * [Occlum](#occlum)
 * [Open Enclave SDK](#open-enclave-sdk)
 * [Veracruz](#veracruz)
+* [VirTEE](#virtee)
 
 ---
 
@@ -165,6 +166,28 @@ Veracruz is a research project exploring the design of privacy-preserving distri
 #### Webinars
 
 * [Veracruz](https://confidentialcomputing.io/webinar-veracruz/)
+
+## VirTEE
+
+<img height="100" src="https://raw.githubusercontent.com/confidential-computing/artwork/main/virtee/virtee.svg">
+
+VirTEE is an open community dedicated to developing open source tools for the bring-up, attestation, and management of Trusted Execution Environments.
+
+**Status:** Sandbox
+
+#### Links
+
+* [Project detail](./VirTEE/virtee-accepted_proposal.md)
+* [Website](https://virtee.io/)
+* [GitHub](https://github.com/virtee)
+* [Proposal](./VirTEE/virtee-accepted_proposal.md)
+    * Accepted by TAC: 2023-06-01
+    * Accepted by Governing Board: 2024-01-17
+* [Charter](./VirTEE/VirTEE_Technical_Charter_8-29-2023.pdf)
+* [Artwork](https://github.com/confidential-computing/artwork/tree/main/virtee)
+
+<!-- #### Webinars -->
+
 
 <!--
 ---
