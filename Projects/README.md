@@ -143,6 +143,29 @@ Open Enclave SDK is an open source framework that allows developers to build Tru
 
 * [Open Enclave SDK](https://confidentialcomputing.io/webinar-open-enclave-sdk/)
 
+## spdm-rs
+
+This project provides a Rust language implementation of SPDM, IDE_KM and TDISP. These protocols are used to facilitate direct device assignment for Trusted Execution Environment I/O (TEE-I/O) in Confidential Computing.
+
+**Status:** Incubation
+
+#### Links
+
+* [Project detail](./spdm-rs/project-submission-rust-spdm.md)
+* [GitHub](https://github.com/ccc-spdm-tools/spdm-rs)
+* [Proposal](./spdm-rs/project-submission-rust-spdm.md)
+    * Accepted by TAC: 2023-09-22   
+    * Accepted by Governing Board: 2024-01-17
+* [Charter](./spdm-rs/spdm-rs-Technical-Charter-Final_1-3-2024.pdf)
+
+
+<!-->
+#### Presentations
+
+
+#### Webinars
+-->
+
 ## Veracruz
 
 <img height="100" src="https://raw.githubusercontent.com/confidential-computing/artwork/main/veracruz/veracruz-logo-horizontal-color.svg">
