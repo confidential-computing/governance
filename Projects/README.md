@@ -9,7 +9,9 @@ The [Confidential Computing Consortium](https://confidentialcomputing.io) hosts 
 * [Keystone](#keystone)
 * [Occlum](#occlum)
 * [Open Enclave SDK](#open-enclave-sdk)
+* [spdm-rs](#spdm-rs)
 * [Veracruz](#veracruz)
+* [Veraison](#veraison)
 * [VirTEE](#virtee)
 
 ---
@@ -189,6 +191,25 @@ Veracruz is a research project exploring the design of privacy-preserving distri
 #### Webinars
 
 * [Veracruz](https://confidentialcomputing.io/webinar-veracruz/)
+
+## Veraison
+
+<img height="100" src="https://raw.githubusercontent.com/confidential-computing/artwork/main/veraison/veraison-logo.svg">
+
+Project Veraison builds software components that can be used to build an Attestation Verification Service.
+
+**Status:** Graduation
+
+#### Links
+
+* [Project detail](./Veraison/veraison-ccc-project-veraison-proposal.pdf)
+* [Website](https://github.com/veraison)
+* [GitHub](https://github.com/veraison)
+* [Proposal](./Veraison/veraison-ccc-project-veraison-proposal.pdf)
+    * Accepted by TAC: 2022-02-04
+    * Accepted by Governing Board: 2022-05-18
+* [Charter](./Veraison/Veraison_Technical_Charter_2022-04-28.pdf)
+* [Artwork](https://github.com/confidential-computing/artwork/tree/main/veraison/veraison-logo.svg)
 
 ## VirTEE
 
