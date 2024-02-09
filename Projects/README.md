@@ -4,6 +4,7 @@ The [Confidential Computing Consortium](https://confidentialcomputing.io) hosts 
 
 ## Index of Projects
 
+* [Certifier Framework For Confidential Computing ](#certifier-framework-for-confidential-computing)
 * [Enarx](#enarx)
 * [Gramine](#gramine)
 * [Keystone](#keystone)
@@ -15,6 +16,24 @@ The [Confidential Computing Consortium](https://confidentialcomputing.io) hosts 
 * [VirTEE](#virtee)
 
 ---
+
+## Certifier Framework For Confidential Computing 
+
+The Certifier Framework for Confidential Computing consists of a client API called the Certifier API and server-based policy evaluation server called the Certifier Service.
+
+The Certifier API greatly simplifies and unifies programming and operations support for multi-vendor Confidential Computing platforms by providing simple client trust management, including attestation evaluation, secure storage, platform initialization, secret sharing, secure channels and other services.
+
+**Status:** Incubation
+
+#### Links
+
+* [Project detail](./Certifier_Framework/2023_Certifier_CCC_Project_Proposal.pdf)
+* [GitHub](https://github.com/ccc-certifier-framework/certifier-framework-for-confidential-computing)
+* [Proposal](./Certifier_Framework/2023_Certifier_CCC_Project_Proposal.pdf)
+    * Accepted by TAC: 2023-10-19   
+    * Accepted by Governing Board: 2024-01-17
+* [Charter](./Certifier_Framework/Certifier_Framework_for_Confidential_Computing_Technical_Charter_2-5-2024.pdf)
+
 
 ## Enarx
 
@@ -160,13 +179,6 @@ This project provides a Rust language implementation of SPDM, IDE_KM and TDISP. 
     * Accepted by Governing Board: 2024-01-17
 * [Charter](./spdm-rs/spdm-rs-Technical-Charter-Final_1-3-2024.pdf)
 
-
-<!-->
-#### Presentations
-
-
-#### Webinars
--->
 
 ## Veracruz
 
