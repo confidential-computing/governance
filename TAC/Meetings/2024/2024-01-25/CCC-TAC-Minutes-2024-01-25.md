@@ -67,11 +67,11 @@ A quorum was not required.
 * Mark Novak (JP Morgan Chase)
 * Matthieu Legré (Cysec)
 * Ofir Azoulay-Rozanes (Anjuna)
-* Steveb Walli (Microsoft)
+* Steven Walli (Microsoft)
 * Sung Lee (Broadcom)
 * Thomas Fossati (Linaro)
 * Wenhui Zhang (Bytedance/TikTok)
-* Mike Bursell (CCC)
+* Mike Bursell (LF)
 * Sal Kimmich (LF)
 
 ## Welcome New Community Members
