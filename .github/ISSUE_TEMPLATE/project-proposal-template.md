@@ -20,7 +20,7 @@ Project Repository {REPO}
 - [ ] Technical Charter / Participation Agreement / Trademark docs approved & signed by project
 - [ ] Board Vote
 - [ ] Project made active in PCC by notifying formation team
-  - [ ] Create support ticket to add the project category (Incubating / Graduated) and software license to project the definition
+- [ ] Create support ticket to add the project category (Incubating / Graduated) and software license to project the definition
 - [ ] Add ‘thelinuxfoundation’ as an owner of the GitHub org
 - [ ] Transfer any domains
 - [ ] Onboard to LFX
