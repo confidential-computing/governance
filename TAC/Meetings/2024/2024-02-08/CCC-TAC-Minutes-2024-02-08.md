@@ -129,9 +129,9 @@ YM proposes ccc should target term 2 with a target of 3 or 4 projects to partici
 
 ## 2024 TAC Objectives 
 DM explained the OKR process for 2024. 
-YM world leed community
+YM would lead community
 Catalin Sandu would lead on Ecosystem development
-Alex Fernandez would lead would work with the GRC and the TAC on defining definitions for industry
+AF would lead would work with the GRC and the TAC on defining definitions for industry
 MB offered his and Sal Kimmich to support the work.
  
 
