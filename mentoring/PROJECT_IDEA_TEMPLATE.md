@@ -15,7 +15,7 @@ Welcome to the Confidential Computing Consortium (CCC) Mentorship Program. This 
 - **Mentor(s)**: # It is recommended to have at least 2 mentors, and at least one of them should be the primary mentor. For GSoC, it is **required** to have at least 2 mentors.
   - Primary Mentor Name (@primary-mentor-github, primary.mentor@email.address) - primary
   - Secondary Mentor Name (@secondary-mentor-github, secondary.mentor@email.address)
-- **Upstream Issue (URL)**:
+- Upstream Issue **TO PROJECT REPOSITORY**:
 
 ### Sample:
 
