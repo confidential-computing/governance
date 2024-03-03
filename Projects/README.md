@@ -100,7 +100,6 @@ Islet is an open-source software project written in Rust that enables confidenti
 #### Links
 
 * [Project detail](./Islet/islet_project_proposal.pdf)
-* [Website](https://gramineproject.io)
 * [GitHub](https://github.com/islet-project/islet)
 * [Proposal](./Islet/islet_project_proposal.pdf)
     * Accepted by TAC: 2023-11-30
