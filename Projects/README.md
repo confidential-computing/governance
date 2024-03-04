@@ -93,7 +93,7 @@ Gramine is a library OS, similar to a unikernel. Compared to running a complete 
 
 <img height="100" src="https://github.com/confidential-computing/artwork/blob/main/islet/islet-logo-title.jpg?raw=true">
 
-Islet is an open-source software project written in Rust that enables confidential computing on ARM architecture devices using the ARMv9 CCA. The primary objective of Islet is to enable on-device confidential computing and protect user privacy on end user devices.
+Islet is an open-source software project written in Rust that enables Confidential Computing on Arm architecture devices using the Armv9 CCA. The primary objective of Islet is to enable on-device Confidential Computing and protect user privacy on end user devices.
 
 **Status:** Incubation
 
