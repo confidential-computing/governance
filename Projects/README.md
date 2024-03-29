@@ -7,6 +7,7 @@ The [Confidential Computing Consortium](https://confidentialcomputing.io) hosts 
 * [Certifier Framework For Confidential Computing ](#certifier-framework-for-confidential-computing)
 * [Enarx](#enarx)
 * [Gramine](#gramine)
+* [Islet](#islet)
 * [Keystone](#keystone)
 * [Occlum](#occlum)
 * [Open Enclave SDK](#open-enclave-sdk)
@@ -86,6 +87,25 @@ Gramine is a library OS, similar to a unikernel. Compared to running a complete 
 #### Webinars
 
 * [Gramine](https://confidentialcomputing.io/webinar-gramine/)
+
+
+## Islet
+
+<img height="100" src="https://github.com/confidential-computing/artwork/blob/main/islet/islet-logo-title.jpg?raw=true">
+
+Islet is an open-source software project written in Rust that enables Confidential Computing on Arm architecture devices using the Armv9 CCA. The primary objective of Islet is to enable on-device Confidential Computing and protect user privacy on end user devices.
+
+**Status:** Incubation
+
+#### Links
+
+* [Project detail](./Islet/islet_project_proposal.pdf)
+* [GitHub](https://github.com/islet-project/islet)
+* [Proposal](./Islet/islet_project_proposal.pdf)
+    * Accepted by TAC: 2023-11-30
+    * Accepted by Governing Board: 2024-03-01
+* [Charter](./Islet/Islet_Technical_Charter_Final_2-5-2024.pdf)
+* [Artwork](https://github.com/confidential-computing/artwork/tree/main/islet)
 
 
 ## Keystone
