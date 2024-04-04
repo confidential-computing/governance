@@ -63,7 +63,7 @@
 * Nicklas Maeding
 * Pawan Khandavilli (Microsoft)
 * Rachel Wan (IBM)
-* Richard Zak
+* Richard Zak (Enarx Maintainer; Booz Allen Hamilton)
 * Tyler Fanelli (Red Hat)
 * Wenhui Zhang (Tiktok)
 * Vini Jaiswal (TikTok)
