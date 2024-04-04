@@ -55,7 +55,7 @@
 * Henry Wang (Meta)
 * Henk Birkholz
 * Jorg Rodel (Suse)
-*  Kevin Hui (Meta)
+* Kevin Hui (Meta)
 * Manu Foutaine (Hushmesh)
 * Matthieu Legre (Cysec)
 * Nathaniel McCallium (Red Hat)
