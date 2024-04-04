@@ -61,7 +61,7 @@
 * Nathaniel McCallium (Red Hat)
 * Nick Vidal
 * Nicklas Maeding
-* Pawan Khandavilli
+* Pawan Khandavilli (Microsoft)
 * Rachel Wan (IBM)
 * Richard Zak
 * Tyler Fanelli (Red Hat)
