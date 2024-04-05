@@ -245,7 +245,7 @@ Project Veraison builds software components that can be used to build an Attesta
 
 ## VirTEE
 
-<img height="100" src="https://raw.githubusercontent.com/confidential-computing/artwork/main/virtee/virtee.svg">
+<img height="100" src="https://raw.githubusercontent.com/confidential-computing/artwork/main/virtee/virtee-logo-color.svg">
 
 VirTEE is an open community dedicated to developing open source tools for the bring-up, attestation, and management of Trusted Execution Environments.
 
