@@ -113,7 +113,7 @@ Pawan Khandavilli (PK) from Microsoft briefly introduced themselves. PK stated t
 
 ## Enarx Annual Review
 
-Richard Zak (RZ), Gregory Starkey (GS), and Nick Vidal (NV) presented the [Enarx annual review](./VirTee%20Demo.pdf). Discussion ensued.
+Richard Zak (RZ), Gregory Starkey (GS), and Nick Vidal (NV) presented the [Enarx annual review](./Enarx%20Review%202024.pdf). Discussion ensued.
 
 
 ## virTEE Demo
