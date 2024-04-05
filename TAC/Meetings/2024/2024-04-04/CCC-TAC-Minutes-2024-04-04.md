@@ -52,7 +52,6 @@
 * Bokdeuk Jeong (Samsung)
 * Drasko Draskovic
 * Gregory Starkey (Booz Allen Hamilton)
-* Henry Wang (Meta)
 * Henk Birkholz
 * Jorg Rodel (Suse)
 * Kevin Hui (Meta)
