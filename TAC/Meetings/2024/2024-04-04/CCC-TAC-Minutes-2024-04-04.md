@@ -54,7 +54,6 @@
 * Gregory Starkey (Booz Allen Hamilton)
 * Henk Birkholz
 * Jorg Rodel (Suse)
-* Kevin Hui (Meta)
 * Manu Foutaine (Hushmesh)
 * Matthieu Legre (Cysec)
 * Nathaniel McCallium (Red Hat)
