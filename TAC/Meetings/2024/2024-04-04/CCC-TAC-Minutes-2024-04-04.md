@@ -38,7 +38,7 @@
 * Google - Cfir Cohen  / Catalin Sandu 
 * Huawei - Zhipeng (Howard) Huang 
 * Intel - Dan Middleton (TAC chair) + / Simon Johnson
-* Meta - Eric Northup / Shankaran Gnanashanmugam /
+* Meta - Kevin Hui + / Henry Wang +
 * Microsoft - Alec Fernandez +
 * Nvidia - Fritz Alder +
 * Red Hat - Lily Sturmann  / Yash Mankad +
