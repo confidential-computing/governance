@@ -62,6 +62,7 @@
 * Pawan Khandavilli (Microsoft)
 * Rachel Wan (IBM)
 * Richard Zak (Enarx Maintainer; Booz Allen Hamilton)
+* Thomas Fossati (Linaro)
 * Tyler Fanelli (Red Hat)
 * Wenhui Zhang (Tiktok)
 * Vini Jaiswal (TikTok)
