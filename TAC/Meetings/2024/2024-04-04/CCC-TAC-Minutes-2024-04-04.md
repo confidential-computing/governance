@@ -58,7 +58,7 @@
 * Matthieu Legre (Cysec)
 * Nathaniel McCallium (Red Hat)
 * Nick Vidal
-* Nicklas Maeding (IBM)
+* Nicolas Maeding (IBM)
 * Pawan Khandavilli (Microsoft)
 * Rachel Wan (IBM)
 * Richard Zak (Enarx Maintainer; Booz Allen Hamilton)
