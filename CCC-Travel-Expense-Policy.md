@@ -5,11 +5,11 @@ The Confidential Computing Consortium’s Travel Budgets are intended to enable 
 
 In order to maximize spend, travel fund assistance may only be used for:
 
-* Coach airfare tickets 
+* Coach airfare, train or bus tickets 
 * Accommodations (Dates of the event plus one night prior are eligible for reimbursement)
-* Ground transportation to/from the airport
+* Ground transportation to/from the airport, train or bus station
 
-**NOTE:** Funds may not be used for miscellaneous travel expenses including food, visa costs, non-airport transportation, baggage fees, etc. Generally, registration can be reimbursed if the attendee is speaking on behalf of the CCC, a CCC Technical Project, or staffing a CCC booth at a sponsored event.
+**NOTE:** Funds may not be used for miscellaneous travel expenses including food, visa costs, non airport, train station of bus station transportation, baggage fees, etc. Generally, registration can be reimbursed if the attendee is speaking on behalf of the CCC, a CCC Technical Project, or staffing a CCC booth at a sponsored event.
 
 
 #### TAC and Outreach Committee Reimbursement Process
