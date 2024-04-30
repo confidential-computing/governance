@@ -9,7 +9,7 @@ In order to maximize spend, travel fund assistance may only be used for:
 * Accommodations (Dates of the event plus one night prior are eligible for reimbursement)
 * Ground transportation to/from the airport, train or bus station
 
-**NOTE:** Funds may not be used for miscellaneous travel expenses including food, visa costs, non airport, train station of bus station transportation, baggage fees, etc. Generally, registration can be reimbursed if the attendee is speaking on behalf of the CCC, a CCC Technical Project, or staffing a CCC booth at a sponsored event.
+**NOTE:** Funds may not be used for miscellaneous travel expenses including food, visa costs, non airport, train station or bus station transportation, baggage fees, etc. Generally, registration can be reimbursed if the attendee is speaking on behalf of the CCC, a CCC Technical Project, or staffing a CCC booth at a sponsored event.
 
 
 #### TAC and Outreach Committee Reimbursement Process
