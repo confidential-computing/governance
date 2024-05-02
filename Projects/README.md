@@ -5,6 +5,7 @@ The [Confidential Computing Consortium](https://confidentialcomputing.io) hosts 
 ## Index of Projects
 
 * [Certifier Framework For Confidential Computing ](#certifier-framework-for-confidential-computing)
+* [COCONUT-SVSM](#coconut-svsm)
 * [Enarx](#enarx)
 * [Gramine](#gramine)
 * [Islet](#islet)
@@ -35,6 +36,31 @@ The Certifier API greatly simplifies and unifies programming and operations supp
     * Accepted by Governing Board: 2024-01-17
 * [Charter](./Certifier_Framework/Certifier_Framework_for_Confidential_Computing_Technical_Charter_2-5-2024.pdf)
 
+## COCONUT-SVSM
+
+The COCONUT-SVSM is an implementation of a Secure VM Service Module for confidential
+computing virtual machines (CVMs). It runs within the TCB of the CVM and aims to support three
+operational modes:
+
+1. Service Module Mode
+1. Paravisor Mode
+1. Service VM Mode
+   
+With its ability to provide secure services, the COCONUT-SVSM aims to become a platform to
+execute host hypervisor services within the trusted context of the CVM and reducing the interface
+between the hypervisor and the CVM OS. It acts as a proxy between the hypervisor and the CVM
+OS to reduce the need to harden the CVM OS from malicious hypervisor input.
+
+**Status:** Incubation
+
+#### Links
+
+* [Project detail](./COCONUT_SVSM/COCONUT-CCC-Project-Submission.pdf)
+* [GitHub](https://github.com/coconut-svsm)
+* [Proposal](./COCONUT_SVSM/COCONUT-CCC-Project-Submission.pdf)
+    * Accepted by TAC: 2023-12-14   
+    * Accepted by Governing Board: 2024-04-17
+* [Charter](./COCONUT_SVSM/COCONUT-SVSM-Technical-Charter-Final-3-28-2024.docx.pdf)
 
 ## Enarx
 
@@ -245,7 +271,7 @@ Project Veraison builds software components that can be used to build an Attesta
 
 ## VirTEE
 
-<img height="100" src="https://raw.githubusercontent.com/confidential-computing/artwork/main/virtee/virtee.svg">
+<img height="100" src="https://raw.githubusercontent.com/confidential-computing/artwork/main/virtee/virtee-logo-color.svg">
 
 VirTEE is an open community dedicated to developing open source tools for the bring-up, attestation, and management of Trusted Execution Environments.
 
