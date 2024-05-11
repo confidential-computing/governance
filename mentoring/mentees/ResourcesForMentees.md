@@ -91,7 +91,7 @@ The Linux Foundation and the CCC emphasize inclusivity and openness, encouraging
 
 ### GitHub Learning Lab
 - **Description**: Engaging with open-source projects is a key part of confidential computing. GitHub Learning Lab offers guides to get started with contributing to open-source projects.
-- **Link**: [GitHub Learning Lab](https://lab.github.com/)
+- **Link**: [GitHub Learning Lab](https://github.com/apps/github-learning-lab)
 
 ### Coursera: Cryptography
 - **Description**: Cryptography is a cornerstone of secure and confidential computing. This course provides a solid foundation in cryptographic principles.
