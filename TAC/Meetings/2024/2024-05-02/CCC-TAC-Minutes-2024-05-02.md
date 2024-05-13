@@ -58,7 +58,7 @@
 * Jorg Rodel (Suse)
 * Kanth Ghatraju (Oracle)
 * Mark Novak
-* Nathaniel McCallum (Red Hat)
+* Nathaniel McCallum (ARM)
 * Nicolas Mäding (IBM)
 * Ofir Azoulay-Rozanes
 * Samuel Ortiz
