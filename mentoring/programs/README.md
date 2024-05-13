@@ -18,7 +18,7 @@ The CCC mentorship Program is curently offering the following term:
 ## How to Get Involved
 
 ### For Mentees:
-- Review the projects listed by the Confidential Computing Consoritum on the LFX Mentoring Program (link to be added) for the term you're interested in.
+- Review the projects listed by the Confidential Computing Consortium on the LFX Mentoring Program (link to be added) for the term you're interested in.
 - Follow the application instructions provided for each project.
 
 ### For Mentors:

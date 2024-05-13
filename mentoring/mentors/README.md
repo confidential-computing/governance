@@ -37,7 +37,7 @@ Becoming a mentor in the CCC Mentorship Program involves a few key steps:
 ## Create your Mentor Profile
 
 1. The CCC Mentoring Program is currently offering a rolling Mentoring Program on the [Linux Foundation Mentorship Platform](https://mentorship.lfx.linuxfoundation.org/#projects_all). To participate in the Program, you will need to create a Mentor Profile on the LFX Platform by following their ['Become a Mentor' guide](https://docs.linuxfoundation.org/lfx/mentorship/mentors/create-a-mentor-profile).
-2. Once your profile is created, you will need to request to be added to the CCC Mentor Program by navigating to the 'Mentorship Program Details' section, selecting 'Confidential Computing Consoritum' (TBD) and click **++Add Program**. Your request should be displayed with the status **'Requested'**.
+2. Once your profile is created, you will need to request to be added to the CCC Mentor Program by navigating to the 'Mentorship Program Details' section, selecting 'Confidential Computing Consortium' (TBD) and click **++Add Program**. Your request should be displayed with the status **'Requested'**.
 3. After the project maintainer approves your request, you will be added to the Program and your status will be updated to **Added**.
 
 ## Programs and Timelines
