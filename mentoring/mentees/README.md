@@ -36,6 +36,11 @@ As a Mentee, you are expected to:
 - Collaborate with your sponsor to meet project milestones and contribute to the project's success.
 - Engage with the CCC community through regular check-ins, discussions, and feedback sessions.
 
+## Stipend for Mentees
+
+As the CCC participates in the LFX Mentorship Program, mentees are eligible to receive stipends for their contributions to the CCC projects.
+The LFX Mentorship stipend policy is described here - [Mentee Stipends](https://docs.linuxfoundation.org/lfx/mentorship/mentee-stipends).
+
 ## Support and Resources
 
 Having a support network provides a safe and productive environment for mentees to seek advice and receive guidance and feedback. It can be critical in navigating challenges and obstacles, building confidence, and feeling encouraged to continue your personal and professional growth. The CCC provides various resources to support Mentees throughout the mentorship program:

@@ -26,37 +26,19 @@ Special Interest Groups (SIGs) within the Linux Foundation are collaborative gro
 
 The Confidential Computing Consortium (CCC) supports several SIGs focused on different aspects of confidential computing. These groups work on initiatives such as developing open standards, creating reference architectures, and enhancing the security and usability of confidential computing technologies. Here are the SIGs associated with the CCC and how you can get involved:
 
-### CCC Special Interest Groups
+- Attestation Special Interest Group (Attestation-SIG)
+- Governance Risk & Compliance Special Interest Group (GRC-SIG)
+- Linux Kernel Special Interest Group (Linux Kernel-SIG)
 
-## Outreach Committee
+For more detailed information on each SIG, including how to subscribe to mailing lists and access archived notes, please visit the [CCC Committees Page](https://confidentialcomputing.io/about/committees/).
 
-**Focus**: The Outreach Committee is responsible for designing and executing community outreach efforts to maximize the outreach and visibility of the CCC’s efforts in confidential computing.
+### Joining a SIG Meeting
 
-**Meeting Schedule**: Bi-weekly on Wednesdays at 8:00 AM Pacific Time.
-
-## Technical Advisory Council (TAC)
-
-**Focus**: The TAC acts as the technical resource arm of the CCC, facilitating communication among community projects and nurturing the technical vision for the community.
-
-**Meeting Schedule**: Bi-weekly on Thursdays at 7:00 AM Pacific Time.
-
-### TAC Subcommittee: Attestation Special Interest Group (Attestation-SIG)
-
-**Focus**: This SIG is dedicated to enhancing interoperability and authentication through attestation in confidential computing environments.
-
-**Meeting Schedule**: Bi-weekly on Tuesdays at 9:00 AM Pacific Time.
-
-### TAC Subcommittee: Governance Risk & Compliance Special Interest Group (GRC-SIG)
-
-**Focus**: The GRC SIG works to connect the confidential computing development community with regulatory framework creators, aiming to craft secure and compliant regulations and governance patterns.
-
-**Meeting Schedule**: Weekly on Wednesdays at 7:00 AM Pacific Time.
-
-## Getting Involved
-
-Interested individuals are encouraged to participate in the SIG meetings to learn more about ongoing efforts, ask questions, and observe the contribution journeys of others. To get involved:
+All Linux Foundation meetings, including those of the CCC SIGs, are open to anyone interested in participating. Whether you're new to confidential computing or an experienced professional, joining a SIG meeting is a great way to learn more about the field, ask questions, and observe the contributor journeys of others. Here's how you can get involved:
 
 - **Join the Mailing List**: Subscribe to the mailing list of the SIG you're interested in to receive updates, meeting invitations, and access archived meeting notes.
+- **Participate or Observe**: You're welcome to actively participate in the discussions or simply observe the proceedings to learn more about the work being done within the CCC.
+- **Check the Meeting Schedule**: Each SIG page includes details about upcoming meetings, including dates, times, and how to join.
 - **View Archived Meeting Notes**: Archived meeting notes provide valuable insights into the discussions and decisions made within each SIG.
 
 ## Stay Updated with the CCC Newsletter
@@ -67,21 +49,9 @@ To stay informed about the latest news, events, and opportunities within the CCC
 
 Your participation and contributions are highly valued as we work together to advance the field of confidential computing. Whether you're new to the community or an experienced professional, there's a place for you in the CCC's SIGs.
 
-For more detailed information on each SIG, including how to subscribe to mailing lists and access archived notes, please visit the [CCC Committees Page](https://confidentialcomputing.io/about/committees/).
-
-
-### Joining a SIG Meeting
-
-All Linux Foundation meetings, including those of the CCC SIGs, are open to anyone interested in participating. Whether you're new to confidential computing or an experienced professional, joining a SIG meeting is a great way to learn more about the field, ask questions, and observe the contributor journeys of others. Here's how you can get involved:
-
-1. **Visit the CCC Committees Page**: To find more information about each SIG, including their focus areas and objectives, visit the [CCC Committees Page](https://confidentialcomputing.io/about/committees/).
-2. **Check the Meeting Schedule**: Each SIG page includes details about upcoming meetings, including dates, times, and how to join.
-3. **Participate or Observe**: You're welcome to actively participate in the discussions or simply observe the proceedings to learn more about the work being done within the CCC.
-
 ### Everyone Is Welcome
 
 The Linux Foundation and the CCC emphasize inclusivity and openness, encouraging anyone with an interest in confidential computing to join SIG meetings. Whether you have specific questions, seek to learn more about the field, or wish to share your expertise, your participation is valued and welcomed. Joining a SIG within the Confidential Computing Consortium is an excellent opportunity to contribute to the advancement of secure computing technologies and be part of a community dedicated to shaping the future of privacy and security in the digital age.
-
 
 ## Skill Development and Education in Areas Relevant to Confidential Computing
 
