@@ -94,7 +94,7 @@ DM welcomed Helen back to the CCC meetings.
 * DM asked if universities will be involved? JJ: Academia and small businesses will be involved.
 * Alec Fernandez asked how the academic sector is diverging from the commercial sector in PDaP? JJ continued to explain the relationship between academic research and the marketplace application of translational work. Discussion ensued.
 * JJ encouraged CCC partnership and participation in the funded collaboration in the project.
-* DM asked if there is a relationship with https://nsf-cdcc.org/?JJ confirmed he is aware of their work, but it is not directly related. 
+* DM asked if there is a relationship with https://nsf-cdcc.org/ JJ confirmed he is aware of their work, but it is not directly related. 
 * JJ explained that the program is funded by US Tax resources; therefore, only funds US based entities. However, multinational collaboration is welcome, but would not be part of the funding process.
 * CR thanked JJ for the work they are doing in this important field of research.
 
