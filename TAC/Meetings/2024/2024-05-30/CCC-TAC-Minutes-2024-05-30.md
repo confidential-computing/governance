@@ -104,7 +104,7 @@ DM reviewed open issue in the ccc/governance repo
 
 ### TAC Tech 
 
-* Chad Kimes and Marcella Melara introduced themselves and continued to present their work on SLASA & CI/CD Builds.Discussion ensued and questions were taken by the presenters.
+* Chad Kimes and Marcela Melara introduced themselves and continued to present their work on SLSA, in-toto, & CI/CD for secure, attestable builds. Discussion ensued and questions were taken by the presenters.
 
 ## Any Other Business / Schedule
 
