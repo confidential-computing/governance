@@ -58,6 +58,7 @@
 * Ofir Azoulay-Rozanes (Anjuna)
 * Ram Pai (IBM)
 * Ye Li
+* Thomas Fossati (Linaro)
 
 * Mike Bursell (LF)
 * Riaan Kleinhans (LF)
@@ -90,7 +91,7 @@ DM called attention to the recent NIST publication.
 ## CC Summit Feedback
 
 DM asked for feedback on the recent CC summit conference. Ofir Azoulay-Rozanes (OAR) stated that it was the first conference he attended where people understood confidential computing. OAR mentioned that AI was a major topic of discussion, but he felt it was important for people to understand that confidential computing is not just for AI—it is important for any application with sensitive data.
-Fritz Alder said he found the discussion balance between AI solutions to come and current solutions that are available.
+Fritz Alder said he found the discussion balanced between AI solutions to come and CC product offerings that are available today.
 
 Mike Bursell (MB) agreed that the conference over-rotated on AI, he noted there was a lot of interest in business models for attestation and that this should be a focus area for CCC.
 
@@ -101,12 +102,12 @@ Ram Pai (RP) stated that the ‘shared workspace’ concept was particularly int
 
 ## Tech Topic
 
-John Manferdelli (JM) presented on quantum resistance and confidential computing and his experience implementing quantum-resistant cryptography. [ presentation](./QuantumResistantCCC.pdf)
-Question and answer session and discussion ensured.
+John Manferdelli (JM) presented on quantum resistance and confidential computing and his experience implementing quantum-resistant cryptography. [presentation](./QuantumResistantCCC.pdf)
+Question and answer session and discussion ensued.
 
 ## Attestation business models
 
-During the meeting, MB addressed the feedback received from the community regarding potential business models associated with attestation. He suggested the establishment of a working group within the CCC to comprehensively examine both the technical and commercial facets of attestation. Discussions ensued, centered on the topic of attestation. DM expressed concern that creating a new work stream could potentially dilute the efforts of the TAC. MB acknowledged this concern and indicated that the subject matter should be elevated to the GB level, given its broader relevance.
+During the meeting, MB addressed the feedback received from the community regarding potential business models associated with attestation. He suggested the establishment of a working group within the CCC to comprehensively examine both the technical and commercial facets of attestation. Discussions ensued, centered on the topic of attestation. DM expressed concern that creating a new work stream could potentially dilute the efforts of the TAC. MB acknowledged this concern and suggested that the issue be escalated to the GB level due to its broader relevance..
 
 
 Next meeting June 27, 2024
