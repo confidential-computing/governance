@@ -96,7 +96,9 @@ In the last meeting John Manferdelli discussed implementing PQC
 
 ## Announcements
 
-Sal Kimmich (SK) stated that the mentorship program is now open and that mentorships can begin at anytime. SK asked interested folks to reach out to Sal or Yash.
+Sal Kimmich (SK) stated that the mentorship program is now open and that mentorships can begin at anytime.
+https://github.com/confidential-computing/governance/blob/main/mentoring/README.md
+TAC members should contact their respective projects about this program.```
 
 Mike Bursell (MB) expressed his interest in meeting with companies or colleagues in Singapore or Seoul at the upcoming PET Summit Singapore. Please reach out to him if you are interested.
 
