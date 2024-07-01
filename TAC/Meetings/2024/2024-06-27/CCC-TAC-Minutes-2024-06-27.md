@@ -54,7 +54,7 @@
 * Dayeol Lee (TikTok)
 * Deli Gong
 * Henk Birkholz
-* Manu Foutaine (Hushmesh)
+* Manu Fontaine (Hushmesh)
 * Mark Novak (JP Morgan Chase)
 * Mona Vij (Intel)
 * Nicolae Paladi 
