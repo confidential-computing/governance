@@ -1,13 +1,13 @@
-# Project Mentors
+# Project Liaisons
 
 The [CCC Project Progression Policy](project-progression-policy.md) explains
 that each project accepted by the CCC will be assigned a Technical Advisory
 Council (TAC) representative that will serve as a sponsor to champion the
-project and provide mentorship as needed.
+project and provide guidance as needed.
 
 ## Responsibilities
 
-Responsibilities of the mentor include:
+Responsibilities of the liaison include:
 
 1. Assist the project in creating a [growth plan](growth-plans.md).
 
@@ -28,9 +28,9 @@ Responsibilities of the mentor include:
    [diversity and inclusion policies](diversity-and-inclusion-policies.md)
    and make sure maintainers are aware of its recommendations.
 
-## Current Mentors
+## Current Liaisons
 
-Currently accepted CCC projects have been assigned the following mentors:
+Currently accepted CCC projects have been assigned the following liaison:
 
 * **[Enarx](https://github.com/enarx)**: [Nick Vidal](https://github.com/nickvidal)
 * **[Gramine](https://gramineproject.io/)**: [Eric Voit](https://github.com/ericvoit)
