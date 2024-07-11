@@ -85,7 +85,7 @@ Quorum was established.
 
 ## Old Business
 
-DM reviewed the GRC and Data Cleanroom Project proposal from the last meeting. Mark Novak (MN) reviewed the NIST announcements from the previous meeting. DM mentioned that the use document was published yesterday.
+DM reviewed the GRC and Data Cleanroom Project proposal from the last meeting. Mark Novak (MN) reviewed the NIST announcements from the previous meeting. DM mentioned that the use case document was published yesterday.
 
 ## TAC Project Proposal: Data Clean Room
 
@@ -103,14 +103,14 @@ DM asked if someone from the TAC wanted to make a motion to vote on the project 
 
 ## TAC Objectives / TAC Goals
 
-DM introduced Henry Wang (HW) and Kenvin Hui (KH) to discuss TAC Goals
-HW announced that they have an internal Attestation encrypted channel establishment library project base on C++ helper functions that they would be interested in open sourcing. They are still working on removing internal dependencies before it is ready. Aiming to open source it before the end of 2024.
+DM introduced Henry Wang (HW) and Kenvin Hui (KH) to discuss TAC Goals.
+HW announced that they have an internal Attestation encrypted channel establishment library project based on C++ helper functions that they would be interested in open sourcing. They are still working on removing internal dependencies before it is ready. Aiming to open source it before the end of 2024.
 DM welcomed the proposal and said the submission is welcome and does not have to be a finished product, leaving room for contributions.
 
-KH discussed starting a working group around open source code transparency for data center owner companies. They have already discussed this with the folks from Project Oak. AF asked if they have looked at the documentation around Asure code transparency service and how this would be different from this proposal.KH he briefly looked at it. The aim of the group would be to bring everyone’s code transparency work together. Started the working group and would aim to bring more roleplayers together.
+KH discussed starting a working group around open source code transparency for data center owner companies. They have already discussed this with the folks from Project Oak. AF asked if they have looked at the documentation around Azure code transparency service and how this would be different from this proposal.KH he briefly looked at it. The aim of the group would be to bring everyone’s code transparency work together. Started the working group and would aim to bring more roleplayers together.
 AF also indicated he would be interested in this work.
 
-DM pointed out that this idea is helpful, but it produces more goals to pursue rather than addressing goals that were already set by the TAC of 2024. He further proposed that KH can start with a blog post figuring out what is already available in the field. That could also be presented as a TAC Tech talk to get more community input about other areas where this is valid.
+DM pointed out that this idea is helpful, but it produces more goals to pursue rather than addressing goals that were already set by the TAC of 2024. He further proposed that KH can start with a blog post figuring out what is already available in the field suggesting a TAC tech talk to solicit community feedback.
 Discussion ensured.
 
 ## Any Other Business / Schedule
