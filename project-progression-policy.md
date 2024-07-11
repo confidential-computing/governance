@@ -8,7 +8,7 @@ stage, as well as the acceptance criteria for a project to move from one stage t
 another. It also describes the [Annual Review Process](#iv-annual-review-process)
 through which those changes will be evaluated and made.
 
-Project progression - movement from one stage to another - allows projects to participate at the level that is most appropriate for them given where they are in their lifecycle. Regardless of stage, all Consortium projects benefit from a deepened alignment with existing projects, and access to mentorship, support, and Consortium resources.
+Project progression - movement from one stage to another - allows projects to participate at the level that is most appropriate for them given where they are in their lifecycle. Regardless of stage, all Consortium projects benefit from a deepened alignment with existing projects, and access to guidance, support, and Consortium resources.
 
 ### Benefits of being a recognized Consortium project
 
@@ -16,10 +16,10 @@ Some ways a project can benefit by becoming a Consortium-recognized project incl
 
 1. Recognition: A Consortium project is recognized as meeting the goals of the Consortium, namely protecting data-in-use.
 2. Community: The Consortium is fostering a community of like-minded members.
-3. Participation: Participate and lead in the ongoing development of the confidential computing paradigm. All projects are assigned a [Mentor](project-mentors.md) to assist in the integration of your project to the Consortium and growth beyond that.
+3. Participation: Participate and lead in the ongoing development of the confidential computing paradigm. All projects are assigned a [Liaison](project-liasions.md) to assist in the integration of your project to the Consortium and growth beyond that.
 4. Project Support: The Consortium can provide limited funds to support project communication and infrastructure costs for CI/CD.
 5. Outreach: Part of the Consortium's mission is to promote the use of confidential computing with various communities and hence its recognized projects, to deliver that outcome.
-6. Internships: The [TAC has committed](https://lists.confidentialcomputing.io/g/main/files/TAC/Meetings/2021/09-Sept/TAC%20Minutes%202021-09-09.pdf) to fund one intern per CCC project that commits to the list of "Mentor Responsibilities" on the [Outreachy mentor page](https://www.outreachy.org/mentor/).
+6. Mentorship: The [TAC has committed](https://lists.confidentialcomputing.io/g/main/files/TAC/Meetings/2021/09-Sept/TAC%20Minutes%202021-09-09.pdf) to fund one mentee per CCC project that commits to the ["Confidential Computing Consortium Mentorship Program"](https://github.com/confidential-computing/governance/tree/main/mentoring).
 7. Test infrastructure: Up to $7500 in budget for hardware and software per year.
 8. Video conferencing support: A zoom account for community meetings.
 9. Domain name: A domain name registration and renewals can be granted.
@@ -128,7 +128,7 @@ They may also request a status review by submitting a report to the TAC.
 **Acceptance Criteria**
 
 To be considered for the Incubation Stage, the project must meet the following requirements:
-* 1 [TAC representative](project-mentors.md) that will serve as a sponsor to champion the project & provide mentorship as needed
+* 1 [TAC representative](project-liaisons.md) that will serve as a sponsor to champion the project & provide guidance as needed
 * A presentation to at the meeting of the TAC
 
 * Upon acceptance, Incubation projects must list their status prominently on their website/README
@@ -136,7 +136,7 @@ To be considered for the Incubation Stage, the project must meet the following r
 ### Graduation Stage
 **Definition**
 
-Graduation stage projects will receive mentorship from the TAC and are expected to actively develop their community of contributors, governance, project documentation, and other variables identified in the growth plan that factor into broad success and adoption.
+Graduation stage projects will receive guidance from the TAC and are expected to actively develop their community of contributors, governance, project documentation, and other variables identified in the growth plan that factor into broad success and adoption.
 
 In order to support their active development, projects in the Graduation stage have a higher level of access to Consortium resources as provided by the Governing Board of the Consortium. A project's progress toward its growth plan goals will be reviewed on a yearly basis, and the TAC may move a project to the Incubation stage if progress on the plan drops off or stalls.
 
@@ -144,18 +144,18 @@ In order to support their active development, projects in the Graduation stage h
 
 1.	Projects that have developed new growth targets or other community metrics for success.
 2.	Projects that are looking to create a lifecycle plan (maintainership succession, contributor programs, version planning, etc.)
-3.	Projects that need more active support from the Consortium or TAC mentorship in order to reach their goals.
+3.	Projects that need more active support from the Consortium or TAC guidance in order to reach their goals.
 
 **Acceptance Criteria**
 
 To be considered for Graduation stage, the project must meet the Incubation requirements as well as the following:
 
- * Development of a growth plan, to be done in conjunction with their [project mentor(s)](project-mentors.md) at the TAC.
+ * Development of a growth plan, to be done in conjunction with their [project liason(s)](project-liaisons.md) at the TAC.
  * Document that it is being used successfully in production by at least two independent end-user organizations which, in the TAC's judgement, are of adequate quality and scope.
  * Demonstrate a substantial, in the opinion of the TAC, ongoing flow of commits and merged contributions.
  * Demonstrate that the current level of community participation is sufficient to meet the goals outlined in the growth plan.
  * Since these metrics can vary significantly depending on the type, scope and size of a project, the TAC has final judgement over the level of activity that is adequate to meet these criteria.
- * Demonstrate that the project is invested in growing a diverse and inclusive community. Resources and recommendations are available in [diversity and inclusion policies](diversity-and-inclusion-policies.md) and through your mentor.
+ * Demonstrate that the project is invested in growing a diverse and inclusive community. Resources and recommendations are available in [diversity and inclusion policies](diversity-and-inclusion-policies.md) and through your liaison.
  * Receive a two-thirds supermajority vote of the TAC to move to Graduation stage.
 
 ### Emeritus Stage
@@ -193,7 +193,7 @@ The review includes the following:
    is in the stage that accurately reflects its needs and goals. For example,
    is it already ready to move to another progression level? Is it on track
    at the current level? Is any action needed from the TAC (e.g., change in
-   or addition to any project mentor(s))?  If nothing has changed
+   or addition to any project liason(s))?  If nothing has changed
    significantly, there may be nothing to review here.
 
 3. Review any budget allocations relevant to the project, and whether any
@@ -212,5 +212,5 @@ Projects are encouraged to proactively inform the TAC when something
 changes that affects their submission template or Technical Charter (changing a License, security
 reporting process, CoC, etc.), rather than waiting for the next annual review.
 
-It is the responsibility of the project's [mentor](project-mentors.md) to help the project determine
+It is the responsibility of the project's [liason](project-liasons.md) to help the project determine
 what needs to be reviewed by the TAC, and keep the TAC informed.

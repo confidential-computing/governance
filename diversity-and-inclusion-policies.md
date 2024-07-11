@@ -22,7 +22,7 @@ additional community characteristics for a project to demonstrate for each
 stage.
 
 Each project is expected to develop an inclusive and diverse community.
-The means and specific goals may vary by project. The project's mentor is one
+The means and specific goals may vary by project. The project's liaison is one
 resource available to assist in this area. A short list of additional resources
 and recommendations is provided in this document as an aid to projects.
 Projects are welcome to utilize additional resources as fit the needs of their
@@ -48,6 +48,6 @@ https://github.com/torvalds/linux/blob/a5f526ecb075a08c4a082355020166c7fe13ae27/
 https://docs.microsoft.com/en-us/style-guide/bias-free-communication
 https://developers.google.com/style/inclusive-documentation
 
-### Internships
-The CCC TAC has [committed to support interns](./project-progression-policy.md#benefits-of-being-a-recognized-consortium-project)
- for CCC projects that commit to the list of "Mentor Responsibilities" on the [Outreachy mentor page](https://www.outreachy.org/mentor/).
+### Mentorship
+The CCC TAC has [committed to support mentees](./project-progression-policy.md#benefits-of-being-a-recognized-consortium-project)
+ for CCC projects that commit to the ["Confidential Computing Consortium Mentorship Program"](https://github.com/confidential-computing/governance/tree/main/mentoring).
