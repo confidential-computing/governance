@@ -118,7 +118,7 @@ Discussion ensued with interactive questions and answers.
 
 Fritz Alder (FA) discussed the 2024 objectives of the TAC. He gave feedback on the academic engagement objective and asked the attendees what academic topics would be of interest to the TAC.
 MB said that talks on mitigations for attacks related to protocols would be valuable.
-FD stated that the PQ talks presented were insightful. He further asked if the group would be interested in academic topics or if the talks should focus on more practical topics.
+FA stated that the PQ talks presented were insightful. He further asked if the group would be interested in academic topics or if the talks should focus on more practical topics.
 MB said that he would like to see more of the TAC Tech Talks presented at industry events.
 FD said that MB’s point ties in with his next topic, asking the group about what external engagement with academics should be pursued.
 MB agreed that it would be helpful to build relationships with academics.
