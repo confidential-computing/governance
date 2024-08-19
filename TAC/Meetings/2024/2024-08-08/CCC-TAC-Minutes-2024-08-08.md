@@ -126,7 +126,7 @@ Thore Sommer (TS) said that relationships with academics and providing a platfor
 
 Ofir Azoulay-Rozanes said that the missing topic for him is the involvement of hardware providers and cloud providers in discussions about vulnerabilities and mitigations, as well as the development of hardware. FA cautioned against the discussion of “soon to be released” features, as it could violate the antitrust policy. DM said that IP announcements that companies are comfortable sharing would be useful information to discuss as a community.
 
-MB pointed out that the TAC is a technical advisory council, and they should avoid “product pitches.” He suggested seeking advice from the GB about news feeds from vendors, as large companies might overshadow smaller companies. Catherine Zhang (CZ) asked if sponsoring summits would be a good place to discuss academic topics. Discussion ensued about event participation and academic involvement.
+MB pointed out that the TAC is a technical advisory council, and they should avoid “product pitches.” He suggested seeking advice from the GB about news feeds from vendors, as large companies might overshadow smaller companies. Catherine Zhang (CZ) asked if sponsoring academic conferences would be a good opportunity to discuss the CCC with academics. Discussion ensued about event participation and academic involvement.
 
 Sal Kimmich said that, from their experience working in the academic space, they had no knowledge about the opportunity to join open-source community calls; getting that information out would be helpful for academics.
 
