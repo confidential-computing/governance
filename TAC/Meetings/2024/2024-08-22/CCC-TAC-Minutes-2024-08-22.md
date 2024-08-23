@@ -36,7 +36,7 @@
 
 * AMD - David Kaplan + / Harold Gilkey 
 * Arm - Nathaniel McCallum   / Michael Lu
-* Google - Catherine Zhang
+* Google - Catherine Zhang +
 * Huawei - Zhipeng (Howard) Huang 
 * Intel - Dan Middleton (TAC chair) +  / Simon Johnson
 * Meta -  Henry Wang /  Kevin Hui
