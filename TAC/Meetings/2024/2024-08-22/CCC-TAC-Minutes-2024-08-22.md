@@ -59,7 +59,7 @@
 * Joseph Artgole (ARM)
 * Julian Stephen (IBM)
 * Kanth Ghatraju (Oracle)
-* Krzystof Sandowizc
+* Krzysztof Sandowicz (Intel)
 * Manu Foutaine (Hushmesh)
 * Ofir Azoulay-Rozanes (Anjuna)
 * Stephen Smalley (NSA)
