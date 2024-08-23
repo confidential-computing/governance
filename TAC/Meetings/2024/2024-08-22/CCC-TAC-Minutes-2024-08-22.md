@@ -118,6 +118,6 @@ DM asked committee members to start thinking about what they would like to see i
 
 ## Any Other Business / Schedule
 
-Next meeting August 22, 2024
+Next meeting September 05, 2024
 
 The meeting adjourned at 09:00 am PT
