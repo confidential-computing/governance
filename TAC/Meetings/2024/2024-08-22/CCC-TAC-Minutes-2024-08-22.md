@@ -40,7 +40,7 @@
 * Huawei - Zhipeng (Howard) Huang 
 * Intel - Dan Middleton (TAC chair) +  / Simon Johnson
 * Meta -  Henry Wang /  Kevin Hui
-* Microsoft - Alec Fernandez
+* Microsoft - Alec Fernandez +
 * Nvidia - Fritz Alder
 * Red Hat - Yash Mankad+  / Ram Pai +
 * TikTok - Mingshen Sun +   / Yao Zhang
