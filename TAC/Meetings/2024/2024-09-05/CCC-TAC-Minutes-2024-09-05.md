@@ -110,7 +110,7 @@ DM suggested that the work should be broken down into work packages that could b
 
 ## Super Protocol Tech Talk
 
-Nukri Basharuli (Founder/CEO) introduced themselves and the Super Protocol team. Nukri and Andrey Pogoreltsev - CTO of Super Protocol continued to present their tech talk. [Presentation](./CCC_Super%20Protocol%20Tech%20overview_Sept%205'24.pdf)
+Nukri Basharuli (Founder/CEO) introduced themselves and the Super Protocol team. Nukri and Andrey Pogoreltsev - CTO of Super Protocol continued to present their tech talk. [Presentation](./CCC_Super_Protocol_Tech_overview_Sept%205_24.pdf)
 
 ##  2024 CCC TAC Objectives
 
