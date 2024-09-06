@@ -114,7 +114,7 @@ Nukri Basharuli (Founder/CEO) introduced themselves and the Super Protocol team.
 
 ##  2024 CCC TAC Objectives
 
-DM introduced the TAC goals document. Yash Mankad updated the meeting on the progress on the Mentorship program and thanked SK for driving participation from the CCC projects. They anticipate receiving two project proposals soon from the Veriosin project and are discussing with Coconut SVSM. Sal Kimmich (SK) said the Veriason would be mentoring two mentees. Riaan would help determine the administrative requirements of one mentor working with two mentees.
+DM introduced the TAC goals document. Yash Mankad updated the meeting on the progress on the Mentorship program and thanked Sal Kimmich (SK) for driving participation from the CCC projects. They anticipate receiving two project proposals soon from the Veraison project and are discussing with Coconut SVSM. SK said the Veraison would be mentoring two mentees. Riaan will help determine the administrative requirements of one mentor working with two mentees.
 
 ## Any Other Business / Schedule
 
