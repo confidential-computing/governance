@@ -51,7 +51,7 @@
 * Alexander Manilov
 * Andey Pogoreltev (Super Protocol)
 * Chandra Nelogal (Self)
-* Diona Glaze
+* Diona Glaze (Google)
 * Henk Birkholz
 * Hesham (Innovax Technologies)
 * Jens Albers (Fr0ntierX)
