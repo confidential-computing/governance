@@ -108,7 +108,7 @@ Mike Bursell (MB) introduced Attestation & AVS (Attestation Verification Service
 
 DM suggested that the work should be broken down into work packages that could be addressed through working groups. Catherine Zhang ask if the work packages would be addressed by existing working groups or new groups. MB proposed that a portion of the TAC meeting could be set apart for that on a bi-weekly basis. DM proposed that the TAC could assign questions and work to the existing working groups to be addressed. DM asked meeting participants to communicate on the topic through the TAC Slack channel and mailing list and it would be further discussed in the next meeting.
 
-## Super Protoco Tech Talk
+## Super Protocol Tech Talk
 
 Nukri Basharuli (Founder/CEO) introduced themselves and the Super Protocol team. Nukri and Andrey Pogoreltsev - CTO of Super Protocol continued to present their tech talk. [Presentation](./CCC_Super%20Protocol%20Tech%20overview_Sept%205'24.pdf)
 
