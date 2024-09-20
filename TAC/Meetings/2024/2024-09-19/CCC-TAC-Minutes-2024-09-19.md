@@ -112,7 +112,7 @@ Patrick Eugster- Formal programming techniques for secure data processing
 ## Repositioning WG
 
 Ab Nacef introduced the meeting to the work being done by the working group.
-Julian Stephen walked through the three main focus items of the work group being the Messaging Guide around Use Cases.Emphasized on Supply Chain Security Use case and requested for any familiar scenarios from the community by mid October and ASAP information is appreciated. Discussion ensued.
+Julian Stephen walked through the three main focus items of the work group being the Messaging Guide around Use Cases. Emphasized Supply Chain Security Use case and requested any familiar scenarios from the community by mid-October and ASAP information is appreciated. Discussion ensued.
 
 ## Attestation & AVS Questions
 
