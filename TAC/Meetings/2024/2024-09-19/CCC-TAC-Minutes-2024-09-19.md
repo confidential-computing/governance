@@ -116,7 +116,8 @@ Julian Stephen walked through the three main focus items of the work group being
 
 ## Attestation & AVS Questions
 
-DM reviewed the topics raised by Mike Bursell in the previous meeting. DM continued discussing the roles in the TCB and gave a brief overview . He encourage further discussion of the topic in the TAC mailing list.
+DM reviewed the topics raised by Mike Bursell in the previous meeting. DM continued discussing the roles in the TCB and gave a brief overview.
+He encourage further discussion of the topic in the TAC mailing list.
 
 ## Any Other Business / Schedule
 
