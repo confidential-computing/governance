@@ -84,7 +84,7 @@ DM reviewed the agenda for the meeting.
 
 ## Roll Call / Attendance
 
-Quorum was established as no votes were required.
+Quorum was not established as no votes were required.
 
 ## Welcome New Community Members
 
