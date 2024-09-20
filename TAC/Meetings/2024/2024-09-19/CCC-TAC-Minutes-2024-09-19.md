@@ -98,9 +98,6 @@ DM reviewed the old business from the previous meeting.
 
 Sal announced Kubconf Salt Lake City in mid Nov and encouraged members to reach out to participate in the Kubcon activities.
 
-## Attestation Terminology
-
-Mike Bursell (MB) introduced Attestation & AVS (Attestation Verification Services)
 
 ## Sticky Policy Tech Talk
 
