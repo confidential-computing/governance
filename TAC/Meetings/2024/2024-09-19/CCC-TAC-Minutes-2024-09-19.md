@@ -96,7 +96,7 @@ DM reviewed the old business from the previous meeting.
 
 ## Announcements
 
-Sal announced Kubconf Salt Lake City in mid Nov and encouraged members to reach to participate in the Kubcon activities.
+Sal announced Kubconf Salt Lake City in mid Nov and encouraged members to reach out to participate in the Kubcon activities.
 
 ## Attestation Terminology
 
