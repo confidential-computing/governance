@@ -109,6 +109,8 @@ Zhiqiang - Collaborative and Private Data Processing with TEE-enforced Sticky Po
 Patrick Eugster- Formal programming techniques for secure data processing
 [LINK TO PRESENTATION](./STYX_CCC_TAC_2024.pdf)
 
+SK, DM, and FA discussed the opportunity to help advertise academic open source projects like those discussed in today's Tech Talks. They took an action to discuss the best way to promote those.
+
 ## Repositioning WG
 
 Ab Nacef introduced the meeting to the work being done by the working group.
