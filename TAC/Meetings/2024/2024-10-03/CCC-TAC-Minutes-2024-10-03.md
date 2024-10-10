@@ -113,7 +113,7 @@ MB proposed that CSP should be outside the trust boundary and that should be whe
 ## Tech Talk
 
 OpenHCL Caroline Perez-Vargas
-[Link to slidedeck]()
+[Link to slidedeck](./OpenHCL_the_new_open_source_paravisor_for_Confidential_VMs_.pdf)
 
 ## Any Other Business / Schedule
 
