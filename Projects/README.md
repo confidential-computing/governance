@@ -10,6 +10,7 @@ The [Confidential Computing Consortium](https://confidentialcomputing.io) hosts 
 * [Gramine](#gramine)
 * [Islet](#islet)
 * [Keystone](#keystone)
+* [ManaTEE](#manatee)
 * [Occlum](#occlum)
 * [Open Enclave SDK](#open-enclave-sdk)
 * [spdm-rs](#spdm-rs)
@@ -157,6 +158,24 @@ Keystone is an open-source project for building trusted execution environments (
 #### Webinars
 
 * [Keystone](https://confidentialcomputing.io/keystone-webinar/)
+
+## ManaTEE
+
+<img height="100" src="https://raw.githubusercontent.com/confidential-computing/artwork/main/manatee/Color/SVG/manatee_color.svg">
+
+ManaTEE is an open-source project for easily building and deploying data collaboration framework to the cloud using trusted execution environments (TEEs). It allows users to easily collaborate on private datasets without leaking privacy of individual data.
+
+**Status:** Incubation
+
+### Links
+
+* [Project detail]()
+* [GitHub](https://github.com/manatee-project/manatee/)
+* [Proposal](./Occlum/occlum-accepted_proposal.pdf)
+    * Accepted by TAC: 2024-07-25
+    * Accepted by Governing Board: 2024-08-10
+* [Charter](./ManaTee/ManaTEE-Technical-Charter-Final-9-26-2024.pdf)
+* [Artwork](https://github.com/confidential-computing/artwork#occlum)
 
 ## Occlum
 
