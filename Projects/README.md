@@ -171,11 +171,11 @@ ManaTEE is an open-source project for easily building and deploying data collabo
 
 * [Project detail]()
 * [GitHub](https://github.com/manatee-project/manatee/)
-* [Proposal](./Occlum/occlum-accepted_proposal.pdf)
+* [Proposal](./ManaTee/Data-Clean-Room-Project-CCC.pdf)
     * Accepted by TAC: 2024-07-25
     * Accepted by Governing Board: 2024-08-10
 * [Charter](./ManaTee/ManaTEE-Technical-Charter-Final-9-26-2024.pdf)
-* [Artwork](https://github.com/confidential-computing/artwork#occlum)
+* [Artwork](https://github.com/confidential-computing/artwork/tree/main/manatee)
 
 ## Occlum
 
