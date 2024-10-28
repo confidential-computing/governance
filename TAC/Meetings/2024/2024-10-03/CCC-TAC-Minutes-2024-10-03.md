@@ -48,8 +48,8 @@
 
 #### Other Attendees
 
-* Alice Lawernce (Setit Solutions)
-* Caroline Perez-Vergas (Microsoft)
+* Alice Lawrence (Setit Solutions)
+* Caroline Perez-Vargas (Microsoft)
 * Chandra Nelogal (Self)
 * Hesham ElBakoury (Innovax Technologies)
 * Ionut Mihalcea (ARM)
