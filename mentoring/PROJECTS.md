@@ -44,8 +44,8 @@ Recommended Skills:
 Familiarity with RATS architecture, CoRIM, and API interaction. Experience with Go or related languages will be helpful.
 
 Mentor(s):
-Thomas (@thomas_github, thomas@veraison.org)
-Sergei (@sergei_github, sergei@veraison.org)
-Yogesh (@yogesh_github, yogesh@veraison.org)
+Thomas (@thomas-fossati, thomas.fossati@linaro.org)
+Sergei (@setrofim, sergei.trofimov@arm.com)
+Yogesh (@yogeshbdeshpande, yogesh.deshpande@arm.com)
 
 
