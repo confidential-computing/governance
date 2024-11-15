@@ -27,8 +27,8 @@ Recommended Skills:
 Familiarity with RATS architecture, attestation workflows, and policy management. Knowledge of TPM evidence formats is beneficial.
 
 Mentor(s):
-Thore (@thore_github, thore@veraison.org)
-Thomas (@thomas_github, thomas@veraison.org)
+Thore (@THS-on, mail@thson.de)
+Thomas (@thomas-fossati, thomas.fossati@linaro.org)
 
 ### Veraison Mentorship: Enhancing CoRIM Support
 GH Issue: https://github.com/veraison/.github/issues/5
