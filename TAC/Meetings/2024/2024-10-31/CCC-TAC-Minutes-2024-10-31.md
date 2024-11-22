@@ -34,7 +34,7 @@
 
 *Per the [charter](https://charter.confidentialcomputing.io), all [CCC Premier members](https://confidentialcomputing.io/members/) receive one vote on the TAC. Quorum for votes is at least 50% of voting members present.*
 
-* AMD - Nathaniel McCallum / David Kaplan
+* AMD - Nathaniel McCallum + / David Kaplan
 * Arm -    Paul Howard +
 * Google - Catherine Zhang +
 * Huawei - Zhipeng (Howard) Huang  +
@@ -49,7 +49,7 @@
 
 #### Other Attendees
 
-* Alice Lawernce (Setit Solutions)
+* Alice Lawrence (Setit Solutions)
 * Bokdeuk Jeong (Samsung)
 * Caroline Perez-Vergas (Microsoft)
 * Hesham ElBakoury (Innovax Technologies)
@@ -59,7 +59,6 @@
 * Manu Foutaine (Hushmesh)
 * Mari Spina (MITRE Cyber)
 * Mark Novak (JP Morgan Chase)
-* Nathaniel McCallum (AMD)
 * Zhipeng Huang
 * Sal Kimmich (CCC)
 * Riaan Kleinhans (LF)
@@ -106,7 +105,7 @@ DM thank the members for all their contributions and encouraged them to make upd
 
 DM continued to address the planning for 2025. In 2024 focus areas of projects, ecosystem and community. The members were encouraged to consider if these areas should be further pursued or should direction be changed. DM proposed that in 2025 the committee should establish a process for the review and refresh of publications published on the [CCC website](https://confidentialcomputing.io/resources/white-papers-reports/) He proposed that the review process should take approximately 2 months per document in a review cycle. He also proposed that the documents should be version controlled in Github, as many of the documents are only available in PDF format on the website.
 
-DM said he would create a new ORK document for 2025 and would invite the committee members to collaborate on setting the objectives for the new year.
+DM said he would create a new OKR document for 2025 and would invite the committee members to collaborate on setting the objectives for the new year.
 
 ## Tech Talk - OpenHCL paravisor
 
