@@ -18,7 +18,7 @@ Mentee application instructions can be found on the [here](mentees/README.md#app
 
 #### Strengthening Security through Fuzz Testing
 
-- Description: Enhance Islhttps://github.com/islet-project/islet/issues/398et’s security by identifying vulnerabilities early using fuzz testing. This project integrates Cargo Fuzz tools with Islet’s CI pipeline, focusing on testing RMM interfaces (RMI and RSI) based on ARM’s RMM specification.
+- Description: Enhance Islet’s security by identifying vulnerabilities early using fuzz testing. This project integrates Cargo Fuzz tools with Islet’s CI pipeline, focusing on testing RMM interfaces (RMI and RSI) based on ARM’s RMM specification.
 - Expected Outcome: Deliver a set of robust fuzz tests integrated into Islet’s CI, improving security and compliance with ARM standards.
 - Recommended Skills: Knowledge of Rust programming and fuzz testing. Familiarity with confidential computing, virtualization, and ARM architecture is helpful but not required.
 - Mentor(s):
