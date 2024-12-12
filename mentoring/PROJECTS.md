@@ -2,7 +2,7 @@
 
 ## Application Instructions
 
-Mentee application instructions can be found on the [here](mentees/README.md#application-process).
+Mentee application instructions can be found [here](mentees/README.md#application-process).
 
 ## Active Mentorship Opportunities
 
