@@ -107,7 +107,7 @@ DM mentioned about the opportunity to have a Program Committee member. A represe
 
 ## TAC 2025 Objectives
 
-Paul Howard (PH) seeked clarification on the distinction between objectives and key results (OKR) and project-specific growth plans.
+Paul Howard (PH) sought clarification on the distinction between objectives and key results (OKR) and project-specific growth plans.
 Clarifications:
 - Growth objectives for individual projects should not be included in the OKR document but developed as separate growth plans. Growth plans aim to help projects meet maturity criteria outlined in governance documents.
 - Storage and Access: There is no standardized repository or template for growth plans. Historically, the system was simplified, and growth plans are now guided by adoption and progression metrics.
@@ -118,7 +118,7 @@ Requirements:
  - Volunteers to propose next steps for developing templates or repositories for growth plans
 
 YM emphasized on the community health and growth. Fritz Alder also emphasized on the community health and growth and to combine all the objectives into one community objective. Discussion ensued.
-PH volunteered for creation of a project plan. Catherine Zhang (CZ) confirmed her volenteership for the Kernel related activities.
+PH volunteered for creation of a project plan. Catherine Zhang (CZ) confirmed confirmed she will volunteer for the kernel-related activities.
 Nathaniel explained about the COCO project. 
 Mark Novak (MV) & DM encouraged document review & share the feedback 
 
