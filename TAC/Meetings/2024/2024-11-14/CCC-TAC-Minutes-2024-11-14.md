@@ -103,7 +103,7 @@ Yash Mankan (YM) provided the mentorship program updates. He explained these are
 
 ## CC Summit - Program Committee
 
-DM mentioned about the opportunity to have a Program Committee member. A representative from the group has been invited to join the program committee for the Confidential Computing Summit. Goal is to ensure the conference is community-driven with minimal bias toward company-centric presentations. Fritz YM and  Mingshen Sun (MS) expressed interest. A lighthearted dice roll was conducted by DM, resulting in Ming Shen being selected.Congratulations extended to Ming Shen for being chosen.
+DM mentioned about the opportunity to have a Program Committee member. A representative from the group has been invited to join the program committee for the Confidential Computing Summit. Goal is to ensure the conference is community-driven with minimal bias toward company-centric presentations. Fritz YM and  Mingshen Sun (MS) expressed interest. A lighthearted dice roll was conducted by DM, resulting in Ming Shen being selected. Congratulations extended to Ming Shen for being chosen.
 
 ## TAC 2025 Objectives
 
