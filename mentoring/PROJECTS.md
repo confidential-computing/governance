@@ -25,7 +25,7 @@ Mentee application instructions can be found [here](mentees/README.md#applicatio
     - Bokdeuk Jeong (@bokdeuk-jeong, bd.jeong@samsung.com)
     - Sangwan Kwon (@bitboom, sangwan.kwon@samsung.com)
 - Upstream Issue: https://github.com/islet-project/islet/issues/398
-- LFX URL: *coming soon*
+- LFX URL: https://mentorship.lfx.linuxfoundation.org/project/fbd406ee-5d76-4d8b-939d-c37d42643fa8
 
 ### Veraison
 
@@ -38,7 +38,7 @@ Mentee application instructions can be found [here](mentees/README.md#applicatio
     - Thore (@THS-on, mail@thson.de)
     - Thomas (@thomas-fossati, thomas.fossati@linaro.org)
 - Upstream Issue: https://github.com/veraison/.github/issues/6
-- LFX URL: *coming soon*
+- LFX URL: https://mentorship.lfx.linuxfoundation.org/project/a3b8d4a8-0651-4059-b100-bcd0ea46b21e
 
 #### Enhancing CoRIM Support
 
@@ -50,4 +50,4 @@ Mentee application instructions can be found [here](mentees/README.md#applicatio
     - Sergei (@setrofim, sergei.trofimov@arm.com)
     - Yogesh (@yogeshbdeshpande, yogesh.deshpande@arm.com)
 - Upstream Issue: https://github.com/veraison/.github/issues/5
-- LFX URL: *coming soon*
+- LFX URL: https://mentorship.lfx.linuxfoundation.org/project/80c135fc-de55-4542-86f5-65b91d267d11
