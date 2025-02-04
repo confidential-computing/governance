@@ -144,7 +144,7 @@ The motion to accept the project proposal was made by Alec Fernandez and seconde
 * Red Hat - Yash Mankad - Yes
 * Fritz Alder (NVIDIA) - Yes
 
-The project has been approved by the TAC. The voting members that were not in the TAC meeting would also be offered the opportunity to vote by email. The project proposal will be taken to the Governing Board meeting as well for approval.
+The project has been approved by the TAC. The voting members that were not present will also be offered the opportunity to vote by email. The project proposal will be taken to the Governing Board meeting as well for approval.
 
 AI: Need to send an email to the individual TAC members to vote for those who could not attend the meeting today.
 
