@@ -39,6 +39,8 @@ The Certifier API greatly simplifies and unifies programming and operations supp
 
 ## COCONUT-SVSM
 
+<img height="100" src="https://github.com/confidential-computing/artwork/raw/main/coconut_svsm/logo5.svg">
+
 The COCONUT-SVSM is an implementation of a Secure VM Service Module for confidential
 computing virtual machines (CVMs). It runs within the TCB of the CVM and aims to support three
 operational modes:
