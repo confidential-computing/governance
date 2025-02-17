@@ -6,11 +6,11 @@
 
 ### Meeting details
 
-**Date**: Thursday, January 23, 2025
+**Date**: Thursday, January 23, 2025 - 2026
 
 **Time**: 7a-9a US Pacific Time
 
-* **Zoom**: [https://zoom-lfx.platform.linuxfoundation.org/meeting/94618773737?password=4b2a5cdf-685a-4ea3-822d-24ff7ddab72e) 
+* **Zoom**: [Zoom](https://zoom-lfx.platform.linuxfoundation.org/meeting/94618773737?password=4b2a5cdf-685a-4ea3-822d-24ff7ddab72e) 
 
 * **Calendar**: [https://calendar.confidentialcomputing.io](https://calendar.confidentialcomputing.io),
 [ical](https://calendar.google.com/calendar/ical/c\_c0pcihr7n2n1k3a38i32d9ag10%40group.calendar.google.com/public/basic.ics),
@@ -18,7 +18,7 @@
 
 * **Recordings**: [YouTube TAC Playlist](https://www.youtube.com/playlist?list=PLmfkUJc39uMjaB_I1dYW72I44kr9QzG_B)
 
-## Links
+## Links is over here
 
 * **Code of Conduct**: [code-of-conduct.confidentialcomputing.io](https://code-of-conduct.confidentialcomputing.io)
 * **CCC Charter**: [charter.confidentialcomputing.io](https://charter.confidentialcomputing.io)
