@@ -62,7 +62,7 @@ A quorum was not needed
 
 #### Other Attendees
 
-* Alic Lawewnce (Setit Solutions)
+* Alice Lawewnce (Setit Solutions)
 * Chris Ramming 
 * Henk Birkholz (Fraunhofer Institute)
 * Jens Albers (Fr0ntierX Inc)
@@ -72,7 +72,6 @@ A quorum was not needed
 * Manu Fontaine (Hushmesh)
 * Mark Gentry
 * Ofir Azoulay-Rozanes (Anjuna)
-* Paul Howard (ARM)
 * Renu Chauhan (Linux Foundation)
 * Riaan Kleinhans (Linux Foundation)
 * Haitao Huang
@@ -80,7 +79,7 @@ A quorum was not needed
 
 ## Welcome New Community Members
 
-Haitiao Huang introduced himself 
+Haitao Huang introduced himself 
 
 
 ## Meeting Minute Approval & Old Business
@@ -105,7 +104,7 @@ Haitiao Huang introduced himself
 
 ## Project Liaisons
 * DM mentioned the projects which do not have any assistance on the annual review & maintenance from a project Liaison perspective.  DM opened the discussion about the Project Liaisons topic, volunteering their part for the role. Chris Ramming (CR) emphasized that this role is essential for project hygiene and most importantly the connections between the different projects. Thus having someone from the TAC meeting who can provide/establish the connections between the projects is useful. Paul Howard (PH) added that he is happy to be the certifier Framework project liaison. 
-Yash Mankand (YM) explained that Veracruz needs to be archived then can Thomas Fasatti (TF) be assigned as a project Liaison to some other project? DM added that it is TF’s wish to do that if he is interested. 
+Yash Mankad (YM) explained that Veracruz needs to be archived then can Thomas Fosatti (TF) be assigned as a project Liaison to some other project? DM added that it is TF’s wish to do that if he is interested. 
 
 ## Discussion: Workload Identity 
 * DM updated the committee members about the latest updates from the workload identity group.
