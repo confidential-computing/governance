@@ -51,10 +51,10 @@ A quorum was not needed
 * Google - Catherine Zhang +   / Catalin Sandu 
 * Huawei - Zhipeng (Howard) Huang 
 * Intel - Dan Middleton+ (TAC chair)  / Simon Johnson
-* Meta - Henry Wang / Kenin Hui
+* Meta - Henry Wang / Kevin Hui
 * Microsoft - Alec Fernandez  
 * Nvidia - Fritz Alder 
-* Red Hat -  Yash Mankad +  / Ram Pi 
+* Red Hat -  Yash Mankad +  / Ram Pai 
 * TikTok -  Mingshen Sun + / Yao Zhang
 
    " + " indicates attending
