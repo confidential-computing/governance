@@ -32,10 +32,16 @@ Responsibilities of the liaison include:
 
 Currently accepted CCC projects have been assigned the following liaison:
 
-* **[Enarx](https://github.com/enarx)**: [Nick Vidal](https://github.com/nickvidal)
-* **[Gramine](https://gramineproject.io/)**: [Eric Voit](https://github.com/ericvoit)
-* **[Keystone](https://keystone-enclave.org)**: [Lily Sturmann](https://github.com/lkatalin)
+* **[Certifier Framework](https://github.com/ccc-certifier-framework)**: [Paul Howard](https://github.com/paulhowardarm)
+* **[Coconut-SVSM](https://github.com/coconut-svsm)**: [Alec Fernandez](https://github.com/alecfernandez)
+* **[Enarx](https://github.com/enarx)**: TBD
+* **[Gramine](https://gramineproject.io/)**: TBD
+* **[Islet](https://github.com/islet-project)**: [Bokdeuk Jeong](https://github.com/bokdeuk-jeong)
+* **[ManaTEE](https://github.com/manatee-project)**: [Dayeol Lee](https://github.com/dayeol)
+* **[Keystone](https://keystone-enclave.org)**: TBD
 * **[Occlum](https://occlum.io)**: [Tate Tian](https://github.com/tatetian)
-* **[Open Enclave SDK](https://github.com/openenclave/openenclave)**: [Dave Thaler](https://github.com/dthaler)
+* **[Open Enclave SDK](https://github.com/openenclave/openenclave)**: [Alec Fernandez](https://github.com/alecfernandez)
+* **[SPDM-RS](https://github.com/ccc-spdm-tools/spdm-rs)**: [Fritz Alder](https://github.com/fritzalder)
 * **[Veracruz](https://github.com/veracruz-project)**: [Thomas Fossati](https://github.com/thomas-fossati)
 * **[Veraison](https://github.com/veraison)**: [Howard Huang](https://github.com/hannibalhuang)
+* **[VirTEE](https://github.com/virtee)**: [Yash Mankad](https://github.com/yashkmankad)
