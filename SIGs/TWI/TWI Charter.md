@@ -73,7 +73,7 @@ A **Workload Identity** is said to be **Trustworthy** _iff_ it satisfies the fol
 1. The Workload is confidentiality- and integrity-isolated from its hosting environment as well as peer workloads throughout the lifetime of the workload instance
 
 The following  aspects contribute to a Workload being properly isolated from its hosting environment:
-- The Workload needs to execute inside a TEE (or a set of mutually trusting TEEs) on properly designed and trustworthy silicon
+- The Workload needs to execute inside a TEE (or a set of mutually trusting TEEs) on properly designed and trustworthy silicon.
 - The Workload needs to be properly governed per the Workload Governance Pattern published by the GRC SIG **\[3]**. This includes aspects of secure design and deployment, proper configuration, and much else.
 - Both code and data are subject to the integrity requirement. Whether the code and data require confidentiality is scenario specific: e.g., for sealed-glass proofs, neither code nor data need to be confidential, but for video games both code and data must have confidentiality protection. At a minimum, the confidentiality requirement MUST extend to the mechanism (typically, a cryptographic key) used to prove the Workload Credential to a relying party.
 
