@@ -53,16 +53,17 @@ To summarize, the overarching goal we must achieve is turning TWI into the [Sche
 
 ## References
 1. TODO: Document summarizing current regulatory landscape
-2. Strong Workload Identity Scenarios and Requirements: <https://github.com/CCC-Attestation/meetings/blob/main/musings/workload-identity.md>
-3. Confidential Payload Governance pattern: <https://drive.google.com/drive/u/0/folders/1EaXIm1jK3af_oUG7lTLYL9QcS9BRO5gy>
+2. Trustworthy Workload Identity Scenarios and Requirements: <https://github.com/CCC-Attestation/meetings/blob/main/musings/workload-identity.md>
+3. Workload Identity in Multi-System Environments IETF Working Group: <https://datatracker.ietf.org/wg/wimse/documents/>
+4. Confidential Payload Governance pattern: <https://drive.google.com/drive/u/0/folders/1EaXIm1jK3af_oUG7lTLYL9QcS9BRO5gy>
 
 ## Notes & Clarifications
-### The Deeper Meaning of TWI Definition
+### The Deeper Meaning of the TWI Definition
 Here we reiterate the TWI Definition and provide additional context and clarification.
 
 First, a couple of quick notes on supporting definitions.
 
-**Workload** as used in this document restricts the definition of the same term by WIMSE – “a running instance of software executing for a specific purpose” – to just that part of the code and configuration of the (WIMSE-defined) workload that is subject to Remote Attestation.
+**Workload** as used in this document restricts the definition of the same term by WIMSE **\[3]** – “a running instance of software executing for a specific purpose” – to just that part of the code and configuration of the (WIMSE-defined) workload that is subject to Remote Attestation.
 - Workloads can nest (be composed of smaller individual sub-Workloads). These sub-Workloads can have individual Identities used for, e.g., intra-Workload communications. However, any Workload Identity presented externally (as opposed to sister sub-Workloads) is treated as an Identity of the containing Workload as a whole.
 
 **Workload Identifier** is a stable construct around which Relying Parties can form long-lived Workload authorization policies.
@@ -74,7 +75,7 @@ A **Workload Identity** is said to be **Trustworthy** _iff_ it satisfies the fol
 
 The following  aspects contribute to a Workload being properly isolated from its hosting environment:
 - The Workload needs to execute inside a TEE (or a set of mutually trusting TEEs) on properly designed and trustworthy silicon.
-- The Workload needs to be properly governed per the Workload Governance Pattern published by the GRC SIG **\[3]**. This includes aspects of secure design and deployment, proper configuration, and much else.
+- The Workload needs to be properly governed per the Workload Governance Pattern published by the GRC SIG **\[4]**. This includes aspects of secure design and deployment, proper configuration, and much else.
 - Both code and data are subject to the integrity requirement. Whether the code and data require confidentiality is scenario specific: e.g., for sealed-glass proofs, neither code nor data need to be confidential, but for video games both code and data must have confidentiality protection. At a minimum, the confidentiality requirement MUST extend to the mechanism (typically, a cryptographic key) used to prove the Workload Credential to a relying party.
 
 2. Any credential representing a Workload Identity is bound to that workload instance
