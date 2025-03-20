@@ -19,8 +19,8 @@ Supporting definitions:
 
 - **Workload** as used in this document restricts the definition of the same term by WIMSE – “a running instance of software executing for a specific purpose” – to just that part of the code and configuration of the (WIMSE-defined) workload that is subject to Remote Attestation.
 - **Workload Identifier** is a stable construct around which Relying Parties can form long-lived Workload authorization policies.
-- **Workload Identity** is a colloquial term generally referring to the Workload Identifier
-- **Workload Credential** is an ephemeral identity document containing the Workload Identifier and a number of additional claims, that can be short- or long-lived and which is used to represent and prove Workload Identity to a relying party.
+- **Workload Identity** is defined exactly as it is by WIMSE **\[3]** – a combination of three basic building blocks: trust domain, Workload Identifier and identity credentials.
+- **Workload Credential** is an ephemeral identity document containing the Workload Identifier and a number of additional claims, that can be short- or long-lived and which is used to represent and prove Workload Identity to a relying party (WIMSE calls this "identity credentials").
 - **Workload Provenance** is a linkage between a Workload Credential and a trusted entity (e.g., a vendor, developer, or issuer) responsible for the creation and/or attestation of the corresponding Workload.
 
 A **Workload Identity** is said to be **Trustworthy** _iff_ the following three properties hold true:
