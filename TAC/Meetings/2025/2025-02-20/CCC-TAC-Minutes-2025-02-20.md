@@ -109,7 +109,8 @@ No one introduced themselves
 * Annual project updates - Reminder for 2025 schedule: DM requested for the annual Project review nominations. If the nominations aren’t receive then mark the project annual review against the available TAC meetings in a particular quarter.
 * 
 ## Discussion:   Workload Identity 
-* Mark Novak (MN) led the discussion on the workload identity. MN shared the slide deck [link](https://docs.google.com/presentation/d/1ivcEay0dU80DvsoWaUeWiTjDFrfga3MREWDL2O8U6OQ/edit#slide=id.p) 
+* Mark Novak (MN) led the discussion on the workload identity. MN shared the slide deck [link](https://docs.google.com/presentation/d/1ivcEay0dU80DvsoWaUeWiTjDFrfga3MREWDL2O8U6OQ/edit#slide=id.p).MN gave an update on the work being done in the workload identity WG. RK stated the member needing an invitation to the meetings could reach out to Riaan or Renu.
+DM explained that a chart would be required to formalize the WG and to be able to create a mailing list and other infrastructure for the WG.
 
 ## Ideation – Where Do We Go from Here?
 * Mark Novak (MN) explained that the requirement is to know who has a particular control. 
@@ -117,8 +118,7 @@ No one introduced themselves
 ## Project Liaisons
 * DM explained the history of renaming the project mentors to project liaisons. DM mentioned that some of the projects have gone stale and went through the Project Liaisons board in Github. Requested to fill in the gaps for the Project “Certified Framework, Enarx, Keystone, Gramine,”. DM walked through the risks associated with “not having the project Liaisons”.DM requested to have a capability hint up to what extent can we support them. Mike Bursell added that some of the key parameters like the number of pull requests/development of the project shall be taken into account and agreed that having a Project Liaison shall help us to have a better project focus. DM mentioned that we need nominations from the project liaisons but if we do not receive any then would have to assign it to the members. Paul Howard (PH) requested the definition of the Project Liaison role and DM explained that through the GitHub link including having a Growth plan for the project, helping with the project's annual review process, etc.
 CZ sought clarity about the path of a project after 1 year. DM explained it in detail.
-Mark Novak gave an update on the work being done in the workload identity WG. RK stated the member needing an invitation to the meetings could reach out to Riaan or Renu.
-DM explained that a chart would be required to formalize the WG and to be able to create a mailing list and other infrastructure for the WG.
+
 
 
 ## Tech Talk: Confidential Computing in the Age of AGI: with a live demo 
