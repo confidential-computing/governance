@@ -65,7 +65,7 @@ A quorum was not needed
 * Ran Duan (Occlum)
 * Hesham ElBakoury (Innovax Technologies)  
 * Hui Chunyang (Ant Group)
-* Larry Dewey 
+* Larry Dewey (AMD)
 * Jens Albers 
 * Manu Fontaine (Hushmesh)
 * Mark Novak (JP Morgan Chase)
