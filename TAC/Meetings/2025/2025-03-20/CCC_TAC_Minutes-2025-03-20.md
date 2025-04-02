@@ -103,7 +103,9 @@ Fritz Alder (FA) suggested having the mentees join a future TAC meeting to share
 
 ## Discussion:   Workload Identity 
 * Mark Novak (MN) led the discussion on the workload identity. MN explained why workload identity integration is crucial for the broader adoption of confidential computing.MN discussed a proposal for a Trustworthy Workload Identity SIG (Special Interest Group). MN mentioned that there are existing workload identity efforts, but some groups, like the IETF, are currently not supportive of the proposal. The group is moving forward with a proposal for a Trustworthy Workload Identity SIG. Mark Novak made the case for its importance for broader confidential computing adoption. Paul Howard (PH), DM, Alec Fernandez (AF) & Catherine Zhang (CZ),  expressed interest and commitment to stay involved. TAC members from Arm, Google, Intel, Red Hat and Microsoft expressed interest in engaging with the workload identity effort, though some noted bandwidth constraints. There were questions about ensuring enough active participation and alignment with other initiatives like WHIMSE. MN emphasized that the strategy for the workload identity effort is not to create a separate standard but to influence existing standards (like SPIFFE and WIMSE) to be compatible with confidential computing.
-
+The charter is proposed as a pull request on the governance repo.
+TAC members agreed to use PR reviews as the vote to charter the SIG.
+https://github.com/confidential-computing/governance/pull/280
 * Annual Project Review VirTEE
 The Annual Project Review Occulum was presented by Tyer Fanelli. VirTEE project gave its annual review, highlighting its progress in supporting more TEE architectures, increasing adoption, and outlining plans for the current year.
 [Slide](./virtee-ccc-annual-review-2025.pdf)
