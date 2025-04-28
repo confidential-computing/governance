@@ -51,3 +51,14 @@ Mentee application instructions can be found [here](mentees/README.md#applicatio
     - Yogesh (@yogeshbdeshpande, yogesh.deshpande@arm.com)
 - Upstream Issue: https://github.com/veraison/.github/issues/5
 - LFX URL: https://mentorship.lfx.linuxfoundation.org/project/80c135fc-de55-4542-86f5-65b91d267d11
+
+### Certifier Framework
+
+#### Expanding Platform and Application Opportunities
+
+- Description: This project will add new useful sample applications to the Certifier Framework including a secure messaging app and several key management applications. In addition, we plan to support more platforms, including client platforms like RISC-V, ARM, Raspberry Pi based implementations and potentially a "soft" platform like Android (which is not an "official" Confidential Computing platform but a simulated environment useful for interacting with "real" Confidential Computing platforms).
+- Expected Outcome:  The forgoing applications (using the certifier framework), some additional "shims" to support other programming environments like Java and additional support for new platforms.
+- Recommended Skills:  Systems programming experience with Linux, and Raspberry Pi. Knowledge of Android programming environment a plus. System security background will be useful.
+- Primary Mentor:  John Manferdelli (@jlmucb, johnmanferdelli@hotmail.com)
+- Secondary Mentor: Paul England (england.paul@gmail.com)
+- Upstream issue: https://github.com/ccc-certifier-framework/certifier-framework-for-confidential-computing/wiki/2025%E2%80%90Intern-Project-Proposal
