@@ -103,7 +103,7 @@ The numbers in the left column below refer to **\[3\]**. Rows listed as N/A indi
 
 # “SHOULD” vs. “MUST” Clarifications
 
-1. This requirement is only present if the Tenant is concerned that Evidence submitted by the Attester during Remote Attestation is of a sensitive nature or if it directly uses the Attestation Results. Confidentiality of submitted Evidence and Attestation Results can be achieved via Transport Level Security between the Attester and the Verifier Tenant, with Verifier Tenant authenticated by the Attester prior to the Transport Level Security being established..  
+1. This requirement is only present if the Tenant is concerned that Evidence submitted by the Attester during Remote Attestation is of a sensitive nature or if it directly uses the Attestation Results. Confidentiality of submitted Evidence and Attestation Results can be achieved via Transport Level Security between the Attester and the Verifier Tenant, with Verifier Tenant authenticated by the Attester prior to the Transport Level Security being established.
 2. An enterprise can decide on SLAs for the Verifier(s) it uses. While it is advisable to attain the highest possible availability, doing so is at the discretion of the customer.  
 3. Disclosing Verifier Tenant policies, Evidence or Attestation Results may ease an attacker’s job (per the Privacy Considerations section of **\[1\]**). That said, such confidentiality protections are best thought of as defense-in-depth.  
 4. Many jurisdictions require tenants to securely bring their own keys and for keys to be periodically rotated, thus failure to provide such functionality risks making the corresponding Verifier implementation unsuitable for regulated customers.  
