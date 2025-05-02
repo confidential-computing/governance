@@ -87,12 +87,17 @@ The numbers in the left column refer to **\[1\]**. Rows listed as N/A indicate t
 
 # “SHOULD” vs. “MUST” Clarifications
 
-1. Extreme care must be taken to ensure that the inputs and outputs of computations, whether sent over network or to/from storage, are properly secured against tampering and disclosure. Failure to follow this recommendation can have a severe impact on the security of the application and its consumers.  
-2. Failure to bind tokens to the TEE, may cause them to be leaked, undermining the security of a relying party for which they are intended.  
-3. Failure to secure the build environment may cause vulnerabilities to be introduced into the compiled/generated artifacts and open additional avenues to attack that running these artifacts inside a TEE would be unable to mitigate.  
-4. If the build tools themselves are not running inside TEEs, other compensating controls, such as physical security or strongly segregated environments, should be considered.  
-5. Non-reproducible builds make it more difficult to ensure and subsequently prove that the inputs into the build process map exactly to the outputs, thus requiring compensating controls such as cryptographic signing and timestamping of generated artifacts.  
-6. Failure to check the BOMs of Attesters by the Verifier may create situations where payloads containing newly discovered vulnerabilities, that could be discovered by cross-checking BOMs against known vulnerabilities, continue to attest successfully.
+a. Extreme care must be taken to ensure that the inputs and outputs of computations, whether sent over the network or to/from storage, are properly secured against tampering and disclosure. Failure to follow this recommendation can have a severe impact on the security of the application and its consumers.
+
+b. Failure to bind tokens to the TEE may cause them to be leaked, undermining the security of a relying party for which they are intended.
+
+c. Failure to secure the build environment may cause vulnerabilities to be introduced into the compiled/generated artifacts and open additional avenues to attack that running these artifacts inside a TEE would be unable to mitigate.
+
+d. If the build tools themselves are not running inside TEEs, other compensating controls, such as physical security or strongly segregated environments, should be considered.
+
+e. Non-reproducible builds make it more difficult to ensure and subsequently prove that the inputs into the build process map exactly to the outputs, thus requiring compensating controls such as cryptographic signing and timestamping of generated artifacts.
+
+f. Failure to check the BOMs of Attesters by the Verifier may create situations where payloads containing newly discovered vulnerabilities, that could be discovered by cross-checking BOMs against known vulnerabilities, continue to attest successfully.
 
 # References
 
