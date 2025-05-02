@@ -32,7 +32,7 @@ The numbers in the left column below refer to **\[3\]**. Rows listed as N/A indi
 
 # “SHOULD” vs. “MUST” Clarifications
 
-1. Failure to handle intermediate states where only a subset of Payload instances are upgraded may result in downtime or intermittent failures related to the upgrade – where only upgraded Payloads can successfully attest and existing Payloads that may need to reattest wouldn’t be able to.
+1. Failure to handle intermediate states where only a subset of Payload instances are upgraded could result in downtime or intermittent failures related to the upgrade, i.e., where only upgraded Payloads can successfully attest and existing Payloads will fail verification against the upgraded policies.
 
 # References
 
