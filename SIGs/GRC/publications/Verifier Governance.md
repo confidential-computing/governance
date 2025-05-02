@@ -6,7 +6,7 @@ Confidential Computing requires a trusted Verifier **\[1\]**. This document cove
 
 # Problem
 
-A Verifier is the lynchpin of Confidential Computing – the Verifier is the ultimate arbiter of the identity of every Confidential Computing workload that relies on it, and any security vulnerability in the Verifier may thus lead to the entire edifice coming down. It is therefore extremely important to properly govern Verifier instances to ensure and assess their trustworthiness.
+A Verifier plays a crucial role in Confidential Computing – it is the ultimate arbiter of the identity and security state of every Confidential Computing workload. A compromised Verifier may lead to the loss of assets intended for a Confidential Computing deployment in the same manner that the compromise of a Hardware Security Module or Certificate authority would lead to insecure reliance and loss of assets. It is therefore extremely important to properly govern Verifier instances to ensure and assess their trustworthiness.
 
 The discussion that follows will refer to the following Roles and Assets inherent in the Verifier space.
 
