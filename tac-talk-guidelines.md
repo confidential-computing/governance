@@ -1,30 +1,30 @@
 # Guidelines for Technical Advisory Council (TAC) talks
 
-The Technical Advisory Council (TAC) is part of the Confidential Computing Consortium (CCC), a non-profit organization under the Linux Foundation. The TAC provides a platform for discussing hardware-based trusted execution technologies, their benefits, drawbacks, and implementation approaches. We are a friendly group of a mix of industry representatives, academics, and open-source enthusiasts. The technical background of the audience members is thus a wild mix. Our TAC meetings are attended by: open-source developers that are interested in confidential computing; implementors on any level of the stack that work in industry; academics that write scientific papers about confidential computing on the software or hardwar side; cloud architects that develop solutions for cloud service providers or other large industry players; hardware architects at silicon companies that work on confidential computing features for next generation's products.
+The Technical Advisory Council (TAC) is part of the Confidential Computing Consortium (CCC), a non-profit organization under the Linux Foundation.
+The TAC provides a platform for discussing hardware-based trusted execution technologies, their benefits, drawbacks, and implementation approaches.
+We are a friendly group of a mix of industry representatives, academics, and open-source enthusiasts.
+The technical background of the audience members is thus a wild mix. Our TAC meetings are attended by: open-source developers that are interested in confidential computing;
+implementors on any level of the stack that work in industry;
+academics that write scientific papers about Confidential Computing on the software or hardware side;
+cloud architects that develop solutions for cloud service providers or other large industry players;
+hardware architects at silicon companies that work on confidential computing features for next generation's products.
 
 Due to this mix, where the only real common ground is an interest in confidential computing, technical talks can be very interesting (and slightly unpredictable) to both the presenter and the audience. When presenting, you need to keep in mind that what you see as obvious in your work might not be known to all members in the audience. That being said, we do appreciate any talk and often enough, the Q&A after the talk ends in interesting debates.
 
-### TL;DR
-- No product pitches, just technical discussions on public topics
-- 20-30 minutes + following Q&A
-- Meetings are recorded and must follow Linux Foundation antitrust policies
-- [LFX meeting calendar](https://confidentialcomputing.io/get-involved/calendar/) for meeting invite
-- An email link to suggest a talk is at the bottom
 
 ## Meeting Format
 - Technical presentations are typically 20-30 minutes
 - Followed by Q&A session (duration varies based on audience engagement)
 - Total presentation slot usually does not exceed 45 minutes
 - All meetings are public and open for anyone to participate
+- No product pitches, just technical discussions on public topics
 - The recording of the meeting will later be published on [youtube](https://www.youtube.com/@confidentialcomputingconso5871/videos).
-- Meetings are held biweekly on Thursdays at 7am US Pacific Time (4pm Central European Time)
-- Note: Time differences may vary during daylight savings transitions
-- You can find the meeting invite and time in your time zone [on the LFX meeting calendar](https://confidentialcomputing.io/get-involved/calendar/)
+- You can find the meeting invite and time in your time zone [on the LFX meeting calendar](https://confidentialcomputing.io/get-involved/calendar/). For more information on the TAC meetings refer to [meeting details](https://github.com/confidential-computing/governance/tree/main/TAC/Meetings#meeting-details)
 
 
 
 ## Talk Categories
-Our talks can losely be grouped into three categories:
+Our talks can loosely be grouped into three categories:
 
 1. **Open Source Talks**
    - Project presentations. You did something and want to share it with the community.
@@ -37,7 +37,7 @@ Our talks can losely be grouped into three categories:
      - Treat this similar as an introductory lecture to a somewhat general audience
 
 3. **Interest Group/Discussion**
-    Sometimes, we want to engage with other communities or similar-minded organizations. Thus, not all talks have to be technical. These could be:
+   - Sometimes, we want to engage with other communities or similar-minded organizations. Thus, not all talks have to be technical. These could be:
    - Focused discussions on specific topics or organizations
    - Community engagement on particular technical areas
 
