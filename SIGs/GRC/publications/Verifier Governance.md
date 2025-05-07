@@ -15,7 +15,7 @@ The discussion that follows will refer to the following Roles and Assets inheren
 | Role | Description and Trust Relationships |
 | :---- | :---- |
 | **Verifier Hardware Operator (VHO)** | The Cloud Service Provider (CSP) or a similar entity that owns and operates the hardware on which the Verifier Service runs. |
-| **Verifier Service (VS)** | The entity that operates and bears responsibility for the secure operation of the Verifier Service on the hardware that VHO is responsible for. Trusts[^1] the VHO (but may choose to attest the Verifier hardware). |
+| **Verifier Service (VS)** | The entity that operates and bears responsibility for the secure operation of a service to assess attestations. The VS may support a single customer or multiple customers defined here as Verifier Tenants. The VS trusts[^1] the VHO and may choose to minimize that trust by operating its Verifier Service Software within a TEE. |
 | **Verifier Tenant (VT)** | The entity that operates and bears responsibility for the portion of the Verifier Service hosting a given Verifier Tenant. Trusts the Verifier Service directly and VHO transitively, but may choose to attest Verifier Service and Verifier hardware as a precondition to such trust. |
 | **Attesters and Relying Parties (per Tenant)** | The entities that rely on the Verifier Tenant for trust decisions. Typically the Attester and the Relying Party are associated with the same Verifier Tenant. Trust is placed in the Verifier Tenant directly and the Verifier Service and VHO transitively. |
 
