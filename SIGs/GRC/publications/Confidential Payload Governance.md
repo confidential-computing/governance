@@ -111,6 +111,6 @@ f. Failure to check the BOMs of Attesters by the Verifier may create situations 
 8. NIST SP 800-204D “Strategies for the Integration of Software Supply Chain Security in DevSecOps CI/CD Pipelines”: [https://csrc.nist.gov/pubs/sp/800/204/d/final](https://csrc.nist.gov/pubs/sp/800/204/d/final)  
 9. Picture of likely payload slices on various hardware architectures [https://github.com/confidential-computing/governance/blob/main/terminology/Full-Table.jpg](https://github.com/confidential-computing/governance/blob/main/terminology/Full-Table.jpg)
 
-[^1]:  *Verifier policies* as used in this document is a shorthand for Endorsements, Reference Values and Appraisal Policy for Evidence in RATS **\[3\]** parlance.
+[^1]:  *Verifier policies* as used in this document is a shorthand for Endorsements, Reference Values and Appraisal Policy for Evidence in RATS **\[5\]** parlance.
 
-[^2]:  Blue-green deployments may allow both newer and older versions; this is covered under the “Workload Upgrades” pattern **\[4\]**.
+[^2]:  Blue-green deployments may allow both newer and older versions; this is covered under the “Workload Upgrades” pattern **\[6\]**.
