@@ -88,7 +88,7 @@ Verifier governance aims to achieve the following goals and ensure that the evid
         
 4. Ensure and be able to prove that the correct and current policies are applied at all times  
    1. Tamper-evident logs of policy & cryptographic key histories, as well as associated attestation decisions, listing responsible actors (e.g., who has approved and/or applied each policy change, which policy was used for each decision), MUST be securely maintained  
-   2. Confidentiality offered to the histories or policies and cryptographic keys MUST match that offered to the active policies and cryptographic keys
+   2. Confidentiality offered to the histories of policies and cryptographic keys MUST match that offered to the active policies and cryptographic keys
 
 # Governance Expectations Summary
 
