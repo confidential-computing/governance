@@ -33,7 +33,7 @@ The list below assumes a multi-tenant Verifier (single-tenant is a trivial case 
 | **Verifier Service software** | VS | Deployed executable code that constitutes the Verifier Service and is shared by all Verifier Tenants | No |
 | **Verifier Service configuration** | VS | Configuration values that define the execution of the Verifier Service and integration with its supporting services (if any), *excluding* cryptographic keys | No |
 | **Verifier Service secrets** | VS | Secrets (encryption, signing) utilized by the Verifier Service for its secure operation | Yes |
-| **Verifier Tenant authentication key** | VT | The private key (or similar) used to authenticate the Verifier Tenant to the Attester | Yes |
+| **Verifier Tenant Secrets** | VT |  All Verifier Tenant secrets for authentication or encryption | Yes |
 | **Verifier Tenant signing key(s)** | VT | The signing key (or similar) used to sign the Verifier Tenant responses such as Attestation Results | Yes |
 | **Verifier Tenant encryption key(s)** | VT | The encryption keys used to safeguard Verifier Tenant data at rest | Yes |
 | **Verifier Tenant Reference Values** | VT | Expected Reference Values used in the process of assessing Evidence produced by an Attester   | Opt |
