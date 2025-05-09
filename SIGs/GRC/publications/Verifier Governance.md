@@ -64,7 +64,7 @@ Verifier governance aims to achieve the following goals and ensure that the evid
 
 1. Trust in Verifier is established via the following mechanisms:  
    1. The Verifier Service MUST be properly administered: it runs expected code in a secure configuration on hardware properly administered by the VHO.  
-   2. The Verifier Tenant MUST be executing the most current policies of that Tenant.  
+   2. The Verifier Service MUST be executing the most current policies of its Tenant(s).  
    3. An Attester SHOULD **\[a\]** know which Verifier Tenant to contact and can authenticate it before sharing any data.  
         
 2. High availability (i.e. in excess of the availability required of the applications which depend on the Verifier) SHOULD **\[b\]** be maintained, through well-understood mechanisms:  
