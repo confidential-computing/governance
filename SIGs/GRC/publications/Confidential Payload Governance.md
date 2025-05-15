@@ -61,7 +61,7 @@ For each of the main concern areas listed in the Forces section above, the propo
 * **Secure and Attested Supply Chain Management**  
     
   * Automated tools MUST be used to continuously monitor and manage third-party software libraries and dependencies for known vulnerabilities. Dependencies MUST be kept updated and strict vetting processes applied, including code signature and build metadata checks if available, when ingesting dependencies. Dependency management MUST continue for the duration of the application’s deployment.  
-  * Include Bills of Materials as part of generated software; the BOMs SHOULD **\[g\]** be verified by the Verifier post-deployment.
+  * Include Bills of Materials as part of generated software; the BOMs SHOULD **\[f\]** be verified by the Verifier post-deployment.
 
 * **Secure Integration, Configuration and Deployment**  
     
