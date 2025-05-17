@@ -53,7 +53,7 @@ To summarize, the overarching goal we must achieve is turning TWI into the [Sche
 
 ## References
 1. TODO: Document summarizing current regulatory landscape
-2. Trustworthy Workload Identity Scenarios and Requirements: <https://github.com/CCC-Attestation/meetings/blob/main/musings/workload-identity.md>
+2. Trustworthy Workload Identity Scenarios and Requirements: <https://github.com/confidential-computing/twi/blob/main/TWI_Requirements.md>
 3. Workload Identity in Multi-System Environments IETF Working Group: <https://datatracker.ietf.org/wg/wimse/documents/>
 4. Confidential Payload Governance pattern: <https://drive.google.com/drive/u/0/folders/1EaXIm1jK3af_oUG7lTLYL9QcS9BRO5gy>
 
