@@ -2,7 +2,7 @@
 
 # Context
 
-Confidential Computing requires a trusted Verifier **\[1\]**. This document covers the governance requirements inherent in operating trustworthy Verifiers. A properly governed Verifier must be subjected to a set of Confidential Computing-specific Control Objectives in order to satisfy the requirements of each Persona **\[3\]**.
+Confidential Computing requires a trusted Verifier **\[1\]**. This document covers the governance requirements inherent in operating trustworthy Verifiers. A properly governed Verifier must be subjected to a set of Confidential Computing-specific Control Objectives in order to satisfy the requirements of each Persona **\[2\]**.
 
 # Problem
 
@@ -14,12 +14,12 @@ The discussion that follows will refer to the following Roles and Assets inheren
 
 | Role | Description and Trust Relationships |
 | :---- | :---- |
-| **Verifier Hardware Operator (VHO)** | The Cloud Service Provider (CSP) or a similar entity that owns and operates the hardware on which the Verifier Service runs. |
-| **Verifier Service (VS)** | The entity that operates and bears responsibility for the secure operation of a service to assess attestations. The VS may support a single customer or multiple customers defined here as Verifier Tenants. The VS trusts[^1] the VHO and may choose to minimize that trust by operating its Verifier Service Software within a TEE. |
-| **Verifier Tenant (VT)** | The entity that defines Assessment Policies for Confidential Computing workloads and deploys those policies through a Verifier Service (VS). The VT relies upon the correct operation of the VS to enforce the Assessment Policies. The VT trusts the VS directly and VHO transitively. Operationally, the VT may require attestations from the VS itself as the VT assesses the trustworthiness of the VS in each interaction. |
-| **Attesters and Relying Parties (per Tenant)** | The entities that rely on the Verifier Tenant for trust decisions. Typically the Attester and the Relying Party are associated with the same Verifier Tenant. Trust is placed in the Verifier Tenant directly and the Verifier Service and VHO transitively. |
+| **Verifier System Operator (VSO)** | The Cloud Service Provider (CSP) or a similar entity that owns and/or operates the hardware and the operating system on which the Verifier Service runs. |
+| **Verifier Service (VS)** | The entity that operates and bears responsibility for the secure operation of a service to assess attestations. The VS may support a single customer or multiple customers defined here as Verifier Tenants. The VS trusts[^1] the VSO and may choose to minimize that trust by operating its Verifier Service Software within a TEE. |
+| **Verifier Tenant (VT)** | The entity that defines Assessment Policies for Confidential Computing workloads and deploys those policies through a Verifier Service (VS). The VT relies upon the correct operation of the VS to enforce the Assessment Policies. The VT trusts the VS directly and VSO transitively. Operationally, the VT may require attestations from the VS itself as the VT assesses the trustworthiness of the VS in each interaction. |
+| **Attesters and Relying Parties (per Tenant)** | The entities that rely on the Verifier Tenant for trust decisions. Typically, the Attester and the Relying Party are associated with the same Verifier Tenant. Trust is placed in the Verifier Tenant directly and the Verifier Service and the VSO transitively. |
 
-In certain cases these roles can be combined. For instance, if a CSP operates a Verifier Service for all its customers, the roles of Verifier Hardware Operator and Verifier Service may be combined. Similarly, a single-tenant Verifier Service could combine the roles of Verifier Service and Verifier Tenant.
+In certain cases these roles can be combined. For instance, if a CSP operates a Verifier Service for all its customers, the roles of Verifier System Operator and Verifier Service may be combined. Similarly, a single-tenant Verifier Service could combine the roles of Verifier Service and Verifier Tenant.
 
 ## Assets
 
@@ -29,11 +29,11 @@ The list below assumes a multi-tenant Verifier (single-tenant is a trivial case 
 
 | Asset | Role | Description of the Asset | RC[^2] |
 | :---- | :---: | :---- | :---: |
-| **Verifier Service hardware** | VHO | Physical hardware on which the (multi-Tenant) Verifier Service runs | N/A |
+| **Verifier System** | VSO | Physical hardware and operating system on which the (multi-Tenant) Verifier Service runs | N/A |
 | **Verifier Service software** | VS | Deployed executable code that constitutes the Verifier Service and is shared by all Verifier Tenants | No |
 | **Verifier Service configuration** | VS | Configuration values that define the execution of the Verifier Service and integration with its supporting services (if any), *excluding* cryptographic keys | No |
 | **Verifier Service secrets** | VS | Secrets (encryption, signing) utilized by the Verifier Service for its secure operation | Yes |
-| **Verifier Tenant Secrets** | VT |  All Verifier Tenant secrets for authentication or encryption | Yes |
+| **Verifier Tenant secrets** | VT |  All Verifier Tenant secrets for authentication or encryption | Yes |
 | **Verifier Tenant signing key(s)** | VT | The signing key (or similar) used to sign the Verifier Tenant responses such as Attestation Results | Yes |
 | **Verifier Tenant encryption key(s)** | VT | The encryption keys used to safeguard Verifier Tenant data at rest | Yes |
 | **Verifier Tenant Reference Values** | VT | Expected Reference Values used in the process of assessing Evidence produced by an Attester   | Opt |
@@ -42,7 +42,7 @@ The list below assumes a multi-tenant Verifier (single-tenant is a trivial case 
 
 # Forces
 
-The Verifier is upstream of all Confidential Computing offerings that utilize it as it is required for  Remote Attestation. It is also one of the roots of trust for all Confidential Computing results. Depending on individual circumstances, the Verifier Hardware Operator, the Verifier Service and the Verifier Tenant are all potential threat vectors. Finally, Verifiers often serve multiple mutually distrustful Tenants.
+The Verifier is upstream of all Confidential Computing offerings that utilize it as it is required for  Remote Attestation. It is also one of the roots of trust for all Confidential Computing results. Depending on individual circumstances, the Verifier System Operator, the Verifier Service and the Verifier Tenant are all potential threat vectors. Finally, Verifiers often serve multiple mutually distrustful Tenants.
 
 The following considerations thus become important subjects of Verifier governance:
 
@@ -56,14 +56,14 @@ The following considerations thus become important subjects of Verifier governan
 
 # Solution
 
-The terms MUST/SHOULD/MAY etc. below are used in accordance with **\[2\]**. Every SHOULD recommendation is explained separately in the “SHOULD vs. MUST Clarifications” section towards the end of this document.
+The terms MUST/SHOULD/MAY etc. below are used in accordance with **\[3\]**. Every SHOULD recommendation is explained separately in the “SHOULD vs. MUST Clarifications” section towards the end of this document.
 
 ![Solution diagram](./images/verifier_sol.png)
 
 Verifier governance aims to achieve the following goals and ensure that the evidence is in place to prove it:
 
 1. Trust in Verifier is established via the following mechanisms:  
-   1. The Verifier Service MUST be properly administered: it runs expected code in a secure configuration on hardware properly administered by the VHO.  
+   1. The Verifier Service MUST be properly administered: it runs expected code in a secure configuration on a system properly administered by the VSO.  
    2. The Verifier Service MUST be executing the most current policies of its Tenant(s).  
    3. An Attester SHOULD **\[a\]** know which Verifier Tenant to contact and can authenticate it before sharing any data.  
         
@@ -76,7 +76,7 @@ Verifier governance aims to achieve the following goals and ensure that the evid
         
 3. Protect Verifier assets, as well as Evidence and Attestation Results; this entails:  
    1. Protect Verifier Tenant policies  
-      1. Confidentiality SHOULD **\[e\]** be required  
+      1. Confidentiality SHOULD **\[c, e\]** be required  
       2. Integrity MUST be maintained  
    2. Appropriate lifecycle management of Verifier Tenant signing and encryption keys, as well as a tamper-proof auditable change log MUST be maintained  
       1. Verifier Tenants SHOULD **\[d\]** be allowed to bring their own keys for signing issued credentials and protecting sensitive Verifier Tenant policies and logs at-rest  
@@ -109,15 +109,15 @@ b. An enterprise can decide on SLAs for the Verifier(s) it uses. While it is adv
 
 c. Disclosing Verifier Tenant policies, Evidence or Attestation Results may ease an attacker’s job (per the Privacy Considerations section of **\[1\]**). That said, such confidentiality protections are best thought of as defense-in-depth.
 
-d. Many jurisdictions require tenants to securely bring their own keys and for keys to be periodically rotated, thus failure to provide such functionality risks making the corresponding Verifier implementation unsuitable for regulated customers.
+d. Many jurisdictions require tenants to securely bring their own keys and for keys to be periodically rotated, thus failure to offer such functionality risks making the corresponding Verifier implementation unsuitable for regulated customers.
  
 e. Consider utilizing Confidential Computing in a public cloud. If the Verifier Service is operated by the Cloud Service Provider (CSP) and acts maliciously, full protection of data-in-use against the CSP may not be fully achieved. Mitigations may involve using a separate Verifier Service isolated from the CSP, relying on a decentralized Verifier Service, or continuously and closely monitoring and auditing the CSP’s Verifier Service.
 
 # References
 
 1. Remote Attestation Procedures (RATS) Architecture RFC: [https://datatracker.ietf.org/doc/rfc9334/](https://datatracker.ietf.org/doc/rfc9334/)  
-2. Key Words for Use in RFCs to Indicate Requirement Levels: [https://datatracker.ietf.org/doc/rfc2119/](https://datatracker.ietf.org/doc/rfc2119/)  
-3. Expectations of Ecosystem Participants [https://docs.google.com/document/d/1X10ymjFgUy5NGPKs6Z3F\_ERPwrgRuK23-9F2h3-LbWw/edit](https://docs.google.com/document/d/1X10ymjFgUy5NGPKs6Z3F_ERPwrgRuK23-9F2h3-LbWw/edit)  
+2. Expectations of Ecosystem Participants [https://docs.google.com/document/d/1X10ymjFgUy5NGPKs6Z3F\_ERPwrgRuK23-9F2h3-LbWw/edit](https://docs.google.com/document/d/1X10ymjFgUy5NGPKs6Z3F_ERPwrgRuK23-9F2h3-LbWw/edit)  
+3. Key Words for Use in RFCs to Indicate Requirement Levels: [https://datatracker.ietf.org/doc/rfc2119/](https://datatracker.ietf.org/doc/rfc2119/)  
 4. NIST SP 800-57, Part 1, Section 5.3 “Cryptoperiods”: [https://csrc.nist.gov/pubs/sp/800/57/pt1/r5/final](https://csrc.nist.gov/pubs/sp/800/57/pt1/r5/final)  
 5. NIST SP 800-57, Part 1, Section 8.3.5, “Revocation”: [https://csrc.nist.gov/pubs/sp/800/57/pt1/r5/final](https://csrc.nist.gov/pubs/sp/800/57/pt1/r5/final)  
 6. NIST SP 800-57, Part 2, Section 6.2.10, “Revocation”: [https://csrc.nist.gov/pubs/sp/800/57/pt2/r1/final](https://csrc.nist.gov/pubs/sp/800/57/pt2/r1/final)
