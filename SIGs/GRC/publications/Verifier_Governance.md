@@ -29,7 +29,7 @@ The list below assumes a multi-tenant Verifier (single-tenant is a trivial case 
 
 | Asset | Role | Description of the Asset | RC[^2] |
 | :---- | :---: | :---- | :---: |
-| **Verifier System** | VSO | Physical hardware and operating system on which the (multi-Tenant) Verifier Service runs | N/A |
+| **Verifier System** | VSO | Physical hardware and optionally the operating system on which the (multi-Tenant) Verifier Service runs | N/A |
 | **Verifier Service software** | VS | Deployed executable code that constitutes the Verifier Service and is shared by all Verifier Tenants | No |
 | **Verifier Service configuration** | VS | Configuration values that define the execution of the Verifier Service and integration with its supporting services (if any), *excluding* cryptographic keys | No |
 | **Verifier Service secrets** | VS | Secrets (encryption, signing) utilized by the Verifier Service for its secure operation | Yes |
