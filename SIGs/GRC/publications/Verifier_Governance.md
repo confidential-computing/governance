@@ -14,7 +14,7 @@ The discussion that follows will refer to the following Roles and Assets inheren
 
 | Role | Description and Trust Relationships |
 | :---- | :---- |
-| **Verifier System Operator (VSO)** | The Cloud Service Provider (CSP) or a similar entity that owns and/or operates the hardware and the operating system on which the Verifier Service runs. |
+| **Verifier System Operator (VSO)** | The Cloud Service Provider (CSP) or a similar entity that owns and/or operates the hardware and optionally the operating system on which the Verifier Service runs. |
 | **Verifier Service (VS)** | The entity that operates and bears responsibility for the secure operation of a service to assess attestations. The VS may support a single customer or multiple customers defined here as Verifier Tenants. The VS trusts[^1] the VSO and may choose to minimize that trust by operating its Verifier Service Software within a TEE. |
 | **Verifier Tenant (VT)** | The entity that defines Assessment Policies for Confidential Computing workloads and deploys those policies through a Verifier Service (VS). The VT relies upon the correct operation of the VS to enforce the Assessment Policies. The VT trusts the VS directly and VSO transitively. Operationally, the VT may require attestations from the VS itself as the VT assesses the trustworthiness of the VS in each interaction. |
 | **Attesters and Relying Parties (per Tenant)** | The entities that rely on the Verifier Tenant for trust decisions. Typically, the Attester and the Relying Party are associated with the same Verifier Tenant. Trust is placed in the Verifier Tenant directly and the Verifier Service and the VSO transitively. |
