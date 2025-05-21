@@ -110,7 +110,7 @@ No one introduced themselves
 * 
 ## Discussion:   Workload Identity 
 * Mark Novak (MN) led the discussion on the workload identity. MN shared the slide deck [link](https://docs.google.com/presentation/d/1ivcEay0dU80DvsoWaUeWiTjDFrfga3MREWDL2O8U6OQ/edit#slide=id.p).MN gave an update on the work being done in the workload identity WG. RK stated the member needing an invitation to the meetings could reach out to Riaan or Renu.
-DM explained that a chart would be required to formalize the WG and to be able to create a mailing list and other infrastructure for the WG.
+DM explained that a charter would be required to formalize the WG and to be able to create a mailing list and other infrastructure for the WG.
 
 ## Ideation – Where Do We Go from Here?
 * Mark Novak (MN) explained that the requirement is to know who has a particular control. 
