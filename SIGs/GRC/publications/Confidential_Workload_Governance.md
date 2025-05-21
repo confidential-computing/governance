@@ -1,18 +1,18 @@
-# ![CCC GRC logo](./images/ccc_grc_logo.png) Confidential Payload Governance
+# ![CCC GRC logo](./images/ccc_grc_logo.png) Confidential Workload Governance
 
 # Context
 
-When implementing code to run as a Confidential Payload, the application developer is faced with a set of concerns around the additional security properties that Confidential Computing would deliver. It may not be sufficient to run a Confidential Payload inside a TEE, even coupled with Remote Attestation, as all desired Confidential Computing-related requirements may not be automatically met. A properly governed Confidential Payload must be subjected to a set of Confidential Computing-specific Control Objectives in order to satisfy the requirements of each Persona **\[1\]**.
+When implementing code to run as a Confidential Workload, the application developer is faced with a set of concerns around the additional security properties that Confidential Computing would deliver. It may not be sufficient to run a Confidential Workload inside a TEE, even coupled with Remote Attestation, as all desired Confidential Computing-related requirements may not be automatically met. A properly governed Confidential Workload must be subjected to a set of Confidential Computing-specific Control Objectives in order to satisfy the requirements of each Persona **\[1\]**.
 
 # Problem
 
-Trusted Execution Environments by themselves deliver only some of the properties needed to keep code and data properly safeguarded while in-use. These default properties include isolation from the hosting environment and the ability to perform Remote Attestation, as well as other platform-level functions such secure random number generation and sealing data to the platform. These facilities, while essential, are only a subset of the requirements for secure Confidential Payload execution. Code not developed specifically for execution inside TEEs may not fully protect data in use even when run inside a TEE. Moreover, it is generally not sufficient to develop the code itself with Confidential Computing-specific features in mind: additional non-trivial considerations apply to the build chains and deployment processes.
+Trusted Execution Environments by themselves deliver only some of the properties needed to keep code and data properly safeguarded while in-use. These default properties include isolation from the hosting environment and the ability to perform Remote Attestation, as well as other platform-level functions such secure random number generation and sealing data to the platform. These facilities, while essential, are only a subset of the requirements for secure Confidential Workload execution. Code not developed specifically for execution inside TEEs may not fully protect data in use even when run inside a TEE. Moreover, it is generally not sufficient to develop the code itself with Confidential Computing-specific features in mind: additional non-trivial considerations apply to the build chains and deployment processes.
 
 # Forces
 
 Vulnerabilities may be present in deployed code due to a wide variety of factors. Some relate to the code development itself. However, even the most perfectly written code may still be vulnerable due to supply chain, build tooling, and deployment issues. These are all covered in this section.
 
-In total, there are four main areas of concern for secure Confidential Payload governance:
+In total, there are four main areas of concern for secure Confidential Workload governance:
 
 1. **Secure Code Design & Development:** Code written in traditional ways for a non-confidential environment and then naïvely executed as-is inside a TEE may contain security vulnerabilities that would weaken the protections offered by Confidential Computing. Some relevant potential vulnerabilities in this context include:  
      
@@ -29,10 +29,10 @@ In total, there are four main areas of concern for secure Confidential Payload g
    * The build tools themselves may be vulnerable or actively malicious.  
    * Vulnerabilities already present in or maliciously inserted into dependencies, for example, open-source libraries or compiled artifacts introduced during the build process.  
        
-4. **Secure Packaging, Integration, Configuration and Deployment:** The final class of issues that should concern owners of data entrusted to Confidential Payloads relates to the configuration and environment settings during execution:  
+4. **Secure Packaging, Integration, Configuration and Deployment:** The final class of issues that should concern owners of data entrusted to Confidential Workloads relates to the configuration and environment settings during execution:  
      
    * **Unnecessarily large TCBs:** Lift-and-shift of an unmodified code execution environment such as a VM may be less secure than repartitioned workloads that explicitly minimize the trusted computing base for sensitive operations.  
-   * **Security-sensitive configuration:** As one example, trusted roots are essential for establishing and verifying secure communication across systems and applications, and certificate signature integrity and authenticity are fundamental to secure operation and infrastructure trust. Polluted root certificate stores can cause the payload to trust the wrong entities, e.g., terminating TLS connections with the wrong parties or trusting the wrong signatures. As another example, misconfiguration of cryptographic parameters, such as poor choices of ciphers, key lengths, and modes may introduce vulnerabilities into exchanged data flows.  
+   * **Security-sensitive configuration:** As one example, trusted roots are essential for establishing and verifying secure communication across systems and applications, and certificate signature integrity and authenticity are fundamental to secure operation and infrastructure trust. Polluted root certificate stores can cause the Workload to trust the wrong entities, e.g., terminating TLS connections with the wrong parties or trusting the wrong signatures. As another example, misconfiguration of cryptographic parameters, such as poor choices of ciphers, key lengths, and modes may introduce vulnerabilities into exchanged data flows.  
    * **Verifier Hygiene:** The Verifier policies[^1] may allow older, vulnerable versions of the code to continue being treated as valid[^2]
 
 # Solution
@@ -65,12 +65,12 @@ For each of the main concern areas listed in the Forces section above, the propo
 
 * **Secure Integration, Configuration and Deployment**  
     
-  * **Minimizing the Payload TCB:** Care MUST be taken to include only the minimum amount of code in each TEE that is necessary for the functionality encapsulated by that TEE.  
-  * **Trusted Root Store Hygiene:** The contents of the Root Stores, if any, used by the Confidential Payload, MUST be carefully curated and safeguarded against tampering. If used as a configuration parameter (as opposed to being hard-coded into the Payload), the Trusted Root Store measurement MUST be included in the remote attestation process.  
-  * **Cryptography Hygiene:** The choice of cryptographic ciphers, key lengths and modes MUST be carefully curated and safeguarded against tampering. If configurable (as opposed to being hard-coded into the Payload), these choices MUST be included in the remote attestation process.  
+  * **Minimizing the Workload TCB:** Care MUST be taken to include only the minimum amount of code in each TEE that is necessary for the functionality encapsulated by that TEE.  
+  * **Trusted Root Store Hygiene:** The contents of the Root Stores, if any, used by the Confidential Workload, MUST be carefully curated and safeguarded against tampering. If used as a configuration parameter (as opposed to being hard-coded into the Workload), the Trusted Root Store measurement MUST be included in the remote attestation process.  
+  * **Cryptography Hygiene:** The choice of cryptographic ciphers, key lengths and modes MUST be carefully curated and safeguarded against tampering. If configurable (as opposed to being hard-coded into the Workload), these choices MUST be included in the remote attestation process.  
   * **Cryptographic Key Hygiene:** All cryptographic keys procured from external Key Vaults MUST only be released to properly authorized requesting TEEs, usually based on the results of successful Remote Attestation and delivered to the requesting TEEs using a secure transport.  
   * **Security-Sensitive Configuration Hygiene:** All security-sensitive configuration MUST be included in the remote attestation process.  
-  * **Verifier Hygiene:** The Verifier policies MUST match the most recent versions of deployed Payloads; older vulnerable Payloads MUST be phased out in a timely fashion following successful deployment of up-to-date versions.
+  * **Verifier Hygiene:** The Verifier policies MUST match the most recent versions of deployed Workloads; older vulnerable Workloads MUST be phased out in a timely fashion following successful deployment of up-to-date versions.
 
 # Governance Expectations Summary
 
@@ -97,7 +97,7 @@ d. If the build tools themselves are not running inside TEEs, other compensating
 
 e. Non-reproducible builds make it more difficult to ensure and subsequently prove that the inputs into the build process map exactly to the outputs, thus requiring compensating controls such as cryptographic signing and timestamping of generated artifacts.
 
-f. Failure to check the BOMs of Attesters by the Verifier may create situations where payloads containing newly discovered vulnerabilities, that could be discovered by cross-checking BOMs against known vulnerabilities, continue to attest successfully.
+f. Failure to check the BOMs of Attesters by the Verifier may create situations where Workloads containing newly discovered vulnerabilities, that could be discovered by cross-checking BOMs against known vulnerabilities, continue to attest successfully.
 
 # References
 
@@ -106,10 +106,10 @@ f. Failure to check the BOMs of Attesters by the Verifier may create situations 
 3. Supply-chain Levels for Software Artifacts (SLSA) [https://slsa.dev](https://slsa.dev)  
 4. In-Toto Attestation Framework [https://github.com/in-toto/attestation](https://github.com/in-toto/attestation)  
 5. Remote Attestation Procedures (RATS) Architecture RFC: [https://datatracker.ietf.org/doc/rfc9334/](https://datatracker.ietf.org/doc/rfc9334/)  
-6. Confidential Payload Upgrade Governance Pattern [https://docs.google.com/document/d/1SQUm2\_bmx9Or3rOa8\_tJb2oi\_g4Z4eAeAxtCZNpXNqQ/edit?usp=sharing](https://docs.google.com/document/d/1SQUm2_bmx9Or3rOa8_tJb2oi_g4Z4eAeAxtCZNpXNqQ/edit?usp=sharing)  
+6. Confidential Workload Upgrade Governance Pattern: [https://github.com/confidential-computing/governance/blob/main/SIGs/GRC/publications/Confidential_Workload_Upgrade_Governance.md]
 7. Confidential Computing Glossary: [https://github.com/confidential-computing/glossary/](https://github.com/confidential-computing/glossary/issues/2)  
 8. NIST SP 800-204D “Strategies for the Integration of Software Supply Chain Security in DevSecOps CI/CD Pipelines”: [https://csrc.nist.gov/pubs/sp/800/204/d/final](https://csrc.nist.gov/pubs/sp/800/204/d/final)  
-9. Picture of likely payload slices on various hardware architectures [https://github.com/confidential-computing/governance/blob/main/terminology/Full-Table.jpg](https://github.com/confidential-computing/governance/blob/main/terminology/Full-Table.jpg)
+9. Picture of likely Workload slices on various hardware architectures [https://github.com/confidential-computing/governance/blob/main/terminology/Full-Table.jpg](https://github.com/confidential-computing/governance/blob/main/terminology/Full-Table.jpg)
 
 [^1]:  *Verifier policies* as used in this document is a shorthand for Endorsements, Reference Values and Appraisal Policy for Evidence in RATS **\[5\]** parlance.
 
