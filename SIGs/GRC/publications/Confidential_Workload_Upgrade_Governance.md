@@ -1,4 +1,4 @@
-# ![CCC GRC logo](./images/ccc_grc_logo.png) Confidential Payload Upgrade Governance
+# ![CCC GRC logo](./images/ccc_grc_logo.png) Confidential Workload Upgrade Governance
 
 # Context
 
@@ -17,9 +17,9 @@ Critical distributed applications often have high availability requirements. In 
 The terms MUST/SHOULD/MAY etc. below are used in accordance with **\[2\]**. Every SHOULD recommendation is explained separately in the “SHOULD vs. MUST Clarifications” section towards the end of this document.
 
 Integrate the upgrade with the software deployment stack (e.g., the CI/CD pipeline).  
-Once a new Confidential Payload[^1] version becomes available, the Verifier policies[^2] SHOULD **\[a\]** allow both old and new versions of the Payload to be treated as valid. If the rollout of the new Payload version is successful, the old Payload version is then removed from the Verifier policies. Conversely, if the rollout experiences difficulties, a rollback is initiated and the new Payload version is removed from the Verifier policies leaving only the old Payload version as valid. This is illustrated in the diagram below.
+Once a new Confidential Workload[^1] version becomes available, the Verifier policies[^2] SHOULD **\[a\]** allow both old and new versions of the Workload to be treated as valid. If the rollout of the new Workload version is successful, the old Workload version is then removed from the Verifier policies. Conversely, if the rollout experiences difficulties, a rollback is initiated and the new Workload version is removed from the Verifier policies leaving only the old Workload version as valid. This is illustrated in the diagram below.
 
-![Payload Update Solution Diagram](./images/payload_update_sol.png)
+![Workload Update Solution Diagram](./images/Workload_update_sol.png)
 
 # Governance Expectations Summary
 
@@ -28,11 +28,11 @@ The numbers in the left column below refer to **\[3\]**. Rows listed as N/A indi
 | \# | Description |
 | :---- | :---- |
 | 1-6, 8-15 | N/A |
-| 7 | Update Verifier policies with new expected Reference Values before deployment begins. Roll back this update if the Payload deployment fails for any reason. Remove Verifier policies related to older versions(s) of the Payload measurements after the deployment of updated Payload is successful. |
+| 7 | Update Verifier policies with new expected Reference Values before deployment begins. Roll back this update if the Workload deployment fails for any reason. Remove Verifier policies related to older versions(s) of the Workload measurements after the deployment of updated Workload is successful. |
 
 # “SHOULD” vs. “MUST” Clarifications
 
-a. Failure to handle intermediate states where only a subset of Payload instances are upgraded could result in downtime or intermittent failures related to the upgrade, i.e., where only upgraded Payloads can successfully attest and existing Payloads will fail verification against the upgraded policies.
+a. Failure to handle intermediate states where only a subset of Workload instances are upgraded could result in downtime or intermittent failures related to the upgrade, i.e., where only upgraded Workloads can successfully attest and existing Workloads will fail verification against the upgraded policies.
 
 # References
 
@@ -41,6 +41,6 @@ a. Failure to handle intermediate states where only a subset of Payload instance
 3. Expectations of Ecosystem Participants [https://docs.google.com/document/d/1X10ymjFgUy5NGPKs6Z3F\_ERPwrgRuK23-9F2h3-LbWw/edit?usp=sharing](https://docs.google.com/document/d/1X10ymjFgUy5NGPKs6Z3F_ERPwrgRuK23-9F2h3-LbWw/edit?usp=sharing)  
 4. Confidential Computing Glossary: [https://github.com/confidential-computing/glossary/](https://github.com/confidential-computing/glossary/issues/2)
 
-[^1]:  By “Confidential Payload”, or “Payload” for short, this document means the combination of code and configuration loaded, measured and attested by a TEE instance.
+[^1]:  By “Confidential Workload”, or “Workload” for short, this document means the combination of code and configuration loaded, measured and attested by a TEE instance.
 
 [^2]:  *Verifier policies* as used in this document is a shorthand for Endorsements, Reference Values and Appraisal Policy for Evidence in RATS **\[1\]** parlance.
