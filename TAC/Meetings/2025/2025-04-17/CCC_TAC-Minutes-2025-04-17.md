@@ -92,7 +92,7 @@ Mona Vij (MV), Don Porter (DP), Woju (W) & Kailun Qin (KQ) introduced themselves
 DM informed that CCC has a booth at RSA & spread an awareness about expressing an interest in joining at the booth. DM encouraged to members participate.
 
 * Board meeting 4/23
-DM informed about the upcoming board meeting on April 23, 2025 and requested for any agenda items to be added. There were none. 
+DM informed about the upcoming board meeting on April 23, 2025 and requested for any agenda items to be added. There were none.
 
 ## Annual Project Review: Gramine 
 MV presented the annual project review for Gramine project. DM made a call for a new TAC liaison for the Gramine project.
@@ -120,4 +120,4 @@ This topic was parked for a later day.
 Topics for the next meeting were discussed and added to the agenda slide.
 
 Next meeting May 15, 2025. Since many countries have holiday on May 01 due to labour day, we shall be canceling May 01 meeting.
-The meeting was adjourned by DM at 08:35 am PT
+The meeting was adjourned by DM at 08:35 am PT.
