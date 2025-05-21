@@ -35,7 +35,7 @@
 
 * Dan Middleton (DM) opened the call at 7:03 am PT
 * DM welcomed the members of the TAC and reviewed the values of the CCC and the antitrust policy of the Linux Foundation
-* Renu Chauhan (RC) & Riaan Kleinhans (RK) created meeting minutes based on the publicly available.
+* Renu Chauhan (RC) & Riaan Kleinhans (RK) created meeting minutes based on the publicly available recordings.
 * DM reviewed the agenda
 
 
@@ -47,17 +47,17 @@ A quorum was not needed
 
 *Per the [charter](https://charter.confidentialcomputing.io), all [CCC Premier members](https://confidentialcomputing.io/members/) receive one vote on the TAC. Quorum for votes is at least 50% of voting members present.*
 
-* AMD - Nathaniel McCallum   / David Kaplan
+* AMD - Nathaniel McCallum / David Kaplan
 * Arm - Paul Howard + 
-* Google - Catherine Zhang+    / Catalin Sandu 
+* Google - Catherine Zhang+ / Catalin Sandu 
 * Huawei - Zhipeng (Howard) Huang 
-* Intel - Dan Middleton (TAC chair) +  / Simon Johnson
+* Intel - Dan Middleton (TAC chair)+ / Simon Johnson
 * Meta - Henry Wang / Kevin Hui
 * Microsoft - Alec Fernandez   
-* Nvidia - Fritz Alder  +
-* Red Hat -  Yash Mankad   / Ram Pai 
-* TikTok -  Mingshen Sun  / Yao Zhang
-* Shielded Technologies - Bob  Blessing-Hartley 
+* Nvidia - Fritz Alder+
+* Red Hat -  Yash Mankad / Ram Pai 
+* TikTok -  Mingshen Sun / Yao Zhang
+* Shielded Technologies - Bob Blessing-Hartley 
 
    " + " indicates attending
 
@@ -99,11 +99,11 @@ MV presented the annual project review for Gramine project. DM made a call for a
 [Slide](./CCC-Gramine-Annual-Update.pptx)
 
 ## GRC SIG Document review  
-DM informed that three GRC documents were submitted for review and are being converted to Markdown format for version control. There was a discussion about the purpose and benefits of the GRC documents, with Mark Novak (MN) explaining they provide actionable guidance for organizations adopting confidential computing technologies.DM asked the TAC to review these GRC documents and provide feedback or approval before our next TAC meeting on May 01,2025.
+DM informed that three GRC documents were submitted for review and had been converted to Markdown format for version control. There was a discussion about the purpose and benefits of the GRC documents, with Mark Novak (MN) explaining they provide actionable guidance for organizations adopting confidential computing technologies. DM repeated the request for TAC members to review these GRC documents and provide feedback or approval before our next scheduled TAC meeting on May 1, 2025. That meeting is canceled but feedback is still due by May 1.
 
 ## Security Baseline: Open discussion  
 Mike Bursell (MB) gave a brief introduction about the purpose of the security baseline. MB proposed that it would be to the benefit of the CCC projects to start adopting the baseline to raise compliance. DM mentioned that the TAC needs to decide how to proceed with the baselines initiative and provide feedback to Emily (vice chair of the governing board) in the next session.
-Discussion ensued.
+Discussion ensued.DM requested a volunteer to lead discussion on this topic at our next meeting.
 
 ## OC3 recap 
 This topic was parked for a later day.
