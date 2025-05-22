@@ -118,8 +118,7 @@ AF noted that the current ISO draft uses definitions that are primarily SGX-cent
 
 * Security Baseline introduction
 Emily Fox (EF) presented an introduction to the Security Baseline. The presentation generated a significant number of questions from attendees & were effectively addressed by EF. DM requested a unification of best practices, badges, and OSPS (Open Source Project Security )baseline. EF acknowledged this concern and stated it would be a priority for her team to reconcile the best practices badging system, especially as passing criteria is a requirement for many LF Foundation projects.
-[Slide](./LFMS%20Baseline.pdf)
-[Slide](./LFMS%20Baseline.pdf)
+[Slide](./LFMSBaseline.pdf)
 
 * Project Issues
 DM mentioned the backlog of issues. The group maintains a backlog of issues, though they don't heavily rely on GitHub for agenda management. DM informed that Mark Novak opened an issue to update charter definitions. No immediate action is required.DM provided a recommendation to use a directory within the governance repository for version control of formalized documents.
