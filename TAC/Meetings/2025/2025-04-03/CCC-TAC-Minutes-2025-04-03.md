@@ -117,7 +117,7 @@ Collaborating with an existing ISO working group.
 AF noted that the current ISO draft uses definitions that are primarily SGX-centric and cites work that is also heavily focused on SGX. He aims to broaden these definitions to include other confidential computing technologies like TDX and those from AMD and Arm.
 
 * Security Baseline introduction
-Emily Fox (EF) presented an introduction to the Security Baseline. The presentation generated a significant number of questions from attendees & were effectively addressed by EF. DM requested a unification of best practices, badges, and OSPS (Open Source Project Security )baseline. EF acknowledged this concern and stated it would be a priority for her team to reconcile the best practices badging system, especially as passing criteria is a requirement for many LF Foundation projects.
+Emily Fox (EF) presented an introduction to the Security Baseline. The presentation generated a significant number of questions from attendees & were effectively addressed by EF. DM requested a unification of best practices, badges, and OSPS (Open Source Project Security) baseline. EF acknowledged this concern and stated it would be a priority for her team to reconcile the best practices badging system, especially as passing criteria is a requirement for many LF Foundation projects.
 [Slide](./LFMSBaseline.pdf)
 
 * Project Issues
