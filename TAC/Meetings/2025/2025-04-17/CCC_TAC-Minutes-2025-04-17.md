@@ -47,16 +47,16 @@ A quorum was not needed
 
 *Per the [charter](https://charter.confidentialcomputing.io), all [CCC Premier members](https://confidentialcomputing.io/members/) receive one vote on the TAC. Quorum for votes is at least 50% of voting members present.*
 
-* AMD - Nathaniel McCallum / David Kaplan
-* Arm - Paul Howard + 
+* AMD - Nathaniel McCallum/David Kaplan
+* Arm - Paul Howard+ 
 * Google - Catherine Zhang+ / Catalin Sandu 
 * Huawei - Zhipeng (Howard) Huang 
-* Intel - Dan Middleton (TAC chair)+ / Simon Johnson
+* Intel - Dan Middleton (TAC chair)+ /Simon Johnson
 * Meta - Henry Wang / Kevin Hui
 * Microsoft - Alec Fernandez   
 * Nvidia - Fritz Alder+
-* Red Hat -  Yash Mankad / Ram Pai 
-* TikTok -  Mingshen Sun / Yao Zhang
+* Red Hat -  Yash Mankad /Ram Pai 
+* TikTok -  Mingshen Sun /Yao Zhang
 * Shielded Technologies - Bob Blessing-Hartley 
 
    " + " indicates attending
