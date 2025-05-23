@@ -99,7 +99,7 @@ The numbers in the left column below refer to **\[3\]**. Rows listed as N/A indi
 | 1-4, 6, 9-10, 13-15 | N/A |
 | 5, 7-8 | Securely maintain a tamper-evident record of all Verifier policies. |
 | 11 | Maintain high integrity and availability expected of a mission critical service. Maintain confidentiality of all secrets. Honor all current VS and VT policies. |
-| 11-12 | Ensure secure administration of Verifier Hardware, Verifier Service and Verifier Tenant.Securely maintain and furnish on demand tamper-evident histories (per-tenant) of attestation decisions, within a specified SLA regarding retention period, timeliness, etc. |
+| 11-12 | Ensure secure administration of Verifier Hardware, Verifier Service and Verifier Tenant. Securely maintain and furnish on demand tamper-evident histories (per-tenant) of attestation decisions, within a specified SLA regarding retention period, timeliness, etc. |
 
 # “SHOULD” vs. “MUST” Clarifications
 
