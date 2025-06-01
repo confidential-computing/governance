@@ -174,8 +174,16 @@ Projects in this stage are not in active development. Their maintainers may infr
 
 **Acceptance Criteria**
 
-Projects may be granted Emeritus status via a vote of two-thirds of the representatives of the TAC.
-
+1. Project posts a prominent notice on its repo, e.g., in its main README, to clearly state their status transitioning and what any user or contributor should expect in terms of response or support. If there is an alternative project the maintainers recommend, it should be listed as well. Example: 
+> This project is currently transitioning to Emeritus stage of [the CCC project policy](https://github.com/confidential-computing/governance/blob/main/project-progression-policy.md).  
+> If you are interested in taking over maintaining this project, please reach out to the TAC at  
+> tac@lists.confidentialcomputing.io
+2. The project maintainers send a note to the TAC list with a reference to the notice and leave the notice posted for a month.
+3. After one month, TAC needs to vote on it. Projects may be granted Emeritus status via a vote of two-thirds of the representatives of the TAC.
+4. Project update the original notice to clearly state it has reached the Emeritus status, for example:
+> This project is at the Emeritus stage of [the CCC project policy](https://github.com/confidential-computing/governance/blob/main/project-progression-policy.md), and is currently not in active development.  
+> If you are interested in taking over maintaining this project, please reach out to the TAC at  
+> tac@lists.confidentialcomputing.io
 
 ## IV. Annual Review Process
 
