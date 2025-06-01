@@ -253,7 +253,7 @@ This project provides a Rust language implementation of SPDM, IDE_KM and TDISP. 
 
 Veracruz is a research project exploring the design of privacy-preserving distributed systems. Veracruz uses strong isolation technology and remote attestation protocols to establish a “neutral ground” within which a collaborative, multi-party computation between a group of mistrusting principals takes place.
 
-**Status:** Incubation
+**Status:** Emeritus
 
 #### Links
 
