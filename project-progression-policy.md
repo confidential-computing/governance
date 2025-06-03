@@ -182,8 +182,6 @@ Projects in this stage are not in active development. Their maintainers may infr
 3. After one month the TAC will review that the public notice was completed and vote to move the project to Emeritus.
 4. Project updates the original notice to clearly state it has reached the Emeritus status, for example:
 > This project is at the Emeritus stage of [the CCC project policy](https://github.com/confidential-computing/governance/blob/main/project-progression-policy.md), and is currently not in active development.  
-> If you are interested in taking over maintaining this project, please reach out to the TAC at  
-> tac@lists.confidentialcomputing.io
 
 ## IV. Annual Review Process
 
