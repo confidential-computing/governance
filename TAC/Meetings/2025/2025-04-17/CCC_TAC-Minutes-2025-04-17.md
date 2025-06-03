@@ -103,7 +103,7 @@ DM informed that three GRC documents were submitted for review and had been conv
 
 ## Security Baseline: Open discussion  
 Mike Bursell (MB) gave a brief introduction about the purpose of the security baseline. MB proposed that it would be to the benefit of the CCC projects to start adopting the baseline to raise compliance. DM mentioned that the TAC needs to decide how to proceed with the baselines initiative and provide feedback to Emily (vice chair of the governing board) in the next session.
-Discussion ensued.DM requested a volunteer to lead discussion on this topic at our next meeting.
+Discussion ensued. DM requested a volunteer to lead discussion on this topic at our next meeting.
 
 ## OC3 recap 
 This topic was parked for a later day.
