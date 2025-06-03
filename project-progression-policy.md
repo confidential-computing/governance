@@ -183,6 +183,8 @@ Projects in this stage are not in active development. Their maintainers may infr
 4. Project updates the original notice to clearly state it has reached the Emeritus status, for example:
 > This project is at the Emeritus stage of [the CCC project policy](https://github.com/confidential-computing/governance/blob/main/project-progression-policy.md), and is currently not in active development.  
 
+5. Project archives all repos.
+
 ## IV. Annual Review Process
 
 The TAC will conduct a review of each accepted project on an annual basis.
