@@ -24,7 +24,7 @@ As the CCC Mentorship Program is currently uses the Linux Foundation Mentorship 
 
 ### Application Process
 
-1. **Explore Available Projects:** Start by reviewing the [Available Projects](PROJECTS.md) list to find projects that align with your interests and skills.
+1. **Explore Available Projects:** Start by reviewing the [Available Projects](/PROJECTS.md) list to find projects that align with your interests and skills.
 2. **Prepare Your Application:** The CCC Mentorship Program uses the [Linux Foundation Mentorship Platform](https://mentorship.lfx.linuxfoundation.org/#projects_all) to accept mentee applications. To create your profile, follow the guide on the [LFX Mentorship website](https://docs.linuxfoundation.org/lfx/mentorship/mentees/create-a-mentee-profile). Be sure to highlight your interest in confidential computing, any relevant experience, and what you hope to achieve through the mentorship program in the **Inroduction** section
 3. **Submit Your Application:** Once you have created your Mentee Profile, navigate to the Confidential Computing Project (link to be added) and click the "Apply CTA" on the mentorship card to apply.
 
