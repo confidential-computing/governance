@@ -19,7 +19,7 @@ The terms MUST/SHOULD/MAY etc. below are used in accordance with **\[2\]**. Ever
 Integrate the upgrade with the software deployment stack (e.g., the CI/CD pipeline).  
 Once a new Confidential Workload[^1] version becomes available, the Verifier policies[^2] SHOULD **\[a\]** allow both old and new versions of the Workload to be treated as valid. If the rollout of the new Workload version is successful, the old Workload version is then removed from the Verifier policies. Conversely, if the rollout experiences difficulties, a rollback is initiated and the new Workload version is removed from the Verifier policies leaving only the old Workload version as valid. This is illustrated in the diagram below.
 
-![Workload Update Solution Diagram](./images/Workload_update_sol.png)
+![Workload Update Solution Diagram](./images/Workload_update_sol.svg)
 
 # Governance Expectations Summary
 
