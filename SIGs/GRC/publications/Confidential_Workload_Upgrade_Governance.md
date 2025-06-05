@@ -19,7 +19,7 @@ The terms MUST/SHOULD/MAY etc. below are used in accordance with **\[2\]**. Ever
 Integrate the upgrade with the software deployment stack (e.g., the CI/CD pipeline).  
 Once a new Confidential Workload[^1] version becomes available, the Verifier policies[^2] SHOULD **\[a\]** allow both old and new versions of the Workload to be treated as valid. If the rollout of the new Workload version is successful, the old Workload version is then removed from the Verifier policies. Conversely, if the rollout experiences difficulties, a rollback is initiated and the new Workload version is removed from the Verifier policies leaving only the old Workload version as valid. This is illustrated in the diagram below.
 
-![Workload Update Solution Diagram](./images/Workload_update_sol.png)
+![Workload Update Solution Diagram](./images/Workload_update_sol.svg)
 
 # Governance Expectations Summary
 
@@ -38,7 +38,7 @@ a. Failure to handle intermediate states where only a subset of Workload instanc
 
 1. Remote Attestation Procedures (RATS) Architecture RFC: [https://datatracker.ietf.org/doc/rfc9334/](https://datatracker.ietf.org/doc/rfc9334/)  
 2. Key Words for Use in RFCs to Indicate Requirement Levels: [https://datatracker.ietf.org/doc/rfc2119/](https://datatracker.ietf.org/doc/rfc2119/)  
-3. Expectations of Ecosystem Participants [https://docs.google.com/document/d/1X10ymjFgUy5NGPKs6Z3F\_ERPwrgRuK23-9F2h3-LbWw/edit?usp=sharing](https://docs.google.com/document/d/1X10ymjFgUy5NGPKs6Z3F_ERPwrgRuK23-9F2h3-LbWw/edit?usp=sharing)  
+3. Expectations of Ecosystem Participants [./Expectations of Ecosystem Participants](./Expectations_of_Ecosystem_Participants.md)  
 4. Confidential Computing Glossary: [https://github.com/confidential-computing/glossary/](https://github.com/confidential-computing/glossary/issues/2)
 
 [^1]:  By “Confidential Workload”, or “Workload” for short, this document means the combination of code and configuration loaded, measured and attested by a TEE instance.
