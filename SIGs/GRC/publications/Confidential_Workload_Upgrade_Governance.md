@@ -38,7 +38,7 @@ a. Failure to handle intermediate states where only a subset of Workload instanc
 
 1. Remote Attestation Procedures (RATS) Architecture RFC: [https://datatracker.ietf.org/doc/rfc9334/](https://datatracker.ietf.org/doc/rfc9334/)  
 2. Key Words for Use in RFCs to Indicate Requirement Levels: [https://datatracker.ietf.org/doc/rfc2119/](https://datatracker.ietf.org/doc/rfc2119/)  
-3. [Expectations of Ecosystem Participants](./Expectations_of_Ecosystem_Participants.md)  
+3. Expectations of Ecosystem Participants [./Expectations of Ecosystem Participants](./Expectations_of_Ecosystem_Participants.md)  
 4. Confidential Computing Glossary: [https://github.com/confidential-computing/glossary/](https://github.com/confidential-computing/glossary/issues/2)
 
 [^1]:  By “Confidential Workload”, or “Workload” for short, this document means the combination of code and configuration loaded, measured and attested by a TEE instance.

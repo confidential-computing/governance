@@ -101,7 +101,7 @@ f. Failure to check the BOMs of Attesters by the Verifier may create situations 
 
 # References
 
-1. [Expectations of Ecosystem Participants](./Expectations_of_Ecosystem_Participants.md)  
+1. Expectations of Ecosystem Participants [./Expectations of Ecosystem Participants](./Expectations_of_Ecosystem_Participants.md)  
 2. Key Words for Use in RFCs to Indicate Requirement Levels: [https://datatracker.ietf.org/doc/rfc2119/](https://datatracker.ietf.org/doc/rfc2119/)  
 3. Supply-chain Levels for Software Artifacts (SLSA) [https://slsa.dev](https://slsa.dev)  
 4. In-Toto Attestation Framework [https://github.com/in-toto/attestation](https://github.com/in-toto/attestation)  
