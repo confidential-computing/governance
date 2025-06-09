@@ -1,24 +1,24 @@
-# Confidential Computing Consortium: Mentorship Programs for 2024
+# Confidential Computing Consortium: Mentorship Programs for 2025
 
-The Confidential Computing Consortium (CCC) proudly presents our mentorship programs for 2024. Aimed at propelling innovation and collaboration within the field of confidential computing, these programs are designed to connect aspiring contributors with industry experts. Below is an overview of the mentorship opportunities available across different terms throughout the year.
+The Confidential Computing Consortium (CCC) mentorship program is aimed at propelling innovation and collaboration within the field of confidential computing. This program is designed to connect aspiring contributors with industry experts. Mentorship opportunities will be available for CCC projects on a rolling basis, based on mentor scheddules, across different terms throughout the year.
 
-## 2024 Mentorship Program Schedule
+## 2025 Mentorship Program Schedule
 
 The CCC mentorship Program is curently offering the following term:
 
-### Term: July - October
+### Term 2: July - October
 
-- CCC Projects idea submission deadline: **June 1st**
-- Mentorships available on LFX Mentorship: **by June first week**
-- Mentee applications open on LFX: approximately **4 weeks (by July first week)**
-- Mentee application review and acceptance: approximately during the **2 weeks before the term begins. (July 1 - July 15)**
+- CCC Projects idea submission deadline: **by June second week**
+- Mentorships available on LFX Mentorship: **by end of June**
+- Mentee applications open on LFX: approximately **by July second week**
+- Mentee application review and acceptance: approximately during the **2 weeks before the term begins. (July 15 - July 31)**
 
 **NOTE:** Current term dates are flexible as the number of CCC Projects particpating in mentoring are limited. As we scale up the Program to facilitate more projects, we will have a more defined program with multiple terms in a calendar year.
 
 ## How to Get Involved
 
 ### For Mentees:
-- Review the projects listed by the Confidential Computing Consortium on the LFX Mentoring Program (link to be added) for the term you're interested in.
+- Review the projects listed by the Confidential Computing Consortium on the [LFX Mentoring Program](https://mentorship.lfx.linuxfoundation.org/#projects_accepting) or the [Available Projects](/PROJECTS.md) list to find projects that align with your interests and skills.
 - Follow the application instructions provided for each project.
 
 ### For Mentors:
