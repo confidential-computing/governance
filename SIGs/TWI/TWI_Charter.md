@@ -7,8 +7,8 @@ Current ways of issuing and managing workload identities, as well as those requi
 
 1. Lack of workload isolation against the hardware and the operating system owners/administrators, as well as peer workload instances
 2. Lack of strong binding between a workload credential and the workload instance to which that credential had been issued
-3. Inability to associate a credential with a set of decisions leading up to its issuance
-_Note that these requirements are related: lack of process isolation eases credential exfiltration and leads to credential leakage and reuse._
+3. Lack of verifiable composition of the workload, and inability to associate a credential with a set of decisions leading up to its issuance
+_Note that these shortcomings are related: lack of process isolation eases credential exfiltration and leads to credential leakage and reuse._
 
 In the immediate term, effective Confidential Computing faces a significant challenge: the scale of uplift and immature tooling are both clear barriers. Longer term, however, Confidential Computing provides a vital improvement due to its unique features and broad availability. The TWI SIG will specify Confidential Computing-assisted mechanisms that fit inside the emerging Workload Identity solution ecosystem. The SIG will ensure the evolution of this ecosystem is in alignment with the expectations of the owners and operators of Confidential Computing workloads. These efforts will build on the concept of _Trustworthy Workload Identity_ defined below. Data-in-use protection of workloads that have such identities will be a critical downstream effect.
 
@@ -21,7 +21,7 @@ Supporting definitions:
 - **Workload Identifier** is a stable construct around which Relying Parties can form long-lived Workload authorization policies.
 - **Workload Identity** is defined exactly as it is by WIMSE **\[3]** – a combination of three basic building blocks: trust domain, Workload Identifier and identity credentials.
 - **Workload Credential** is an ephemeral identity document containing the Workload Identifier and a number of additional claims, that can be short- or long-lived and which is used to represent and prove Workload Identity to a relying party (WIMSE calls this "identity credentials").
-- **Workload Provenance** is a linkage between a Workload Credential and a trusted entity (e.g., a vendor, developer, or issuer) responsible for the creation and/or attestation of the corresponding Workload.
+- **Workload Provenance** is a unique linkage between a Workload Credential and the trusted entities (such as a vendor, developer, or credential issuer) responsible for the creation and/or attestation of the corresponding Workload.
 
 A **Workload Identity** is said to be **Trustworthy** _iff_ the following three properties hold true:
 
