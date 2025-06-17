@@ -2,7 +2,7 @@
 
 ## Introduction
 
-As more companies and open source projects begin to use similar terms to describe similar paradigms 	that build upon hardware-based, attested Trusted Execution Environments (TEEs), it will be increasingly important that vendors use consistent terminology that describes the ways in which these new capabilities are applied within different functional domains.
+As more companies and open source projects begin to use similar terms to describe similar paradigms that build upon the security capabilities of Confidential Computing, it will be increasingly important that vendors use consistent terminology that describes the ways in which these new capabilities are applied within different functional domains.
 
 The Confidential Computing Consortium has defined [^1] Confidential Computing as "the protection of data in use
 by performing computation in a hardware-based, attested Trusted Execution Environment", and identified three primary
@@ -11,21 +11,21 @@ integrity. As described in "Confidential Computing: Hardware-Based Trusted Execu
 four additional attributes may be present (code confidentiality, programmability, recoverability, and attestability)
 but only attestability is strictly necessary for a computational environment to be classified as Confidential Computing.
 
-This paper defines  additional applications of the term confidential as a descriptive prefix, such as "confidential container", "confidential virtual machine", etc. Such terms have already begun to appear in marketing materials and commercial products, and in related open source projects. 
+This paper defines additional applications of the attributive adjective "confidential", such as "confidential container", "confidential virtual machine", etc. Such terms have already begun to appear in marketing materials and commercial products, and in related open source projects. 
 
 This paper focuses on Confidential Computing and the associated "confidential xxx" terms to provide a common
-vocabulary when describing the impact of adding confidential computing to a computer's architecture.   The goal
+vocabulary when describing the impact of adding confidential computing to a computer's architecture. The goal
 is to sufficiently describe the different potential architectural changes introduced by isolating computing
 workloads so that the implications of securing complete applications and their data can be properly evaluated.
-Memory isolation is one of the new elements introduced by confidential computing.  And being able to protect a
-running application changes significantly how to approach computer security.   Cyber-attacks often start with a
-compromise of memory contents (extracting data or modifying memory state to enable execution). Therefore the
-ability to have effective memory isolation has long been recognized as the best potential mitigation.   But
-protection of data in use is only one part of an application's security.  An aggregate solution of leveraging
+Memory isolation is one of the new elements introduced by confidential computing. Being able to protect a
+running application's code and data at runtime significantly changes how to approach computer security. Cyber-attacks often start with a
+compromise of memory contents (extracting data or modifying memory state to enable execution). Therefore, the
+ability to have effective memory isolation has long been recognized as the best potential mitigation. That said,
+protection of data in use is only one part of an application's security. An aggregate solution of leveraging
 confidential computing with the at-rest and in-motion protection is required to fully protect sensitive
 workloads and their data wherever it goes.
 
-In cloud computing, for example, protecting data in use becomes a fundamental requirement to enable clients to control protecting applications and their data while running on the infrastructure provided by the cloud vendor.   All clouds support a shared responsibility model built on a degree of trust.  Confidential Computing permits the separation of responsibilities and isolation of resources in a stronger way.  
+In cloud computing, for example, protecting data in use becomes a fundamental requirement to enable clients to control protecting applications and their data while running on the infrastructure provided by the cloud vendor. All clouds support a shared responsibility model built on a degree of trust. Confidential Computing permits the separation of responsibilities and isolation of resources in a stronger way.
 
 
 ## Packaging Model Terminology
@@ -58,8 +58,8 @@ not have security isolation between them, we use the preposition "in", as in "a 
 
 ## Isolation Methodologies
 
-The aforementioned packaging terms will be delivered by software running in concert with a TEE's hardware and firmware.  This combination will deliver a blend of data confidentiality, data integrity, and/or code integrity protections. 
-Data confidentiality is delivered in runtime by isolating a specific TEE context within the processor (whether a CPU or other processing unit such as a GPU), and potentially within the RAM.  There are multiple methodologies for delivering data-in-use protection. Three examples of technologies which limit the CPU's addressability/reachability of TEE data include:
+The aforementioned packaging terms will be delivered by software running in concert with a TEE's hardware and firmware. This combination will deliver a blend of data confidentiality, data integrity, and/or code integrity protections. 
+Data confidentiality is delivered at runtime by isolating a specific TEE context within the processor (whether a CPU or other processing unit such as a GPU), and potentially within the RAM. There are multiple methodologies for delivering data-in-use protection. Three examples of technologies which limit the CPU's addressability/reachability of TEE data include:
 
 * Access Control Validation: access to areas of memory is limited to certain processes/contexts.
 
@@ -67,17 +67,17 @@ Data confidentiality is delivered in runtime by isolating a specific TEE context
 
 * Paging control: non-TEE processes are not active within the CPU concurrently with TEE data.
 
-Of course the CPU is not the only place where TEE data might be visible. Such data is commonly stored in RAM as well.  And when in RAM, side channel attacks might be attempted on the TEE data. Protecting the RAM from such attacks can be accomplished in ways such as the encryption of the TEE data within the RAM.  
+Of course the CPU is not the only place where TEE data might be visible. Such data is commonly stored in RAM as well. When in RAM, side channel attacks might be attempted on the TEE data. Protecting the RAM from such attacks can be accomplished in ways such as the encryption of the TEE data within the RAM.  
 Processor vendors will typically bundle multiple isolation methodologies to protect their implementations. It is upon these bundles that software providing Confidential Computing capabilities is then layered.  
 
 ![Alt text](Technology-Types.jpg "Technology Types")
 
-But what layers of software are actually being integrated and delivered upon these isolation methodologies?  The packaging of software layers depends on whether the code is prepared for consumption by software developers, systems integrators, or systems administrators.  It is quite possible that many nested layers of application of packaging will occur before the code is actually installed by a systems administrator.
-With this in mind, below in columns are nine examples of how software layers may actually be packaged for consumption by downstream participants of the software supply chain.  In these examples, only the software elements of the Trusted Computing Base (TCB) as defined by NIST 800-12 Rev.1 [^3] are highlighted.  Other elements of the TCB such as the firmware and hardware are not shown.
+What layers of software are actually being integrated and delivered upon these isolation methodologies? The packaging of software layers depends on whether the code is prepared for consumption by software developers, systems integrators, or systems administrators. It is quite possible that many nested layers of application of packaging will occur before the code is actually installed by a systems administrator.
+With this in mind, below in columns are nine examples of how software layers may actually be packaged for consumption by downstream participants of the software supply chain.  In these examples, only the software elements of the Trusted Computing Base (TCB) as defined by NIST 800-12 Rev.1 [^3] are highlighted. Other elements of the TCB such as the firmware and hardware are not shown.
 
 ![Alt text](Full-Table.jpg "Full Table")
 
-As can be seen in the diagram, each of these nine embodiments can be mapped to one of the four aforementioned packaging terms.  The red boxes show the set of components running inside a TEE.  The yellow boxes show an example of
+As can be seen in the diagram, each of these nine embodiments can be mapped to one of the four aforementioned packaging terms. The red boxes show the set of components running inside a TEE. The yellow boxes show an example of
 what might be packaged together.  In another example (not shown) some of the components inside a red box
 might be packaged separately.
 
