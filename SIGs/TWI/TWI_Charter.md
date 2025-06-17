@@ -7,8 +7,8 @@ Current ways of issuing and managing workload identities, as well as those requi
 
 1. Lack of workload isolation against the hardware and the operating system owners/administrators, as well as peer workload instances
 2. Lack of strong binding between a workload credential and the workload instance to which that credential had been issued
-3. Inability to associate a credential with a set of decisions leading up to its issuance
-_Note that these requirements are related: lack of process isolation eases credential exfiltration and leads to credential leakage and reuse._
+3. Lack of verifiable composition of the workload, and inability to associate a credential with a set of decisions leading up to its issuance
+_Note that these shortcomings are related: lack of process isolation eases credential exfiltration and leads to credential leakage and reuse._
 
 In the immediate term, effective Confidential Computing faces a significant challenge: the scale of uplift and immature tooling are both clear barriers. Longer term, however, Confidential Computing provides a vital improvement due to its unique features and broad availability. The TWI SIG will specify Confidential Computing-assisted mechanisms that fit inside the emerging Workload Identity solution ecosystem. The SIG will ensure the evolution of this ecosystem is in alignment with the expectations of the owners and operators of Confidential Computing workloads. These efforts will build on the concept of _Trustworthy Workload Identity_ defined below. Data-in-use protection of workloads that have such identities will be a critical downstream effect.
 
