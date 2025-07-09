@@ -1,4 +1,5 @@
-# ![CCC GRC logo](./images/ccc_grc_logo.png) Confidential Workload Upgrade Governance
+# ![CCC GRC logo](./images/ccc_grc_logo.png)
+# Confidential Workload Upgrade Governance
 
 # Context
 

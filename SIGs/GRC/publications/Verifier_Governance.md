@@ -1,4 +1,5 @@
-# ![CCC GRC logo](./images/ccc_grc_logo.png) Verifier Governance
+# ![CCC GRC logo](./images/ccc_grc_logo.png)
+# Verifier Governance
 
 # Context
 
