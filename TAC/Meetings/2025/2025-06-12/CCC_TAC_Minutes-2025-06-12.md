@@ -93,7 +93,7 @@ Alex Dalton introduced themselves. Jeff Kuhn introduces themselves through chat.
 DM  briefly reviewed the previous meeting topics, including SPDM tools project updates, islet mentorship, and moving Veracruz to Emeritus status. DM mentioned that guidelines for tech talks have been added to the governance repo.
 
 ## Annual Project Review: Coconut_SVSM 
-Joerg Roedel presented the annual project review for the Coconut_SVSM project and answered questions about the project.
+Joerg Roedel presented the annual project review for the Coconut_SVSM project and answered questions about the project. Slide [link](./COCONUT-SVSM%20CCC%20Annual%20Project%20Update%202025%20.pdf) 
 
 ## Glossary
 DM discussed the CCC Glossary repo and pointed out that work was started but stalled. He asked if there is anyone in the committee that would be interested in picking up the responsibility for coordination of the effort. AF gave some context on the background for working with CSA on the development of a CC glossary. He asked if anyone knows if CSA is using the glossary or links to it. MN said he had frequent contact with CSA and could find out. He further stated that the CC Glossary should be updated and kept up to date as is important for the CC space. MN committed to work on terminology that intersects with the work he is doing.
