@@ -1,7 +1,7 @@
 ## Instructions
 1.  Review the [Project Progression Policy](project-progression-policy.md). 
 2.  Send an email to the TAC mailing list using the following template and attaching any supporting documentation. Any non-applicable response can be listed as N/A.
-3.  For any questions or comments on this process please email info@confidentialcomputing.io
+3.  For any questions or comments on this process please email tac@lists.confidentialcomputing.io
 
 ## Project Proposal Template
 
