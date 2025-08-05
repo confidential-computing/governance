@@ -16,7 +16,7 @@ Some ways a project can benefit by becoming a Consortium-recognized project incl
 
 1. Recognition: A Consortium project is recognized as meeting the goals of the Consortium, namely protecting data-in-use.
 2. Community: The Consortium is fostering a community of like-minded members.
-3. Participation: Participate and lead in the ongoing development of the confidential computing paradigm. All projects are assigned a [Liaison](project-liasions.md) to assist in the integration of your project to the Consortium and growth beyond that.
+3. Participation: Participate and lead in the ongoing development of the confidential computing paradigm. All projects are assigned a [Liaison](project-liaisons.md) to assist in the integration of your project to the Consortium and growth beyond that.
 4. Project Support: The Consortium can provide limited funds to support project communication and infrastructure costs for CI/CD.
 5. Outreach: Part of the Consortium's mission is to promote the use of confidential computing with various communities and hence its recognized projects, to deliver that outcome.
 6. Mentorship: The [TAC has committed](https://lists.confidentialcomputing.io/g/main/files/TAC/Meetings/2021/09-Sept/TAC%20Minutes%202021-09-09.pdf) to fund one mentee per CCC project that commits to the ["Confidential Computing Consortium Mentorship Program"](https://github.com/confidential-computing/governance/tree/main/mentoring).
@@ -150,7 +150,7 @@ In order to support their active development, projects in the Graduation stage h
 
 To be considered for Graduation stage, the project must meet the Incubation requirements as well as the following:
 
- * Development of a growth plan, to be done in conjunction with their [project liason(s)](project-liaisons.md) at the TAC.
+ * Development of a growth plan, to be done in conjunction with their [project liaison(s)](project-liaisons.md) at the TAC.
  * Document that it is being used successfully in production by at least two independent end-user organizations which, in the TAC's judgement, are of adequate quality and scope.
  * Demonstrate a substantial, in the opinion of the TAC, ongoing flow of commits and merged contributions.
  * Demonstrate that the current level of community participation is sufficient to meet the goals outlined in the growth plan.
@@ -201,7 +201,7 @@ The review includes the following:
    is in the stage that accurately reflects its needs and goals. For example,
    is it already ready to move to another progression level? Is it on track
    at the current level? Is any action needed from the TAC (e.g., change in
-   or addition to any project liason(s))?  If nothing has changed
+   or addition to any project liaison(s))?  If nothing has changed
    significantly, there may be nothing to review here.
 
 3. Review any budget allocations relevant to the project, and whether any
@@ -220,5 +220,5 @@ Projects are encouraged to proactively inform the TAC when something
 changes that affects their submission template or Technical Charter (changing a License, security
 reporting process, CoC, etc.), rather than waiting for the next annual review.
 
-It is the responsibility of the project's [liason](project-liasons.md) to help the project determine
+It is the responsibility of the project's [liaison](project-liaisons.md) to help the project determine
 what needs to be reviewed by the TAC, and keep the TAC informed.
