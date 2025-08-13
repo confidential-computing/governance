@@ -51,7 +51,7 @@ A quorum was not required
 * Arm - Paul Howard  
 * Google - Catherine Zhang+ / Catalin Sandu 
 * Huawei - Zhipeng (Howard) Huang 
-* Intel - Raynor Scott / Simon Johnson
+* Intel - Scott Raynor/ Simon Johnson
 * Meta - Henry Wang / Kevin Hui
 * Microsoft - Alec Fernandez
 * Nvidia - Fritz Alder
@@ -96,8 +96,9 @@ Hang Yin (HY), Roman Zhukov (RZ), Mark Gentry (MG) & Jeff Kuhn (JK)  introduced 
 * Meeting minutes will be approved via GitHub. DM reviewed the old Business covered in the previous meeting.
 
 ## Announcements
-* Mentee blog post
-DM mentioned a blog post from a mentee in the mentorship program about attestation formats. 
+* Mentee blog post 
+DM mentioned a blog post from Harsh Vardhan Mahawar, a mentee in the mentorship program, about attestation formats:
+https://confidentialcomputing.io/2025/07/29/harmonizing-open-source-remote-attestation-my-lfx-mentorship-journey/
 
 * Research Fund proposal for academic projects
 DM mentioned that Mingshen Sun (MS) from TikTok has proposed a funding mechanism for academic work that will be shared with the TAC list for feedback. Mike Bursell(MB) mentioned they're following the EBPF Foundation's model for this funding initiative and encouraged members to discuss with their companies about potential financial support
@@ -105,14 +106,15 @@ DM mentioned that Mingshen Sun (MS) from TikTok has proposed a funding mechanism
 ## Project Proposal Vote: DStack
 DM mentioned that since the meeting lacks a quorum, the vote on the D Stack project will be moved to the TAC mailing list.
 
+
 ## Tech Talk RISC-V CoVE update
-Ravi Sahita (RS) presented the Tech Talk on RISC-V CoVE update. Following the presentation, there was a Q&A session where attendees raised several questions.  RS effectively addressed all queries from the attendees.[Slide](./RISC-V%20Tech%20Talk-CCC%202025-08-07.pdf)
+Ravi Sahita (RS) presented the Tech Talk on RISC-V CoVE update. Following the presentation, there was a Q&A session where attendees raised several questions.  RS effectively addressed all queries from the attendees.[Slide](./RISC-V_Tech-Talk-2025-08-07.pdf)
 
 ## Tech Talk Confidential Computing experiences and learning from the field
-Dr. Chris Butler presented the Tech Talk on Confidential Computing experiences and learning from the field.  CB effectively addressed all queries from the attendees.[Slide](./Confidential%20computing%20use-cases%20&%20learning%20Tech%20Talk-CCC%202025-08-07.pdf)
+Dr. Chris Butler presented the Tech Talk on Confidential Computing experiences and learning from the field.  CB effectively addressed all queries from the attendees.[Slide](./Confidential_Computing_use_cases_and_learning_Tech-Talk-2025-08-07.pdf)
 
 ## Annual Project Review ManaTEE
-Mingshen Sun (MS) presented the annual project review of the ManaTEE project. MS effectively addressed all queries from the attendees.[Slide](./ManaTEE%202025%20Annual%20Review-CCC.pdf)
+Mingshen Sun (MS) presented the annual project review of the ManaTEE project. MS effectively addressed all queries from the attendees.[Slide](./ManaTEE_Project_2025-Annual-Review.pdf)
 
 ## Topic Schedule 2025  
 DM reviewed the schedule for the upcoming weeks.
