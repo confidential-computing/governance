@@ -16,7 +16,7 @@ The discussion that follows will refer to the following Roles and Assets inheren
 | Role | Description and Trust Relationships |
 | :---- | :---- |
 | **Verifier System Operator (VSO)** | The Cloud Service Provider (CSP) or a similar entity that owns and/or operates the hardware and optionally the operating system on which the Verifier Service runs. |
-| **Verifier Service (VS)** | The entity that operates and bears responsibility for the secure operation of a service to assess attestations. The VS may support a single customer or multiple customers defined here as Verifier Tenants. The VS is responsible for collecting Reference Values and Endorser identities for the TEEs that it will verify. The VS trusts[^1] the VSO and may choose to minimize that trust by operating its Verifier Service Software within a TEE. |
+| **Verifier Service (VS)** | The entity that operates and bears responsibility for the secure operation of a service to assess attestations. The VS may support a single customer or multiple customers defined here as Verifier Tenants. In the predominant operational model, the VS is responsible for collecting Reference Values and Endorser Identities for the TEEs that it will verify. The VS trusts[^1] the VSO and may choose to minimize that trust by operating its Verifier Service Software within a TEE. |
 | **Verifier Tenant (VT)** | The entity that defines Assessment Policies for Confidential Computing workloads and deploys those policies through a Verifier Service (VS). The VT relies upon the correct operation of the VS to enforce the Assessment Policies. The VT trusts the VS directly and VSO transitively. Operationally, the VT may require attestations from the VS itself as the VT assesses the trustworthiness of the VS in each interaction. |
 | **Attesters and Relying Parties (per Tenant)** | The entities that rely on the Verifier Tenant for trust decisions. Typically, the Attester and the Relying Party are associated with the same Verifier Tenant. Trust is placed in the Verifier Tenant directly and the Verifier Service and the VSO transitively. |
 
@@ -34,7 +34,7 @@ The list below assumes a multi-tenant Verifier (single-tenant is a trivial case 
 | **Verifier Service software** | VS | Deployed executable code that constitutes the Verifier Service and is shared by all Verifier Tenants | No |
 | **Verifier Service configuration** | VS | Configuration values that define the execution of the Verifier Service and integration with its supporting services (if any), *excluding* cryptographic keys | No |
 | **Verifier Service secrets** | VS | Secrets (encryption, signing) utilized by the Verifier Service for its secure operation | Yes |
-| **Verifier Service Reference Values** | VS | Expected Reference Values used in the process of assessing Evidence produced by an Attester. Informally these are the hardware reference values. | No |
+| **Verifier Service Reference Values** | VS | Expected Reference Values used in the process of assessing Evidence produced by an Attester. Informally these are the hardware and firmware reference values. | No |
 | **Verifier Tenant secrets** | VT |  All Verifier Tenant secrets for authentication or encryption | Yes |
 | **Verifier Tenant signing key(s)** | VT | The signing key (or similar) used to sign the Verifier Tenant responses such as Attestation Results | Yes |
 | **Verifier Tenant encryption key(s)** | VT | The encryption keys used to safeguard Verifier Tenant data at rest | Yes |
@@ -67,8 +67,8 @@ Verifier governance aims to achieve the following goals and ensure that the evid
 1. Trust in Verifier is established via the following mechanisms:  
    1. The Verifier Service MUST be properly administered: it runs expected code in a secure configuration on a system properly administered by the VSO.  
    2. The Verifier Service MUST regularly obtain the most recent Reference Values and Endorser identities from vendors (see **\[1\]** for more details).
-   2. The Verifier Service MUST be executing the most current policies of its Tenant(s).  
-   3. An Attester SHOULD **\[a\]** know which Verifier Tenant to contact and can authenticate it before sharing any data.  
+   3. The Verifier Service MUST be executing the most current policies of its Tenant(s).  
+   4. An Attester SHOULD **\[a\]** know which Verifier Tenant to contact and can authenticate it before sharing any data.  
         
 2. High availability (i.e. in excess of the availability required of the applications which depend on the Verifier) SHOULD **\[b\]** be maintained, through well-understood mechanisms:  
    1. Maintaining multiple concurrent load-balanced Verifier instances  
