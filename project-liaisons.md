@@ -37,7 +37,7 @@ Currently accepted CCC projects have been assigned the following liaison:
 * **[Enarx](https://github.com/enarx)**: TBD
 * **[Gramine](https://gramineproject.io/)**: TBD
 * **[Islet](https://github.com/islet-project)**: [Bokdeuk Jeong](https://github.com/bokdeuk-jeong)
-* **[ManaTEE](https://github.com/manatee-project)**: [Dayeol Lee](https://github.com/dayeol)
+* **[ManaTEE](https://github.com/manatee-project)**: [Mingshen Sun](https://github.com/mssun)
 * **[Keystone](https://keystone-enclave.org)**: TBD
 * **[Occlum](https://occlum.io)**: [Tate Tian](https://github.com/tatetian)
 * **[Open Enclave SDK](https://github.com/openenclave/openenclave)**: [Alec Fernandez](https://github.com/alecfernandez)
