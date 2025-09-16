@@ -34,5 +34,5 @@ To summarize, the overarching goal we must achieve is turning TWI into the [Sche
 
 ## References
 1. TODO: Document summarizing current regulatory landscape
-2. Trustworthy Workload Identity: Definitions, Entities and Relationships: <https://github.com/confidential-computing/twi/blob/main/TSI_Definitions.md>
+2. Trustworthy Workload Identity: Definitions, Entities and Relationships: <https://github.com/confidential-computing/twi/blob/main/TWI_Definitions.md>
 3. Trustworthy Workload Identity Scenarios and Requirements: <https://github.com/confidential-computing/twi/blob/main/TWI_Requirements.md>
