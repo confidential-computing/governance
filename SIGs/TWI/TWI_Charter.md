@@ -17,8 +17,8 @@ We envision ubiquitous use of Trustworthy Workload Identities as the preferred m
 
 The goals of the TWI SIG are as follows:
 
-1. Precisely define and publish (in **\[3]**) all scenarios and requirements that Trustworthy Workload Identity must meet
-2. Create a TWI Reference Architecture that addresses all the scenarios and requirements documented in **\[3]**
+1. Precisely define and publish (in  **\[2]** and **\[3]**) all scenarios and requirements that Trustworthy Workload Identity must meet
+2. Create a TWI Reference Architecture that addresses all the scenarios and requirements documented in **\[2]** and **\[3]**
 3. Achieve integration (“impedance match”) of the TWI Reference Architecture with applicable existing and evolving frameworks, standards and solutions
 4. Influence the evolution of the broader Workload Identity solution space as appropriate to ensure that TWI offers a compatible and attractive option
 5. Provide reference open source implementations adhering to the Reference Architecture to assist the TWI community
