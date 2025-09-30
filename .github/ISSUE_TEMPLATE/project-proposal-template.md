@@ -18,6 +18,7 @@ Project Repository {REPO}
 - [ ] New Project Created In LFX
 - [ ] Project Submission Form Submitted 
 - [ ] Technical Charter / Participation Agreement / Trademark docs approved & signed by project
+- [ ] Project proposal presentation to the GB members
 - [ ] Board Vote (Date: )
 - [ ] Project made active in PCC by notifying the formation team
 - [ ] Create a support ticket to add the project category (Incubating / Graduated) and software license to project the definition
