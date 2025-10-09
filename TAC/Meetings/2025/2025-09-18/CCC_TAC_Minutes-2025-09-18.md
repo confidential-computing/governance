@@ -110,7 +110,7 @@ Simon Frost (SF) presented the annual project review of Veraison, provided an up
 * Research Fund proposal for academic projects
 YM mentioned that Mingshen Sun (MS) from TikTok has proposed a funding mechanism for academic work. MS presented plans to establish an academic research fund following the eBPF Foundation model, with a goal to support confidential computing research and foster adoption. The TAC group discussed next steps including forming a program committee, reducing the broad list of research topics, and establishing clear selection criteria focused on impact rather than quantity of applications. 
 Mike Bursell clarified the proposal that no more than one person per company/group of companies should serve on the programme committee.
-Mona Vij, Mike Bursell, Dan Middleton, Caroline Perez-Vargas, Fritz Alder, Mingshen Sun & SIG Chairs volunteered to be potential program committee. MS also provided clarity about the research fund program & mentorship program. [Document link](./Confidential%20Computing%20Consortium%20Research%20Fund.pdf)
+Mona Vij, Mike Bursell, Caroline Perez-Vargas, Fritz Alder, Mingshen Sun volunteered to be potential program committee. MS also provided clarity about the research fund program & mentorship program. [Document link](./Confidential%20Computing%20Consortium%20Research%20Fund.pdf)
 
 ## Topic Schedule 2025  &  Future Business
 YM reviewed the schedule for the upcoming weeks. YM reviewed annual project reviews and TAC topic goals for the rest of the TAC meetings, YM briefed about the future business discussions at TAC meetings. 
