@@ -38,6 +38,8 @@ The list below assumes a multi-tenant Verifier (single-tenant is a trivial case 
 | **Verifier Tenant secrets** | VT |  All Verifier Tenant secrets for authentication or encryption | Yes |
 | **Verifier Tenant signing key(s)** | VT | The signing key (or similar) used to sign the Verifier Tenant responses such as Attestation Results | Yes |
 | **Verifier Tenant encryption key(s)** | VT | The encryption keys used to safeguard Verifier Tenant data at rest | Yes |
+| **Verifier Tenant Reference Values** | VT | Expected Reference Values used in the process of assessing Evidence produced by an Attester. Informally these are the workload measurements. | No |
+
 | **Verifier Tenant Reference Values** | VT | Expected Reference Values used in the process of assessing Evidence produced by an Attester. Informally these are the Workload reference values. | Opt |
 | **Verifier Tenant assessment policy** | VT | The set of policies used by the Verifier Tenant in order to assess Evidence supplied by an Attester | Opt |
 | **Verifier Tenant data at rest** | VT | The set of data other than policies maintained by the Verifier Tenant, such as logs related to the attestation process | Opt |
