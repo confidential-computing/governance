@@ -50,7 +50,7 @@ A quorum was not achieved
 * AMD - Nathaniel McCallum+ / David Kaplan
 * Arm - Paul Howard+  
 * Google -  Catalin Sandu+ 
-* Huawei - Zhipeng (Howard) Huang 
+* Huawei - Wu Yongzheng 
 * Intel - Raynor Scott / Simon Johnson
 * Meta - Henry Wang / Kevin Hui
 * Microsoft - Alec Fernandez+
@@ -87,7 +87,7 @@ Keith Moyer (KM) introduced themselves from Google.
 
 ## Announcements
 Download from the Board meeting:
-Mike Bursell (MB) briefed the key outputs from the Board meeting on Oct 15, 2025.MB shared:
+Mike Bursell (MB) briefed the key outputs from the Board meeting on Oct 15, 2025. MB shared:
 The Governing Board recently set a high-level strategy that will be broken down into actionable items with an appropriate budget at the next board meeting
 The strategy aims to balance supply-side and demand-side work to encourage adoption
 Future focus areas include work with regulators, compliance, and standards
@@ -101,9 +101,9 @@ DM gave a brief overview of the budget proposal for 2026:
 The overall budget will be smaller next year after deficit spending this year to use the surplus.
 The test infrastructure budget will be reduced, as actuals were lower than allocated
 Proposal to redirect $100,000 (previously for Technical Community Architect) to fund two projects with $50,000 each
-Mona Vij raised concerns about the Gramine project funding, as Intel's funding has disappeare,d and the project has slowed significantly
+Mona Vij raised concerns about the Gramine project funding, as Intel's funding has decreased and the project has slowed significantly without funded maintainers.
 
-## Trustless Attestation Verification in Confidential 
+## Trustless Attestation Verification in Confidential Computing
 Donghang Lu (DL) presented an update on TikTok's zero-knowledge attestation verification project.
 They've open-sourced two implementations: one using Circom and another using RISC-0.
 The RISC-0 version was just released and offers better performance (20-30 seconds vs 20-30 minutes) 
