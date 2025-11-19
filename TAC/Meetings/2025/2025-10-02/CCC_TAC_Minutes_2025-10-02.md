@@ -106,14 +106,14 @@ The TAC members also discussed whether the SPDM security security audit is worth
 The committee also discussed the SPDM protocol and implementation (SPDMRS), including its usage in industry and the potential value of a security audit. Members were asked to check if their companies use SPDMRS and might contribute to funding the audit.
 
 ## Trustless Attestation Verification in Confidential 
-Donghang Lu (DL) presented on "Trustace":
+Donghang Lu (DL) presented on "Trustless Attestation Verification":
 An anonymous attestation project using zero-knowledge proofs
 Open-sourced last year
-TikTok is considering donating it as a CCC project and integrating with Verison
+TikTok is considering donating it as a CCC project and integrating with Veraison
 DL added:
 The project uses zero-knowledge proofs to make attestation verification services trustless.
 It addresses trust boundary issues in cloud-based attestation verification services.
-[Slide link](./Trustless_attestation_Project_Proposal%20-2025.pptx.pdf)
+[Slide link](./Trustless_attestation_Project_Proposal-2025.pptx.pdf)
 
 ## Topic Schedule 2025  &  Future Business
 
