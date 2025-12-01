@@ -12,7 +12,7 @@
 
 * (**Zoom**)[https://zoom-lfx.platform.linuxfoundation.org/meeting/94618773737?password=4b2a5cdf-685a-4ea3-822d-24ff7ddab72e]
 
-* **Calendar**: [confidentialcomputing claendar](https://confidentialcomputing.io/get-involved/calendar/),
+* **Calendar**: [CCC Calendar](https://confidentialcomputing.io/get-involved/calendar/),
 
 * **Recordings**: [YouTube TAC Playlist](https://www.youtube.com/playlist?list=PLmfkUJc39uMjaB_I1dYW72I44kr9QzG_B)
 
