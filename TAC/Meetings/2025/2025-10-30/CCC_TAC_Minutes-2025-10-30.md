@@ -97,7 +97,7 @@ DM introduced the CCC Governing board strategic goals.
 “Transform the CCC into the acknowledged leader in creating and disseminating technical excellence for CC, promoting design best practice, use cases and reference architectures. 
 Focus: best practice technical blueprints to service CC demand.” 
 Mandate TAC with best practices || reference architectures || open source project integration (TCA role cut)
-He also discussed the TAC budget and asked the input of the members in the [budget issue]9https://github.com/confidential-computing/governance/issues/3300.
+He also discussed the TAC budget and asked the input of the members in the [budget issue](https://github.com/confidential-computing/governance/issues/330).
 The members discussed the importance of documentation and “how to get started” guides for CC. DM encourage the people to start on documentation and collaborate on improvement, rather than wait to create the perfect document. 
 
 
