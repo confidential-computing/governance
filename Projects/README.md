@@ -4,19 +4,44 @@ The [Confidential Computing Consortium](https://confidentialcomputing.io) hosts 
 
 ## Index of Projects
 
-* [Certifier Framework For Confidential Computing ](#certifier-framework-for-confidential-computing)
-* [COCONUT-SVSM](#coconut-svsm)
-* [Enarx](#enarx)
-* [Gramine](#gramine)
-* [Islet](#islet)
-* [Keystone](#keystone)
-* [ManaTEE](#manatee)
-* [Occlum](#occlum)
-* [Open Enclave SDK](#open-enclave-sdk)
-* [spdm-rs](#spdm-rs)
-* [Veracruz](#veracruz)
-* [Veraison](#veraison)
-* [VirTEE](#virtee)
+- [Confidential Computing Consortium projects](#confidential-computing-consortium-projects)
+  - [Index of Projects](#index-of-projects)
+  - [Certifier Framework For Confidential Computing](#certifier-framework-for-confidential-computing)
+      - [Links](#links)
+  - [COCONUT-SVSM](#coconut-svsm)
+      - [Links](#links-1)
+  - [Dstack](#dstack)
+      - [Links](#links-2)
+  - [Enarx](#enarx)
+      - [Links](#links-3)
+      - [Webinars](#webinars)
+      - [Funding requests](#funding-requests)
+  - [Gramine](#gramine)
+      - [Links](#links-4)
+      - [Webinars](#webinars-1)
+  - [Islet](#islet)
+      - [Links](#links-5)
+  - [Keystone](#keystone)
+      - [Links](#links-6)
+      - [Webinars](#webinars-2)
+  - [ManaTEE](#manatee)
+    - [Links](#links-7)
+  - [Occlum](#occlum)
+      - [Links](#links-8)
+      - [Webinars](#webinars-3)
+  - [Open Enclave SDK](#open-enclave-sdk)
+      - [Links](#links-9)
+      - [Presentations](#presentations)
+      - [Webinars](#webinars-4)
+  - [spdm-rs](#spdm-rs)
+      - [Links](#links-10)
+  - [Veracruz](#veracruz)
+      - [Links](#links-11)
+      - [Webinars](#webinars-5)
+  - [Veraison](#veraison)
+      - [Links](#links-12)
+  - [VirTEE](#virtee)
+      - [Links](#links-13)
 
 ---
 
@@ -64,6 +89,20 @@ OS to reduce the need to harden the CVM OS from malicious hypervisor input.
     * Accepted by TAC: 2023-12-14   
     * Accepted by Governing Board: 2024-04-17
 * [Charter](./COCONUT_SVSM/COCONUT-SVSM-Technical-Charter-Final-3-28-2024.docx.pdf)
+
+## Dstack
+
+Dstack is a developer-friendly and security-first SDK that simplifies deploying containerized applications into Trusted Execution Environments (TEEs) using familiar tools like docker-compose. It provides secure secret management and a built-in TLS termination or passthrough reverse proxy for exposed services, enabling portable confidential containers and Zero Trust-friendly operations.
+
+**Status:** Incubation
+
+#### Links
+
+* [Project detail](./Dstack/dstack-ccc-project-submission.md)
+* [GitHub](https://github.com/Dstack-TEE/dstack)
+* [Proposal](./Dstack/dstack-ccc-project-submission.md)
+    * Accepted by TAC: 2025-08-28
+    * Accepted by Governing Board: 2025-10-29
 
 ## Enarx
 
