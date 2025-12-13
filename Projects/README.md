@@ -79,6 +79,8 @@ Dstack is a developer-friendly and security-first SDK that simplifies deploying 
 * [Proposal](./Dstack/dstack-ccc-project-submission.md)
     * Accepted by TAC: 2025-08-28
     * Accepted by Governing Board: 2025-10-29
+* [Charter](./Dstack/dstack_Technical_Charter_Final_10-17-2025.pdf)
+* [Artwork](https://github.com/confidential-computing/artwork#dstack)
 
 ## Enarx
 
