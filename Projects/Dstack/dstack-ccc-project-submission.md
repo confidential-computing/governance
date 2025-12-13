@@ -6,7 +6,7 @@ dstack
 
 ## 1.2. Project Description (what it does, why it is valuable, origin and history)
 
-dstack is a developer-friendly and security-first SDK that simplifies the deployment of arbitrary containerized applications into Trusted Execution Environments (TEEs). It enables developers to securely deploy containerized applications in TEEs in minutes using familiar tools like docker-compose. Dstack provides safe management of secrets and sensitive data, along with built-in TLS TLS termination or passthrough reverse proxy for exposed services.
+Dstack is a developer-friendly and security-first SDK that simplifies the deployment of arbitrary containerized applications into Trusted Execution Environments (TEEs). It enables developers to securely deploy containerized applications in TEEs in minutes using familiar tools like docker-compose. Dstack provides safe management of secrets and sensitive data, along with built-in TLS termination or passthrough reverse proxy for exposed services.
 
 The project was built by Kevin Wang and others from Phala Network, inspired by Andrew Miller (Flashbots & Teleport), and has received contributions from Nethermind and many others. Dstack addresses the gap between raw TEE technology and Zero Trust platform requirements by providing portable confidential containers, decentralized code management, and verifiable domain management.
 
@@ -90,7 +90,7 @@ Contributor Covenant v2.0 based Code of Conduct.
 
 ## 3.8. Release methodology and mechanics
 
-dstack projects are hosted on GitHub, with releases triggered by GitHub Actions. The automated build process compiles all project components and packages the artifacts. System images are produced using Yocto, a reproducible build tool that ensures consistency and reliability across releases. This approach provides a standardized and automated release process that maintains quality and reproducibility.
+Dstack projects are hosted on GitHub, with releases triggered by GitHub Actions. The automated build process compiles all project components and packages the artifacts. System images are produced using Yocto, a reproducible build tool that ensures consistency and reliability across releases. This approach provides a standardized and automated release process that maintains quality and reproducibility.
 
 ## 3.9. Names of initial committers, if different from those submitting proposal Initial committers include:
 
@@ -106,7 +106,7 @@ Telegram group: [https://t.me/+RF-yUoDduWAzZTUx](https://t.me/+RF-yUoDduWAzZTUx)
 
 ## 3.11. Project Security Response Policy
 
-dstack follows a responsible disclosure policy with these commitments:
+Dstack follows a responsible disclosure policy with these commitments:
 
 - Responding to security reports within 3 business days with an evaluation and expected resolution timeline
 - Not taking legal action against reporters who follow responsible disclosure guidelines
