@@ -6,6 +6,7 @@ The [Confidential Computing Consortium](https://confidentialcomputing.io) hosts 
 
 * [Certifier Framework For Confidential Computing ](#certifier-framework-for-confidential-computing)
 * [COCONUT-SVSM](#coconut-svsm)
+* [Dstack](#dstack)
 * [Enarx](#enarx)
 * [Gramine](#gramine)
 * [Islet](#islet)
@@ -64,6 +65,22 @@ OS to reduce the need to harden the CVM OS from malicious hypervisor input.
     * Accepted by TAC: 2023-12-14   
     * Accepted by Governing Board: 2024-04-17
 * [Charter](./COCONUT_SVSM/COCONUT-SVSM-Technical-Charter-Final-3-28-2024.docx.pdf)
+
+## Dstack
+
+Dstack is a developer-friendly and security-first SDK that simplifies deploying containerized applications into Trusted Execution Environments (TEEs) using familiar tools like docker-compose. It provides secure secret management and a built-in TLS termination or passthrough reverse proxy for exposed services, enabling portable confidential containers and Zero Trust-friendly operations.
+
+**Status:** Incubation
+
+#### Links
+
+* [Project detail](./Dstack/dstack-ccc-project-submission.md)
+* [GitHub](https://github.com/Dstack-TEE/dstack)
+* [Proposal](./Dstack/dstack-ccc-project-submission.md)
+    * Accepted by TAC: 2025-08-28
+    * Accepted by Governing Board: 2025-10-29
+* [Charter](./Dstack/dstack_Technical_Charter_Final_10-17-2025.pdf)
+* [Artwork](https://github.com/confidential-computing/artwork#dstack)
 
 ## Enarx
 
