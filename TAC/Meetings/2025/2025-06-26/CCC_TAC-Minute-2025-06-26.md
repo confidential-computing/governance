@@ -95,7 +95,7 @@ Discussion ensued.
 
 
 ## Tech Talk Usama on Standardisation of Attested TLS Protocols 
-Muhammad Usama Sardar (MUS) presented the Tech Talk on Standardisation of Attested TLS Protocols. Following the presentation, there was a Q&A session where attendees raised several questions.  MUS effectively addressed all queries from the attendees.
+Muhammad Usama Sardar (MUS) presented the Tech Talk on Standardisation of Attested TLS Protocols. Following the presentation, there was a Q&A session where attendees raised several questions.  MUS effectively addressed all queries from the attendees.[Slide](./CCC_Tech-Talk_2025-06-26.pdf)
 
 
 ## TAC Maintenance 
