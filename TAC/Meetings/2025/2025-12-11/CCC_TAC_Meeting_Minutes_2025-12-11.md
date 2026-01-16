@@ -89,7 +89,7 @@ Rene Kolga introduced themselves to the meeting.
 
 ## Announcements
 DM shared the election results, mentioning that DM will be chairing the TAC for 2026, while Ijal shall be the Vice-Chair for 2026. 
-He shared the TAC Topics for 2026, which need to be planned.DM shared that the next TAC meeting will be on January 08, 2026, and today’s meeting will be the last one for this year. 
+He shared the TAC Topics for 2026, which need to be planned. DM shared that the next TAC meeting will be on January 08, 2026, and today’s meeting will be the last one for this year. [Later the first meeting was pushed back to Jan 22.]
 DM explained that the budget for 2026 is a balanced one and requested to take a look at the budget in January 2026.
 Mona Vij requested details about the criteria used for selecting top projects and suggested revisiting the process, with a possibility of creating new criteria for future evaluations. DM acknowledged the subjective nature of the current criteria and invited proposals for more objective ones.
 Yash Mankad announced that he would send out a year-end review for the TAC early next week, highlighting the group's achievements, including the launch of the TWI SIG and voting on project proposals.
