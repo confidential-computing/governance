@@ -121,7 +121,6 @@ The shared responsibility model needs clarification in the CCC documentation
 Attestation key extraction vulnerability could require tying attestations to specific machines/platforms, which Mike strongly opposed as a "hugely retrograde step"
 
 
-The committee acknowledged that who should provide attestation remains a major unsolved problem for confidential computing.
 
 
 * Key Action Items:
