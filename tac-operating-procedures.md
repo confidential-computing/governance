@@ -4,6 +4,11 @@ This document outlines the operational policies adopted by the Technical Advisor
 ensure efficient governance and decision-making. These policies are adopted by consensus of the TAC
 and serve as standing rules in addition to the [Technical Charter](TECHNICAL_CHARTER.md).
 
+## 0. Communication
+
+TAC has a mailing list, slack, and github. Links are maintained on the CCC website.
+TAC Voting Members must be subscribed to all three to fulfill basic responsibilities.
+
 ## 1. Voting Member Attendance and Quorum
 
 To ensure the TAC maintains the ability to conduct official business and reach quorum, Voting
@@ -32,8 +37,10 @@ by attending **two (2)** consecutive TAC meetings. Voting rights are reinstated 
 start of the third consecutive meeting attended.
 
 ### 1.4. Leave of Absence
+
 A Voting Member may request a voluntary "Leave of Absence" by notifying the TAC Chair in writing.
 During this period, the member is not counted toward the quorum denominator. They may return to
 Active status immediately upon notifying the Chair of their return.
 Ideally, companies should name an alternate Voting Member to attend during the absence.
-
+An alternate assumes the Voting Member position for their company and its 
+attendance record to date. 
