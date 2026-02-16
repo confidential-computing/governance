@@ -57,11 +57,11 @@ Open Enclave SDK is an open source framework that allows developers to build Tru
 
 #### Links
 
-* [Project detail](./Open_Enclave_SDC/open_enclave_sdk-project_detail.docx)
+* [Project detail](./Open_Enclave_SDK/open_enclave_sdk-project_detail.docx)
     * ([2020 review](./Open_Enclave_SDK/open_enclave_project_review-2020.md))
 * [Website](https://openenclave.io/sdk/)
 * [GitHub](https://github.com/openenclave/openenclave)
-* [Proposal](./Open_Enclave_SDC/open_enclave_sdk-accepted_proposal.pdf)
+* [Proposal](./Open_Enclave_SDK/open_enclave_sdk-accepted_proposal.pdf)
     * Accepted by TAC: 2019-10-31
     * Accepted by Governing Board: 2019-10-31
 * [Charter](https://github.com/openenclave/openenclave/blob/2554287d88aba93f41a1518b29c57c386c1ecb4b/docs/Community/sig-release/charter.md)
@@ -115,7 +115,7 @@ The Certifier API greatly simplifies and unifies programming and operations supp
 
 ## COCONUT-SVSM
 
-<img height="100" src="https://github.com/confidential-computing/artwork/raw/main/coconut_svsm/logo5.svg">
+<img height="100" src="https://raw.githubusercontent.com/confidential-computing/artwork/main/coconut_svsm/logo5.svg">
 
 The COCONUT-SVSM is an implementation of a Secure VM Service Module for confidential
 computing virtual machines (CVMs). It runs within the TCB of the CVM and aims to support three
@@ -160,7 +160,7 @@ Dstack is a developer-friendly and security-first SDK that simplifies deploying 
 
 ## Enarx
 
-<img height="100" src="https://github.com/confidential-computing/artwork/raw/main/enarx/enarx-logo-horizontal-black.svg">
+<img height="100" src="https://raw.githubusercontent.com/confidential-computing/artwork/main/enarx/enarx-logo-horizontal-black.svg">
 
 Enarx provides a run-time TEE based on WebAssembly, allowing developers to deploy applications without any rewrites from languages like Rust, C/C++, C#, Go, Java, Python, Haskell and many more.
 
@@ -188,7 +188,7 @@ Enarx provides a run-time TEE based on WebAssembly, allowing developers to deplo
 
 ## Islet
 
-<img height="100" src="https://github.com/confidential-computing/artwork/blob/main/islet/islet-logo-title.jpg?raw=true">
+<img height="100" src="https://raw.githubusercontent.com/confidential-computing/artwork/main/islet/islet-logo-title.jpg">
 
 Islet is an open-source software project written in Rust that enables Confidential Computing on Arm architecture devices using the Armv9 CCA. The primary objective of Islet is to enable on-device Confidential Computing and protect user privacy on end user devices.
 
@@ -238,7 +238,7 @@ ManaTEE is an open-source project for easily building and deploying data collabo
 
 ### Links
 
-* [Project detail]()
+* [Project detail](./ManaTee/Data-Clean-Room-Project-CCC.pdf)
 * [GitHub](https://github.com/manatee-project/manatee/)
 * [Proposal](./ManaTee/Data-Clean-Room-Project-CCC.pdf)
     * Accepted by TAC: 2024-07-25
@@ -304,46 +304,6 @@ VirTEE is an open community dedicated to developing open source tools for the br
 * [Charter](./VirTEE/VirTEE_Technical_Charter_8-29-2023.pdf)
 * [Artwork](https://github.com/confidential-computing/artwork/tree/main/virtee)
 
- 
-
-## Veraison
-
-<img height="100" src="https://raw.githubusercontent.com/confidential-computing/artwork/main/veraison/veraison-logo.svg">
-
-Project Veraison builds software components that can be used to build an Attestation Verification Service.
-
-**Status:** Graduation
-
-#### Links
-
-* [Project detail](./Veraison/veraison-ccc-project-veraison-proposal.pdf)
-* [Website](https://github.com/veraison)
-* [GitHub](https://github.com/veraison)
-* [Proposal](./Veraison/veraison-ccc-project-veraison-proposal.pdf)
-    * Accepted by TAC: 2022-02-04
-    * Accepted by Governing Board: 2022-05-18
-* [Charter](./Veraison/Veraison_Technical_Charter_2022-04-28.pdf)
-* [Artwork](https://github.com/confidential-computing/artwork/tree/main/veraison)
-
-## VirTEE
-
-<img height="100" src="https://raw.githubusercontent.com/confidential-computing/artwork/main/virtee/virtee-logo-color.svg">
-
-VirTEE is an open community dedicated to developing open source tools for the bring-up, attestation, and management of Trusted Execution Environments.
-
-**Status:** Incubation
-
-#### Links
-
-* [Project detail](./VirTEE/virtee-accepted_proposal.md)
-* [Website](https://virtee.io/)
-* [GitHub](https://github.com/virtee)
-* [Proposal](./VirTEE/virtee-accepted_proposal.md)
-    * Accepted by TAC: 2023-06-01
-    * Accepted by Governing Board: 2024-01-17
-* [Charter](./VirTEE/VirTEE_Technical_Charter_8-29-2023.pdf)
-* [Artwork](https://github.com/confidential-computing/artwork/tree/main/virtee)
-
 ## Archived Projects
 
 ### Veracruz
@@ -357,7 +317,7 @@ Veracruz is a research project exploring the design of privacy-preserving distri
 #### Links
 
 * [Project detail](./Veracruz/veracruz-project_detail.md) ([FAQ](./Veracruz/veracruz-faq.pdf))
-    * (2021 review)[./Veracruz/veracruz-annual-review-2021.pdf]
+    * [2021 review](./Veracruz/veracruz-annual-review-2021.pdf)
 * [Website](https://github.com/veracruz-project)
 * [GitHub](https://github.com/veracruz-project)
 * [Proposal](./Veracruz/veracruz-accepted_proposal.md)
@@ -370,14 +330,3 @@ Veracruz is a research project exploring the design of privacy-preserving distri
 #### Webinars
 
 * [Veracruz](https://confidentialcomputing.io/webinar-veracruz/)
-
-<!-- #### Webinars -->
-
-
-<!--
----
-
-## Emeritus Projects
-
-There are currently no Emeritus projects in the CCC.
--->
