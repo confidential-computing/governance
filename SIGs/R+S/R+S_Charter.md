@@ -1,6 +1,6 @@
 	
 
-# DRAFT \- Confidential Computing Consortium Regulatory and Standards Special Interest Group (Regulatory & Standards SIG) Formal Charter
+# Confidential Computing Consortium Regulatory and Standards Special Interest Group (Regulatory & Standards SIG) Formal Charter
 
 **NOTE \- please use “Suggesting” or comments when working on this doc.**
 
