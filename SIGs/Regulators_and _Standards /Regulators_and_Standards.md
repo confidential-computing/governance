@@ -2,7 +2,6 @@
 
 # Confidential Computing Consortium Regulatory and Standards Special Interest Group (Regulatory & Standards SIG) Formal Charter
 
-**NOTE \- please use “Suggesting” or comments when working on this doc.**
 
 ## **Affiliation**
 
@@ -18,7 +17,7 @@ The purpose of the Regulatory and Standards SIG is to inform and influence regul
 
 The mission of the Regulatory & Standards SIG is to translate Confidential Computing assurances into regulatory-relevant concepts, promote consistent interpretation of protections for data in use, and support risk-based integration of Confidential Computing within established regulatory, supervisory, and standards frameworks.
 
-## **R\&S SIG Scope**
+## **Regulators and Standards SIG Scope**
 
 #### **In Scope**
 
