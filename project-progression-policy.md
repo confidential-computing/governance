@@ -28,7 +28,7 @@ Some ways a project can benefit by becoming a Consortium-recognized project incl
 12. Security Scanning: Optional.
 13. LFX tools: Access to Linux Foundation tools to improve many aspects of a project from security to community health [tools](https://lfx.linuxfoundation.org/).
 
-Approved projects can [contact operations](mailto:operations@confidentialcomputing.io) for access to these benefits.
+Approved projects can [contact operations](mailto:support@confidentialcomputing.io) for access to these benefits.
 
 ## II. Project Proposal Process
 
