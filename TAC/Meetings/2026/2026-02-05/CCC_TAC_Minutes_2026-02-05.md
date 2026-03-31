@@ -127,7 +127,7 @@ DM & NM discussed the future topics scheduled for 2026, including the Annual pro
 
 Attestation SIG Repository Relocation: MB discussed moving the Attestation SIG repository under the main CCC GitHub organization to comply with Linux Foundation rules. MB will investigate permissions with Renu/Riaan and coordinate the migration with Keith Moyer.
 ANSSI Paper Feedback: There was a discussion regarding a response to an ANSSI paper on confidential computing. The TAC agreed a full rebuttal is not necessary. Instead, the CCC should frame a response acknowledging the paper's valid points regarding shared responsibility in confidential computing environments. Roman Zhukov will be included in the next meeting to ensure his involvement. 
-Attestation Verification Services (AVS) Overview: MB presented a "mind dump" on AVS, covering policy management, delegation, and complex trust relationships. NM warned against the CCC creating a centralised AVS, citing anti-competitive concerns. Mingshen Sun suggested exploring Web3/decentralised technologies for consensus. Ofir Azoulay-Rozanes raised concerns about the effectiveness of software measurements in closed systems where code isn't visible. [Slide link](./AVS%20choices.pdf)
+Attestation Verification Services (AVS) Overview: MB presented a "mind dump" on AVS, covering policy management, delegation, and complex trust relationships. NM warned against the CCC creating a centralised AVS, citing anti-competitive concerns. Mingshen Sun suggested exploring Web3/decentralised technologies for consensus. Ofir Azoulay-Rozanes raised concerns about the effectiveness of software measurements in closed systems where code isn't visible. [Slide link](./AVS_choices.pdf)
 
 
 ## Future Meetings 
