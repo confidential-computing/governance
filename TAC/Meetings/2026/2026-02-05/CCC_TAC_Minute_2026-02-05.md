@@ -91,7 +91,7 @@ Dan Middleton (DM) announced that the Linux Security Summit and Open Source Summ
 [Link](https://events.linuxfoundation.org/open-source-summit-north-america/program/cfp/)
 
 ## Project Grant
-DM reported that due to budget constraints, the board can currently support only one grant rather than the originally planned two. Based on previous voting, the Verizon proposal received the most votes and will be funded. The TAC agreed to proceed with this single grant.
+DM reported that due to budget constraints, the board can currently support only one grant rather than the originally planned two. Based on previous voting, the Veraison proposal received the most votes and will be funded. The TAC agreed to proceed with this single grant.
 [Link](https://github.com/confidential-computing/governance/issues/330)
 
 
@@ -126,7 +126,7 @@ DM & NM discussed the future topics scheduled for 2026, including the Annual pro
 ## Any Other Business
 
 Attestation SIG Repository Relocation: MB discussed moving the Attestation SIG repository under the main CCC GitHub organization to comply with Linux Foundation rules. MB will investigate permissions with Renu/Riaan and coordinate the migration with Keith Moyer.
-ANSI Paper Feedback: There was a discussion regarding a response to an ANSI paper on confidential computing. The TAC agreed a full rebuttal is not necessary. Instead, the CCC should frame a response acknowledging the paper's valid points regarding shared responsibility in confidential computing environments. Roman Zhukov will be included in the next meeting to ensure his involvement. 
+ANSSI Paper Feedback: There was a discussion regarding a response to an ANSSI paper on confidential computing. The TAC agreed a full rebuttal is not necessary. Instead, the CCC should frame a response acknowledging the paper's valid points regarding shared responsibility in confidential computing environments. Roman Zhukov will be included in the next meeting to ensure his involvement. 
 Attestation Verification Services (AVS) Overview: MB presented a "mind dump" on AVS, covering policy management, delegation, and complex trust relationships. NM warned against the CCC creating a centralised AVS, citing anti-competitive concerns. Mingshen Sun suggested exploring Web3/decentralised technologies for consensus. Ofir Azoulay-Rozanes raised concerns about the effectiveness of software measurements in closed systems where code isn't visible. [Slide link](./AVS%20choices.pdf)
 
 
