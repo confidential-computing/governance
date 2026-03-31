@@ -46,7 +46,6 @@ A quorum was not achieved
 *Per the [charter](https://charter.confidentialcomputing.io), all [CCC Premier members](https://confidentialcomputing.io/members/) receive one vote on the TAC. Quorum for votes is at least 50% of voting members present.*
 
 * AMD - Nathaniel McCallum / David Kaplan
-* Arm - Paul Howard  
 * Google -  Rene Kolga / Keith Moyer
 * Huawei - Zhipeng (Howard) Huang 
 * Intel - Scott Raynor+ / Simon Johnson
