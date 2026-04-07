@@ -1,0 +1,123 @@
+# Automatically creates the meeting folder and agenda file for the next TAC
+# meeting by opening a PR.
+#
+# Runs every Friday at 14:00 UTC (7am PT) — one hour before the reminder.
+# Only creates the PR if the meeting folder doesn't already exist.
+#
+# The meeting schedule is read from TAC/meeting-schedule.md.
+# The agenda is generated from TAC/Meetings/agenda-template.md.
+
+name: TAC Meeting Prep
+
+on:
+  schedule:
+    # Every Friday at 14:00 UTC (7 am PT)
+    - cron: "0 14 * * 5"
+  workflow_dispatch: # Allow manual trigger for testing
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  prepare:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Check for meeting this week
+        id: meeting
+        run: |
+          result=$(python3 .github/scripts/parse-schedule.py this-week)
+
+          date=$(echo "$result" | python3 -c "import sys,json; d=json.load(sys.stdin); print(d.get('date',''))")
+          chair=$(echo "$result" | python3 -c "import sys,json; d=json.load(sys.stdin); print(d.get('chair',''))")
+          next_date=$(echo "$result" | python3 -c "import sys,json; d=json.load(sys.stdin); print(d.get('next_date',''))")
+          project_topic=$(echo "$result" | python3 -c "import sys,json; d=json.load(sys.stdin); print(d.get('project_topic',''))")
+          goal_topic=$(echo "$result" | python3 -c "import sys,json; d=json.load(sys.stdin); print(d.get('goal_topic',''))")
+          tech_talk=$(echo "$result" | python3 -c "import sys,json; d=json.load(sys.stdin); print(d.get('tech_talk',''))")
+          error=$(echo "$result" | python3 -c "import sys,json; d=json.load(sys.stdin); print(d.get('error',''))")
+
+          echo "date=$date" >> "$GITHUB_OUTPUT"
+          echo "chair=$chair" >> "$GITHUB_OUTPUT"
+          echo "next_date=$next_date" >> "$GITHUB_OUTPUT"
+          echo "project_topic=$project_topic" >> "$GITHUB_OUTPUT"
+          echo "goal_topic=$goal_topic" >> "$GITHUB_OUTPUT"
+          echo "tech_talk=$tech_talk" >> "$GITHUB_OUTPUT"
+          echo "error=$error" >> "$GITHUB_OUTPUT"
+
+          if [ -n "$error" ]; then
+            echo "skip=true" >> "$GITHUB_OUTPUT"
+            echo "ℹ️ $error — skipping meeting prep."
+          else
+            echo "skip=false" >> "$GITHUB_OUTPUT"
+            echo "📁 Will prepare meeting folder for $date (chair: $chair)"
+          fi
+
+      - name: Check if folder already exists
+        if: steps.meeting.outputs.skip == 'false'
+        id: check
+        run: |
+          year=$(echo "${{ steps.meeting.outputs.date }}" | cut -d- -f1)
+          folder="TAC/Meetings/${year}/${{ steps.meeting.outputs.date }}"
+          if [ -d "$folder" ]; then
+            echo "exists=true" >> "$GITHUB_OUTPUT"
+            echo "📂 Folder $folder already exists — skipping."
+          else
+            echo "exists=false" >> "$GITHUB_OUTPUT"
+            echo "folder=$folder" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Generate agenda from template
+        if: steps.meeting.outputs.skip == 'false' && steps.check.outputs.exists == 'false'
+        env:
+          MEETING_DATE: ${{ steps.meeting.outputs.date }}
+          CHAIR: ${{ steps.meeting.outputs.chair }}
+          NEXT_DATE: ${{ steps.meeting.outputs.next_date }}
+          PROJECT_TOPIC: ${{ steps.meeting.outputs.project_topic }}
+          GOAL_TOPIC: ${{ steps.meeting.outputs.goal_topic }}
+          TECH_TALK: ${{ steps.meeting.outputs.tech_talk }}
+          FOLDER: ${{ steps.check.outputs.folder }}
+        run: |
+          mkdir -p "$FOLDER"
+
+          # Format date for display
+          formatted_date=$(date -d "$MEETING_DATE" "+%B %-d, %Y" 2>/dev/null || echo "$MEETING_DATE")
+          next_formatted=$(date -d "$NEXT_DATE" "+%B %-d, %Y" 2>/dev/null || echo "$NEXT_DATE")
+
+          # Generate agenda from template with placeholder substitution
+          sed \
+            -e "s/{{DATE}}/${formatted_date}/g" \
+            -e "s/{{CHAIR}}/${CHAIR}/g" \
+            -e "s/{{NEXT_DATE}}/${next_formatted}/g" \
+            -e "s/{{PROJECT_TOPIC}}/${PROJECT_TOPIC}/g" \
+            -e "s/{{GOAL_TOPIC}}/${GOAL_TOPIC}/g" \
+            -e "s/{{TECH_TALK}}/${TECH_TALK}/g" \
+            TAC/Meetings/agenda-template.md > "${FOLDER}/CCC_TAC_Meeting_Minutes_${MEETING_DATE}.md"
+
+          echo "✅ Created ${FOLDER}/CCC_TAC_Meeting_Minutes_${MEETING_DATE}.md"
+
+      - name: Create Pull Request
+        if: steps.meeting.outputs.skip == 'false' && steps.check.outputs.exists == 'false'
+        uses: peter-evans/create-pull-request@v6
+        with:
+          branch: "meeting-prep-${{ steps.meeting.outputs.date }}"
+          commit-message: "Add meeting folder for ${{ steps.meeting.outputs.date }}"
+          title: "TAC Meeting Prep: ${{ steps.meeting.outputs.date }}"
+          body: |
+            Automated meeting prep for the TAC meeting on **${{ steps.meeting.outputs.date }}**.
+
+            **Chair:** ${{ steps.meeting.outputs.chair }}
+
+            **Scheduled Topics:**
+            - **CCC Project:** ${{ steps.meeting.outputs.project_topic || 'TBD' }}
+            - **TAC Goal:** ${{ steps.meeting.outputs.goal_topic || 'TBD' }}
+            - **Tech Talk / Proposal:** ${{ steps.meeting.outputs.tech_talk || 'TBD' }}
+
+            This PR creates the meeting folder and agenda template. The chair should update the agenda before the meeting.
+
+            ---
+            _Generated by the [TAC Meeting Prep](https://github.com/confidential-computing/governance/blob/main/.github/workflows/tac-meeting-prep.yml) workflow._
+          labels: "tac-meeting"
+          delete-branch: true
