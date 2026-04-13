@@ -35,16 +35,12 @@ jobs:
           chair=$(echo "$result" | python3 -c "import sys,json; d=json.load(sys.stdin); print(d.get('chair',''))")
           next_date=$(echo "$result" | python3 -c "import sys,json; d=json.load(sys.stdin); print(d.get('next_date',''))")
           project_topic=$(echo "$result" | python3 -c "import sys,json; d=json.load(sys.stdin); print(d.get('project_topic',''))")
-          goal_topic=$(echo "$result" | python3 -c "import sys,json; d=json.load(sys.stdin); print(d.get('goal_topic',''))")
-          tech_talk=$(echo "$result" | python3 -c "import sys,json; d=json.load(sys.stdin); print(d.get('tech_talk',''))")
           error=$(echo "$result" | python3 -c "import sys,json; d=json.load(sys.stdin); print(d.get('error',''))")
 
           echo "date=$date" >> "$GITHUB_OUTPUT"
           echo "chair=$chair" >> "$GITHUB_OUTPUT"
           echo "next_date=$next_date" >> "$GITHUB_OUTPUT"
           echo "project_topic=$project_topic" >> "$GITHUB_OUTPUT"
-          echo "goal_topic=$goal_topic" >> "$GITHUB_OUTPUT"
-          echo "tech_talk=$tech_talk" >> "$GITHUB_OUTPUT"
           echo "error=$error" >> "$GITHUB_OUTPUT"
 
           if [ -n "$error" ]; then
@@ -76,8 +72,6 @@ jobs:
           CHAIR: ${{ steps.meeting.outputs.chair }}
           NEXT_DATE: ${{ steps.meeting.outputs.next_date }}
           PROJECT_TOPIC: ${{ steps.meeting.outputs.project_topic }}
-          GOAL_TOPIC: ${{ steps.meeting.outputs.goal_topic }}
-          TECH_TALK: ${{ steps.meeting.outputs.tech_talk }}
           FOLDER: ${{ steps.check.outputs.folder }}
         run: |
           mkdir -p "$FOLDER"
@@ -92,8 +86,6 @@ jobs:
             -e "s/{{CHAIR}}/${CHAIR}/g" \
             -e "s/{{NEXT_DATE}}/${next_formatted}/g" \
             -e "s/{{PROJECT_TOPIC}}/${PROJECT_TOPIC}/g" \
-            -e "s/{{GOAL_TOPIC}}/${GOAL_TOPIC}/g" \
-            -e "s/{{TECH_TALK}}/${TECH_TALK}/g" \
             TAC/Meetings/agenda-template.md > "${FOLDER}/CCC_TAC_Meeting_Minutes_${MEETING_DATE}.md"
 
           echo "✅ Created ${FOLDER}/CCC_TAC_Meeting_Minutes_${MEETING_DATE}.md"
@@ -112,8 +104,6 @@ jobs:
 
             **Scheduled Topics:**
             - **CCC Project:** ${{ steps.meeting.outputs.project_topic || 'TBD' }}
-            - **TAC Goal:** ${{ steps.meeting.outputs.goal_topic || 'TBD' }}
-            - **Tech Talk / Proposal:** ${{ steps.meeting.outputs.tech_talk || 'TBD' }}
 
             This PR creates the meeting folder and agenda template. The chair should update the agenda before the meeting.
 

@@ -34,15 +34,11 @@ jobs:
           date=$(echo "$result" | python3 -c "import sys,json; d=json.load(sys.stdin); print(d.get('date',''))")
           chair=$(echo "$result" | python3 -c "import sys,json; d=json.load(sys.stdin); print(d.get('chair',''))")
           project_topic=$(echo "$result" | python3 -c "import sys,json; d=json.load(sys.stdin); print(d.get('project_topic',''))")
-          goal_topic=$(echo "$result" | python3 -c "import sys,json; d=json.load(sys.stdin); print(d.get('goal_topic',''))")
-          tech_talk=$(echo "$result" | python3 -c "import sys,json; d=json.load(sys.stdin); print(d.get('tech_talk',''))")
           error=$(echo "$result" | python3 -c "import sys,json; d=json.load(sys.stdin); print(d.get('error',''))")
 
           echo "date=$date" >> "$GITHUB_OUTPUT"
           echo "chair=$chair" >> "$GITHUB_OUTPUT"
           echo "project_topic=$project_topic" >> "$GITHUB_OUTPUT"
-          echo "goal_topic=$goal_topic" >> "$GITHUB_OUTPUT"
-          echo "tech_talk=$tech_talk" >> "$GITHUB_OUTPUT"
           echo "error=$error" >> "$GITHUB_OUTPUT"
 
           if [ -n "$error" ]; then
@@ -63,8 +59,6 @@ jobs:
           MEETING_DATE: ${{ steps.meeting.outputs.date }}
           CHAIR_NAME: ${{ steps.meeting.outputs.chair }}
           PROJECT_TOPIC: ${{ steps.meeting.outputs.project_topic }}
-          GOAL_TOPIC: ${{ steps.meeting.outputs.goal_topic }}
-          TECH_TALK: ${{ steps.meeting.outputs.tech_talk }}
         run: |
           # Format the date nicely
           formatted_date=$(date -d "$MEETING_DATE" "+%A, %B %-d, %Y" 2>/dev/null || echo "$MEETING_DATE")
@@ -72,19 +66,7 @@ jobs:
           # Build the agenda topics section dynamically
           topics=""
           if [ -n "$PROJECT_TOPIC" ]; then
-            topics="${topics}\n• *CCC Project:* ${PROJECT_TOPIC}"
-          fi
-          if [ -n "$GOAL_TOPIC" ]; then
-            topics="${topics}\n• *TAC Goal:* ${GOAL_TOPIC}"
-          fi
-          if [ -n "$TECH_TALK" ]; then
-            topics="${topics}\n• *Tech Talk / Proposal:* ${TECH_TALK}"
-          fi
-
-          if [ -n "$topics" ]; then
-            topics_section="\n\n*Scheduled Topics:*${topics}"
-          else
-            topics_section=""
+            topics="\n\n*Scheduled Topics:*\n• *CCC Project:* ${PROJECT_TOPIC}"
           fi
 
           curl -X POST "$SLACK_WEBHOOK_URL" \
@@ -92,6 +74,6 @@ jobs:
             --fail-with-body \
             -d @- <<EOF
           {
-            "text": "📋 *TAC Meeting Reminder*\n\n*Date:* ${formatted_date}\n*Time:* 8:00–9:00 am PT\n*Chair:* ${CHAIR_NAME}${topics_section}\n\n<https://zoom-lfx.platform.linuxfoundation.org/meeting/94618773737?password=4b2a5cdf-685a-4ea3-822d-24ff7ddab72e|Join Zoom Meeting>\n\n_${CHAIR_NAME} — as this week's chair, please prepare the agenda and share it with the TAC before the meeting. See the <https://github.com/confidential-computing/governance/blob/main/TAC/meeting-schedule.md|meeting schedule> for details._"
+            "text": "📋 *TAC Meeting Reminder*\n\n*Date:* ${formatted_date}\n*Time:* 8:00–9:00 am PT\n*Chair:* ${CHAIR_NAME}${topics}\n\n<https://zoom-lfx.platform.linuxfoundation.org/meeting/94618773737?password=4b2a5cdf-685a-4ea3-822d-24ff7ddab72e|Join Zoom Meeting>\n\n_${CHAIR_NAME} — as this week's chair, please prepare the agenda and share it with the TAC before the meeting. See the <https://github.com/confidential-computing/governance/blob/main/TAC/meeting-schedule.md|meeting schedule> for details._"
           }
           EOF
