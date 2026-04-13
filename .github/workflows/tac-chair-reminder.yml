@@ -74,6 +74,6 @@ jobs:
             --fail-with-body \
             -d @- <<EOF
           {
-            "text": "📋 *TAC Meeting Reminder*\n\n*Date:* ${formatted_date}\n*Time:* 8:00–9:00 am PT\n*Chair:* ${CHAIR_NAME}${topics}\n\n<https://zoom-lfx.platform.linuxfoundation.org/meeting/94618773737?password=4b2a5cdf-685a-4ea3-822d-24ff7ddab72e|Join Zoom Meeting>\n\n_${CHAIR_NAME} — as this week's chair, please prepare the agenda and share it with the TAC before the meeting. See the <https://github.com/confidential-computing/governance/blob/main/TAC/meeting-schedule.md|meeting schedule> for details._"
+            "text": "📋 *TAC Meeting Reminder*\n\n*Date:* ${formatted_date}\n*Time:* 7:00–9:00 am PT\n*Chair:* ${CHAIR_NAME}${topics}\n\n_${CHAIR_NAME} — as this week's chair please attend the Monday TAC Coordination meeting and help prepare and share the agenda with the TAC before the meeting. See the <https://github.com/confidential-computing/governance/blob/main/TAC/meeting-schedule.md|meeting schedule> for details._"
           }
           EOF
