@@ -22,16 +22,17 @@ def parse_schedule(path: str = "TAC/meeting-schedule.md") -> list[dict]:
 
     meetings = []
     for line in schedule_section.strip().splitlines():
-        # Match table rows with 3 columns:
-        # | Date | Rotating Chair | CCC Project Topic |
+        # Match table rows with 4 columns:
+        # | Date | Rotating Chair | CCC Project Topic | SIG Annual Review |
         match = re.match(
             r"\|\s*(\d{4}-\d{2}-\d{2})\s*\|"  # Date
             r"\s*(.*?)\s*\|"  # Rotating Chair
-            r"\s*(.*?)\s*\|",  # CCC Project Topic
+            r"\s*(.*?)\s*\|"  # CCC Project Topic
+            r"\s*(.*?)\s*\|",  # SIG Annual Review
             line,
         )
         if match:
-            date_str, chair, project_topic = match.groups()
+            date_str, chair, project_topic, sig_review = match.groups()
 
             # Skip "no meeting" rows
             if "no meeting" in chair.lower():
@@ -47,6 +48,7 @@ def parse_schedule(path: str = "TAC/meeting-schedule.md") -> list[dict]:
                     "date": date_str,
                     "chair": chair,
                     "project_topic": project_topic.strip(),
+                    "sig_review": sig_review.strip(),
                 }
             )
 

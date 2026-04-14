@@ -34,11 +34,13 @@ jobs:
           date=$(echo "$result" | python3 -c "import sys,json; d=json.load(sys.stdin); print(d.get('date',''))")
           chair=$(echo "$result" | python3 -c "import sys,json; d=json.load(sys.stdin); print(d.get('chair',''))")
           project_topic=$(echo "$result" | python3 -c "import sys,json; d=json.load(sys.stdin); print(d.get('project_topic',''))")
+          sig_review=$(echo "$result" | python3 -c "import sys,json; d=json.load(sys.stdin); print(d.get('sig_review',''))")
           error=$(echo "$result" | python3 -c "import sys,json; d=json.load(sys.stdin); print(d.get('error',''))")
 
           echo "date=$date" >> "$GITHUB_OUTPUT"
           echo "chair=$chair" >> "$GITHUB_OUTPUT"
           echo "project_topic=$project_topic" >> "$GITHUB_OUTPUT"
+          echo "sig_review=$sig_review" >> "$GITHUB_OUTPUT"
           echo "error=$error" >> "$GITHUB_OUTPUT"
 
           if [ -n "$error" ]; then
@@ -59,6 +61,7 @@ jobs:
           MEETING_DATE: ${{ steps.meeting.outputs.date }}
           CHAIR_NAME: ${{ steps.meeting.outputs.chair }}
           PROJECT_TOPIC: ${{ steps.meeting.outputs.project_topic }}
+          SIG_REVIEW: ${{ steps.meeting.outputs.sig_review }}
         run: |
           # Format the date nicely
           formatted_date=$(date -d "$MEETING_DATE" "+%A, %B %-d, %Y" 2>/dev/null || echo "$MEETING_DATE")
@@ -66,7 +69,14 @@ jobs:
           # Build the agenda topics section dynamically
           topics=""
           if [ -n "$PROJECT_TOPIC" ]; then
-            topics="\n\n*Scheduled Topics:*\n• *CCC Project:* ${PROJECT_TOPIC}"
+            topics="${topics}\n• *CCC Project:* ${PROJECT_TOPIC}"
+          fi
+          if [ -n "$SIG_REVIEW" ]; then
+            topics="${topics}\n• *SIG Annual Review:* ${SIG_REVIEW}"
+          fi
+
+          if [ -n "$topics" ]; then
+            topics="\n\n*Scheduled Topics:*${topics}"
           fi
 
           curl -X POST "$SLACK_WEBHOOK_URL" \
