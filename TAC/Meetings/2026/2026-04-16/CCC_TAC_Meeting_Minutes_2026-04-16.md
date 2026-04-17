@@ -46,31 +46,28 @@ No formal roll call was conducted as no votes were scheduled.
 
 *Per the [charter](https://charter.confidentialcomputing.io), all [CCC Premier members](https://confidentialcomputing.io/members/) receive one vote on the TAC. Quorum for votes is at least 50% of voting members present.*
 
-* AMD - Nathaniel McCallum+ / David Kaplan
+* AMD - Nathaniel McCallum / David Kaplan
 * Google - Rene Kolga+ / Keith Moyer
 * Huawei - Zhipeng (Howard) Huang
-* Intel - Raynor Scott+ / Simon Johnson
+* Intel - Raynor Scott / Simon Johnson
 * Meta - Henry Wang / Kevin Hui
 * Microsoft - Alec Fernandez+
 * Nvidia - Fritz Alder / Dan Middleton+
 * Red Hat - Yash Mankad / Ram Pai
-* TikTok - Mingshen Sun+ / Yao Zhang
+* TikTok - Mingshen Sun / Yao Zhang
 * Shielded Technologies - Bob Blessing-Hartley
 
 #### Other Attendees
 
-* Ahmed Magdy (Meta Platforms, Inc.)
 * Benjamin Sternthal (The Linux Foundation)
-* Eric Hibbard (Samsung)
-* Hesham ElBakoury (Innovax Technologies)
-* Jens Albers (Fr0ntierX Inc)
+* Don Porter (UNC Chapel Hill)
+* Henk Birkholz
+* Ijlal Loutfi (Canonical)
 * Jeremy Powell (Advanced Micro Devices)
-* Manu Fontaine (Hushmesh)
-* Ofir Azoulay-Rozanes (Anjuna)
-* Piotr Zmijewski (Intel Corporation)
-* Richard Zak (Booz Allen Hamilton, Inc.)
-* Tom Jones (VeriClouds)
-* Yi Liao (Automata Network)
+* Kailun Qin (Intel Corporation)
+* Mark Novak (JPMorgan Chase & Co.)
+* Mona Vij
+* Simon Gallagher (Microsoft Corporation)
 
 ## Welcome New Community Members
 
