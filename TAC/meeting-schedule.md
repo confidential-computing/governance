@@ -25,7 +25,7 @@ The TAC uses a rotating chair model. Each meeting is facilitated by a different 
 | 2026-04-02 | Ahmed Magdy | Enarx | |
 | 2026-04-16 | Alec Fernandez | Gramine | |
 | 2026-04-30 | Fritz Alder | COCONUT-SVSM | |
-| 2026-05-14 | Yash Mankad / Ram Pai | Keystone | |
+| 2026-05-14 | Ijlal Loutfi | Keystone | |
 | 2026-05-28 | Bob Blessing-Hartley | SPDM-RS | Attestation |
 | 2026-06-11 | Mingshen Sun | OE SDK | |
 | 2026-06-25 | Nathaniel McCallum | | Governance Risk and Compliance |
