@@ -27,8 +27,8 @@ The TAC uses a rotating chair model. Each meeting is facilitated by a different 
 | 2026-04-30 | Fritz Alder | COCONUT-SVSM | |
 | 2026-05-14 | Ijlal Loutfi | Keystone | |
 | 2026-05-28 | Bob Blessing-Hartley | SPDM-RS | Attestation |
-| 2026-06-11 | Mingshen Sun | OE SDK | |
-| 2026-06-25 | Meeting Cancelled | | Governance Risk and Compliance |
+| 2026-06-11 | Mingshen Sun | OE SDK | Governance Risk and Compliance |
+| 2026-06-25 | Meeting Cancelled | |
 | 2026-07-09 | Rene Kolga / Keith Moyer | Veraison | |
 | 2026-07-23 | Wu Yongzheng | Occulum | Kernel |
 | 2026-08-06 | Scott Raynor | Certifier Framework | |
