@@ -38,9 +38,9 @@ The list below assumes a multi-tenant Verifier (single-tenant is a trivial case 
 | **Verifier Tenant secrets** | VT |  All Verifier Tenant secrets for authentication or encryption | Yes |
 | **Verifier Tenant signing key(s)** | VT | The signing key (or similar) used to sign the Verifier Tenant responses such as Attestation Results | Yes |
 | **Verifier Tenant encryption key(s)** | VT | The encryption keys used to safeguard Verifier Tenant data at rest | Yes |
-| **Verifier Tenant Reference Values** | VT | Expected Reference Values used in the process of assessing Evidence produced by an Attester. Informally these are the workload measurements. | No |
-| **Verifier Tenant Reference Values** | VT | Expected Reference Values used in the process of assessing Evidence produced by an Attester. Informally these are the Workload reference values. | Opt |
-| **Verifier Tenant assessment policy** | VT | The set of policies used by the Verifier Tenant in order to assess Evidence supplied by an Attester | Opt |
+| **Verifier Tenant Endorsements** | VT | Expected Endorsements used in the process of assessing Evidence produced by an Attester. | Opt |
+| **Verifier Tenant Reference Values** | VT | Expected Reference Values used in the process of assessing Evidence produced by an Attester.  | Opt |
+| **Verifier Tenant Assessment Policy for Evidence** | VT | The set of policies used by the Verifier Tenant in order to assess Evidence supplied by an Attester | Opt |
 | **Verifier Tenant data at rest** | VT | The set of data other than policies maintained by the Verifier Tenant, such as logs related to the attestation process | Opt |
 
 # Forces
@@ -67,9 +67,23 @@ Verifier governance aims to achieve the following goals and ensure that the evid
 
 1. Trust in Verifier is established via the following mechanisms:  
    1. The Verifier Service MUST be properly administered: it runs expected code in a secure configuration on a system properly administered by the VSO.  
-   2. The Verifier Service MUST regularly obtain the most recent Reference Values and Endorser identities from vendors (see **\[1\]** for more details).
-   3. The Verifier Service MUST be executing the most current policies of its Tenant(s).  
-   4. An Attester SHOULD **\[a\]** know which Verifier Tenant to contact and can authenticate it before sharing any data.  
+   2. The Verifier Service MUST regularly obtain the most recent Reference Values and Endorsements from the suppliers (see **\[1\]** for more details).
+   3. The Verifier Service MUST be executing the most current policies of its Tenant(s).
+   4. An Attester SHOULD **\[a\]** know which Verifier Tenant to contact and can authenticate it before sharing any data.
+  
+In service of the above, the following considerations apply:
+   1. Initial provisioning of the Verifier Service & Tenant
+      1. Establish and publish the expected code and configuration of both Verifier Service and Tenant and make them available for inspection and/or certification.
+      2. Establish and publish the roots of trust for Endorsements, Reference Values, Appraisal Policies for Evidence, and all other aspects requiring trust
+      3. Create the signing and encryption keys for both Verifier Service and Verifier Tenant
+      4. Document and follow provisioning ceremonies for both Verifier Service and Verifier Tenant, including all code, configuration, roots of trust and keys
+      5. Finally, deploy all Reference Values, Endorsements, Appraisal Policies, etc. matching the established roots of trust
+      6. The Verifier provider MUST ensure runtime isolation of Verifier Service code and configuration via any available means (physical isolation of the servers hosting the Verifier Service, running the Verifier Service inside a Trusted Execution Environment, maintaining runtime code integrity, etc.); the actual mechanism for achieving this MUST be documented, verifiable and communicated to Verifier Tenants.
+   2. Subsequent maintenance of Verifier Service and Tenant
+      1. Any changes to the Verifier roots of trust MUST be approved by all interested parties ahead of time
+      2. All changes to Verifier Service and Tenant code, configuration, Endorsements, Reference Values, Appraisal Policies for Evidence, etc., MUST be clearly documented, published, cryptographically verifiable and audited (periodically and on-demand)
+   3. Promptly notify all affected parties of any breach, newly discovered vulnerability, or revoked/leaked key material
+   4. Maintain and be able to present on-demand tamperproof logs of all materially important changes to Verifier assets
         
 2. High availability (i.e. in excess of the availability required of the applications which depend on the Verifier) SHOULD **\[b\]** be maintained, through well-understood mechanisms:  
    1. Maintaining multiple concurrent load-balanced Verifier instances  
@@ -79,13 +93,13 @@ Verifier governance aims to achieve the following goals and ensure that the evid
    5. For multi-tenant Verifiers, imposing throttling, quotas, or other similar measures on individual Tenants to avoid noisy neighbor issues  
         
 3. Protect Verifier assets, as well as Evidence and Attestation Results; this entails:  
-   1. Protect Verifier Tenant policies  
+   1. Protect Verifier Tenant policies
       1. Confidentiality SHOULD **\[c, e\]** be required  
       2. Integrity MUST be maintained  
    2. Appropriate lifecycle management of Verifier Tenant signing and encryption keys, as well as a tamper-proof auditable change log MUST be maintained  
-      1. Verifier Tenants SHOULD **\[d\]** be allowed to bring their own keys for signing issued credentials and protecting sensitive Verifier Tenant policies and logs at-rest  
+      1. Verifier Tenants SHOULD **\[d\]** be allowed to bring their own keys for signing Attestation Results and protecting sensitive Verifier Tenant policies and logs at-rest  
       2. Keys SHOULD **\[d\]** be rotated with some periodicity and MUST be rotated in case of suspected or actual compromise (**\[4\]**, **\[5\]**, **\[6\]**)  
-   3. Confidentiality protections SHOULD **\[c\]** apply to Evidence and Attestation Results  
+   3. Confidentiality protections SHOULD **\[c\]** apply to Evidence, Reference Values, Endorsements, and Attestation Results  
    4. Isolation from Verifier Service, especially in multi-tenant environments, SHOULD **\[e\]** be achieved  
    5. Peer tenant isolation MUST be achieved for a multi-tenant Verifier  
    6. Additional protections related to issues mentioned in the Privacy Considerations section of **\[1\]** MAY apply  
