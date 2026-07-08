@@ -39,22 +39,7 @@ This Code of Conduct applies within all community spaces, and also applies when 
 
 ## Enforcement
 
-Instances of abusive, harassing, or otherwise unacceptable behavior may be reported to the community leaders responsible for enforcement at conduct@confidentialcomputing.io. All reports will be reviewed and investigated promptly and fairly.
-
-Members of the Governing Board on the reflector are:  
-Company | Representative | Email Address
-| --- | --- | --- |
-Accenture | Carl Dukatz | carl.m.dukatz@accenture.com
-Arm | Marc Meunier | marc.meunier@arm.com
-Google | Nelly Porter | nellyporter@google.com
-Huawei | Peixin Hou | peixin.hou@huawei.com
-Intel | Ron Perez | ronald.perez@intel.com
-Meta | Shankaran G | shankaran@fb.com
-Microsoft | Stephen Walli (Chair) | stephen.walli@microsoft.com 
-Red Hat | Kimberly Craven | kcraven@redhat.com
-General Member Rep | Richard Searle | richard.searle@fortanix.com
-General Member Rep | Eric Voit | evoit@cisco.com
-General Member Rep | Samuel Ortiz | samuel.e.ortiz@protonmail.com
+Instances of abusive, harassing, or otherwise unacceptable behavior may be reported to the community leaders responsible for enforcement at conduct@confidentialcomputing.io. All reports will be reviewed and investigated promptly and fairly. The Code of Conduct committee consists of the current voting members of the CCC Governing Board.
 
 Community leaders are obligated to respect the privacy and security of the reporter of any incident.
 
