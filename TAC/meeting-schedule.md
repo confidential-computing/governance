@@ -30,7 +30,7 @@ The TAC uses a rotating chair model. Each meeting is facilitated by a different 
 | 2026-06-11 | Mingshen Sun | OE SDK | Governance Risk and Compliance |
 | 2026-06-25 | Meeting Cancelled | |
 | 2026-07-09 | Rene Kolga / Keith Moyer | Veraison | |
-| 2026-07-23 | Wu Yongzheng | Occulum | Kernel |
+| 2026-07-23 | Wu Yongzheng | Occlum | Kernel |
 | 2026-08-06 | Scott Raynor | Certifier Framework | |
 | 2026-08-20 | Ahmed Magdy | VirTEE | Trustworthy Workload Identity |
 | 2026-09-03 | Alec Fernandez | dstack | |
