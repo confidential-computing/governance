@@ -4,7 +4,7 @@ The TAC uses a rotating chair model. Each meeting is facilitated by a different 
 
 ## How it works
 
-- The TAC meets on **alternating Thursdays, 8–9 am PT**
+- The TAC meets on **alternating Thursdays, 7–9 am PT**
 - The chair for each meeting is listed in the schedule below
 - The chair is responsible for: preparing the agenda, sending a reminder to the TAC list, and facilitating the meeting
 - To swap dates with another chair, submit a PR updating this file
