@@ -204,30 +204,6 @@ Islet is an open-source software project written in Rust that enables Confidenti
 * [Charter](./Islet/Islet_Technical_Charter_Final_2-5-2024.pdf)
 * [Artwork](https://github.com/confidential-computing/artwork/tree/main/islet)
 
-## Keystone
-
-<!--<img height="100" src="">-->
-
-Keystone is an open-source project for building trusted execution environments (TEE) with secure hardware enclaves, based on the RISC-V architecture. Our goal is to build a secure and trustworthy open-source secure hardware enclave, accessible to everyone in industry and academia.
-
-**Status:** Incubation
-
-#### Links
-
-* [Project detail](./Keystone/keystone-accepted_proposal.pdf)
-    * [2022 review](./Keystone/keystone_review-2022.pdf)
-* [Website](https://keystone-enclave.org/)
-* [GitHub](https://github.com/keystone-enclave)
-* [Proposal](./Keystone/keystone-accepted_proposal.pdf)
-    * Accepted by TAC: 2020-07-23
-    * Accepted by Governing Board: 2021-03
-* [Charter](./Keystone/Keystone_Technical_Charter-2021-03-08.pdf)
-* [Artwork]() (TBD)
-
-#### Webinars
-
-* [Keystone](https://confidentialcomputing.io/keystone-webinar/)
-
 ## ManaTEE
 
 <img height="100" src="https://raw.githubusercontent.com/confidential-computing/artwork/main/manatee/Color/SVG/manatee_color.svg">
@@ -246,29 +222,6 @@ ManaTEE is an open-source project for easily building and deploying data collabo
 * [Charter](./ManaTee/ManaTEE-Technical-Charter-Final-9-26-2024.pdf)
 * [Artwork](https://github.com/confidential-computing/artwork/tree/main/manatee)
 
-## Occlum
-
-<img height="100" src="https://raw.githubusercontent.com/confidential-computing/artwork/main/occlum/occlum-logo-horizontal-color.svg">
-
-Occlum makes running applications inside enclaves easy. It allows one to run unmodified programs inside enclaves with just a few simple commands. And Occlum is open-source and free to use.
-
-**Status:** Incubation
-
-#### Links
-
-* [Project detail](./Occlum/occlum-project_detail.docx)
-    * [2021 review](./Occlum/occlum-annual-review-2021.pdf)
-* [Website](https://occlum.io/)
-* [GitHub](https://github.com/occlum/occlum)
-* [Proposal](./Occlum/occlum-accepted_proposal.pdf)
-    * Accepted by TAC: 2020-08-20
-    * Accepted by Governing Board: 2021-09-15
-* [Charter](./Occlum/Occlum_Technical_Charter-2021-03-29.pdf)
-* [Artwork](https://github.com/confidential-computing/artwork/tree/main/occlum)
-
-#### Webinars
-
-* [Occlum](https://confidentialcomputing.io/webinar-occlum/)
 
 ## spdm-rs
 
@@ -306,9 +259,59 @@ VirTEE is an open community dedicated to developing open source tools for the br
 
 ## Archived Projects
 
+### Keystone
+
+Keystone is an open-source project for building trusted execution environments (TEE) with secure hardware enclaves, based on the RISC-V architecture. Our goal is to build a secure and trustworthy open-source secure hardware enclave, accessible to everyone in industry and academia.
+
+**Status:** Emeritus
+
+#### Links
+
+* [Project detail](./Keystone/keystone-accepted_proposal.pdf)
+    * [2022 review](./Keystone/keystone_review-2022.pdf)
+* [Website](https://keystone-enclave.org/)
+* [GitHub](https://github.com/keystone-enclave)
+* [Proposal](./Keystone/keystone-accepted_proposal.pdf)
+    * Accepted by TAC: 2020-07-23
+    * Accepted by Governing Board: 2021-03
+* [Charter](./Keystone/Keystone_Technical_Charter-2021-03-08.pdf)
+* [Artwork]() (TBD)
+
+#### Webinars
+
+* [Keystone](https://confidentialcomputing.io/keystone-webinar/)
+
+
+
+### Occlum
+
+<img height="100" src="https://raw.githubusercontent.com/confidential-computing/artwork/main/occlum/occlum-logo-horizontal-color.svg">
+
+Occlum makes running applications inside enclaves easy. It allows one to run unmodified programs inside enclaves with just a few simple commands. And Occlum is open-source and free to use.
+
+**Status:** Emeritus
+
+#### Links
+
+* [Project detail](./Occlum/occlum-project_detail.docx)
+    * [2021 review](./Occlum/occlum-annual-review-2021.pdf)
+* [Website](https://occlum.io/)
+* [GitHub](https://github.com/occlum/occlum)
+* [Proposal](./Occlum/occlum-accepted_proposal.pdf)
+    * Accepted by TAC: 2020-08-20
+    * Accepted by Governing Board: 2021-09-15
+* [Charter](./Occlum/Occlum_Technical_Charter-2021-03-29.pdf)
+* [Artwork](https://github.com/confidential-computing/artwork/tree/main/occlum)
+
+#### Webinars
+
+* [Occlum](https://confidentialcomputing.io/webinar-occlum/)
+
+
+
 ### Veracruz
 
-<img height="100" src="https://raw.githubusercontent.com/confidential-computing/artwork/main/veracruz/veracruz-logo-horizontal-color.svg">
+<img height="80" src="https://raw.githubusercontent.com/confidential-computing/artwork/main/veracruz/veracruz-logo-horizontal-color.svg">
 
 Veracruz is a research project exploring the design of privacy-preserving distributed systems. Veracruz uses strong isolation technology and remote attestation protocols to establish a “neutral ground” within which a collaborative, multi-party computation between a group of mistrusting principals takes place.
 
