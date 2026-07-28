@@ -8,6 +8,7 @@ Current ways of issuing and managing workload identities, as well as those requi
 1. Lack of workload isolation against the hardware and the operating system owners/administrators, as well as peer workload instances
 2. Lack of strong binding between a workload credential and the workload instance to which that credential had been issued
 3. Lack of verifiable composition of the workload, and inability to associate a credential with a set of decisions leading up to its issuance
+
 _Note that these shortcomings are related: lack of process isolation eases credential exfiltration and leads to credential leakage and reuse._
 
 In the immediate term, effective Confidential Computing faces a significant challenge: the scale of uplift and immature tooling are both clear barriers. Longer term, however, Confidential Computing provides a vital improvement due to its unique features and broad availability. The TWI SIG will specify Confidential Computing-assisted mechanisms that fit inside the emerging Workload Identity solution ecosystem. The SIG will ensure the evolution of this ecosystem is in alignment with the expectations of the owners and operators of Confidential Computing workloads. These efforts will build on the concept of _Trustworthy Workload Identity_ defined in **\[1]**. Data-in-use protection of workloads that have such identities will be a critical downstream effect.
@@ -38,7 +39,7 @@ To summarize, the overarching goal we must achieve is turning TWI into the [Sche
 1. Trustworthy Workload Identity Definitions: <https://github.com/confidential-computing/twi/blob/main/TWI_Definitions.md>
 2. Trustworthy Workload Identity Scenarios and Requirements: <https://github.com/confidential-computing/twi/blob/main/TWI_Requirements.md>
 3. Workload Identity in Multi-System Environments IETF Working Group: <https://datatracker.ietf.org/wg/wimse/documents/>
-4. Confidential Payload Governance pattern: <https://drive.google.com/drive/u/0/folders/1EaXIm1jK3af_oUG7lTLYL9QcS9BRO5gy>
+4. Confidential Payload Governance pattern: <https://github.com/confidential-computing/governance/blob/main/SIGs/GRC/publications/Confidential_Workload_Governance.md>
 
 ## Notes & Clarifications
 ### The Deeper Meaning of the TWI Definition
@@ -47,7 +48,7 @@ Here we reiterate the TWI Definition and provide additional context and clarific
 First, a couple of quick notes on supporting definitions.
 
 **Workload** as used in this document restricts the definition of the same term by WIMSE **\[3]** – “a running instance of software executing for a specific purpose” – to just that part of the code and configuration of the (WIMSE-defined) workload that is subject to Remote Attestation.
-- Workloads can nest (be composed of smaller individual sub-Workloads). These sub-Workloads can have individual Identities used for, e.g., intra-Workload communications. However, any Workload Identity presented externally (as opposed to sister sub-Workloads) is treated as an Identity of the containing Workload as a whole.
+- Workloads can nest (be composed of smaller individual sub-Workloads). These sub-Workloads can have individual Identities used for, e.g., intra-Workload communications. However, any Workload Identity presented externally (as opposed to peer sub-Workloads) is treated as an Identity of the containing Workload as a whole.
 
 **Workload Identifier** is a stable construct around which Relying Parties can form long-lived Workload authorization policies.
 - The concept of Workload Identifier is best thought of from the standpoint of the Relying Party. For instance, what constitutes a “Payroll Application” (workload) for purposes of authorizing its access to the “Payroll Database” (relying party) will change as the Payroll Application is upgraded from version N to version N+1, yet the Relying Party policy will not change as the upgrade takes place. The change to Payroll Application’s Reference Values will be 100% contained by the process of Workload Credential issuance.
