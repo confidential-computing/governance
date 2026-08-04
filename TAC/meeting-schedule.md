@@ -26,18 +26,18 @@ The TAC uses a rotating chair model. Each meeting is facilitated by a different 
 | 2026-04-16 | Alec Fernandez | Gramine | |
 | 2026-04-30 | Fritz Alder | COCONUT-SVSM | |
 | 2026-05-14 | Ijlal Loutfi | Keystone | |
-| 2026-05-28 | Bob Blessing-Hartley | SPDM-RS | Attestation |
+| 2026-05-28 | Bob Blessing-Hartley | SPDM-RS |  |
 | 2026-06-11 | Mingshen Sun | OE SDK | Governance Risk and Compliance |
 | 2026-06-25 | Meeting Cancelled | |
 | 2026-07-09 | Rene Kolga / Keith Moyer | Veraison | |
 | 2026-07-23 | Wu Yongzheng | Occlum | Kernel |
-| 2026-08-06 | Scott Raynor | Certifier Framework | |
-| 2026-08-20 | Ahmed Magdy | VirTEE | Trustworthy Workload Identity |
+| 2026-08-06 | Scott Raynor |  | Trustworthy Workload Identity |
+| 2026-08-20 | Ahmed Magdy | Certifier Framework |  |
 | 2026-09-03 | Alec Fernandez | dstack | |
 | 2026-09-17 | Fritz Alder | ManaTEE | |
 | 2026-10-01 | Yash Mankad / Ram Pai | | |
-| 2026-10-15 | Bob Blessing-Hartley | | |
-| 2026-10-29 | Mingshen Sun | | |
+| 2026-10-15 | Bob Blessing-Hartley | VirTEE | |
+| 2026-10-29 | Mingshen Sun | | Attestation |
 | 2026-11-12 | Nathaniel McCallum | | |
 | 2026-11-26 | Rene Kolga / Keith Moyer | Islet | |
 | 2026-12-10 | Wu Yongzheng | | |
