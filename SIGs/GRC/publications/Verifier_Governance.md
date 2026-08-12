@@ -66,19 +66,20 @@ The terms MUST/SHOULD/MAY etc. below are used in accordance with **\[3\]**. Ever
 Verifier governance aims to achieve the following goals and ensure that the evidence is in place to prove it:
 
 1. Trust in Verifier is established via the following mechanisms:  
-   1. The Verifier Service MUST be properly administered: it runs expected code in a secure configuration on a system properly administered by the VSO.  
-   2. The Verifier Service MUST regularly obtain the most recent Reference Values and Endorsements from the suppliers (see **\[1\]** for more details).
-   3. The Verifier Service MUST be executing the most current policies of its Tenant(s).
-   4. An Attester SHOULD **\[a\]** know which Verifier Tenant to contact and can authenticate it before sharing any data.
+   1. The Verifier Service MUST be properly administered: it runs expected code in a secure configuration on a system properly administered by the VSO
+   2. The Verifier Service MUST regularly obtain the most recent Reference Values and Endorsements from the suppliers (see **\[1\]** for more details)
+   3. The Verifier Service MUST be executing the most current policies of its Tenant(s)
+   4. An Attester SHOULD **\[a\]** know which Verifier Tenant to contact and can authenticate it before sharing any data
   
 In service of the above, the following considerations apply:
    1. Initial provisioning of the Verifier Service & Tenant
-      1. Establish and publish the expected code and configuration of both Verifier Service and Tenant and make them available for inspection and/or certification.
+      1. Establish and publish the expected code and configuration of both Verifier Service and Tenant and make them available for inspection and/or certification
       2. Establish and publish the roots of trust for Endorsements, Reference Values, Appraisal Policies for Evidence, and all other aspects requiring trust
-      3. Create the signing and encryption keys for both Verifier Service and Verifier Tenant
+      3. Create the signing and encryption keys for both Verifier Service and Verifier Tenant; follow established, regulatory-aligned practices for secure generation and/or importation of cryptographic keys
       4. Document and follow provisioning ceremonies for both Verifier Service and Verifier Tenant, including all code, configuration, roots of trust and keys
       5. Finally, deploy all Reference Values, Endorsements, Appraisal Policies, etc. matching the established roots of trust
-      6. The Verifier provider MUST ensure runtime isolation of Verifier Service code and configuration via any available means (physical isolation of the servers hosting the Verifier Service, running the Verifier Service inside a Trusted Execution Environment, maintaining runtime code integrity, etc.); the actual mechanism for achieving this MUST be documented, verifiable and communicated to Verifier Tenants.
+      6. The Verifier provider MUST ensure runtime isolation of Verifier Service code and configuration via any available means (physical isolation of the servers hosting the Verifier Service, running the Verifier Service inside a Trusted Execution Environment, maintaining runtime code integrity, etc.); the actual mechanism for achieving this MUST be documented, verifiable and communicated to Verifier Tenants
+      7. Satisfy all established Separation of Duties requirements, such as ensuring that the platform hardware Trust Anchor (used by the Verifier) is decoupled from the organizational root of trust (used by the Identity Provider)
    2. Subsequent maintenance of Verifier Service and Tenant
       1. Any changes to the Verifier roots of trust MUST be approved by all interested parties ahead of time
       2. All changes to Verifier Service and Tenant code, configuration, Endorsements, Reference Values, Appraisal Policies for Evidence, etc., MUST be clearly documented, published, cryptographically verifiable and audited (periodically and on-demand)
