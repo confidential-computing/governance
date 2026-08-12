@@ -1,0 +1,1100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PMI: Portable Machine Image</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@200;300;400;500&family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --mist: #F6F7FB;
+    --ink: #1B1D26;
+    --dim: #6E7383;
+    --violet: #8B7CF6;
+    --teal: #4FD6C4;
+    --pink: #F3A0C8;
+    --hair: rgba(27,29,38,.1);
+    --ease-out: cubic-bezier(.2,.7,.2,1);
+    --ease-glide: cubic-bezier(.45,0,.15,1);
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html, body { height: 100%; }
+  body { background: #DFE2EC; display: grid; place-items: center; overflow: hidden;
+         font-family: 'Outfit', sans-serif; color: var(--ink); }
+
+  .deck {
+    width: min(100vw, calc(100vh * 16 / 9));
+    aspect-ratio: 16 / 9;
+    container-type: size;
+    position: relative; overflow: hidden;
+    background: var(--mist);
+    box-shadow: 0 2cqh 6cqh rgba(27,29,38,.22);
+  }
+  .haze { position: absolute; inset: 0; filter: blur(8cqh); opacity: .5; pointer-events: none; }
+  .haze i { position: absolute; border-radius: 50%; }
+  .haze .h1 { width: 60cqw; height: 60cqw; left: -18cqw; top: -42cqw;
+              background: radial-gradient(closest-side, #C9C2FF, transparent 70%); }
+  .haze .h2 { width: 55cqw; height: 55cqw; right: -20cqw; bottom: -38cqw;
+              background: radial-gradient(closest-side, #BDEFE7, transparent 70%); }
+
+  /* ---------- slide engine ---------- */
+  .slide {
+    position: absolute; inset: 0; z-index: 2;
+    padding: 9cqh 7cqw 12cqh;
+    display: flex; flex-direction: column; justify-content: center;
+    opacity: 0; visibility: hidden; transform: scale(.985);
+    transition: opacity .55s var(--ease-glide), transform .55s var(--ease-glide),
+                visibility 0s linear .55s;
+  }
+  .slide.active {
+    opacity: 1; visibility: visible; transform: none;
+    transition: opacity .65s var(--ease-glide) .15s, transform .65s var(--ease-glide) .15s, visibility 0s;
+  }
+  .slide [data-anim] { opacity: 0; }
+  @media (prefers-reduced-motion: no-preference) {
+    .slide.active [data-anim] {
+      animation: rise .9s var(--ease-out) both;
+      animation-delay: calc(.25s + var(--i, 0) * .12s);
+    }
+    @keyframes rise {
+      from { opacity: 0; transform: translateY(2.2cqh); filter: blur(6px); }
+      to   { opacity: 1; transform: none; filter: blur(0); }
+    }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .slide.active [data-anim] { opacity: 1; }
+    .slide, .slide.active { transition: opacity .3s, visibility 0s; transform: none; }
+  }
+  [data-step] {
+    opacity: 0; transform: translateY(1.4cqh); filter: blur(5px);
+    transition: opacity .6s var(--ease-out), transform .6s var(--ease-out), filter .6s var(--ease-out);
+  }
+  [data-step].revealed { opacity: 1; transform: none; filter: blur(0); }
+  @media (prefers-reduced-motion: reduce) { [data-step] { transform: none; filter: none; } }
+
+  /* ---------- type vocabulary ---------- */
+  .eyebrow { font-family: 'JetBrains Mono', monospace; font-size: 1.8cqh; letter-spacing: .3em;
+             color: var(--dim); text-transform: uppercase; margin-bottom: 2.6cqh; }
+  h1 { font-weight: 200; font-size: 11cqh; line-height: 1.05; letter-spacing: -.015em; }
+  h2 { font-weight: 200; font-size: 6.8cqh; line-height: 1.12; letter-spacing: -.01em; }
+  h2.big { font-size: 8.2cqh; }
+  .accent { font-family: 'Instrument Serif', serif; font-style: italic; font-weight: 400;
+            background: linear-gradient(100deg, var(--violet), var(--teal));
+            -webkit-background-clip: text; background-clip: text; color: transparent; }
+  .sub { font-weight: 300; font-size: 2.7cqh; line-height: 1.55; color: var(--dim); }
+  .gtext { font-weight: 400; background: linear-gradient(100deg, var(--violet), var(--teal));
+    -webkit-background-clip: text; background-clip: text; color: transparent; }
+  .ini { font-weight: 300; }
+  .ini.p { color: var(--violet); }
+  .ini.m { color: color-mix(in oklab, var(--violet), var(--teal)); }
+  .ini.i { color: var(--teal); }
+  .strangelove { font-family: 'Instrument Serif', serif; font-style: italic;
+    font-size: 3.4cqh; line-height: 1.4; color: var(--ink); }
+  .mono { font-family: 'JetBrains Mono', monospace; }
+  .chnum { font-size: 17cqh; line-height: 1.18; padding: 0 .16em; margin-bottom: 1.2cqh; }
+  .pt { margin-top: 5cqh; font-weight: 300; font-size: 2.5cqh; color: var(--dim); }
+  .pt b { color: var(--ink); font-weight: 400; }
+
+  /* ---------- ambient pattern 1: ring (title) ---------- */
+  .ring { position: absolute; border-radius: 50%; pointer-events: none; }
+  .ring.peek { right: -30cqh; top: -30cqh; width: 78cqh; height: 78cqh; }
+  .ring.div { left: 50%; top: 50%; margin-left: -29cqh; margin-top: -29cqh; width: 58cqh; height: 58cqh; }
+  .ring::before { content: ""; position: absolute; inset: 0; border-radius: 50%;
+    background: conic-gradient(from 210deg, var(--teal), var(--violet), var(--pink), var(--teal));
+    -webkit-mask: radial-gradient(farthest-side, transparent calc(100% - 1.1cqh), #000 calc(100% - 1cqh));
+            mask: radial-gradient(farthest-side, transparent calc(100% - 1.1cqh), #000 calc(100% - 1cqh)); }
+  .ring::after { content: ""; position: absolute; inset: -6cqh; border-radius: 50%;
+    background: radial-gradient(closest-side, rgba(139,124,246,.18), transparent 72%); }
+  .ring .core { position: absolute; inset: 1.1cqh; border-radius: 50%;
+    background: rgba(255,255,255,.5); backdrop-filter: blur(1cqh);
+    display: grid; place-items: center; font-family: 'JetBrains Mono', monospace;
+    font-size: 1.7cqh; letter-spacing: .22em; color: var(--dim); text-align: center; line-height: 2.2; }
+  @media (prefers-reduced-motion: no-preference) {
+    .slide.active .ring::before { animation: spin 30s linear infinite; }
+    @keyframes spin { to { transform: rotate(1turn); } }
+  }
+
+  /* ---------- ambient pattern 2: sweep along a rule ---------- */
+  .sweep { position: relative; }
+  .sweep::before { content: ""; position: absolute; top: 0; left: 0; right: 0; height: 1px;
+    background: linear-gradient(90deg, transparent 35%, var(--violet) 45%, var(--teal) 55%, transparent 65%);
+    background-size: 300% 100%; background-position: 100% 0; }
+  @media (prefers-reduced-motion: no-preference) {
+    .slide.active .sweep::before { animation: sweep 7s ease-in-out infinite alternate; }
+    @keyframes sweep { to { background-position: 0% 0; } }
+  }
+
+  /* ---------- ambient pattern 3: breathing divider (split slides) ---------- */
+  .split { display: grid; grid-template-columns: 1fr 1px 1fr; column-gap: 4cqw; align-items: start; flex: 0 1 auto; }
+  .split.three { grid-template-columns: 1fr 1px 1fr 1px 1fr; column-gap: 2.4cqw; }
+  .split .divider { width: 1px; height: 100%; min-height: 30cqh; justify-self: center;
+    background: linear-gradient(180deg, transparent, var(--violet) 35%, var(--teal) 65%, transparent);
+    background-size: 100% 260%; background-position: 0 100%; }
+  @media (prefers-reduced-motion: no-preference) {
+    .slide.active .split .divider { animation: dpulse 8s ease-in-out infinite alternate; }
+    @keyframes dpulse { to { background-position: 0 0%; } }
+  }
+
+  /* ---------- ambient pattern 4: breathing halo (statement slides) ---------- */
+  .breath { position: absolute; left: 50%; top: 50%; width: 92cqh; height: 92cqh; border-radius: 50%;
+    transform: translate(-50%, -50%); pointer-events: none;
+    background: radial-gradient(closest-side, rgba(139,124,246,.16), rgba(79,214,196,.09) 55%, transparent 75%); }
+  @media (prefers-reduced-motion: no-preference) {
+    .slide.active .breath { animation: breathe 7s ease-in-out infinite; }
+    @keyframes breathe {
+      0%, 100% { transform: translate(-50%,-50%) scale(1); opacity: .8; }
+      50% { transform: translate(-50%,-50%) scale(1.08); opacity: 1; } }
+  }
+
+  /* ---------- ambient pattern 5: flowing spine (sequence slides) ---------- */
+  .seq { list-style: none; position: relative; padding-left: 3.4cqw; }
+  .seq::before { content: ""; position: absolute; left: .5cqw; top: 1cqh; bottom: 1cqh; width: 1px;
+    background: linear-gradient(180deg, transparent, var(--violet) 40%, var(--teal) 60%, transparent), var(--hair);
+    background-size: 100% 50%, 100% 100%; background-repeat: no-repeat, repeat; background-position: 0 -8cqh, 0 0; }
+  @media (prefers-reduced-motion: no-preference) {
+    .slide.active .seq::before { animation: flow 9s linear infinite; }
+    @keyframes flow { from { background-position: 0 -60cqh, 0 0; } to { background-position: 0 110cqh, 0 0; } }
+  }
+  .seq li { position: relative; padding: 1.05cqh 0; font-weight: 300; font-size: 2.45cqh; line-height: 1.4; }
+  .seq li::before { content: ""; position: absolute; left: calc(-2.9cqw - 3px); top: 2.3cqh;
+    width: 7px; height: 7px; border-radius: 50%; background: var(--mist); border: 1px solid var(--dim); }
+  .seq li b { font-weight: 500; }
+  .seq li .who { font-family: 'JetBrains Mono', monospace; font-size: 1.6cqh; letter-spacing: .12em;
+    color: var(--dim); margin-right: 1cqw; }
+
+  /* ---------- ambient pattern 6: scanline (anatomy slide) ---------- */
+  .scanbox { position: relative; overflow: hidden; }
+  .scanbox::after { content: ""; position: absolute; left: 0; right: 0; top: -12%; height: 10%;
+    background: linear-gradient(180deg, transparent, rgba(139,124,246,.14), rgba(79,214,196,.14), transparent);
+    pointer-events: none; }
+  @media (prefers-reduced-motion: no-preference) {
+    .slide.active .scanbox::after { animation: scan 8s ease-in-out infinite; }
+    @keyframes scan { 0% { top: -12%; } 50% { top: 102%; } 100% { top: -12%; } }
+  }
+
+  /* ---------- ambient pattern 7: shimmer (accent text) ---------- */
+  .shimmer .accent { background-size: 250% 100%; background-position: 0% 0; }
+  @media (prefers-reduced-motion: no-preference) {
+    .slide.active .shimmer .accent { animation: shimmer 8s ease-in-out infinite alternate; }
+    @keyframes shimmer { to { background-position: 100% 0; } }
+  }
+
+  /* ---------- ambient pattern 8: caret ---------- */
+  .caret::after { content: "▏"; color: var(--teal); }
+  @media (prefers-reduced-motion: no-preference) {
+    .slide.active .caret::after { animation: blink 1.2s steps(1) infinite; }
+    @keyframes blink { 50% { opacity: 0; } }
+  }
+
+  /* ---------- components ---------- */
+  .kl { list-style: none; }
+  .kl li { display: grid; grid-template-columns: 11cqw 1fr; align-items: baseline;
+    padding: 2.2cqh 0; border-top: 1px solid var(--hair); font-weight: 300; font-size: 2.9cqh; }
+  .kl li:first-child { border-top-color: transparent; }
+  .kl .k { font-family: 'JetBrains Mono', monospace; font-size: 1.7cqh; color: var(--dim); letter-spacing: .14em; }
+  .kl li b { font-weight: 500; }
+  .kl li span { color: var(--dim); font-size: 2.3cqh; display: block; margin-top: .4cqh; }
+  .kl li b .mono { display: inline; font-size: inherit; color: inherit; margin: 0; }
+  .kl.tight li { padding: 1.6cqh 0; font-size: 2.6cqh; }
+
+  .chips { display: flex; flex-wrap: wrap; gap: 1.4cqh; }
+  .chips i { font-style: normal; font-family: 'JetBrains Mono', monospace; font-size: 2cqh;
+    letter-spacing: .06em; color: var(--ink); padding: 1.1cqh 1.6cqw;
+    border: 1px solid var(--hair); border-radius: 10cqh; background: rgba(255,255,255,.55); }
+  .chips.sm i { font-size: 1.75cqh; padding: .85cqh 1.2cqw; }
+  .rq { display: grid; grid-template-columns: 12.5cqw 2.6cqw 1fr; align-items: baseline;
+    padding: 1.3cqh 0; border-top: 1px solid var(--hair); }
+  .rq:first-of-type { border-top: none; }
+  .rq .k { font-family: 'JetBrains Mono', monospace; font-size: 1.55cqh; letter-spacing: .12em; color: var(--dim); }
+  .rq .y { color: var(--teal); font-size: 2.2cqh; font-weight: 500; }
+  .rq .n { color: var(--pink); font-size: 2.2cqh; font-weight: 500; }
+  .rq p { font-weight: 300; font-size: 2cqh; line-height: 1.4; color: var(--dim); }
+  .rq p b { color: var(--ink); font-weight: 400; }
+  .cost { margin-top: 2.6cqh; padding-top: 1.8cqh; border-top: 1px solid var(--hair); }
+  .cost .k { display: block; font-family: 'JetBrains Mono', monospace; font-size: 1.6cqh;
+    letter-spacing: .22em; color: var(--dim); margin-bottom: .7cqh; }
+  .cost b { font-weight: 500; font-size: 2.55cqh; line-height: 1.4; }
+  .pipe { flex-wrap: nowrap; align-items: center; }
+  .pipe .a { color: var(--dim); font-weight: 300; font-size: 2.7cqh; }
+  .chips i.hot { border-color: transparent;
+    background: linear-gradient(var(--mist), var(--mist)) padding-box,
+                linear-gradient(100deg, var(--violet), var(--teal)) border-box;
+    border: 1px solid transparent; }
+
+  .cards { display: grid; gap: 2.4cqh; }
+  .cards.c2 { grid-template-columns: 1fr 1fr; }
+  .cards.c4 { grid-template-columns: repeat(4, 1fr); }
+  .card { border: 1px solid var(--hair); background: rgba(255,255,255,.55);
+    padding: 2.6cqh 1.8cqw; border-radius: 1.6cqh; }
+  .card .t { font-family: 'JetBrains Mono', monospace; font-size: 2cqh; letter-spacing: .1em; margin-bottom: 1.4cqh; }
+  .card .t .accent { font-family: inherit; font-style: normal; }
+  .card p { font-weight: 300; font-size: 2.3cqh; line-height: 1.5; color: var(--dim); }
+  .card p b { color: var(--ink); font-weight: 400; }
+
+  .col h3 { font-weight: 400; font-size: 2.2cqh; letter-spacing: .18em; text-transform: uppercase;
+    font-family: 'JetBrains Mono', monospace; color: var(--dim); margin-bottom: 2.2cqh; }
+  .col ul { list-style: none; }
+  .col li { font-weight: 300; font-size: 2.7cqh; line-height: 1.4; padding: 1.15cqh 0;
+    border-top: 1px solid var(--hair); }
+  .col li:first-child { border-top: none; }
+  .col li b { font-weight: 500; }
+  .col li small { display: block; font-size: 2.1cqh; color: var(--dim); }
+  .col.dense li { padding: .8cqh 0; font-size: 2.45cqh; }
+  .col.dense li small { font-size: 1.95cqh; }
+
+  pre.cbor { font-family: 'JetBrains Mono', monospace; font-size: 1.82cqh; line-height: 1.46;
+    background: rgba(255,255,255,.6); border: 1px solid var(--hair); border-radius: 1.4cqh;
+    padding: 1.8cqh 2cqw; overflow: hidden; }
+  pre.cbor .ld { color: var(--violet); font-weight: 500; }
+  pre.cbor .fl { color: var(--teal); font-weight: 500; }
+  pre.cbor .dm { color: var(--dim); }
+  .recipe { list-style: none; font-family: 'JetBrains Mono', monospace; font-size: 2.35cqh; line-height: 2.05; }
+  .recipe .op { display: inline-block; width: 9cqw; font-size: 1.8cqh; letter-spacing: .12em; }
+  .recipe .op.load { color: var(--violet); }
+  .recipe .op.fill { color: var(--teal); }
+  .recipe .op.api  { color: var(--pink); }
+  .recipe .c { color: var(--dim); }
+  .recipe.seq li { padding: .55cqh 0; }
+
+  /* PE anatomy */
+  .pe { display: grid; grid-template-columns: 1fr 1fr; gap: 4cqw; align-items: start; }
+  .pestack { border: 1px solid var(--hair); border-radius: 1.4cqh; overflow: hidden;
+    background: rgba(255,255,255,.55); }
+  .pestack .row { display: flex; justify-content: space-between; align-items: baseline;
+    padding: 1.15cqh 1.6cqw; border-top: 1px solid var(--hair);
+    font-family: 'JetBrains Mono', monospace; font-size: 2.05cqh; }
+  .pestack .row.cap { padding: .65cqh 1.6cqw; font-size: 1.45cqh; letter-spacing: .2em;
+    color: var(--dim); background: rgba(27,29,38,.035); }
+  .pestack .row.plat { background: rgba(139,124,246,.09); }
+  .sw { display: inline-block; width: 1.7cqh; height: 1.7cqh; border-radius: .4cqh;
+    margin-right: .7cqw; vertical-align: -2px; }
+  .sw.code { background: rgba(255,255,255,.95); border: 1px solid rgba(27,29,38,.25); }
+  .sw.plat { background: rgba(139,124,246,.32); }
+  .sw.rec  { background: linear-gradient(90deg, rgba(139,124,246,.38), rgba(79,214,196,.38)); }
+  .pestack .row:first-child { border-top: none; }
+  .pestack .row span { font-family: 'Outfit', sans-serif; font-weight: 300; font-size: 1.9cqh; color: var(--dim); }
+  .pestack .row.hdr { background: rgba(27,29,38,.05); color: var(--dim); font-size: 1.8cqh; letter-spacing: .12em; }
+  .pestack .row.pmi { background: linear-gradient(90deg, rgba(139,124,246,.08), rgba(79,214,196,.08)); }
+  .pelegend { font-weight: 300; font-size: 2.5cqh; line-height: 1.6; color: var(--dim); }
+  .pelegend b { color: var(--ink); font-weight: 400; }
+  .pelegend p + p { margin-top: 2.2cqh; }
+
+  blockquote { font-family: 'Instrument Serif', serif; font-style: italic;
+    font-size: 4cqh; line-height: 1.5; max-width: 78cqw; position: relative; color: var(--dim); }
+  blockquote .hl { color: var(--ink); padding: 0 .25cqw; border-radius: .5cqh;
+    background: linear-gradient(100deg, rgba(139,124,246,.16), rgba(79,214,196,.16));
+    -webkit-box-decoration-break: clone; box-decoration-break: clone; }
+  blockquote p + p { margin-top: 2.4cqh; }
+  .qmark { position: absolute; left: -1cqw; top: -9cqh; font-family: 'Instrument Serif', serif;
+    font-size: 22cqh; line-height: 1; pointer-events: none; user-select: none;
+    background: linear-gradient(120deg, var(--violet), var(--teal));
+    -webkit-background-clip: text; background-clip: text; color: transparent; opacity: .35;
+    background-size: 250% 100%; }
+  @media (prefers-reduced-motion: no-preference) {
+    .slide.active .qmark { animation: shimmer 8s ease-in-out infinite alternate; }
+  }
+  cite { display: block; margin-top: 3.4cqh; font-family: 'JetBrains Mono', monospace;
+    font-style: normal; font-size: 1.9cqh; letter-spacing: .08em; color: var(--dim); }
+
+  /* ---------- couch interstitial ---------- */
+  .couch { width: 72cqw; max-height: 56cqh; }
+  .couch .ln { stroke: var(--ink); stroke-width: 2.5; fill: rgba(255,255,255,.6); stroke-linejoin: round; stroke-linecap: round; }
+  .couch .ln.soft { fill: rgba(255,255,255,.85); }
+  .couch .junk { stroke: var(--dim); stroke-width: 1.8; fill: rgba(255,255,255,.5); stroke-linejoin: round; stroke-linecap: round; }
+  .couch .fuzz { stroke: var(--dim); fill: none; stroke-width: 1.4; opacity: .8; }
+  .couch text { font-family: 'JetBrains Mono', monospace; font-size: 13px; fill: var(--dim); letter-spacing: .06em; }
+  .couch .shadow { fill: rgba(27,29,38,.06); }
+  .roach { transform: translate(0,0); }
+  .roach .leg { stroke: var(--ink); stroke-width: 1.6; stroke-linecap: round; }
+  .roach .lg { transform-box: fill-box; transform-origin: center; }
+  @media (prefers-reduced-motion: no-preference) {
+    .slide.active .roach { animation: scurry 16s linear infinite; }
+    .slide.active .roach .lg.a { animation: legs .12s linear infinite alternate; }
+    .slide.active .roach .lg.b { animation: legs .12s linear infinite alternate-reverse; }
+    @keyframes legs { from { transform: rotate(-9deg); } to { transform: rotate(9deg); } }
+    .slide.active .rtag { animation: scurryTag 16s linear infinite; }
+    .slide.active .execflash { animation: execflash 16s linear infinite; }
+    @keyframes scurryTag {
+      0%   { transform: translate(0px, 0px); }
+      8%   { transform: translate(110px, -3px); }
+      20%  { transform: translate(110px, -3px); }
+      30%  { transform: translate(215px, 2px); }
+      38%  { transform: translate(215px, 2px); }
+      48%  { transform: translate(335px, -2px); }
+      56%  { transform: translate(335px, -2px); }
+      58%  { transform: translate(335px, -2px); }
+      72%  { transform: translate(140px, 3px); }
+      82%  { transform: translate(140px, 3px); }
+      96%  { transform: translate(0px, 0px); }
+      100% { transform: translate(0px, 0px); }
+    }
+    @keyframes execflash {
+      0%, 47.5% { opacity: 0; transform: scale(.9); }
+      49%  { opacity: 1; transform: scale(1.06); }
+      51%  { opacity: 0; transform: scale(1); }
+      53%  { opacity: 1; transform: scale(1.06); }
+      55%  { opacity: 1; transform: scale(1); }
+      58%, 100% { opacity: 0; transform: scale(.9); }
+    }
+    @keyframes scurry {
+      0%   { transform: translate(0px, 0px) scaleX(1); }
+      8%   { transform: translate(110px, -3px) scaleX(1); }
+      20%  { transform: translate(110px, -3px) scaleX(1); }     /* pause */
+      30%  { transform: translate(215px, 2px) scaleX(1); }
+      38%  { transform: translate(215px, 2px) scaleX(1); }      /* pause */
+      48%  { transform: translate(335px, -2px) scaleX(1); }
+      56%  { transform: translate(335px, -2px) scaleX(1); }     /* pause */
+      58%  { transform: translate(335px, -2px) scaleX(-1); }    /* turn */
+      72%  { transform: translate(140px, 3px) scaleX(-1); }
+      82%  { transform: translate(140px, 3px) scaleX(-1); }     /* pause */
+      96%  { transform: translate(0px, 0px) scaleX(-1); }
+      100% { transform: translate(0px, 0px) scaleX(1); }
+    }
+  }
+  .foot { position: absolute; left: 7cqw; right: 7cqw; bottom: 4.5cqh; z-index: 3;
+    display: flex; justify-content: space-between; font-family: 'JetBrains Mono', monospace;
+    font-size: 1.6cqh; letter-spacing: .12em; color: var(--dim); pointer-events: none; }
+  .progress { position: absolute; left: 0; right: 0; bottom: 0; height: .5cqh; z-index: 3;
+    background: rgba(27,29,38,.07); }
+  .progress i { display: block; height: 100%; width: 0;
+    background: linear-gradient(90deg, var(--violet), var(--teal));
+    transition: width .8s var(--ease-glide); }
+</style>
+</head>
+<body>
+<div class="deck">
+  <div class="haze" aria-hidden="true"><i class="h1"></i><i class="h2"></i></div>
+
+  <!-- 1 · Title -->
+  <section class="slide active">
+    <div class="ring peek" aria-hidden="true" data-anim style="--i:2"></div>
+    <div class="eyebrow" data-anim style="--i:0">PMI · github.com/pichi-vm/pmi</div>
+    <h1 data-anim style="--i:1"><span class="ini p">P</span>ortable <span class="ini m">M</span>achine <span class="ini i">I</span>mage</h1>
+    <p class="strangelove" data-anim style="--i:2;margin-top:3.5cqh;max-width:54cqw">or: How I Learned to Stop Worrying About<br>the Untrusted Host by Shipping My Own Firmware</p>
+    <p class="sub" data-anim style="--i:3;margin-top:4cqh"><b style="color:var(--ink);font-weight:500">Nathaniel McCallum</b> &nbsp;·&nbsp; Fellow, AMD</p>
+  </section>
+
+
+  <!-- Chapter I divider -->
+  <section class="slide" style="align-items:center;justify-content:center;text-align:center">
+    <div class="ring div" aria-hidden="true" data-anim style="--i:2"></div>
+    <div class="chnum accent" data-anim style="--i:0">I</div>
+    <h2 data-anim style="--i:1;font-size:6.4cqh">Problem</h2>
+  </section>
+
+  <!-- 2 · Threat Model -->
+  <section class="slide">
+    <div class="eyebrow" data-anim style="--i:0">Threat model</div>
+    <h2 data-anim style="--i:1">Confidential computing separates <span class="accent">two planes</span></h2>
+    <div class="split" style="margin-top:5cqh" data-anim data-i="2">
+      <div class="col">
+        <h3>Management plane</h3>
+        <ul>
+          <li>Cloud control plane</li>
+          <li>Hypervisor and VMM</li>
+          <li>Host administrators</li>
+        </ul>
+      </div>
+      <div class="divider" aria-hidden="true"></div>
+      <div class="col">
+        <h3>Application plane</h3>
+        <ul>
+          <li><span class="gtext">Firmware and paravisor</span></li>
+          <li>Operating system</li>
+          <li>Workload</li>
+        </ul>
+      </div>
+    </div>
+    <p class="pt" data-anim style="--i:3">These planes are <b>mutually adversarial</b>.</p>
+  </section>
+
+
+  <!-- 4 · ANSSI Quote -->
+  <section class="slide">
+    <div class="eyebrow" data-anim style="--i:0">The problem, named</div>
+    <blockquote data-anim style="--i:1">
+      <span class="qmark" aria-hidden="true">&ldquo;</span>
+      <p>Part of the code running in the User-provided TCB is often <span class="hl">injected by the cloud-provider</span>, especially in the case of cVMs: the firmware responsible for the early stages of booting the VM, as well as the virtual TPM used to attest the later boot stages, are typically <span class="hl">beyond the control of the user</span>. [&hellip;]</p>
+      <p><span class="hl">Attestation of every step of the bootchain is necessary</span> to verify that the entire User-provided TCB has not been compromised by an admin attack, but it is <span class="hl">impossible to perform on current cloud offerings</span> for confidential VMs.</p>
+      <cite>— ANSSI, Technical Position Paper on Confidential Computing, v1.0, October 2025</cite>
+    </blockquote>
+  </section>
+
+  <!-- Verdict · What The Quote Exposes -->
+  <section class="slide" style="align-items:center;text-align:center">
+    <div class="breath" aria-hidden="true"></div>
+    <h2 data-anim style="--i:0;font-size:9.5cqh;max-width:84cqw;line-height:1.15">The user-provided TCB<br>is <span class="accent">not user-provided</span>.</h2>
+  </section>
+
+  <!-- 6 · Goal -->
+  <section class="slide" style="align-items:center;text-align:center">
+    <div class="breath" aria-hidden="true"></div>
+    <div class="eyebrow" data-anim style="--i:0">Goal</div>
+    <h2 class="big" data-anim style="--i:1;max-width:74cqw">Move guest firmware into the tenant&rsquo;s <span class="accent">software supply chain</span>.</h2>
+    <div class="chips pipe" style="margin-top:5cqh;justify-content:center" data-anim data-i="2">
+      <i>build</i><span class="a">&rarr;</span><i>scan</i><span class="a">&rarr;</span><i>version</i><span class="a">&rarr;</span><i>promote</i><span class="a">&rarr;</span><i>attest</i>
+    </div>
+    <svg data-anim data-i="3" style="width:42cqw;margin-top:2cqh" viewBox="0 0 420 34" role="img" aria-label="roll back returns to an earlier stage">
+      <line x1="410" y1="20" x2="262" y2="20" stroke="var(--dim)" stroke-width="1.6" stroke-dasharray="7 6"/>
+      <line x1="158" y1="20" x2="22" y2="20" stroke="var(--dim)" stroke-width="1.6" stroke-dasharray="7 6"/>
+      <path d="M22 13 L6 20 L22 27 z" fill="var(--dim)"/>
+      <text x="210" y="25" text-anchor="middle" style="font-size:14px;letter-spacing:.12em;fill:var(--dim);font-family:'JetBrains Mono',monospace">roll back</text>
+    </svg>
+    <p class="pt" data-anim style="--i:4">Firmware should be operated <b>like workload software</b>.</p>
+  </section>
+
+
+  <!-- Interstitial · Under the couch -->
+  <section class="slide" style="align-items:center;text-align:center">
+    <div class="eyebrow" data-anim style="--i:0">Fair warning</div>
+    <h2 data-anim style="--i:1;font-size:7.6cqh">First, we have to clean <span class="accent">under the couch</span>.</h2>
+    <svg class="couch" viewBox="0 0 800 400" data-anim data-i="2" role="img" aria-label="A couch with legacy boot mechanisms as junk underneath, and a cockroach scurrying about">
+      <!-- under-couch shadow -->
+      <ellipse class="shadow" cx="400" cy="316" rx="290" ry="16"/>
+      <!-- floor -->
+      <line x1="60" y1="312" x2="740" y2="312" stroke="rgba(27,29,38,.25)" stroke-width="2"/>
+      <!-- couch: arms, back, cushions, legs -->
+      <g class="ln">
+        <rect x="170" y="92" width="460" height="80" rx="22"/>                 <!-- back -->
+        <rect x="128" y="128" width="74" height="118" rx="26"/>                <!-- left arm -->
+        <rect x="598" y="128" width="74" height="118" rx="26"/>                <!-- right arm -->
+        <rect class="soft" x="196" y="168" width="204" height="62" rx="16"/>   <!-- cushion L -->
+        <rect class="soft" x="400" y="168" width="204" height="62" rx="16"/>   <!-- cushion R -->
+        <rect x="170" y="226" width="460" height="26" rx="10"/>                <!-- base rail -->
+        <rect x="186" y="252" width="14" height="58" rx="5"/>                  <!-- legs -->
+        <rect x="600" y="252" width="14" height="58" rx="5"/>
+      </g>
+      <!-- junk: each item is geometry plus the one internal detail that names it -->
+      <g class="junk" transform="translate(27,0)">
+        <!-- TV remote: d-pad ring + button grid -->
+        <g transform="rotate(-3 264 295)">
+          <rect x="232" y="285" width="64" height="20" rx="6"/>
+          <circle cx="247" cy="295" r="5.5" fill="none"/>
+          <circle cx="264" cy="291" r="2" fill="rgba(27,29,38,.4)" stroke="none"/>
+          <circle cx="272" cy="291" r="2" fill="rgba(27,29,38,.4)" stroke="none"/>
+          <circle cx="280" cy="291" r="2" fill="rgba(27,29,38,.4)" stroke="none"/>
+          <circle cx="264" cy="299" r="2" fill="rgba(27,29,38,.4)" stroke="none"/>
+          <circle cx="272" cy="299" r="2" fill="rgba(27,29,38,.4)" stroke="none"/>
+          <circle cx="280" cy="299" r="2" fill="rgba(27,29,38,.4)" stroke="none"/>
+        </g>
+        <!-- single sock: L-shape with ribbed cuff -->
+        <path d="M322 266 h16 v17 q0 11 11 13 q14 3 14 12 q0 9 -13 9 h-12 q-16 0 -16 -15 z"/>
+        <line x1="324" y1="271" x2="336" y2="271" stroke-width="1.4"/>
+        <line x1="324" y1="275" x2="336" y2="275" stroke-width="1.4"/>
+        <line x1="324" y1="279" x2="336" y2="279" stroke-width="1.4"/>
+        <!-- floppy: shutter + write-protect notch + paper label reading A20 -->
+        <rect x="392" y="270" width="38" height="38" rx="2"/>
+        <rect x="400" y="270" width="22" height="11" fill="rgba(27,29,38,.15)" stroke="none"/>
+        <rect x="406" y="272" width="6" height="7" fill="rgba(255,255,255,.9)" stroke="none"/>
+        <rect x="399" y="290" width="24" height="15" fill="rgba(255,255,255,.9)"/>
+        <!-- pizza slice: triangle, crust band, two pepperoni -->
+        <path d="M458 304 L502 280 q12 6 11 24 z"/>
+        <path d="M502 280 q12 6 11 24" fill="none" stroke-width="3"/>
+        <circle cx="486" cy="296" r="3.4" fill="rgba(27,29,38,.35)" stroke="none"/>
+        <circle cx="497" cy="290" r="3.4" fill="rgba(27,29,38,.35)" stroke="none"/>
+      </g>
+      <g transform="translate(27,0)">
+        <text x="264" y="338" text-anchor="middle">0x5658</text>
+        <text x="343" y="338" text-anchor="middle">e820</text>
+        <text x="411" y="338" text-anchor="middle">fw_cfg</text>
+        <text x="486" y="338" text-anchor="middle">ACPI</text>
+      </g>
+      <!-- furniture tag: the couch itself -->
+      <g transform="rotate(-6 690 244)">
+        <path d="M664 212 q22 14 26 32" fill="none" stroke="var(--dim)" stroke-width="1.4"/>
+        <rect x="676" y="242" width="78" height="36" rx="5" fill="rgba(255,255,255,.92)" stroke="var(--ink)" stroke-width="1.8"/>
+        <circle cx="684" cy="250" r="2" fill="none" stroke="var(--dim)" stroke-width="1.2"/>
+        <text x="717" y="258" text-anchor="middle" style="font-size:12px;fill:var(--ink)">guest</text>
+        <text x="717" y="272" text-anchor="middle" style="font-size:12px;fill:var(--ink)">firmware</text>
+      </g>
+      <!-- the resident -->
+      <g transform="translate(225,296)">
+        <g class="roach">
+          <g class="lg a">
+            <line class="leg" x1="-4" y1="0" x2="-10" y2="-6"/>
+            <line class="leg" x1="0" y1="1" x2="-2" y2="7"/>
+            <line class="leg" x1="4" y1="0" x2="10" y2="-6"/>
+          </g>
+          <g class="lg b">
+            <line class="leg" x1="-3" y1="1" x2="-9" y2="6"/>
+            <line class="leg" x1="1" y1="0" x2="3" y2="-7"/>
+            <line class="leg" x1="5" y1="1" x2="11" y2="6"/>
+          </g>
+          <ellipse cx="0" cy="0" rx="9" ry="4.5" fill="#1B1D26"/>
+          <circle cx="9.5" cy="0" r="2.6" fill="#1B1D26"/>
+          <path d="M11 -1.5 q6 -5 10 -4 M11 1.5 q6 5 10 4" stroke="#1B1D26" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+        </g>
+      </g>
+    </svg>
+  </section>
+
+  <!-- 9 · Common Boot Today -->
+  <section class="slide">
+    <div class="eyebrow" data-anim style="--i:0">Common boot today</div>
+    <h2 data-anim style="--i:1">The platform contract is a <span class="accent">conversation</span></h2>
+    <ol class="seq" style="margin-top:3.5cqh" data-anim data-i="2">
+      <li><span class="who">TENANT</span>Submits kernel, disk image, and config to the cloud/VMM.</li>
+      <li><span class="who">HOST</span>Selects firmware and builds the virtual motherboard.</li>
+      <li><span class="who">HOST</span>Synthesizes ACPI, DTB, HOBs, CPU model, memory map, boot metadata.</li>
+      <li><span class="who">HOST</span>Starts the guest firmware.</li>
+      <li><span class="who">GUEST</span>Firmware queries the host: <span class="mono">fw_cfg</span>, CPUID, tables, metadata.</li>
+      <li><span class="who">HOST</span>Returns platform details.</li>
+      <li><span class="who">GUEST</span>Firmware hands the synthesized platform description to the OS; the workload boots.</li>
+      <li><span class="who">GUEST</span>The OS executes the host&rsquo;s AML — at boot, and on every ACPI event thereafter.</li>
+      <li><span class="who">VERIFIER</span>Receives evidence whose meaning depends on provider-shaped boot context.</li>
+    </ol>
+    <p class="pt" data-anim style="--i:3">The boot contract is discovered dynamically <b>by talking to the management plane</b>.</p>
+  </section>
+
+  <!-- Why separation is hard: two bonds -->
+  <section class="slide">
+    <div class="eyebrow" data-anim style="--i:0">Obstacle</div>
+    <h2 data-anim style="--i:1">Two <span class="accent">bonds</span> hold firmware to the hypervisor.</h2>
+    <div class="split" style="margin-top:4cqh">
+      <div class="col" data-anim data-i="2">
+        <h3>1 · Tight coupling</h3>
+        <p style="font-weight:300;font-size:2.6cqh;line-height:1.5;margin-bottom:2.4cqh">Firmware is not portable code in isolation — it is written against a <b style="font-weight:500">virtual motherboard</b>.</p>
+        <div class="chips sm">
+          <i>memory map</i><i>interrupts</i><i>timers</i><i>PCI / MMIO</i><i>reset state</i>
+        </div>
+      </div>
+      <div class="divider" aria-hidden="true"></div>
+      <div class="col" data-anim data-i="3">
+        <h3>2 · Implicit contract</h3>
+        <p style="font-weight:300;font-size:2.6cqh;line-height:1.5;margin-bottom:2.4cqh">Hypervisors bolted proprietary host&hairsp;&harr;&hairsp;firmware channels onto it — <b style="font-weight:500">unstated, unversioned</b>.</p>
+        <div class="chips sm">
+          <i>fw_cfg</i><i>table loader</i><i>CMOS</i><i>magic ports</i>
+        </div>
+      </div>
+    </div>
+    <p class="pt" data-anim style="--i:4">Both are avenues for the VMM to <b>attack the guest</b>.</p>
+  </section>
+
+  <!-- Uh oh: the discovery -->
+  <section class="slide" style="align-items:center;text-align:center">
+    <div class="eyebrow" data-anim style="--i:0">Uh oh</div>
+    <h2 data-anim style="--i:1;max-width:80cqw">Executable code is crossing the <span class="accent">boundary</span>.</h2>
+    <p class="sub" data-anim style="--i:2;margin-top:2.5cqh;max-width:58cqw">The host doesn&rsquo;t just hand the guest data — it hands it code, and the guest runs it blind.</p>
+    <svg data-anim data-i="3" style="width:56cqw;margin-top:5cqh" viewBox="0 0 560 150" role="img" aria-label="The cockroach scurrying back and forth across the boundary between host and guest">
+      <defs>
+        <linearGradient id="bnd" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0" stop-color="#F6F7FB" stop-opacity="0"/>
+          <stop offset=".25" stop-color="#8B7CF6"/>
+          <stop offset=".75" stop-color="#4FD6C4"/>
+          <stop offset="1" stop-color="#F6F7FB" stop-opacity="0"/>
+        </linearGradient>
+      </defs>
+      <rect x="15" y="18" width="250" height="114" rx="12" fill="rgba(255,255,255,.55)" stroke="rgba(27,29,38,.22)" stroke-width="1.6"/>
+      <rect x="295" y="18" width="250" height="114" rx="12" fill="rgba(255,255,255,.55)" stroke="rgba(27,29,38,.22)" stroke-width="1.6"/>
+      <line x1="280" y1="6" x2="280" y2="144" stroke="url(#bnd)" stroke-width="1.6"/>
+      <text x="140" y="46" text-anchor="middle" style="font-size:17px;letter-spacing:.3em;fill:var(--dim);font-family:'JetBrains Mono',monospace">HOST</text>
+      <text x="420" y="46" text-anchor="middle" style="font-size:17px;letter-spacing:.3em;fill:var(--dim);font-family:'JetBrains Mono',monospace">GUEST</text>
+      <text class="execflash" x="400" y="76" text-anchor="middle" style="font-size:15px;font-weight:500;letter-spacing:.18em;fill:var(--violet);font-family:'JetBrains Mono',monospace;opacity:0;transform-box:fill-box;transform-origin:center">EXECUTE!</text>
+      <g transform="translate(65,98)">
+        <g class="rtag" style="transform:translate(0,0)">
+          <text x="0" y="-15" text-anchor="middle" style="font-size:12px;letter-spacing:.12em;fill:var(--ink);font-family:'JetBrains Mono',monospace">AML</text>
+        </g>
+        <g class="roach">
+          <g class="lg a">
+            <line class="leg" x1="-4" y1="0" x2="-10" y2="-6"/>
+            <line class="leg" x1="0" y1="1" x2="-2" y2="7"/>
+            <line class="leg" x1="4" y1="0" x2="10" y2="-6"/>
+          </g>
+          <g class="lg b">
+            <line class="leg" x1="-3" y1="1" x2="-9" y2="6"/>
+            <line class="leg" x1="1" y1="0" x2="3" y2="-7"/>
+            <line class="leg" x1="5" y1="1" x2="11" y2="6"/>
+          </g>
+          <ellipse cx="0" cy="0" rx="9" ry="4.5" fill="#1B1D26"/>
+          <circle cx="9.5" cy="0" r="2.6" fill="#1B1D26"/>
+          <path d="M11 -1.5 q6 -5 10 -4 M11 1.5 q6 5 10 4" stroke="#1B1D26" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+        </g>
+      </g>
+    </svg>
+    <p class="mono" data-anim style="--i:4;margin-top:1.6cqh;font-size:1.7cqh;letter-spacing:.18em;color:var(--dim)">AML, IN ITS NATURAL HABITAT</p>
+  </section>
+
+
+
+  <!-- The trap -->
+  <section class="slide">
+    <div class="eyebrow" data-anim style="--i:0">The trap</div>
+    <h2 data-anim style="--i:1">Trust the answers, or measure them. <span class="accent">Pick your poison.</span></h2>
+    <div class="split" style="margin-top:4.5cqh">
+      <div class="col" data-anim data-i="2">
+        <h3>Trust them</h3>
+        <p style="font-weight:300;font-size:2.6cqh;line-height:1.55">Every dynamic answer from the management plane is <b style="font-weight:500">adversarial input</b> — parsed, mapped, and executed by the guest at full privilege.</p>
+        <p class="mono" style="margin-top:2.2cqh;font-size:1.85cqh;letter-spacing:.08em;color:var(--dim)">executed: AML &nbsp;·&nbsp; parsed: tables &nbsp;·&nbsp; trusted: maps</p>
+        <div class="cost"><span class="k">COST</span><b>Guest integrity — the security confidential computing exists to provide.</b></div>
+      </div>
+      <div class="divider" aria-hidden="true"></div>
+      <div class="col" data-anim data-i="3">
+        <h3>Measure them</h3>
+        <p style="font-weight:300;font-size:2.6cqh;line-height:1.55">Host decisions fold into the guest&rsquo;s <b style="font-weight:500">identity</b> — the same image attests differently on every hypervisor, memory size, and VMM version.</p>
+        <p class="mono" style="margin-top:2.2cqh;font-size:1.85cqh;letter-spacing:.08em;color:var(--dim)">ACPI &rarr; vTPM PCRs &nbsp;·&nbsp; TD HOB &rarr; RTMR[0]</p>
+        <div class="cost"><span class="k">COST</span><b>Portable attestation — one image, a different measurement everywhere.</b></div>
+      </div>
+    </div>
+    <p class="pt" data-anim style="--i:4">Either way, the <b>tenant pays</b>.</p>
+  </section>
+
+
+
+  <!-- Good news: convergence -->
+  <section class="slide">
+    <div class="eyebrow" data-anim style="--i:0">Good news</div>
+    <h2 data-anim style="--i:1">The virtual motherboards are <span class="accent">converging</span>.</h2>
+    <p class="sub" data-anim style="--i:2;margin-top:2.2cqh;max-width:76cqw">Historically, platform variation made this problem enormous. Standard hypervisor APIs across the major platforms now constrain the virtual motherboard to a narrow set of choices.</p>
+    <div class="chips sm" data-anim data-i="3" style="margin-top:2.8cqh">
+      <i>KVM</i><i>HVF</i><i>WHP</i><i>bhyve</i>
+    </div>
+    <ul class="kl tight sweep" style="margin-top:3.4cqh" data-anim data-i="4">
+      <li><span class="k">BOND 1</span><div><b>Weakened.</b><span>Convergence leaves far less coupling variation to handle.</span></div></li>
+      <li><span class="k">BOND 2</span><div><b>Eliminate it.</b><span>Replace the implicit, unstated channels with an explicit contract.</span></div></li>
+      <li><span class="k">AML</span><div><b>Kill it.</b><span>No executable code across the boundary. None.</span></div></li>
+    </ul>
+  </section>
+
+
+  <!-- Chapter II divider -->
+  <section class="slide" style="align-items:center;justify-content:center;text-align:center">
+    <div class="ring div" aria-hidden="true" data-anim style="--i:2"></div>
+    <div class="chnum accent" data-anim style="--i:0">II</div>
+    <h2 data-anim style="--i:1;font-size:6.4cqh">Requirements</h2>
+  </section>
+
+  <!-- Boundary Rule · the pivot -->
+  <section class="slide">
+    <div class="eyebrow" data-anim style="--i:0">Boundary rule</div>
+    <div class="split" style="margin-top:1cqh">
+      <div class="col dense" data-anim data-i="1">
+        <h2 style="font-size:6.4cqh;margin-bottom:1.2cqh">The host <span class="accent">allocates</span>.</h2>
+        <h3>launch-time · validated</h3>
+        <ul>
+          <li><b>Memory size</b><small>how much, and which host frames back it</small></li>
+          <li><b>CPU count</b><small>how many vCPUs are offered</small></li>
+          <li><b>Topology</b><small>NUMA distances, placement</small></li>
+          <li><b>Device resources</b><small>addresses — within guest constraints</small></li>
+          <li><b>Launch execution</b><small>runs the target&rsquo;s launch API</small></li>
+        </ul>
+      </div>
+      <div class="divider" aria-hidden="true"></div>
+      <div class="col dense" data-anim data-i="2">
+        <h2 style="font-size:6.4cqh;margin-bottom:1.2cqh">The guest <span class="accent">defines</span>.</h2>
+        <h3>build-time · measured</h3>
+        <ul>
+          <li><b>The first bytes executed</b><small>firmware at the reset vector</small></li>
+          <li><b>Initial register state</b><small>the boot vCPU&rsquo;s entry contract</small></li>
+          <li><b>CPU ISA baseline</b><small>the feature floor the code is built against</small></li>
+          <li><b>Platform meaning</b><small>memory map semantics, interrupts, device topology</small></li>
+          <li><b>Attestation coverage</b><small>what the evidence must bind</small></li>
+        </ul>
+      </div>
+    </div>
+    <p class="pt" data-anim style="--i:3">The prize is bigger than trust and identity: <b>micro-VM or full VM becomes the tenant&rsquo;s choice</b> — not the hypervisor&rsquo;s.</p>
+  </section>
+
+  <!-- Requirements -->
+  <section class="slide">
+    <div class="eyebrow" data-anim style="--i:0">Requirements</div>
+    <h2 data-anim style="--i:1">Negotiate the whole platform — <span class="accent">before the guest runs</span>.</h2>
+    <p class="sub" data-anim style="--i:2;margin-top:2cqh;max-width:74cqw">Built from existing standards and formats — so the contract is a format for describing the platform, and the format must be:</p>
+    <ul class="kl tight sweep" style="margin-top:2.8cqh" data-anim data-i="3">
+      <li><span class="k">WELL-DEFINED</span><div><b>Typed, versioned, rejectable when unknown.</b><span>The implicit contract, eliminated.</span></div></li>
+      <li><span class="k">CONVERTIBLE</span><div><b>Renders into what the OS already expects.</b><span>ACPI or Devicetree — not a new universe of hardware description.</span></div></li>
+      <li><span class="k">NO CODE</span><div><b><span class="mono">MUST NOT</span> contain executable code.</b><span>AML does not survive this rule.</span></div></li>
+      <li><span class="k">SPLIT TRUST</span><div><b>Divides host and guest responsibilities.</b><span>Allocation and definition, separated explicitly.</span></div></li>
+    </ul>
+  </section>
+
+
+
+  <!-- 15 · Missing Artifact -->
+  <section class="slide">
+    <div class="eyebrow" data-anim style="--i:0">The missing artifact</div>
+    <h2 data-anim style="--i:1">A portable, image-owned <span class="accent">launch contract</span></h2>
+    <p class="sub" data-anim style="--i:2;margin-top:2cqh">It needs to say:</p>
+    <ul class="recipe" style="margin-top:2.5cqh" data-anim data-i="3">
+      <li>Load these sections.</li>
+      <li>Fill these regions.</li>
+      <li>Require this CPU baseline.</li>
+      <li>Initialize this state.</li>
+      <li>Finalize this target.</li>
+      <li><span class="caret">Start here.</span></li>
+    </ul>
+  </section>
+
+
+  <!-- Chapter III divider -->
+  <section class="slide" style="align-items:center;justify-content:center;text-align:center">
+    <div class="ring div" aria-hidden="true" data-anim style="--i:2"></div>
+    <div class="chnum accent" data-anim style="--i:0">III</div>
+    <h2 data-anim style="--i:1;font-size:6.4cqh">PMI</h2>
+  </section>
+
+  <!-- 16 · PMI In One Sentence -->
+  <section class="slide" style="align-items:center;text-align:center">
+    <div class="breath" aria-hidden="true"></div>
+    <h2 data-anim style="--i:0;font-size:6.6cqh;max-width:74cqw;line-height:1.22">PMI is a launch contract you can ship: platform definition, boot payloads, and per-target launch recipes in <span class="accent">one artifact</span>.</h2>
+  </section>
+
+
+  <!-- 17 · PMI Image Anatomy -->
+  <section class="slide">
+    <div class="eyebrow" data-anim style="--i:0">Image anatomy</div>
+    <h2 data-anim style="--i:1">One PE file: payloads, plus <span class="accent">multiple target contracts</span></h2>
+    <div class="pe" style="margin-top:4cqh">
+      <div class="pestack" data-anim data-i="2">
+        <div class="row hdr">PE / COFF HEADERS</div>
+        <div class="row cap">CODE / DATA</div>
+        <div class="row">.svsm <span>tenant service module</span></div>
+        <div class="row">.ovmf <span>guest firmware</span></div>
+        <div class="row">.linux <span>kernel</span></div>
+        <div class="row">.initrd <span>initrd</span></div>
+        <div class="row cap">PLATFORM DEFINITION</div>
+        <div class="row plat">.dtb <span>base Devicetree</span></div>
+        <div class="row cap">TARGET LAUNCH RECIPES</div>
+        <div class="row pmi">.pmi.vm <span>plain VM</span></div>
+        <div class="row pmi">.pmi.sev <span>AMD SEV</span></div>
+        <div class="row pmi">.pmi.tdx <span>Intel TDX</span></div>
+        <div class="row pmi">.pmi.cca <span>Arm CCA</span></div>
+      </div>
+      <div class="pelegend" data-anim data-i="3">
+        <p><span class="sw code"></span><b>Code &amp; data.</b> The bytes the guest runs — shared across targets rather than duplicated per target.</p>
+        <p><span class="sw plat"></span><b>Platform definition.</b> The measured base Devicetree: the board the image drew.</p>
+        <p><span class="sw rec"></span><b>Launch recipes.</b> One CBOR contract per target, non-loaded — other loaders ignore them, so the same file still boots bare metal as a UKI.</p>
+        <p>The VMM reads only the section for the target it launches.</p>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Example: what the image provides -->
+  <section class="slide">
+    <div class="eyebrow" data-anim style="--i:0">One target · .pmi.sev</div>
+    <h2 data-anim style="--i:1">Anatomy of a <span class="accent">target</span></h2>
+    <pre class="cbor" data-anim data-i="2" style="margin-top:2.2cqh">{
+  <span class="dm">"version"</span>: 1,
+  <span class="dm">"cpu:profile"</span>: "x86-64-v3",
+  <span class="dm">"sev:id"</span>: {"block": ".sev.id.block", "auth": ".sev.id.auth"},
+  <span class="dm">"merged:dtb"</span>: ".dtb",
+  <span class="dm">"actions"</span>: [
+    {"type": <span class="ld">"load"</span>, "gpa": 0x8000000,  "section": ".svsm"},
+    {"type": <span class="ld">"load"</span>, "gpa": 0xFFC00000, "section": ".ovmf"},
+    {"type": <span class="ld">"load"</span>, "gpa": 0x1000000,  "section": ".linux"},
+    {"type": <span class="ld">"load"</span>, "gpa": 0x4000000,  "section": ".initrd"},
+    {"type": <span class="ld">"load"</span>, "gpa": 0x2000000,  "section": ".cmdline"},
+    {"type": <span class="ld">"load"</span>, "gpa": 0x2001000,  "section": ".dtb"},
+    {"type": <span class="fl">"fill"</span>, "gpa": 0x2011000,  "section": ".dtbo", "kind": "merged:dtbo"},
+    {"type": <span class="fl">"fill"</span>, "gpa": 0x2021000,  "section": ".sev.secrets", "kind": "sev:secrets"},
+    {"type": <span class="fl">"fill"</span>, "gpa": 0x2022000,  "section": ".sev.cpuid", "kind": "sev:cpuid"},
+    {"type": <span class="ld">"load"</span>, "gpa": 0x2023000,  "section": ".sev.vmsa", "kind": "sev:vmsa"}
+  ]
+}</pre>
+    <p class="pt" data-anim style="--i:3;margin-top:2.4cqh">Two actions only — <span class="mono" style="color:var(--violet);font-weight:500">load</span> places image bytes; <span class="mono" style="color:var(--teal);font-weight:500">fill</span> reserves host-populated regions. <b>Anything unknown fails the launch.</b></p>
+  </section>
+
+  <!-- Example: what the VMM does -->
+  <section class="slide">
+    <div class="eyebrow" data-anim style="--i:0">The same recipe, executed</div>
+    <h2 data-anim style="--i:1">What the VMM <span class="accent">does</span> with it</h2>
+    <ol class="recipe seq" style="margin-top:2.6cqh;font-size:2.15cqh;line-height:1.5" data-anim data-i="2">
+      <li><span class="op api">start</span>SNP_LAUNCH_START <span class="c">· host policy verified against .sev.id</span></li>
+      <li><span class="op load">load</span>.svsm <span class="c">· measured</span></li>
+      <li><span class="op load">load</span>.ovmf <span class="c">· measured</span></li>
+      <li><span class="op load">load</span>.linux <span class="c">· measured</span></li>
+      <li><span class="op load">load</span>.initrd <span class="c">· measured</span></li>
+      <li><span class="op load">load</span>.cmdline <span class="c">· measured</span></li>
+      <li><span class="op load">load</span>.dtb <span class="c">· measured base platform</span></li>
+      <li><span class="op fill">fill</span>.dtbo <span class="c">· host allocation overlay, unmeasured</span></li>
+      <li><span class="op fill">fill</span>.sev.secrets <span class="c">· PSP-populated</span></li>
+      <li><span class="op fill">fill</span>.sev.cpuid <span class="c">· PSP-populated</span></li>
+      <li><span class="op load">load</span>.sev.vmsa <span class="c">· measured BSP register state</span></li>
+      <li><span class="op api">finish</span>SNP_LAUNCH_FINISH <span class="c">· locks the launch digest</span></li>
+    </ol>
+    <p class="pt" data-anim style="--i:3">Three components previously provisioned and attested separately ship as <b>one tenant-owned image</b>.</p>
+  </section>
+
+
+
+
+  <!-- 22 · Platform Description -->
+  <section class="slide">
+    <div class="eyebrow" data-anim style="--i:0">Platform description</div>
+    <h2 data-anim style="--i:1">One Devicetree, <span class="accent">two authors</span></h2>
+    <div class="split" style="margin-top:2.6cqh;column-gap:2.6cqw">
+      <div class="col" data-anim data-i="2">
+        <h3>Base DTB · tenant · measured</h3>
+        <pre class="cbor" style="font-size:1.62cqh;line-height:1.42;margin-top:1.4cqh">/ {
+  compatible = "pmi,virt";
+
+  pcie@e0000000 {
+    compatible = "pci-host-ecam-generic";
+    reg = &lt;0x0 0xe0000000 0x0 0x10000000&gt;;
+    ranges = &lt;&hellip;&gt;;
+  };
+
+  virtio_mmio@d0000000 {
+    compatible = "virtio,mmio";
+    reg = &lt;0x0 0xd0000000 0x0 0x1000&gt;;
+  };
+  &hellip;
+};</pre>
+      </div>
+      <div class="divider" aria-hidden="true"></div>
+      <div class="col" data-anim data-i="3">
+        <h3>DTBO · host · unmeasured, validated</h3>
+        <pre class="cbor" style="font-size:1.62cqh;line-height:1.42;margin-top:1.4cqh">/ {
+  memory@80000000 {
+    device_type = "memory";
+    reg = &lt;0x0 0x80000000 0x4 0x0&gt;;
+  };
+
+  cpus {
+    #address-cells = &lt;1&gt;;
+    cpu@0 { device_type = "cpu"; &hellip; };
+    cpu@1 { device_type = "cpu"; &hellip; };
+  };
+  &hellip;
+};</pre>
+      </div>
+    </div>
+    <p class="pt" data-anim style="--i:4;margin-top:2.4cqh"><b>Definition</b> on the left: which devices exist and where. <b>Allocation</b> on the right: how much memory, how many CPUs — allowlisted, guest-validated, then merged. The OS receives one normal Devicetree.</p>
+  </section>
+
+  <!-- The motherboard, inverted -->
+  <section class="slide">
+    <div class="eyebrow" data-anim style="--i:0">The motherboard, inverted</div>
+    <h2 data-anim style="--i:1">The image draws the board. The host fills the <span class="accent">slots</span>.</h2>
+    <div class="pe" style="margin-top:4cqh">
+      <svg data-anim data-i="2" viewBox="0 0 460 300" style="width:100%" role="img" aria-label="A motherboard drawn by the image, with empty sockets the host populates">
+        <rect x="20" y="20" width="420" height="260" rx="10" fill="rgba(255,255,255,.55)" stroke="var(--ink)" stroke-width="2.2"/>
+        <!-- CPU socket -->
+        <rect x="56" y="52" width="92" height="92" rx="6" fill="none" stroke="var(--ink)" stroke-width="2"/>
+        <rect x="72" y="68" width="60" height="60" rx="3" fill="none" stroke="rgba(27,29,38,.4)" stroke-width="1.4"/>
+        <text x="102" y="166" text-anchor="middle" style="font-size:12px;letter-spacing:.1em;fill:var(--dim);font-family:'JetBrains Mono',monospace">vCPUs</text>
+        <!-- DIMM slots -->
+        <rect x="196" y="50" width="13" height="118" rx="3" fill="none" stroke="var(--ink)" stroke-width="2"/>
+        <rect x="222" y="50" width="13" height="118" rx="3" fill="none" stroke="var(--ink)" stroke-width="2"/>
+        <line x1="196" y1="109" x2="209" y2="109" stroke="rgba(27,29,38,.4)" stroke-width="1.4"/>
+        <line x1="222" y1="109" x2="235" y2="109" stroke="rgba(27,29,38,.4)" stroke-width="1.4"/>
+        <text x="215" y="186" text-anchor="middle" style="font-size:12px;letter-spacing:.1em;fill:var(--dim);font-family:'JetBrains Mono',monospace">memory</text>
+        <!-- PCIe slots: x16 and x8 -->
+        <rect x="56" y="206" width="160" height="13" rx="3" fill="none" stroke="var(--ink)" stroke-width="2"/>
+        <rect x="56" y="230" width="112" height="13" rx="3" fill="none" stroke="var(--ink)" stroke-width="2"/>
+        <text x="56" y="264" style="font-size:12px;letter-spacing:.1em;fill:var(--dim);font-family:'JetBrains Mono',monospace">PCI — emulated or passthrough</text>
+        <!-- virtio-mmio window -->
+        <rect x="300" y="206" width="110" height="38" rx="5" fill="none" stroke="var(--ink)" stroke-width="1.8" stroke-dasharray="6 5"/>
+        <text x="355" y="229" text-anchor="middle" style="font-size:12px;letter-spacing:.08em;fill:var(--dim);font-family:'JetBrains Mono',monospace">virtio-mmio</text>
+        <!-- firmware: soldered on, image-owned -->
+        <rect x="318" y="58" width="78" height="32" rx="4" fill="rgba(255,255,255,.85)" stroke="var(--ink)" stroke-width="2"/>
+        <text x="357" y="78" text-anchor="middle" style="font-size:12px;letter-spacing:.08em;fill:var(--ink);font-family:'JetBrains Mono',monospace">firmware</text>
+      </svg>
+      <div class="pelegend" data-anim data-i="3">
+        <p><b>The image draws the board.</b> Which sockets exist, where they sit, what the firmware expects — measured platform definition.</p>
+        <p><b>The host populates it.</b> vCPUs into the socket, memory into the slots, virtio-mmio and PCI devices — emulated or passthrough.</p>
+        <p><b>Never beyond the board.</b> No slot in the definition, no device in the guest.</p>
+      </div>
+    </div>
+    <p class="pt" data-anim style="--i:4">Shape is <b>definition</b>. Population is <b>allocation</b>.</p>
+  </section>
+
+
+  <!-- Why Devicetree -->
+  <section class="slide">
+    <div class="eyebrow" data-anim style="--i:0">Describing the board</div>
+    <h2 data-anim style="--i:1">Why Devicetree? Run the <span class="accent">requirements</span>.</h2>
+    <div class="split" style="margin-top:4cqh">
+      <div class="col" data-anim data-i="2">
+        <h3>ACPI</h3>
+        <div class="rq"><span class="k">WELL-DEFINED</span><span class="y">&#10003;</span><p>Specified and versioned.</p></div>
+        <div class="rq"><span class="k">CONVERTIBLE</span><span class="n">&#10007;</span><p><b>One-way.</b> AML cannot be lowered to data — ACPI does not convert to Devicetree.</p></div>
+        <div class="rq"><span class="k">NO CODE</span><span class="n">&#10007;</span><p><b>AML is structural.</b> The DSDT is mandatory — the roach is load-bearing.</p></div>
+        <div class="rq"><span class="k">SPLIT TRUST</span><span class="n">&#10007;</span><p>Monolithic tables interleave definition with allocation.</p></div>
+      </div>
+      <div class="divider" aria-hidden="true"></div>
+      <div class="col" data-anim data-i="3">
+        <h3>Devicetree</h3>
+        <div class="rq"><span class="k">WELL-DEFINED</span><span class="y">&#10003;</span><p>DT spec; strict parsers in libfdt and safe Rust.</p></div>
+        <div class="rq"><span class="k">CONVERTIBLE</span><span class="y">&#10003;</span><p><b>Serves both.</b> Native on aarch64; firmware renders ACPI in-guest on x86.</p></div>
+        <div class="rq"><span class="k">NO CODE</span><span class="y">&#10003;</span><p><b>Data only, by construction.</b></p></div>
+        <div class="rq"><span class="k">SPLIT TRUST</span><span class="y">&#10003;</span><p><b>Overlays are a native primitive</b> — DTBO is how DT already splits.</p></div>
+      </div>
+    </div>
+    <p class="pt" data-anim style="--i:4">The OS can still receive ACPI — firmware translates in-guest. <b>The trust decision happens before that handoff.</b></p>
+  </section>
+
+
+
+
+
+
+  <!-- What changes: guests -->
+  <section class="slide">
+    <div class="eyebrow" data-anim style="--i:0">What this does to guests</div>
+    <h2 data-anim style="--i:1">The guest stops <span class="accent">asking</span>.</h2>
+    <div class="split" style="margin-top:4.5cqh">
+      <div class="col" data-anim data-i="2">
+        <h3>No longer trusts</h3>
+        <ul>
+          <li>fw_cfg, CMOS, magic ports — gone</li>
+          <li>Host-synthesized tables and metadata</li>
+          <li>Executable code from the boundary</li>
+        </ul>
+      </div>
+      <div class="divider" aria-hidden="true"></div>
+      <div class="col" data-anim data-i="3">
+        <h3>Now validates</h3>
+        <ul>
+          <li>Measured base platform from its own image</li>
+          <li>Host overlay checked against the allowlist, then merged</li>
+          <li>Normal Devicetree or ACPI handed to the OS</li>
+        </ul>
+      </div>
+    </div>
+    <p class="pt" data-anim style="--i:4">The same guest image boots on <b>any conforming VMM</b> — and attests identically on all of them.</p>
+  </section>
+
+  <!-- Chapter IV divider · Demo -->
+  <section class="slide" style="align-items:center;justify-content:center;text-align:center">
+    <div class="ring div" aria-hidden="true" data-anim style="--i:2"></div>
+    <div class="chnum accent" data-anim style="--i:0">IV</div>
+    <h2 data-anim style="--i:1;font-size:6.4cqh">Demo</h2>
+  </section>
+
+
+  <!-- Chapter V divider -->
+  <section class="slide" style="align-items:center;justify-content:center;text-align:center">
+    <div class="ring div" aria-hidden="true" data-anim style="--i:2"></div>
+    <div class="chnum accent" data-anim style="--i:0">V</div>
+    <h2 data-anim style="--i:1;font-size:6.4cqh">Payoff</h2>
+  </section>
+
+  <!-- 21 · Before / With PMI -->
+  <section class="slide">
+    <div class="eyebrow" data-anim style="--i:0">Before / with PMI</div>
+    <h2 data-anim style="--i:1">The <span class="accent">ownership boundary</span> moves</h2>
+    <div class="split" style="margin-top:4.5cqh" data-anim data-i="2">
+      <div class="col">
+        <h3>Before</h3>
+        <ul>
+          <li>Provider selects firmware</li>
+          <li>Firmware queries the VMM</li>
+          <li>Host synthesizes the platform description</li>
+          <li>Launch behavior is implicit</li>
+          <li>Attestation is provider-shaped</li>
+        </ul>
+      </div>
+      <div class="divider" aria-hidden="true"></div>
+      <div class="col">
+        <h3>With PMI</h3>
+        <ul>
+          <li>Tenant ships firmware</li>
+          <li>Contract exists before boot</li>
+          <li>Tenant base + constrained host allocation</li>
+          <li>Launch recipe is explicit</li>
+          <li>Evidence maps to the tenant artifact</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Payoff · consolidated -->
+  <section class="slide" style="align-items:center;text-align:center">
+    <div class="breath" aria-hidden="true"></div>
+    <div class="eyebrow" data-anim style="--i:0">Payoff</div>
+    <h2 class="big" data-anim style="--i:1;max-width:76cqw">Guest firmware becomes <span class="accent">tenant software</span>.</h2>
+    <div class="chips" data-anim data-i="2" style="margin-top:4cqh;justify-content:center;max-width:74cqw">
+      <i>provenance</i><i>SBOMs</i><i>vulnerability response</i><i>staged rollout</i><i>rollback</i><i>attestation policy</i>
+    </div>
+    <p class="sub" data-anim style="--i:3;margin-top:3.5cqh;max-width:66cqw">And the platform becomes tenant choice: <b style="color:var(--ink);font-weight:500">micro-VM or full VM is the image&rsquo;s call</b> — same VMM, same contract.</p>
+    <p class="pt" data-anim style="--i:4">The VM image becomes the unit of firmware <b>ownership, launch, and verification</b>.</p>
+  </section>
+
+
+  <!-- Questions -->
+  <section class="slide shimmer" style="align-items:center;justify-content:center;text-align:center">
+    <h2 data-anim style="--i:0;font-size:9cqh">Questions<span class="accent">?</span></h2>
+    <p class="mono" data-anim style="--i:1;margin-top:4.5cqh;font-size:2.2cqh;letter-spacing:.12em;color:var(--dim)">github.com/pichi-vm/pmi</p>
+  </section>
+
+  <div class="foot">
+    <span id="chapter">PMI · PORTABLE MACHINE IMAGE</span>
+    <span id="counter">01 — 28</span>
+  </div>
+  <div class="progress" aria-hidden="true"><i id="bar"></i></div>
+</div>
+
+<script>
+(() => {
+  const slides  = [...document.querySelectorAll('.slide')];
+  const counter = document.getElementById('counter');
+  const bar     = document.getElementById('bar');
+  let cur = Math.min(parseInt(location.hash.slice(1)) || 0, slides.length - 1);
+
+  // distribute entrance order to containers flagged with data-i (keeps markup terse)
+  document.querySelectorAll('[data-i]').forEach(el => el.style.setProperty('--i', el.dataset.i));
+
+  const chapterEl = document.getElementById('chapter');
+  const chapters = [
+    [0,  'PMI · PORTABLE MACHINE IMAGE'],
+    [1,  'I · PROBLEM'],
+    [12, 'II · REQUIREMENTS'],
+    [16, 'III · PMI'],
+    [25, 'IV · DEMO'],
+    [26, 'V · PAYOFF'],
+  ];
+  const chapterFor = n => chapters.reduce((acc, [i, name]) => n >= i ? name : acc, chapters[0][1]);
+
+  const pad = n => String(n + 1).padStart(2, '0');
+
+  function show(n) {
+    n = Math.max(0, Math.min(n, slides.length - 1));
+    slides[cur].classList.remove('active');
+    cur = n;
+    const s = slides[cur];
+    s.querySelectorAll('[data-step].revealed').forEach(el => el.classList.remove('revealed'));
+    s.classList.add('active');
+    counter.textContent = `${pad(cur)} — ${pad(slides.length - 1)}`;
+    chapterEl.textContent = chapterFor(cur);
+    bar.style.width = `${(cur / (slides.length - 1)) * 100}%`;
+    history.replaceState(null, '', `#${cur}`);
+  }
+
+  function next() {
+    const step = slides[cur].querySelector('[data-step]:not(.revealed)');
+    if (step) step.classList.add('revealed');
+    else show(cur + 1);
+  }
+  function prev() {
+    const revealed = slides[cur].querySelectorAll('[data-step].revealed');
+    if (revealed.length) revealed[revealed.length - 1].classList.remove('revealed');
+    else show(cur - 1);
+  }
+
+  addEventListener('keydown', e => {
+    if (['ArrowRight', ' ', 'PageDown'].includes(e.key)) { e.preventDefault(); next(); }
+    else if (['ArrowLeft', 'PageUp'].includes(e.key))    { e.preventDefault(); prev(); }
+    else if (e.key === 'Home') show(0);
+    else if (e.key === 'End')  show(slides.length - 1);
+    else if (e.key === 'f' || e.key === 'F') {
+      document.fullscreenElement ? document.exitFullscreen() : document.documentElement.requestFullscreen();
+    }
+  });
+
+  let tx = null;
+  addEventListener('touchstart', e => tx = e.touches[0].clientX, { passive: true });
+  addEventListener('touchend', e => {
+    if (tx === null) return;
+    const dx = e.changedTouches[0].clientX - tx;
+    if (Math.abs(dx) > 40) (dx < 0 ? next() : prev());
+    tx = null;
+  }, { passive: true });
+  addEventListener('click', next);
+
+  show(cur);
+})();
+</script>
+</body>
+</html>
