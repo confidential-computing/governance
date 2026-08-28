@@ -11,3 +11,4 @@ kept alongside the document so the images can be maintained.
 
 - [A Technical Analysis of Confidential Computing](analysis/technical-analysis.md)
 - [Common Terminology for Confidential Computing](terminology/common-terminology.md)
+- [3 Degrees of Confidential Computing](three-degrees-of-confidential-computing/three-degrees-of-confidential-computing.md)
