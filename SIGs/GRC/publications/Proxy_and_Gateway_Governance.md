@@ -11,7 +11,7 @@ Whenever one (or more, sequentially deployed) Trusted Intermediaries (TIs) have 
 
 The discussion that follows will refer to the following Roles and Assets inherent in the Trusted Intermediary space.
 
-# ![PnG_Governance](./images/Proxy_and_Gateway_Governance.png)
+# ![PnG_Governance](./images/proxy_and_gateway_governance.png)
 
 ## Roles
 
