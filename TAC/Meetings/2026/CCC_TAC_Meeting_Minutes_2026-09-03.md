@@ -18,7 +18,7 @@
 
 * Dan Middleton (DM) opened the call at 7:03 am PT.  
 * DM welcomed the members of the TAC and reviewed the values of the CCC and the antitrust policy of the Linux Foundation  
-* MR recorded the meeting minutes.  
+* MR recorded the meeting minutes (post-meeting).  
 * DM reviewed the agenda. Several schedule adjustments were announced: the MITRE paper presentation and the DStack project update were postponed as the presenters and maintainers were unavailable. The agenda was adjusted to focus on the CCAF Framework and the Agentic AI white paper.
 
 ## **Attendance**
@@ -31,18 +31,18 @@ Per the \[charter\](https://charter.confidentialcomputing.io), all \[CCC Premier
 - [ ] Alec Fernandez (Microsoft)  
 - [ ] Bob Blessing-Hartley (Shielded Technologies)   
 - [ ] Fritz Alder (NVIDIA)   
-- [ ] Mingshen Sun (TikTok)   
-- [ ] Nathaniel McCallum (AMD)  
-- [ ] Rene Kolga (Google)  
-- [ ] Scott Raynor (Intel)  
+- [x] Mingshen Sun (TikTok)   
+- [x] Nathaniel McCallum (AMD)  
+- [x] Rene Kolga (Google)  
+- [x] Scott Raynor (Intel)  
 - [ ] Yongzheng Wu (Huawei) 
 
 ### Alternate Voting Members
 
-- [ ] Dan Middleton (NVIDIA, TAC Chair)   
+- [x] Dan Middleton (NVIDIA, TAC Chair)   
 - [ ] David Kaplan (AMD)   
 - [ ] Keith Moyer (Google)   
-- [ ] Simon Gallagher (Microsoft)   
+- [x] Simon Gallagher (Microsoft)   
 - [ ] Simon Johnson (Intel) 
 
 ### Project Staff
@@ -53,25 +53,21 @@ Per the \[charter\](https://charter.confidentialcomputing.io), all \[CCC Premier
 
 ### Other Attendees
 
-* *Edward (Boggis-Rolfe)*  
-* *Eric Hibbard (Samsung)*  
-* *Hesham ElBakoury (Innovax Technologies)*  
-* *Ijlal Ioutfi (Canonical)*  
-* *Jens Alberts (FrOntierX)*   
-* *John Manferdelli (Certifier Framework Project)*  
-* *Julian Stephen (IBM)*   
-* *Kevin Hui (Meta)*  
-* *Kevin Jones (Edge and Node)*  
-* *Manu Fontaine (Hushmesh)*   
-* *Mark Novak (JP Morgan Chase)*   
-* *Ofir Azoulay-Rozanes (Anjuna Security)*   
-* *Raghu Yeluri (Intel)*   
-* *Ram Pai (IBM)*   
-* *Rithikha Rajamohan (EQTY Lab)*  
-* *Sakul Gupta (Micron)*   
-* *Steven Bellock (NVIDIA)*  
-* *Syama Poluri (Dell)* 
+* Edward (Boggis-Rolfe)  
+* Eric Hibbard (Samsung)  
+* Hesham ElBakoury (Innovax Technologies)  
+* Jens Alberts (FrOntierX)   
+* Jordi Guijarro (Open Nebula)  
+* Mark Bower (Anjuna)  
+* Mark Novak (JP Morgan Chase)   
+* Ram Pai (IBM)   
+* Rithikha Rajamohan (EQTY Lab)  
+* Solomon Cates (Google)  
+* Steven Bellock (NVIDIA)  
+* Syama Poluri (Dell)   
+* Tom Jones (VeriClouds)
 
+  
 ## **Welcome New Community Members**
 
 * Edward Boggis-Rolfe (Secretarium / London): Introduced himself as an expert in platform-independent RPC solutions. He spent six years at Secretarium (which folded eight months ago) developing a transport-, serialization-, and threading-agnostic RPC platform that also works with various attestation solutions. He is currently targeting SGX to enable rapid application development of confidential computing platforms (supporting REST, WebSockets, gRPC) with non-blocking I/O (via io\_uring) and coroutines to run threads efficiently inside enclaves.  
