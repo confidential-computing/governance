@@ -8,6 +8,8 @@ We welcome all projects submissions meeting our criteria. See [Project Submissio
 
 CCC Projects are entitled to a variety of [Benefits](./project-progression-policy.md#benefits-of-being-a-recognized-consortium-project).
 
+TAC publications are in the [publications directory](./publications/).
+
 ## Definition
 Confidential Computing is the protection of data in use by performing computation in a hardware-based, attested Trusted Execution Environment.
 
