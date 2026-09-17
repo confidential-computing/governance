@@ -34,8 +34,8 @@ The TAC uses a rotating chair model. Each meeting is facilitated by a different 
 | 2026-08-06 | Scott Raynor |  | Trustworthy Workload Identity | “Layered filesystems and the confidential computing trust problem” - Nathaniel McCallum |
 | 2026-08-20 | Kevin Hui | Certifier Framework | | |
 | 2026-09-03 | Alec Fernandez | dstack | | Framework for Continuous Attestation - MITRE |
-| 2026-09-17 | Dan Middleton | ManaTEE | | |
-| 2026-10-01 | Yash Mankad / Ram Pai | | | |
+| 2026-09-17 | Dan Middleton | Budget discussion | | |
+| 2026-10-01 | TBD | ManaTEE + dstack | | |
 | 2026-10-15 | Bob Blessing-Hartley | VirTEE | | |
 | 2026-10-29 | Mingshen Sun | | Attestation | |
 | 2026-11-12 | Nathaniel McCallum | | | |
