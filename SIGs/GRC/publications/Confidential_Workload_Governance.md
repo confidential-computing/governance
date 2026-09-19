@@ -110,7 +110,7 @@ f. Failure to check the BOMs of Attesters by the Verifier may create situations 
 6. Confidential Workload Upgrade Governance Pattern: [https://github.com/confidential-computing/governance/blob/main/SIGs/GRC/publications/Confidential_Workload_Upgrade_Governance.md]
 7. Confidential Computing Glossary: [https://github.com/confidential-computing/glossary/](https://github.com/confidential-computing/glossary/issues/2)  
 8. NIST SP 800-204D “Strategies for the Integration of Software Supply Chain Security in DevSecOps CI/CD Pipelines”: [https://csrc.nist.gov/pubs/sp/800/204/d/final](https://csrc.nist.gov/pubs/sp/800/204/d/final)  
-9. Picture of likely Workload slices on various hardware architectures [https://github.com/confidential-computing/governance/blob/main/terminology/Full-Table.jpg](https://github.com/confidential-computing/governance/blob/main/terminology/Full-Table.jpg)
+9. Picture of likely Workload slices on various hardware architectures [https://github.com/confidential-computing/governance/blob/main/publications/terminology/Full-Table.jpg](https://github.com/confidential-computing/governance/blob/main/publications/terminology/Full-Table.jpg)
 
 [^1]:  *Verifier policies* as used in this document is a shorthand for Endorsements, Reference Values and Appraisal Policy for Evidence in RATS **\[5\]** parlance.
 
