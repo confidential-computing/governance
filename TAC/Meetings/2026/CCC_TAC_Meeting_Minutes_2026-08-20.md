@@ -96,7 +96,7 @@ Per the \[charter\](https://charter.confidentialcomputing.io), all \[CCC Premier
   * NSF Grant & Collaborations: The project recently (about two weeks ago) received a National Science Foundation (NSF) grant. They will be collaborating with USC, the University of Virginia, and several federal government agencies. The funding is primarily targeted at health, scientific, and analytical applications.  
   * Technical Architecture & Capabilities:  
     * Currently supports AMD SEV-SNP and Intel SGX as primary platforms.  
-    * Early support is established for Berkeley Keystone and Samsung ISLIT (ARM CCA).  
+    * Early support is established for CCC Keystone (originally contributed by Berkeley) and CCC Islet (ARM CCA originally contributed by Samsung).  
     * Includes a simulated enclave allowing development on non-confidential hardware.  
     * TPM Support Added: (1) Allows developers using TPMs (which lack encrypted memory) to easily transition to more secure enclaves with simple declarations. (2) Enables equivalent confidential computing protection in VMs using virtual TPMs where cloud providers only attest to lower-level booting.  
   * New Utilities: Introduced shell-level management programs for VMs to simplify system administration.  
