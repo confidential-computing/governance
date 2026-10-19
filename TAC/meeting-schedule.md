@@ -36,9 +36,9 @@ The TAC uses a rotating chair model. Each meeting is facilitated by a different 
 | 2026-09-03 | Alec Fernandez | dstack | | Framework for Continuous Attestation - MITRE |
 | 2026-09-17 | Dan Middleton | Budget discussion | | |
 | 2026-10-01 | TBD | ManaTEE + dstack | | |
-| 2026-10-15 | Bob Blessing-Hartley | VirTEE | | |
-| 2026-10-29 | Mingshen Sun | | Attestation | Confidential Inference Governance Doc [#395](https://github.com/confidential-computing/governance/pull/395) |
-| 2026-11-12 | Nathaniel McCallum | | | |
-| 2026-11-26 | Rene Kolga / Keith Moyer | Islet | | |
-| 2026-12-10 | Wu Yongzheng | | | |
-| 2026-12-24 | Scott Raynor | | | |
+| 2026-10-15 | Bob Blessing-Hartley | | | |
+| 2026-10-29 | Mingshen Sun | VirTEE | Attestation | Confidential Inference Governance Doc [#395](https://github.com/confidential-computing/governance/pull/395) |
+| 2026-11-12 | Nathaniel McCallum | Islet | | "New CC mode, Confidential Bare Metal CBM" - NVIDIA |
+| 2026-11-26 | *meeting cancelled* |  | | |
+| 2026-12-10 | Rene Kolga / Keith Moyer | | | |
+| 2026-12-24 | *meeting cancelled* | Happy Holidays! | | |
