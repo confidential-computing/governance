@@ -244,7 +244,7 @@ Each numbered solution below resolves the correspondingly numbered force.
 
 7. **Classify every data asset as ephemeral or persistent and govern retention by measured policy (resolves Force 7)**
 
-   1. Every data asset handled by the inference service **MUST** be class ified at design time as ephemeral or persistent, and that classification **MUST** be recorded in the deployment documentation.
+   1. Every data asset handled by the inference service **MUST** be classified at design time as ephemeral or persistent, and that classification **MUST** be recorded in the deployment documentation.
    2. Retention **MUST** default to deny.
    Any retention of prompts, outputs, retrieval results, embeddings, cache entries or traces **MUST** be explicitly permitted by policy, with a defined owner, lawful purpose, maximum lifetime and erasure mechanism.
    3. The retention policy **MUST** form part of the measured policy bundle, so that an EU or DO can verify the retention behaviour of the workload they are about to send data to, rather than relying on an assertion.
