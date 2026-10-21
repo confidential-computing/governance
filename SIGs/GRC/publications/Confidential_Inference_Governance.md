@@ -3,7 +3,8 @@
 
 # Context
 
-Owners of confidential workloads implementing AI Inference Services (AIISs) need to understand what controls related to data-in-use protections must be deployed as part of and alongside such services.
+Confidential Computing offers data-in-use protection and creates additional trust in code execution via remote attestation.
+Owners of confidential workloads implementing AI Inference Services (AIISs) need to understand what controls related to data-in-use protections and remote attestation must be deployed as part of and alongside such services.
 Several classes of actors are involved in developing, hosting and using an inference service, and the members of these classes do not fully trust members of other classes.
 Data-in-use protections can help meet these expectations while keeping the required trust relationships to a minimum.
 
