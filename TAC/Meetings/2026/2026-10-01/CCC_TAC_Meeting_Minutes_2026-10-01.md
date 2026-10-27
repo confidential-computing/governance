@@ -117,7 +117,7 @@ Per the \[charter\](https\://charter.confidentialcomputing.io), all \[CCC Premie
   * MB committed to reviewing the paper the next day with these two framing questions in mind. Hesham ElBakoury mentioned there are existing surveys on the applicability of confidential computing to Agentic AI and agreed to add relevant links/examples directly into the document itself (rather than the meeting chat, at MB’s request, so the references aren’t lost).  
   * SR confirmed he would follow up with Raghu offline about the outstanding comments and try to get him to attend the next meeting, noting the group is coming up on a stretch with fewer meetings around the holidays, so this should be prioritized soon.  
   * DM closed the topic by asking everyone to finish their comments on the Agentic AI paper before the next meeting.  
-* **CCAF (CACAF) Framework**  
+* **CCAF Framework**  
   * Not reached this meeting. DM noted the group will need to turn attention back to the CCAF paper at the next meeting and expects it will need considerable additional work.
 
 ## **Work in Progress**
