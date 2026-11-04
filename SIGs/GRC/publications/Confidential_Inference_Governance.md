@@ -300,7 +300,7 @@ The numbers in the left column refer to the relationship matrix in **[1]**.
 Rows listed as N/A indicate that corresponding expectations are listed under different Patterns documents.
 
 An AI Inference Service occupies the "Confidential Application Developers/Managers" category for the purposes of this table.
-Because the Model Owner may be an actor distinct from the operator of the inference service, this pattern additionally claims the "Component Vendors" rows that carry model-supply olbigations (rows 1 and 4).
+Because the Model Owner may be an actor distinct from the operator of the inference service, this pattern additionally claims the "Component Vendors" rows that carry model-supply obligations (rows 1 and 4).
 Where MO and SP are combined, those rows collaps into rows 9 and 14.
 
 | \# | Description |
